@@ -4,7 +4,7 @@
 
 Here is an example:
 
-<iframe src="http://mejackreed.github.io/Leaflet-IIIF/examples/example.html" frameborder="0" width="100%" height="500px"></iframe>
+<iframe src="https://mejackreed.github.io/Leaflet-IIIF/examples/example.html" frameborder="0" width="100%" height="500px"></iframe>
 
 Leaflet-IIIF allows you to use the expressivity of Leaflet and its plugin ecosystem all at the same time to display IIIF images.
 
