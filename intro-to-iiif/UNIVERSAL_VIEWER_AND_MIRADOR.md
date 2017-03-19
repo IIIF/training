@@ -3,7 +3,7 @@ So far we've confined ourselves mostly to the IIIF Image API. Tools like OpenSea
 
 The Presentation API gives you the tools to model these features of your content, and the Universal Viewer and Mirador are "full IIIF viewers" in the sense that they manifest this content for the user.
 ### Universal Viewer
-The [UV](http://universalviewer.io/examples/#?c=0&m=0&s=0&cv=0&xywh=-1377%2C-197%2C5321%2C3936) has been developed as an open source tool by the British firm Digerati for use in the British Library's IIIF environment. It takes in a manifest or collection and gives you a window into its content so you can view its metadata and navigate it in various ways.
+The [UV](http://universalviewer.io/examples/#?c=0&m=0&s=0&cv=0&xywh=-1377%2C-197%2C5321%2C3936) has been developed as an open source tool by the British firm Digirati for use in the British Library's IIIF environment. It takes in a manifest or collection and gives you a window into its content so you can view its metadata and navigate it in various ways.
 It is available on `npm` and has many examples at the link above.
 ### Mirador
 Mirador grew out of the needs of Art History and Manuscripts scholars at Stanford University and has grown through a multi-institutional collaboration with Harvard University and about 2 dozen contributors from around the world. In addition to viewing, it provides configurations for saving state, creating annotations through your backend, and comparison of multiple object from different institutions in a windowed workspace.
