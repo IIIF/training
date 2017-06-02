@@ -11,7 +11,7 @@ For this exercise, we are going to create a manifest using an online tool.
 
 To start navigate to:
 
-http://morning-journey-27147.herokuapp.com/
+http://iiif.bodleian.ox.ac.uk/manifest-editor/
 
 This is a demo/hosted version of the [iiif-manifest-editor](https://github.com/bodleian/iiif-manifest-editor).
 
