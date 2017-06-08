@@ -4,7 +4,7 @@ Congrats now you have your image server up and running! We need to feed it some 
 
 ## Download some images
 
-Go ahead and download a `*.jpg` image from the Internet into your Cantaloupe directory `Cantaloupe-3.2.3`. Here is one [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) that you can use.
+Go ahead and download a `*.jpg` image from the Internet into your Cantaloupe directory `Cantaloupe-3.3.1`. Here is one [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) that you can use.
 
 ## Configure Cantaloupe to use the correct path
 
