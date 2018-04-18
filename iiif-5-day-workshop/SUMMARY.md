@@ -4,6 +4,8 @@
 
 ## Day One
 - [Introduction](day-one/README.md)
+- [IIIF Introduction](day-one/iiif-introduction.md)
+- [Image API](day-one/image-api.md)
 
 ## Day Two
 - [Introduction](day-two/README.md)
