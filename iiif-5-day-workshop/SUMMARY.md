@@ -11,9 +11,15 @@
 
 ## Day Two
 - [Introduction](day-two/README.md)
+- [Building a simple image viewer](day-two/building-an-image-viewer-day-2-am.md)
+- [Presentation API Deep Dive](day-two/presentation-api-building-a-manifest.md)
 
 ## Day Three
 - [Introduction](day-three/README.md)
+- [Ranges](day-three/ranges.md)
+- [Collections](day-three/collections.md)
+- [Annotations, AnnotationLists](day-three/annotations-and-annotation-lists.md)
+- [Search](day-three/search.md)
 
 ## Day Four
 - [Introduction](day-four/README.md)
