@@ -66,11 +66,16 @@ To achieve, our goal this morning is to begin building our own rudimentary image
   <p>My Image Viewer</p>
   <div style="display: flex; justify-content: space-between;">
     <ul>
-      <li><a href="?imageUrl=http://images.hellokids.com/_uploads/_tiny_galerie/20130414/the-moomin-coloring-pages-3_7ua_source.jpg">Picture 1</a></li>
-      <li><a href="?imageUrl=https://cdn.shopify.com/s/files/1/0713/7997/products/t-shirts-little-my-t-shirt-moomin-characters-2_768x.png">Picture 2</a></li>
+      <li><a
+        href="?imageUrl=http://images.hellokids.com/_uploads/_tiny_galerie/20130414/the-moomin-coloring-pages-3_7ua_source.jpg&title=Moomin%20In%20Love&createdBy=Jeff">Moomin In Love</a></li>
+      <li><a href="?imageUrl=https://cdn.shopify.com/s/files/1/0713/7997/products/t-shirts-little-my-t-shirt-moomin-characters-2_768x.png&title=Angry%20Moomin&createdBy=Bob">Angry Moomin</a></li>
     </ul>
-  <img id="myImage"/>
+
+    <img id="myImage"/>
+    <ul id="metadata">
   </div>
+
+  </ul>
 
   <script>
   function getUrlVar() {
@@ -81,11 +86,25 @@ To achieve, our goal this morning is to begin building our own rudimentary image
       });
       return result;
     }
+
     var imageUrl = getUrlVar()['imageUrl'];
     var imageElement = document.getElementById("myImage")
-               document.getElementById("demo");
 
     imageElement.setAttribute("src", imageUrl);
+    var values = getUrlVar();
+    var i;
+    console.log(values)
+    for (var key in values){
+    console.log(key, values[key])
+    var metadataElement = document.getElementById("metadata")
+    var item = document.createElement("li")
+    var text = document.createTextNode(key + ": " + decodeURIComponent(values[key]))
+    item.appendChild(text);
+    metadataElement.appendChild(item);
+
+    }
+
+
   </script>
 
 </body>
