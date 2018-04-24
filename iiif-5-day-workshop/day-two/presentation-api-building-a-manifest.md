@@ -4,7 +4,7 @@
 
 ## Activity: Hands on Practice
 
-## Bodleian Manifest Editor (Rachel, Ben)
+## Bodliean Manifest Editor (Rachel, Ben)
 
 * Export and then edit it with personal images.
 
@@ -16,3 +16,4 @@
 https://jsonblob.com/api/a8fa9e7f-0084-11e8-9fae-ddd509bab798
 * (??) Use the manifest to generate a list/gallery of yours or your neighbor’s content (?)
 * Viewing manifest in remote Mirador or Universal Viewer.
+Test
