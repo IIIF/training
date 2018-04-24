@@ -115,6 +115,7 @@ To achieve, our goal this morning is to begin building our own rudimentary image
 
 * What kinds of information did you find yourself wanting to have available as you tried to build your viewer?
 * What kind of interactions with your images did you want to have that we're difficult to achieve?
+* What kinds of metadata is required for your viewer that is not necessarily visualized? E.g. How do your images relate to each other? How is that information used in your viewer?
 
 ## Break
 
