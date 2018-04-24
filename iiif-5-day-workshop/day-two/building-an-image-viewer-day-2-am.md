@@ -5,11 +5,11 @@ Our goal this morning is twofold.
 
 * First we want to begin building a web environment where we begin to the IIIF API in real world web pages.
 
-* Second in the process of building such a pages, we want to begin to see organically the need for or desirability of the IIIF presentation API.
+* Second, in the process of building such a page, we want to begin to see organically the need for or the desirability of the IIIF presentation API.
 
 ## Activity Description
 
-To achieve, our goal this morning is to begin building our own rudimentary image viewer or image focused webpage, that provide a public viewing space for the images you made IIIF compliant yesterday.
+To achieve this, our goal this morning is to begin building our own rudimentary image viewer or image focused webpage, that provides a public viewing space for the images that you made IIIF compliant yesterday.
 
 ## Instructions
 
