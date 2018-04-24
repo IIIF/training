@@ -67,8 +67,8 @@ To achieve this, our goal this morning is to begin building our own rudimentary 
   <div style="display: flex; justify-content: space-between;">
     <ul>
       <li><a
-        href="?imageUrl=http://images.hellokids.com/_uploads/_tiny_galerie/20130414/the-moomin-coloring-pages-3_7ua_source.jpg&title=Moomin%20In%20Love&createdBy=Jeff">Moomin In Love</a></li>
-      <li><a href="?imageUrl=https://cdn.shopify.com/s/files/1/0713/7997/products/t-shirts-little-my-t-shirt-moomin-characters-2_768x.png&title=Angry%20Moomin&createdBy=Bob">Angry Moomin</a></li>
+        href="?imageUrl=http://images.hellokids.com/_uploads/_tiny_galerie/20130414/the-moomin-coloring-pages-3_7ua_source.jpg&title=Moomin%20and%20Snork%20Maiden&createdBy=Jeff">Moomin Troll and Snork Maiden</a></li>
+      <li><a href="?imageUrl=https://cdn.shopify.com/s/files/1/0713/7997/products/t-shirts-little-my-t-shirt-moomin-characters-2_768x.png&title=Little%20My&createdBy=Bob">Little My</a></li>
     </ul>
 
     <img id="myImage"/>
