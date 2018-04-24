@@ -11,6 +11,7 @@
 
 ## Day Two
 - [Introduction](day-two/README.md)
+- [Building a simple image viewer](day-two/building-an-image-viewer-day-2-am.md)
 
 ## Day Three
 - [Introduction](day-three/README.md)
