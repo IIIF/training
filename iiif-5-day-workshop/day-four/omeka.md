@@ -19,7 +19,7 @@ At the University of Toronto we have built a series of plugins to integrate IIIF
 
 IIIF Toolkit allows users to ingest IIIF content, view content in the Mirador image viewer, annotated images, re-order/edit canvases and use them in online exhibits along with non-IIIF material. In addition, the plugin allows the Exhibits plugin to reference external manifests without ingesting them into Omeka at all. 
 
-Demo<p>
+Demo: https://www.youtube.com/watch?v=wudps0cMhCk 
 
 ###Plugin: Batch Upload
 
@@ -27,7 +27,7 @@ Demo<p>
 
 The Batch Uploader allows users to upload image files and metadata from their desktop in bulk into Omeka. At the same time, the plugin generates a manifest for the images on the fly so they can be viewed in Mirador and annotated.
 
-Demo <p>
+Demo <p> 
 
 <p>Projects using these plugins:
 
