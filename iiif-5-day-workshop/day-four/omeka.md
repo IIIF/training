@@ -1,4 +1,4 @@
-#Omeka
+# Omeka
 
 <p align="center">
 	“Omeka provides open-source web publishing platforms for sharing digital collections and creating media-rich online exhibits” 
@@ -13,7 +13,7 @@ You can see some sites using Omeka here: http://omeka.org/classic/showcase/
 At the University of Toronto we have built a series of plugins to integrate IIIF with Omeka in a way that also interacted with other popular plugins (ex. Exhibits, Neatline, Tags etc.). Our user group, mostly medievalists, indicated they want to make use of IIIF viewer functionality - pan, zoom, colour change etc. - as well as annotation. 
 
 
-###Plugin: IIIF Toolkit
+### Plugin: IIIF Toolkit
 
 <b>Scenario:</b> I want to use IIIF content from mine or other institutions to annotate, present, edit and maintain in a way that is useful to me and my research.
 
@@ -21,7 +21,7 @@ IIIF Toolkit allows users to ingest IIIF content, view content in the Mirador im
 
 Demo: https://www.youtube.com/watch?v=wudps0cMhCk 
 
-###Plugin: Batch Upload
+### Plugin: Batch Upload
 
 <b>Scenario:</b> I have DIY images (jpeg/tiff/png) that I want to store and manage somewhere. I also want to be able to use a IIIF viewer and annotate my images.
 
