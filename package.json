@@ -1,0 +1,22 @@
+{
+  "name": "iiif-training",
+  "version": "1.0.0",
+  "description": "Documentation and workshop materials for IIIF training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIIF/training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIIF/training/issues"
+  },
+  "homepage": "https://github.com/IIIF/training#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
