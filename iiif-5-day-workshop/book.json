@@ -3,9 +3,11 @@
   "plugins": [
     "include",
     "theme-default",
-    "copy-code-button",
     "toggle-chapters",
-    "git-author"
+    "git-author",
+    "-highlight",
+    "sunlight-highlighter",
+    "toggle-chapters"
   ],
   "gitbook": "3.2.3",
   "styles": {

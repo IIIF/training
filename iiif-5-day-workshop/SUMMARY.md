@@ -7,6 +7,8 @@
 - [Introduction](day-one/README.md)
 - [IIIF Introduction](day-one/iiif-introduction.md)
 - [Image API](day-one/image-api.md)
+  - [Basic Image API Examples](day-one/image-api-examples.md)
+  - [Image API Internals](day-one/image-api-internals.md)
 - [Presentation API](day-one/presentation-api.md)
 
 ## Day Two
