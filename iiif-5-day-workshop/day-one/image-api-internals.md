@@ -27,7 +27,7 @@ An example of a Image Information response:
 
 `https://stacks.stanford.edu/image/iiif/hg676jb4964%2F0380_796-44/info.json`
 
-```json
+```javascript
 {
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "https://stacks.stanford.edu/image/iiif/hg676jb4964%252F0380_796-44",
