@@ -10,6 +10,9 @@
   - [Basic Image API Examples](day-one/image-api-examples.md)
   - [Image API Internals](day-one/image-api-internals.md)
 - [Presentation API](day-one/presentation-api.md)
+- [Getting started with the Image API](day-one/getting-started-with-the-image-api.md)
+  - [IIIF Hosting software as a service](day-one/iiif-hosting-saas.md)
+  - [Setting up Cantaloupe as an image server](day-one/setting-up-cantaloupe.md)
 
 ## Day Two
 - [Introduction](day-two/README.md)
