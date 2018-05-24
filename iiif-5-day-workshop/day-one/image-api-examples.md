@@ -2,7 +2,7 @@
 
 One of the most basic examples of utilizing the IIIF Image API is to embed an image in a webpage using an `<img>` tag.
 
-<iframe width="100%" height="400" src="https://gist.run/embed.html?id=79b4e6a58499cfe2e207c03fdbe4f3ad" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe src="https://codesandbox.io/embed/4ryj6vnno9" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 This example uses the Image API to request an image from a IIIF image server. If you select the "index.html" file you can see the URL that is being requested.
 
