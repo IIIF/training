@@ -3,7 +3,7 @@
 
 ## The Problem
 
-![image](/images/data%20silos.jpg) 
+![image](../images/data%20silos.jpg) 
 
 Since images have been available online, institutions have made a lot of assumptions about how people use images on the web. 
 
@@ -21,7 +21,7 @@ The technical implications of such image delivery also has serious consequences:
 
 ## The Solution
 
-![image](/images/API-framework.jpg)    
+![image](../images/API-framework.jpg)    
 
 IIIF came about as a solution to the problems experienced by researchers and tech departments across the world. The idea came from thinking past what was currently possible on the web with digital images to what could and should be possible. 
 
@@ -59,40 +59,40 @@ It is most helpful to define what IIIF is by first defining what it is not. IIIF
 #### The specification
 Image API (Image Delivery)
 
-![image](/images/Deep%20zoom.jpg)
+![image](../images/Deep%20zoom.jpg)
 
 [Princeton scroll](http://libimages.princeton.edu/osd-demo/?feedme=pudl0123%2F8172070%2F01%2F00000001.jp2)
 
 Presentation API (Image Structure/Layout)
 * Just enough metadata to create a remote viewing experience)
 
-![image](/images/Image%20and%20Pres%20API.jpg)
+![image](../images/Image%20and%20Pres%20API.jpg)
 
 Search API  (Search within)
 
-![image](/images/search%20within.jpg?raw=true) 
+![image](../images/search%20within.jpg?raw=true) 
 
 Authentication API (Access control)
  * The IIIF Authentication specification describes a set of workflows for guiding the user through an existing access control system
 
- ![image](/images/Authentication.png)   
+ ![image](../images/Authentication.png)   
 
 #### The Software (What can you do?)
 
 Viewers - Comparison
-![image](/images/Compare%20images.jpg?raw=true) 
+![image](../images/Compare%20images.jpg?raw=true) 
 
 Viewers - Reunite
 
 Before
-![image](/images/broken%20manuscript.png?raw=true) 
+![image](../images/broken%20manuscript.png?raw=true) 
 
 After
-![image](/images/Biblissima-reunited.png?raw=true) 
+![image](../images/Biblissima-reunited.png?raw=true) 
 
 Annotation 
 
-![image](/images/annotation.jpg?raw=true) 
+![image](../images/annotation.jpg?raw=true) 
 [Harvard](https://courses.edx.org/courses/course-v1:HarvardX+MCB64.1x+2T2016/d16e07a5cec442eeb7cd9dfcb695dce0/)
 
 And more!
@@ -108,7 +108,7 @@ And more!
 
 355+ million images
 
-![image](/images/Adoption.jpg?raw=true) 
+![image](../images/Adoption.jpg?raw=true) 
 
 Community Groups
 * Manuscripts 
