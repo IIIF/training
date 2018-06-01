@@ -1,4 +1,4 @@
-# Presentation API Deep Dive
+# Presentation API Deep Dive (Day II Afternoon Session)
 
 ## Introduction
 
@@ -102,24 +102,24 @@ When you think you've found the answer, added it to your version of the manifest
 Then we're done will go through together the completed manifests and compare answers
 
 1. Give the manifest resource the following title "A custom manifest for IIIF Practice"
-2. Provide a short description of this manifest
-2. Indicate that manifest resource has a creative commons 4.0 by-nc-sa license
-3. Tell the image viewer that this resource should be explicitly viewed going from left to right
-4. Create a second canvas, with appropriate ids
-5. Indicate that the image for this second canvas has two facing pages and therefore when a viewer shows in book view, it should not combine this with an image before or after
-6. Give canvas 1 a title "canvas number 1"
-7. Give canvas 2 a title "canvas number 2"
-8. Add a second image to canvas 1 with a different image format "image/png"
-9. Given this second image a title called "alternative image for canvas 1"
+1. Provide a short description of this manifest
+1. Indicate that manifest resource has a creative commons 4.0 by-nc-sa license
+1. Tell the image viewer that this resource should be explicitly viewed going from left to right
+1. Create a second canvas, with appropriate ids
+1. Indicate that the image for this second canvas has two facing pages and therefore when a viewer shows in book view, it should not combine this with an image before or after
+1. Give canvas 1 a title "canvas number 1"
+1. Give canvas 2 a title "canvas number 2"
+1. Add a second image to canvas 1 with a different image format "image/png"
+1. Given this second image a title called "alternative image for canvas 1"
 
-### Manually Building a Personal Manifest
+### Manually Build a Personal Manifest (Method 1)
 
 * Manually make a manifest with images from the local image server set up the night before.
   * Hint, a important change will be changing the "@id" of the service object associated with the image resource.
   The value of the "@id" should be the path of the image on your image service, without any specific IIIF URI parameters.
 * Use the manifest we just worked on together as a template.
 
-### Alternative Assignment: Building a Manifest With a Gui
+### Building a Manifest With a GUI (Method 2)
 
 To start navigate to:
 
@@ -128,35 +128,36 @@ http://iiif.bodleian.ox.ac.uk/manifest-editor/
 This is a demo/hosted version of the [iiif-manifest-editor](https://github.com/bodleian/iiif-manifest-editor).
 
 1. Click "New Manifest"
-2. Click "Add Canvas" and then click on the "Empty Canvas"
+1. Click "Add Canvas" and then click on the "Empty Canvas"
 
-  ![add canvas](../intro-to-iif/images/add_canvas.png)
+  ![add canvas](../images/add_canvas.png)
 
-3. Now we need to add an image to this canvas. Click "Add Image to Canvas"
-4. And we want to use an image we already hosting, so we select the "From info.json URI" option, and input our info.json URI from our local IIIF server. Then click "Submit URI"
+1. Now we need to add an image to this canvas. Click "Add Image to Canvas"
+1. And we want to use an image we already hosting, so we select the "From info.json URI" option, and input our info.json URI from our local IIIF server. Then click "Submit URI"
 
   `http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json`
 
-  ![info json uri](../intro-to-iiif/images/info_json_uri.png)
+  ![info json uri](../images/info_json_uri.png)
 
-5. We should now have an image in our view!
-6. Finally, let's download the manifest, by clicking "Save Manifest" at the top of the page, and "Save"
+1. We should now have an image in our view!
+1. Finally, let's download the manifest, by clicking "Save Manifest" at the top of the page, and "Save"
 
   Great job! You now have created and downloaded a IIIF Presentation API manifest. But wait, theres more!
 
 ## Serve your manifest
 
-### Serve your Manifest Locally
+### Method 1: Serve your Manifest Locally
 * Serving manifest locally
   * Install http-server, `npm http-server`, or live-server, `npm live-server`
   * Then in the directory with the manifest, run `http-server --cors` or `live-server --cors`
 
-### Hosting the manifest
+### Method 2: Serve Your Manifest with github gist
+
 1. Navigate to https://gist.github.com
 
 1. Drag and drop your `manifest.json` file into the window and click "Create Secret Gist" (or public if you like, it doesn't matter).
 
-  ![gist](images/gist.png)
+  ![gist](../images/gist.png)
 
 1. After the gist is created, click the "Raw" button to get the raw file url.
 
@@ -167,10 +168,10 @@ NOTE: If your viewing images from your local image server, you'll need be runnin
 ### Viewing in a local Mirador Instance
 
 1. Download the most recent release from here: [https://github.com/ProjectMirador/mirador/releases](https://github.com/ProjectMirador/mirador/releases)
-2. Unzip the package
-3. In Chrome open the file in the downladed package called example.html
+1. Unzip the package
+1. In Chrome open the file in the downloaded package called example.html
   * File->Open File->example.html
-4. Now drop in your custom manifest
+1. Now drop in your custom manifest
 
 ### Viewing Online in UniversalViewer
 
@@ -182,14 +183,14 @@ NOTE: If your viewing images from your local image server, you'll need be runnin
 Let's also view this in [Mirador](projectmirador.org)
 
 1. Navigate to [http://projectmirador.org/demo/](http://projectmirador.org/demo/).
-2. Click the `x` box in both windows to close the windows.
-3. Hover over the icon to the right of the `x` and click "Replace Object"
+1. Click the `x` box in both windows to close the windows.
+1. Hover over the icon to the right of the `x` and click "Replace Object"
 
-  ![mirador replace object](../intro-to-iiif/images/mirador_replace.png)
+  ![mirador replace object](../images/mirador_replace.png)
 
-4. Paste in your manifest url to the text box "Add new object from URL:"
-5. Click "Load" - You should see your manifest loaded there. Click on one of your images.
+1. Paste in your manifest url to the text box "Add new object from URL:"
+1. Click "Load" - You should see your manifest loaded there. Click on one of your images.
 
 You should see one of your images now in the view next to a van Gogh
 
-![eddie in Mirador](../intro-to-iiif/images/eddie_mirador.png)
+![eddie in Mirador](../images/eddie_mirador.png)
