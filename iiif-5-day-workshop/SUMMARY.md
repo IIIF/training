@@ -13,6 +13,8 @@
 - [Getting started with the Image API](day-one/getting-started-with-the-image-api.md)
   - [IIIF Hosting software as a service](day-one/iiif-hosting-saas.md)
   - [Setting up Cantaloupe as an image server](day-one/setting-up-cantaloupe.md)
+  - [Configuring Canataloupe](day-one/configuring-cantaloupe.md)
+  - [Creating a basic image viewer](day-one/creating-a-basic-image-viewer.md)
 
 ## Day Two
 - [Introduction](day-two/README.md)
