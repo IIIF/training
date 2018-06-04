@@ -1,6 +1,5 @@
 # Day Five
 
-## Outline
-Morning - Project work and open consulting
+## Project Presentations
 
-Afternoon - Wrap-up
+## Closing Discussion

@@ -1,6 +1,11 @@
 # Day Three
 
-## Outline
-Morning - Advanced Presentation with IIIF
+## Demos: Uses and Applications of IIIF 
 
-Afternoon - Working with interoperable resources: Annotation and Search
+## Annotations and Annotation Lists
+
+## Collections
+
+## Ranges
+
+## Search
