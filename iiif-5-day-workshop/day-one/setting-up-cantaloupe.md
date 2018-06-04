@@ -4,7 +4,7 @@ Make sure you have [installed the prerequisites](https://gist.github.com/mejackr
 
 ## Download Cantaloupe
 
-For more information, checkout the [Cantaloupe getting started guide](https://medusa-project.github.io/cantaloupe/get-started.html).
+For more information, checkout the [Cantaloupe getting started guide](https://medusa-project.github.io/cantaloupe/manual/3.4/getting-started.html).
 
 Download [Cantaloupe v3.4.2](https://github.com/medusa-project/cantaloupe/releases/download/v3.4.2/Cantaloupe-3.4.2.zip)
 
