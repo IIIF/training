@@ -1,6 +1,5 @@
 # Day Four
 
-## Outline
-Morning - Integrating IIIF with existing DH tools
+## Demos of IIIF and Integration with DH Tools
 
-Afternoon - Advanced Topics: Working with Images
+## Work Session (Build Something Cool!)
