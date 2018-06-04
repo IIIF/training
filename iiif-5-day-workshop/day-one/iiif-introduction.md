@@ -8,14 +8,14 @@
 Since images have been available online, institutions have made a lot of assumptions about how people use images on the web. 
 
 You can infer this by the way in which images are presented to you:
-* Each institution or site has their own image viewers - you will just learn each one - not always very intuitive
+* Each institution or site has their own image viewers
 * Assumes rather passive viewing of images
 * Assumes you only want to look at one image at a time
 
 The technical implications of such image delivery also has serious consequences:
 
-* Siloed data - libraries have this knack for creating these special tools that work really well for one thing that are different from every other special tool at other institutions 
-* Systems don’t play well together
+* Siloed data
+* Systems often don’t play well together
 * Different backends, different UIs
 * Often, the data is tied to the platform. What happens to the data when the platform must update or change? 
 
@@ -30,7 +30,7 @@ IIIF came about as a solution to the problems experienced by researchers and tec
 * Ability to contextualize images from across collections and institutions
 * Actively engage with images - deep zoom, pan, annotate
 * Combine images from across the world in one space
-* Be free to use the image viewer of your choice
+* Be free to use the image viewer of choice
 * Cite and Share work - confidence in stable image URLs
 
 **What do institutions want and/or need?**
