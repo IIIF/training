@@ -1,15 +1,17 @@
 # Day One
 
-## Outline
-Morning - Introductions and an introduction to IIIF
+## 2.1 Introductions
 
-Afternoon - Getting started with hands on IIIF tools
+To have a successful workshop, let's first get to know one another.
+* Who are you?
+* Where are you coming from?
+* What's your prior experience with IIIF?
+* What are you hoping to get out of this workshop?
 
+## 2.2 IIIF Introduction
 
-### Introductions
+## 2.3 Image API
 
-To have a successful workshop, lets first get to know one another. Who are you, where are you coming from, and please name one thing you are excited about?
+## 2.4 Presentation api
 
-### Broad introduction to IIIF
-
-### Image API
+## 2.5 Getting Started with the Image API
