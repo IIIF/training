@@ -2,27 +2,27 @@
 
 ## Instructions
 
-* Create a new directory called "MyIIIFGallery"
-* In this directory, create a new file called index.html
-* Fill your html page with a basic html template
+1. Create a new directory called "MyIIIFGallery"
+1. In this directory, create a new file called index.html
+1. Fill your html page with a basic html template
 
-```html
-<!doctype html>
+    ```html
+    <!doctype html>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
 
-  <title>Add title here</title>
-  <meta name="description" content="add description here">
-  <meta name="author" content="add author name here">
-</head>
+      <title>Add title here</title>
+      <meta name="description" content="add description here">
+      <meta name="author" content="add author name here">
+    </head>
 
-<body>
-  <p>Hello World</p>
-</body>
-</html>
-```
+    <body>
+      <p>Hello World</p>
+    </body>
+    </html>
+    ```
 
 1. View this index.html file in your browser
   * Open browser
@@ -35,7 +35,6 @@
   * $ `npm install -g live-server`
   * Inside your project directory (e.g. MyIIIFGallery) run `$ live-sever`
   * View your site at [http://127.0.0.1:8080](http://127.0.0.1:8080)
-
 1. Now start creating your Gallery.
   * Think about the things a gallery website needs.
   * You'll need a landing page, with links, titles, and thumbnails of your images.
@@ -48,13 +47,14 @@
   * Add a list of links to pages that will display individual images.
   * Something like the following
 
-```html
-  `<ul>
-    <li><a href="image1.html">Link to Image 1</a></li>
-    <li><a href="image2.html">Link to Image 2</a></li>
-    <!-- ... add more -->
-  </ul>
-```
+  ```html
+    `<ul>
+      <li><a href="image1.html">Link to Image 1</a></li>
+      <li><a href="image2.html">Link to Image 2</a></li>
+      <!-- ... add more -->
+    </ul>
+  ```
+
   * Question: How could enhance your list with "thumbnails" using the IIIF Image api.
   * A thumbnail is just and image and images can be added to an html page like so:
     * `<img src="[add path/link to the image here]"/>`
@@ -62,23 +62,24 @@
   * Create a file called `image1.html`
 1. Add the html template again:
 
-```html
-<!doctype html>
+    ```html
+    <!doctype html>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
 
-  <title>Add title here</title>
-  <meta name="description" content="add description here">
-  <meta name="author" content="add author name here">
-</head>
+      <title>Add title here</title>
+      <meta name="description" content="add description here">
+      <meta name="author" content="add author name here">
+    </head>
 
-<body>
-  <p>Hello World</p>
-</body>
-</html>
-```
+    <body>
+      <p>Hello World</p>
+    </body>
+    </html>
+    ```
+
 1. Now create a space for the image with the `<img/>` tag.
 1. But this time using the IIIF API make the image big.
 1. Provide some other cropped views of the image that focus on specific regions of the image
@@ -92,49 +93,3 @@
 * What kinds of information did you find yourself wanting to have available as you tried to build your viewer?
 * What kind of interactions with your images did you want to have that were difficult to achieve?
 * What kinds of metadata is required for your viewer that is not necessarily visualized? E.g. How do your images relate to each other? How is that information used in your viewer?
-
-## Break
-
-## Introduction to Image Libraries.
-
-### Openseadragon
-
-## Activity Description
-
-In this activity we want to start combining IIIF we re-usable libraries that allow us to do more advanced things. In this activity we are going to add the library openseadragon.js to a basic webpage and provide it with information from a IIIF server that it can use to display images.
-
-#### Instructions
-
-* Create a new html page (e.g. seadragon-demo.html)
-* Add the Seadragon Library
-  * `<script
-    src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.3.1/openseadragon.min.js" type="text/javascript"></script>`
-* Add jquery libary (so you can easily request other files, such as info.json file)
-  * `<script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>`
-* Add an empty div for the openseadragon to create a view port
-  * `<div id="myImage" style="width: 400px"></div>`
-* Create a basic openseadragon object
-
-```javascript
-  const imageurl = //path to info.json file
-  $.get(imageUrl, function(infojson){
-  // get tile from infojson and pass them to openseadragon
-  infojson["tiles"] = [{"scaleFactors": [1, 2, 4, 8], "width": 300}]
-    var viewer = OpenSeadragon({
-      id: "myImage",
-      tileSources: [infojson]
-    });
-  });
-```
-
-
-### Leaflet
-
-#### Activity Description
-
-In this activity, we're going to repeat the above task with a different library called leaflet-iiif.js
-
-#### Instructions

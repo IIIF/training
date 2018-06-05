@@ -24,7 +24,7 @@ Let's also view this in [Mirador](projectmirador.org)
 1. Click the `x` box in both windows to close the windows.
 1. Hover over the icon to the right of the `x` and click "Replace Object"
 
-  ![mirador replace object](../images/mirador_replace.png)
+    ![mirador replace object](../images/mirador_replace.png)
 
 1. Paste in your manifest url to the text box "Add new object from URL:"
 1. Click "Load" - You should see your manifest loaded there. Click on one of your images.

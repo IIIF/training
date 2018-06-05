@@ -12,6 +12,6 @@
 
 1. Drag and drop your `manifest.json` file into the window and click "Create Secret Gist" (or public if you like, it doesn't matter).
 
-  ![gist](../images/gist.png)
+    ![gist](../images/gist.png)
 
 1. After the gist is created, click the "Raw" button to get the raw file url.
