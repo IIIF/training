@@ -17,8 +17,16 @@
 
 ## Day Two
 - [Introduction](day-two/README.md)
-- [Building a simple image viewer](day-two/building-an-image-viewer-day-2-am.md)
-- [Presentation API Deep Dive](day-two/presentation-api-building-a-manifest.md)
+- [Building a Simple Gallery Viewer](day-two/0-building-a-gallery-viewer-intro.md)
+  - [Building a Simple Gallery Viewer From Scratch](day-two/1-building-a-gallery-viewer.md)
+  - [Adding Open Seadragon](day-two/2-building-a-gallery-viewer-with-opensea-dragon.md)
+  - [Adding Leaflet](day-two/3-building-a-gallery-viewer-with-leaflet.md)
+- [Presentation API Deep Dive](day-two/4-presentation-api-introduction.md)
+  - [Anatomy of a Basic Manifest](day-two/5-anatomy-of-a-basic-manifest.md)
+  - [Building a Group Manifest](day-two/6-activity-group-manifest.md)
+  - [Building an Individual Manifest](day-two/7-activity-create-your-own-manifest.md)
+  - [Serving Your Manifest](day-two/8-serving-your-manifest.md)
+  - [Viewing Your Manifest](day-two/9-viewing-your-manifest-in-a-viewer.md)
 
 ## Day Three
 - [Introduction](day-three/README.md)
