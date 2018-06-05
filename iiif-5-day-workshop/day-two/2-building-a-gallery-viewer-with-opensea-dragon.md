@@ -25,7 +25,7 @@ In this activity we want to start combining IIIF we re-usable libraries that all
     var viewer = OpenSeadragon({
       id: "myImage",
       prefixUrl: "openseadragon-bin-2.3.1/images/",
-      tileSources: [infojson.tiles]
+      tileSources: [infojson]
     });
   });
 ```
