@@ -4,7 +4,7 @@
 
 Our goal this morning is twofold.
 
-* First we want to begin building a web environment where we can begin to the use IIIF image API in real world web pages.
+* First we want to begin building a web environment where we can begin to use the IIIF image API in real world web pages.
 
 * Second, in the process of building such a page, we want to begin to see *organically* the need for the IIIF presentation API.
 
