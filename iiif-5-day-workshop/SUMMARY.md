@@ -33,7 +33,7 @@
 - [Annotations, AnnotationLists](day-three/annotations-and-annotation-lists.md)
 - [Collections](day-three/collections.md)
 - [Ranges](day-three/ranges.md)
-- [Search](day-three/search.md)
+<!-- - [Search](day-three/search.md) -->
 
 ## Day Four
 - [Introduction](day-four/README.md)
