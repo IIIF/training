@@ -1,6 +1,6 @@
 ## Viewing your manifest with a IIIF-compatible image viewer
 
-NOTE: It can be tricky to use a viewer on an external website (e.g., https://projectmirador.org/demo/) to view images that are hosted on an image server on your local computer -- whether or not it works can depend on your computer's network connection, software versions, etc. We present a range of options here, which is also helpful for learning some of the many different ways to view manifests.
+NOTE: It can be tricky to use a viewer on an external website (e.g., https://projectmirador.org/demo/) to view images that are hosted on an image server on your local computer -- whether or not it works can depend on your computer's network connection, software versions, etc. We provide a range of options here, which is also helpful for learning some of the many different ways to view manifests.
 
 ### Viewing in a local Mirador instance
 
@@ -21,8 +21,7 @@ NOTE: It can be tricky to use a viewer on an external website (e.g., https://pro
 We can also try to view the manifest in the online demo of [Mirador](projectmirador.org)
 
 1. Navigate to [http://projectmirador.org/demo/](http://projectmirador.org/demo/).
-1. Click the `x` box in the upper left of one of the windows to close it.
-1. Hover over the icon to the right of the `x` in the remaining window and click "Add Slot Right."
+1. Click the icon to the right of the `x` in one of the windows and click "Replace Object."
 
     ![mirador replace object](../images/mirador_replace.png)
 

@@ -2,10 +2,11 @@
 
 ### Manually build a manifest in a JSON Editor (Method 1)
 
-Now that we have a template manifest and understand a bit better how it fits together, let's manually make our own manifest with images from the local image server we set up yesterday.
+Now that we have a sample manifest and understand a bit better how it fits together, let's manually make our own manifest with images from the local image server we set up yesterday.
   * Hint: an important change will be modifying the "@id" of the service object associated with the image resource.
   The value of the "@id" should be the path of the image on your image service, without any specific IIIF URL parameters.
-Use the manifest we just worked on together as a template.
+
+*Short activity:* Using the manifest we just worked on together as a template (and the examples in the Presentation API specification for reference) try to work out which elements you should edit to replace the dummy images from the template with actual images available via the image service we set up yesterday.
 
 ### Building a manifest with a GUI (Method 2)
 
@@ -27,7 +28,8 @@ After you've opened the editor interface,
 
     ![add canvas](../images/add_canvas.png)
 
-1. Now we need to add an image to this canvas. Click "Add Image to Canvas."
+1. Now we need to add an image to this canvas. Click on the "Canvas Metadata" accordion panel on the right.
+1. Click "Add Image to Canvas."
 1. We want to use an image we are already hosting, so we select the "From info.json URI" option, and input our info.json URI from our local IIIF server. Then click "Submit URI."
 
     `http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json`

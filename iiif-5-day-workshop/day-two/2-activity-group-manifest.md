@@ -1,4 +1,4 @@
-## Activity: Building/modifying a sample manifest
+## Building/modifying a sample manifest
 
 The concepts of the Presentataion API can be difficult to grasp until we actually start building a manifest.
 
@@ -8,7 +8,7 @@ First, we're going to do this together.
 
 Then, we'll send you off to make your own manifest (with some computational assistance).
 
-### Group Manifest
+### Shared Manifest
 
 Here I've created a basic manifest for all of us to share. As you'll notice, it is rather terse.
 

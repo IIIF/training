@@ -24,7 +24,7 @@ So what kinds of resources does a manifest contain? Well, potentially a lot of t
 
 #### Sequences
 
-As the specification states, a manifest must contain at least one sequence (helfully listed after the "sequences" keyword) that sepcify an order for the individual image resources in the manifest.
+As the specification states, a manifest must contain at least one sequence (helpfully listed after the "sequences" keyword) that specify an order for the individual image resources in the manifest.
 
 The specification describes a sequence like this:
 
