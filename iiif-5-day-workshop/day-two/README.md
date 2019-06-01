@@ -1,13 +1,5 @@
 # Day Two
 
-## Building a Simple Gallery Viewer
-
-### Building A Gallery Viewer From Scratch
-
-### Adding Open Sea Dragon
-
-### Adding Leaflet
-
 ## Presentation API Deep Dive
 
 ### Introduction to the Presentation API
@@ -19,3 +11,11 @@
 ### Serving a Manifest
 
 ### Viewing a Manifest
+
+## Building a Simple Gallery Viewer
+
+### Building A Gallery Viewer From Scratch
+
+### Adding Open Sea Dragon
+
+### Adding Leaflet
