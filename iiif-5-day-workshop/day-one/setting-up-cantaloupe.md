@@ -41,7 +41,7 @@ Save the file.
 Now lets try and start the server. Run this command from your Cantaloupe directory
 
 ```sh
-$ java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-3.3.1.war
+$ java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-3.4.2.war
 ```
 
 Now navigate to [http://127.0.0.1:8182/iiif/2](http://127.0.0.1:8182/iiif/2) in your browser.
