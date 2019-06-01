@@ -33,5 +33,5 @@ git commit -a -m "Update site"
 # push to the origin
 git push origin gh-pages
 
-# checkout to the dhsi-2019 branch
-git checkout dhsi-2019
+# checkout to the master branch
+git checkout master
