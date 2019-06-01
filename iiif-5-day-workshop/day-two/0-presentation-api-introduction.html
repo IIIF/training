@@ -1,0 +1,718 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Presentation API Deep Dive · IIIF 5 Day Workshop</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-git-author/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sunlight-highlighter/sunlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1-anatomy-of-a-basic-manifest.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Day One</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../day-one/">
+            
+                <a href="../day-one/">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../day-one/iiif-introduction.html">
+            
+                <a href="../day-one/iiif-introduction.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    IIIF Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../day-one/image-api.html">
+            
+                <a href="../day-one/image-api.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    Image API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../day-one/image-api-examples.html">
+            
+                <a href="../day-one/image-api-examples.html">
+            
+                    
+                        <b>2.3.1.</b>
+                    
+                    Basic Image API Examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../day-one/image-api-internals.html">
+            
+                <a href="../day-one/image-api-internals.html">
+            
+                    
+                        <b>2.3.2.</b>
+                    
+                    Image API Internals
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../day-one/presentation-api.html">
+            
+                <a href="../day-one/presentation-api.html">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    Presentation API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../day-one/getting-started-with-the-image-api.html">
+            
+                <a href="../day-one/getting-started-with-the-image-api.html">
+            
+                    
+                        <b>2.5.</b>
+                    
+                    Getting started with the Image API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../day-one/iiif-hosting-saas.html">
+            
+                <a href="../day-one/iiif-hosting-saas.html">
+            
+                    
+                        <b>2.5.1.</b>
+                    
+                    IIIF Hosting software as a service
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="../day-one/setting-up-cantaloupe.html">
+            
+                <a href="../day-one/setting-up-cantaloupe.html">
+            
+                    
+                        <b>2.5.2.</b>
+                    
+                    Setting up Cantaloupe as an image server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="../day-one/configuring-cantaloupe.html">
+            
+                <a href="../day-one/configuring-cantaloupe.html">
+            
+                    
+                        <b>2.5.3.</b>
+                    
+                    Configuring Canataloupe
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="../day-one/creating-a-basic-image-viewer.html">
+            
+                <a href="../day-one/creating-a-basic-image-viewer.html">
+            
+                    
+                        <b>2.5.4.</b>
+                    
+                    Creating a basic image viewer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Day Two</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2" data-path="0-presentation-api-introduction.html">
+            
+                <a href="0-presentation-api-introduction.html">
+            
+                    
+                        <b>3.2.</b>
+                    
+                    Presentation API Deep Dive
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="1-anatomy-of-a-basic-manifest.html">
+            
+                <a href="1-anatomy-of-a-basic-manifest.html">
+            
+                    
+                        <b>3.2.1.</b>
+                    
+                    Anatomy of a Basic Manifest
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="2-activity-group-manifest.html">
+            
+                <a href="2-activity-group-manifest.html">
+            
+                    
+                        <b>3.2.2.</b>
+                    
+                    Building a Group Manifest
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.3" data-path="3-activity-create-your-own-manifest.html">
+            
+                <a href="3-activity-create-your-own-manifest.html">
+            
+                    
+                        <b>3.2.3.</b>
+                    
+                    Building an Individual Manifest
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.4" data-path="4-serving-your-manifest.html">
+            
+                <a href="4-serving-your-manifest.html">
+            
+                    
+                        <b>3.2.4.</b>
+                    
+                    Serving Your Manifest
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.5" data-path="5-viewing-your-manifest-in-a-viewer.html">
+            
+                <a href="5-viewing-your-manifest-in-a-viewer.html">
+            
+                    
+                        <b>3.2.5.</b>
+                    
+                    Viewing Your Manifest
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="6-building-a-gallery-viewer-intro.html">
+            
+                <a href="6-building-a-gallery-viewer-intro.html">
+            
+                    
+                        <b>3.3.</b>
+                    
+                    Building a Simple Gallery Viewer
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="7-building-a-gallery-viewer.html">
+            
+                <a href="7-building-a-gallery-viewer.html">
+            
+                    
+                        <b>3.3.1.</b>
+                    
+                    Building a Simple Gallery Viewer From Scratch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="8-building-a-gallery-viewer-with-opensea-dragon.html">
+            
+                <a href="8-building-a-gallery-viewer-with-opensea-dragon.html">
+            
+                    
+                        <b>3.3.2.</b>
+                    
+                    Adding Open Seadragon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.3" data-path="9-building-a-gallery-viewer-with-leaflet.html">
+            
+                <a href="9-building-a-gallery-viewer-with-leaflet.html">
+            
+                    
+                        <b>3.3.3.</b>
+                    
+                    Adding Leaflet
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Day Three</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../day-three/">
+            
+                <a href="../day-three/">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../day-three/annotations-and-annotation-lists.html">
+            
+                <a href="../day-three/annotations-and-annotation-lists.html">
+            
+                    
+                        <b>4.2.</b>
+                    
+                    Annotations, AnnotationLists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../day-three/collections.html">
+            
+                <a href="../day-three/collections.html">
+            
+                    
+                        <b>4.3.</b>
+                    
+                    Collections
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../day-three/ranges.html">
+            
+                <a href="../day-three/ranges.html">
+            
+                    
+                        <b>4.4.</b>
+                    
+                    Ranges
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Day Four</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../day-four/">
+            
+                <a href="../day-four/">
+            
+                    
+                        <b>5.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Day Five</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../day-five/">
+            
+                <a href="../day-five/">
+            
+                    
+                        <b>6.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Presentation API Deep Dive</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="presentation-api-deep-dive">Presentation API Deep Dive</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Let&apos;s consider a couple of points that hopefully came to mind during yesterday&apos;s experiments with image viewers. They&apos;ll help to explain why something like the IIIF Presentation API exists:</p>
+<p>1) Image viewers need more than just images.
+Specific kinds of metadata are needed to orchestrate a user&apos;s interaction with a set of images; otherwise the experience is the same as running a slideshow from your photo app on shuffle. It&apos;s important to be able to specify things like the order of the images, the ways individual images should be used, metadata about the object(s) represented by a set of images, metadata about individual images, etc.</p>
+<p>2) Image viewers are hard to build and can be difficult to configure, especially if every viewer has a different way of being &quot;hooked up&quot; to a specific set of images. This was pretty much the way things were before IIIF. The IIIF community recognized this problem and proposed standardizing the data that any image viewer would need. Because viewer applications and the actual images/metadata they work with can be separated, it&apos;s possible to re-use the same image viewer on many different image sets, as long as the image metadata is structured according to a standard (i.e., a set of rules) that the image viewer understands. The IIIF Presentation API is precisely this standard, and a IIIF compliant viewer is an image viewer that understands and knows how to display data that is structured according to these rules.</p>
+<p>Today, we&apos;re going to look at the &quot;guts&quot; of this standard to learn how to structure our data according to the rules of the IIIF Presentation API.</p>
+<p>First, let&apos;s look at the conceptual model of the IIIF Presentation API. After that, we&apos;ll begin building a &quot;manifest&quot; -- IIIF&apos;s main presentation metadata container.</p>
+<div class="git-author-container git-author-bottom"><div class="modified">Last modified by Peter Broadwell 2019-05-31 21:44:54</div><div class="created">Created by Peter Broadwell 2019-05-31 21:44:54</div></div>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1-anatomy-of-a-basic-manifest.html" class="navigation navigation-next " aria-label="Next page: Anatomy of a Basic Manifest">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Presentation API Deep Dive","level":"3.2","depth":1,"next":{"title":"Anatomy of a Basic Manifest","level":"3.2.1","depth":2,"path":"day-two/1-anatomy-of-a-basic-manifest.md","ref":"day-two/1-anatomy-of-a-basic-manifest.md","articles":[]},"previous":{"title":"Introduction","level":"3.1","depth":1,"path":"day-two/README.md","ref":"day-two/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","theme-default","toggle-chapters","git-author","-highlight","sunlight-highlighter","toggle-chapters"],"styles":{},"pluginsConfig":{"git-author":{"position":"bottom","modifyTpl":"Last modified by {user} {timeStamp}","createTpl":"Created by {user} {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"include":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"sunlight-highlighter":{"lineNumbers":false,"theme":"gitbook"},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"IIIF 5 Day Workshop","gitbook":"3.2.3"},"file":{"path":"day-two/0-presentation-api-introduction.md","mtime":"2019-06-01T04:49:40.247Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-01T18:43:57.195Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
