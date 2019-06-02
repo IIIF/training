@@ -6,14 +6,12 @@
 - [Introduction](day-one/README.md)
 - [IIIF Introduction](day-one/iiif-introduction.md)
 - [Image API](day-one/image-api.md)
-  - [Basic Image API Examples](day-one/image-api-examples.md)
-  - [Image API Internals](day-one/image-api-internals.md)
-- [Presentation API](day-one/presentation-api.md)
 - [Getting started with the Image API](day-one/getting-started-with-the-image-api.md)
   - [IIIF Hosting software as a service](day-one/iiif-hosting-saas.md)
   - [Setting up Cantaloupe as an image server](day-one/setting-up-cantaloupe.md)
   - [Configuring Canataloupe](day-one/configuring-cantaloupe.md)
   - [Creating a basic image viewer](day-one/creating-a-basic-image-viewer.md)
+  - [Level 0 hosting with GitHub pages](day-one/level-0-github-hosting.md)
 
 ## Day Two
 - [Introduction](day-two/README.md)
