@@ -10,9 +10,11 @@
 
 ### Method 2: Serve your manifest via an online service
 
-* Using myjson: copy and paste the contents of the manifest into http://myjson.com/, then click "Save"; the link will be listed under "URI to access this JSON directly."
+Using myjson:
+  1. Copy and paste the contents of the manifest into http://myjson.com/
+  1. Click "Save"; the link will be listed under "URI to access this JSON directly."
 
-* Using Github gist:
+Using Github gist:
   1. Navigate to https://gist.github.com
   1. Drag and drop your `manifest.json` file into the window and click "Create Secret Gist" (or public if you like, it doesn't matter).
 

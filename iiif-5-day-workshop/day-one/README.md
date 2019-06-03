@@ -2,21 +2,36 @@
 
 ## 2.1 Introductions
 
-To have a successful workshop, let's first get to know one another.
-* Who are you?
-* Where are you coming from?
-* What's your prior experience with IIIF (if any)?
-* What are you hoping to get out of this workshop?
+Instructors: 
+
+- Name and pronouns
+- Affiliation
+- Dream IIIF project
+
+Students:
+
+- Name and pronouns
+- Affiliation
+- What brought you to this workshop?
+- What are you hoping to get out of this workshop?
+
 
 ## 2.2 IIIF Introduction
 
+Pulling from these slides: TKTK
+
+### IIIF Technology & Community
+### IIIF Highlights
 ### Fun with IIIF
 
-### IIIF Highlights
-
-### IIIF Community 
-
 ### Excercise: Class projects sketch
+
+What kind of project would you like to work on?
+
+​​- What is the source material?
+- What is the context of the project?
+- Who is the intended audience?
+- What work do you think might be required (to the extent you know this)? 
 
 ## 2.3 Image API
 
