@@ -29,11 +29,7 @@
   * File->select the index.html file
 1. Alternatively, if you have node installed, install "http-server"
   * $ `npm install -g http-server`
-  * Inside your project directory (e.g. MyIIIFGallery) run `$ http-sever`
-  * View your site at [http://127.0.0.1:8080](http://127.0.0.1:8080)
-1. Alternatively, you can also install "live-server" which will refresh your browser every time you make a change
-  * $ `npm install -g live-server`
-  * Inside your project directory (e.g. MyIIIFGallery) run `$ live-sever`
+  * Inside your project directory (e.g. MyIIIFGallery) run `$ http-server`
   * View your site at [http://127.0.0.1:8080](http://127.0.0.1:8080)
 1. Now start creating your Gallery.
   * Think about the things a gallery website needs.
