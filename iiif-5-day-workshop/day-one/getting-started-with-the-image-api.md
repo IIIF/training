@@ -7,19 +7,18 @@ Image formats
 Where do you store your image go round room. 
 
 ## Hosted
-Klokan: https://www.iiifhosting.com/
-Digirati: https://dlcs.info/ 
+ * Klokan: https://www.iiifhosting.com/
+ * Digirati: https://dlcs.info/ 
 
 
 ## Static tiles
-https://github.com/zimeon/iiif/tree/master/demo-static
-Example: 
-https://glenrobson.github.io/iiif/2018/01/12/iiif-from-scrtach.html
+ * Code https://github.com/zimeon/iiif/tree/master/demo-static
+ * Example: https://glenrobson.github.io/iiif/2018/01/12/iiif-from-scrtach.html
 
 ## IIIF Image server
-https://github.com/IIIF/awesome-iiif#image-servers
-Main ones: 
-IIP Image - written in C
-Loris - python
-Cantaloupe - Java
+ * https://github.com/IIIF/awesome-iiif#image-servers
+ * Main ones: 
+   * [IIP Image](https://iipimage.sourceforge.io/) - written in C
+   * [Loris](https://github.com/loris-imageserver/loris) - python
+   * [Cantaloupe](https://cantaloupe-project.github.io/) - Java
 
