@@ -4,11 +4,15 @@ NOTE: It can be tricky to use a viewer on an external website (e.g., https://pro
 
 ### Viewing in a local Mirador instance
 
-1. Download the most recent release of Mirador 2 from here: [https://github.com/ProjectMirador/mirador/releases/tag/v2.7.0](https://github.com/ProjectMirador/mirador/releases)
+1. Download the most recent release of Mirador 2 from here: [https://github.com/ProjectMirador/mirador/releases](https://github.com/ProjectMirador/mirador/releases/tag/v2.7.0)
 1. Unzip the package.
 1. In Chrome, open the file in the downloaded package called example.html
   * File->Open File->example.html
-1. Now drop in your custom manifest.
+1. Click on the plus sign in the middle to “Add item”.
+1. Look in the upper left, in the box labeled “addNewObject:”. 
+1. Enter the http or https (not filesystem) URL of your manifest, e.g., http://127.0.0.1:8080/manifest.json.
+1. Click “load”. Your manifest should be added to the list of those available.
+1. Click on the new link to your manifest to view your images.
 
 ### Viewing online in UniversalViewer
 
