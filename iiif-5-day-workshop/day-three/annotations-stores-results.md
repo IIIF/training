@@ -69,8 +69,19 @@ and a Newspaper article and blog post:
 ![image](../images/annos_bor_newspaper.png)  
 ![image](../images/annos_bor_article.png)  
 
+A full export of the data is available at: https://github.com/NLW-paulm/BoR-annotations 
+
 ## Search
 
 So how did that work?
 
 Lets have a look at the Manifest: https://iiif.gdmrdigital.com/nlw/bor.json
+
+## Summary
+Win, Win
+
+ * Engaged volunteers
+ * Publicity for the collection
+ * Funding
+ * Item now searchable for the public
+ * Data available for integration

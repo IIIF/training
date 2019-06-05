@@ -6,7 +6,8 @@ Let's try out some of the concepts we talked about previously.
 
 Here is a manifest we'll use as our starting point for working with annotations (you can also find this file here: https://gist.github.com/hadro/c499d26943c45bf38eacfaed07b0a8ea)
 
-```{
+```
+{
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "http://localhost:8887/coin-before.json",
   "@type": "sc:Manifest",
