@@ -108,3 +108,8 @@ dependency			maven-archiver			simpleAnnotationStore.war	work
    * Does it show a search box?
    * Has it found an annotation? Note the search is case sensetive. 
 
+Extras:
+
+ * [Loading a Newspaper example with OCR](https://github.com/glenrobson/SimpleAnnotationServer/blob/master/doc/PopulatingAnnotations.md)
+ * [Download annotations](https://github.com/glenrobson/SimpleAnnotationServer/blob/master/doc/DownloadAnnotations.md)
+ * If you get here you can go back to day one and do the [Github Pages level0](../day-one/level0-github-hosting.html) tutorial. 
