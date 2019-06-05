@@ -10,8 +10,8 @@
   - [IIIF Hosting software as a service](day-one/iiif-hosting-saas.md)
   - [Setting up Cantaloupe as an image server](day-one/setting-up-cantaloupe.md)
   - [Configuring Canataloupe](day-one/configuring-cantaloupe.md)
-  - [Creating a basic image viewer](day-one/creating-a-basic-image-viewer.md)
   - [Level 0 hosting with GitHub pages](day-one/level0-github-hosting.md)
+  - [Creating a basic image viewer](day-one/creating-a-basic-image-viewer.md)
 
 ## Day Two
 - [Introduction](day-two/README.md)
