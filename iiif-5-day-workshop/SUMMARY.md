@@ -29,6 +29,7 @@
 ## Day Three
 - [Introduction](day-three/README.md)
 - [Annotations, AnnotationLists](day-three/annotations-and-annotation-lists.md)
+  - [Annotations Exercise](day-three/exercise.md)
   - [Annotating with Mirador](day-three/annotations-exercises.md)
   - [Annotating Stores](day-three/annotations-stores.md)
   - [Annotating Stores - Results](day-three/annotations-stores-results.md)
