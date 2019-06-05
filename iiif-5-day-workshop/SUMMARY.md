@@ -29,6 +29,7 @@
 ## Day Three
 - [Introduction](day-three/README.md)
 - [Annotations, AnnotationLists](day-three/annotations-and-annotation-lists.md)
+- [Annotations Exercise](day-three/exercise.md)
 - [Collections](day-three/collections.md)
 - [Ranges](day-three/ranges.md)
 <!-- - [Search](day-three/search.md) -->
