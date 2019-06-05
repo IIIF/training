@@ -71,8 +71,6 @@ That can also be linked to manifests so that a viewer can bring them together in
 
 Go on to the [Annotations Exercise](exercise.html) to try out some cases where annotations come into play.
 
-<<<<<<< HEAD
-=======
 ## Using an annotation Store
 
 What is an annotation store? An annotation store is just a database designed to ingest data structured according to the Open Annotations (or Web Annotations) specifications.
