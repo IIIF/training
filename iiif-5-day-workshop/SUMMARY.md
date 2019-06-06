@@ -44,6 +44,7 @@
 <!-- - [Mirador 3](day-four/mirador-3.md) -->
 <!-- - [IIIF + A/V](day-four/iiif-and-av.md) -->
 - [IIIF + AI](day-four/iiif-and-ai.md)
+- [IIIF + A/V](day-four/iiif-and-av.md)
 <!-- - [IIIF Integration with DH Tools](day-four/iiif-dh-tools.md) -->
 <!--  - [Omeka](day-four/omeka.md) -->
 <!--  - [Islandora/Drupal](day-four/islandora-drupal.md) -->
