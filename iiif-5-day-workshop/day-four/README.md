@@ -2,9 +2,9 @@
 
 ## Mirador 3
 
-## It's not just for images anymore: IIIF + A/V
-
 ## IIIF for AI/Deep Learning
+
+## It's not just for images anymore: IIIF + A/V
 
 ## Demos of IIIF and Integration with DH Tools
 
