@@ -10,8 +10,8 @@
   - [IIIF Hosting software as a service](day-one/iiif-hosting-saas.md)
   - [Setting up Cantaloupe as an image server](day-one/setting-up-cantaloupe.md)
   - [Configuring Canataloupe](day-one/configuring-cantaloupe.md)
-  - [Creating a basic image viewer](day-one/creating-a-basic-image-viewer.md)
   - [Level 0 hosting with GitHub pages](day-one/level0-github-hosting.md)
+  - [Creating a basic image viewer](day-one/creating-a-basic-image-viewer.md)
 
 ## Day Two
 - [Introduction](day-two/README.md)
@@ -29,6 +29,11 @@
 ## Day Three
 - [Introduction](day-three/README.md)
 - [Annotations, AnnotationLists](day-three/annotations-and-annotation-lists.md)
+  - [Annotations Exercise](day-three/exercise.md)
+  - [Annotating with Mirador](day-three/annotations-exercises.md)
+  - [Annotating Stores](day-three/annotations-stores.md)
+  - [Annotating Stores - Results](day-three/annotations-stores-results.md)
+  - [Annotating Stores - Do it yourself](day-three/annotations-stores-install.md)
 - [Collections](day-three/collections.md)
 - [Ranges](day-three/ranges.md)
 <!-- - [Search](day-three/search.md) -->
