@@ -65,7 +65,7 @@ Take 5 minutes to play around creating annotations so you get a feel for how it 
  * What type of project would this be useful for?
  * What might it not work so well with?
 
-## Where are these images stored?
+## Where are these annotations stored?
 
 This version of Mirador stores the annotations in the browser local storage. This means:
 
