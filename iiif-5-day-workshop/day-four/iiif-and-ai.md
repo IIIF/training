@@ -4,7 +4,7 @@
 
 For this case study, we'll get some hands-on experience with experimental code developed by librarians, students and staff at the UCLA Digital Library [Collections Lab](https://collectionslab.github.io/) to detect handwritten marginal annotations in books from the recently digitized [Early Modern Annotated Books collection](https://calisphere.org/collections/26771/) at UCLA's William Andrews Clark Memorial Library.
 
-[!image](https://raw.githubusercontent.com/collectionslab/Omniscribe/master/sample.png)
+![image](../images/omniscribe.png)
 
 Full disclosure: the original training set of tagged handwritten annotations was crowd-sourced using [this Zooniverse site](https://www.zooniverse.org/projects/kirschbombe/book-annotation-classification), which does not use a IIIF-based viewer/annotation system!
 
