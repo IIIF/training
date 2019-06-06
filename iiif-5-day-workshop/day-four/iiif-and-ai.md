@@ -4,6 +4,8 @@
 
 For this case study, we'll get some hands-on experience with experimental code developed by librarians, students and staff at the UCLA Digital Library [Collections Lab](https://collectionslab.github.io/) to detect handwritten marginal annotations in books from the recently digitized [Early Modern Annotated Books collection](https://calisphere.org/collections/26771/) at UCLA's William Andrews Clark Memorial Library.
 
+[!image](https://raw.githubusercontent.com/collectionslab/Omniscribe/master/sample.png)
+
 Full disclosure: the original training set of tagged handwritten annotations was crowd-sourced using [this Zooniverse site](https://www.zooniverse.org/projects/kirschbombe/book-annotation-classification), which does not use a IIIF-based viewer/annotation system!
 
 The automated detection system, however, which is built upon a "Mask Region-based Convolutional Neural Network" (MRCNN) model trained on the crowd-sourced data, has been designed to access new book page images via IIIF image API services and to produce manifests with annotation lists identifying the detected annotations, which can be opened in a IIIF viewer.
@@ -28,3 +30,9 @@ Please use one of the following manifests as your source of input page images wh
 - https://marinus.library.ucla.edu/iiif/annotated/uclaclark_SB322S53_31-40.json
 - https://marinus.library.ucla.edu/iiif/annotated/uclaclark_SB322S53_41-50.json
 - https://marinus.library.ucla.edu/iiif/annotated/uclaclark_SB322S53_51-60.json
+
+## Object detection in Edo-period Japanese illustrations
+
+This project was inspired by the IIIF-based [Collection of Facial Expressions](http://codh.rois.ac.jp/face/iiif-curation-finder/) "curation viewer" project at the [Japanese Center for Open Data in the Humanities](http://codh.rois.ac.jp/), a joint project of the National Institute of Informatics and the Institute of Statistical Mathematics.
+
+Another impressive IIIF + AI-based project from CODH: the [Hentaigana Image Recognition](http://npn-2sc1815j.appspot.com/hentaigana/?pages=200003067&pos=5) interface.
