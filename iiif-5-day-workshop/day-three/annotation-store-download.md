@@ -6,13 +6,13 @@ In this tutorial we are going to annotate an image from your own manifest using 
  * Go to http://sas.gdmrdigital.com
  * Add your manifest to the addNewObject field and click load:
 
-![image](../images/anno_download_add.png)  
+![image](../images/annos_download_annotating.png)  
 
 ## Step 2: annotate manifest
 
  * Start annotating your manifest
 
-![image](../images/annos_download_annotating.png)  
+![image](../images/annos_download_success.png)  
 
 ## Step 3: Download annotations
 

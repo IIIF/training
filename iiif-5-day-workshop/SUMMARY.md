@@ -34,7 +34,7 @@
   - [Annotating Stores](day-three/annotations-stores.md)
   - [Annotating Stores - Results](day-three/annotations-stores-results.md)
   - [Annotating Stores - Do it yourself](day-three/annotations-stores-install.md)
-    - [Annotation Stores - download](iiif-5-day-workshop/day-three/annotation-store-download.md)
+    - [Annotation Stores - download](day-three/annotation-store-download.md)
   - [Advanced annotation presentation](day-three/advanced-annotations.md)
 - [Collections](day-three/collections.md)
 - [Ranges](day-three/ranges.md)
