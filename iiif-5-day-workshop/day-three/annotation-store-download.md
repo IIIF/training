@@ -28,8 +28,7 @@ Now you have finished annotating you need to download the annotations and link t
 By default the SimpleAnnotationServer generates a list of annotations that need to be slightly edited when linked to the manifest. To do this open the annotations in Atom (`dhsi2019/annotations1.json`. Add the following to the top of the file:
 
 ```json
-
-
+{
        "@context":"http://iiif.io/api/presentation/2/context.json",
        "@id":"http://localhost:8887/annotations1.json",
        "@type":"sc:AnnotationList",
