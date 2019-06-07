@@ -23,7 +23,22 @@ Now you have finished annotating you need to download the annotations and link t
  * Right click and do save as.
  * Save the annotations to your `dhsi2019` folder with the name `annotations1.json`, `annotations2.json` etc...
 
-## Step 4: Link annotations to Manifest
+## Step 4: Turn annotation list into a list that can be linked in Mirador
+
+By default the SimpleAnnotationServer generates a list of annotations that need to be slightly edited when linked to the manifest. To do this open the annotations in Atom (`dhsi2019/annotations1.json`. Add the following to the top of the file:
+
+```json
+
+
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"http://localhost:8887/annotations1.json",
+       "@type":"sc:AnnotationList",
+       "resources":
+```
+
+and also add `}` at the end of the file. Now save this and go on to the following step.
+
+## Step 5: Link annotations to Manifest
 To get the annotations to display you need to link them into the manifest. To do this find the canvas your annotations point to then add the following:
 
 ```json

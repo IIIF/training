@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Annotating Stores · IIIF 5 Day Workshop</title>
+        <title>Annotation Stores - download · IIIF 5 Day Workshop</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -53,10 +53,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="annotations-stores-results.html" />
+    <link rel="next" href="advanced-annotations.html" />
     
     
-    <link rel="prev" href="annotations-exercises.html" />
+    <link rel="prev" href="annotations-stores-install.html" />
     
 
     </head>
@@ -500,7 +500,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="4.2.3" data-path="annotations-stores.html">
+        <li class="chapter " data-level="4.2.3" data-path="annotations-stores.html">
             
                 <a href="annotations-stores.html">
             
@@ -546,7 +546,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="4.2.5.1" data-path="annotation-store-download.html">
+        <li class="chapter active" data-level="4.2.5.1" data-path="annotation-store-download.html">
             
                 <a href="annotation-store-download.html">
             
@@ -720,7 +720,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Annotating Stores</a>
+        <a href=".." >Annotation Stores - download</a>
     </h1>
 </div>
 
@@ -735,67 +735,99 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="annotation-stores">Annotation Stores</h1>
-<p>Like image servers there are a number to choose from:</p>
-<p><a href="https://github.com/IIIF/awesome-iiif#annotations" target="_blank">https://github.com/IIIF/awesome-iiif#annotations</a></p>
-<p>Popular ones include:</p>
+                                <h1 id="creating-and-downloading-annotations">Creating and downloading Annotations</h1>
+<p>In this tutorial we are going to annotate an image from your own manifest using the hosted SimpleAnnotationStore. Once we have finished annotating we are going to download the annotations created in an Annotation list and link them to the Manifest. This is a way of permanently attaching annotations to a manifest. </p>
+<h2 id="step-1-load-your-manifest-into-the-hosted-mirador">Step 1 Load your manifest into the hosted Mirador:</h2>
 <ul>
-<li>annotot - Simple IIIF annotations mounted in a Ruby on Rails applications by Jack Reed</li>
-<li>Elucidate - Java and Postgres annotation server by Digirati</li>
-<li><p>SimpleAnnotationServer - Java annotation server backed by an Apache Jena triple store, Sesame, or Solr. - developed while working at the NLW</p>
-<p>For this exercise we are going to be using the <a href="https://github.com/glenrobson/SimpleAnnotationServer" target="_blank">SimpleAnnotationServer</a> and we are going to work on a copy of the National Library of Wales Book of Remembrance. You may remember this book from the Presentation API talk yesterday. The live version of the books is available at:</p>
-</li>
+<li>Go to <a href="http://sas.gdmrdigital.com" target="_blank">http://sas.gdmrdigital.com</a></li>
+<li>Add your manifest to the addNewObject field and click load:</li>
 </ul>
-<p><a href="http://hdl.handle.net/10107/4642022" target="_blank">http://hdl.handle.net/10107/4642022</a> </p>
-<p>but we are going to use the following version which has a annotation server connected to Mirador:</p>
-<p><a href="http://sas.gdmrdigital.com/examples/bor/lcc-en.html" target="_blank">http://sas.gdmrdigital.com/examples/bor/lcc-en.html</a></p>
-<p>Mirador doesn&apos;t cope well with multiple people annotating the same page so I will distribute the following sections to each of you:</p>
+<p><img src="../images/annos_download_annotating.png" alt="image">  </p>
+<h2 id="step-2-annotate-manifest">Step 2: annotate manifest</h2>
 <ul>
-<li>Cavalry</li>
-<li>Corps of Lancers</li>
-<li>Grenadier Guards</li>
-<li>The Queen&apos;s (Royal West Surrey Regiment)</li>
-<li>The King&apos;s Own (Royal Lancaster Regiment)</li>
-<li>Northumberland Fusiliers</li>
-<li>Norfolk Regiment</li>
-<li>The Prince of Wales&apos;s Own (West Yorkshire Regiment)</li>
-<li>Canadian Expeditionary Force Service in France (right at the bottom of the book)</li>
-<li>New Zealand Expeditionary Force (also at the bottom)</li>
+<li>Start annotating your manifest</li>
 </ul>
-<p>I am going to ask you to transcribe one page for the section that you are assigned. As part of this project we wanted to capture not just a transcription but also the fields to allow research so we customised Mirador to capture the different fields. </p>
-<p>To annotate a name:</p>
-<h2 id="step-1">Step 1:</h2>
+<p><img src="../images/annos_download_success.png" alt="image">  </p>
+<h2 id="step-3-download-annotations">Step 3: Download annotations</h2>
+<p>Now you have finished annotating you need to download the annotations and link them to canvases in your manifest. To do this you will download 1 annotation list per page/canvas. </p>
 <ul>
-<li>To navigate make sure the  pen and paper at the top left is disabled</li>
-<li>Get the line in full view</li>
-<li>Click the pen and paper to start annotating</li>
-<li>Draw a box as well as you can around the name </li>
+<li>Navigate to <a href="http://sas.gdmrdigital.com/list.html" target="_blank">http://sas.gdmrdigital.com/list.html</a></li>
+<li>You will have to check the canvas ids linked on that page next to the canvas ids in your manifest.</li>
+<li>Right click and do save as.</li>
+<li>Save the annotations to your <code>dhsi2019</code> folder with the name <code>annotations1.json</code>, <code>annotations2.json</code> etc...</li>
 </ul>
-<p><img src="../images/anno_bor_start.png" alt="image">  </p>
+<h2 id="step-4-turn-annotation-list-into-a-list-that-can-be-linked-in-mirador">Step 4: Turn annotation list into a list that can be linked in Mirador</h2>
+<p>By default the SimpleAnnotationServer generates a list of annotations that need to be slightly edited when linked to the manifest. To do this open the annotations in Atom (<code>dhsi2019/annotations1.json</code>. Add the following to the top of the file:</p>
+<pre><code class="lang-json"><div class="sunlight-container sunlight-theme-gitbook"><div class="sunlight-code-container"><pre class="sunlight-highlight-json sunlight-highlighted"><span class="sunlight-plaintext">
+
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@context&quot;:&quot;http://iiif.io/api/presentation/2/context.json&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@id&quot;:&quot;http://localhost:8887/annotations1.json&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@type&quot;:&quot;sc:AnnotationList&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;resources&quot;:
+</span></pre></div></div></code></pre>
+<p>and also add <code>}</code> at the end of the file. Now save this and go on to the following step.</p>
+<h2 id="step-5-link-annotations-to-manifest">Step 5: Link annotations to Manifest</h2>
+<p>To get the annotations to display you need to link them into the manifest. To do this find the canvas your annotations point to then add the following:</p>
+<pre><code class="lang-json"><div class="sunlight-container sunlight-theme-gitbook"><div class="sunlight-code-container"><pre class="sunlight-highlight-json sunlight-highlighted"><span class="sunlight-plaintext">&quot;otherContent&quot;:&#xA0;[
+&#xA0;&#xA0;&#xA0;&#xA0;{
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@id&quot;:&#xA0;&quot;http://example.com/files/page1.json&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@type&quot;:&#xA0;&quot;sc:AnnotationList&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;label&quot;:&#xA0;&quot;My&#xA0;fantastic&#xA0;annotations&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;}
+]
+</span></pre></div></div></code></pre>
+<p>after the images array. A full canvas example is below:</p>
+<pre><code class="lang-json"><div class="sunlight-container sunlight-theme-gitbook"><div class="sunlight-code-container"><pre class="sunlight-highlight-json sunlight-highlighted"><span class="sunlight-plaintext">{
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;@id&quot;:&#xA0;&quot;http://dams.llgc.org.uk/iiif/2.0/4004562/canvas/4004563.json&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;@type&quot;:&#xA0;&quot;sc:Canvas&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;label&quot;:&#xA0;&quot;1r&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;height&quot;:&#xA0;5584,
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;width&quot;:&#xA0;3744,
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;images&quot;:&#xA0;[
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;{
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@id&quot;:&#xA0;&quot;http://dams.llgc.org.uk/iiif/2.0/4004562/annotation/4004563.json&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@type&quot;:&#xA0;&quot;oa:Annotation&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;motivation&quot;:&#xA0;&quot;sc:painting&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;resource&quot;:&#xA0;{
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@id&quot;:&#xA0;&quot;http://dams.llgc.org.uk/iiif/2.0/image/4004563/full/1024,/0/default.jpg&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@type&quot;:&#xA0;&quot;dctypes:Image&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;format&quot;:&#xA0;&quot;image/jpeg&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;service&quot;:&#xA0;{
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@context&quot;:&#xA0;&quot;http://iiif.io/api/image/2/context.json&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@id&quot;:&#xA0;&quot;http://dams.llgc.org.uk/iiif/2.0/image/4004563&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;profile&quot;:&#xA0;&quot;http://iiif.io/api/image/2/level1.json&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;},
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;height&quot;:&#xA0;5584,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;width&quot;:&#xA0;3744
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;},
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;on&quot;:&#xA0;&quot;http://dams.llgc.org.uk/iiif/2.0/4004562/canvas/4004563.json&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;}
+&#xA0;&#xA0;&#xA0;&#xA0;],
+&#xA0;&#xA0;&#xA0;&#xA0;&quot;otherContent&quot;:&#xA0;[
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;{
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@id&quot;:&#xA0;&quot;http://example.com/files/page1.json&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;@type&quot;:&#xA0;&quot;sc:AnnotationList&quot;,
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&quot;label&quot;:&#xA0;&quot;My&#xA0;fantastic&#xA0;annotations&quot;
+&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;}
+&#xA0;&#xA0;&#xA0;&#xA0;]
+},
+</span></pre></div></div></code></pre>
+<p>Save the manifest.</p>
+<h2 id="step-5-check-the-annotations-are-showing">Step 5: check the annotations are showing</h2>
 <ul>
-<li>Now type what you see (don&apos;t worry about the buttons yet). So in this example I would type <code>Ty.Sub.Lt. Eric Hugh Allan R.N.R Bombala</code></li>
+<li>Go to <a href="https://projectmirador.org/demo/" target="_blank">https://projectmirador.org/demo/</a> or <a href="http://iiif.gdmrdigital.com/mirador/index.html" target="_blank">http://iiif.gdmrdigital.com/mirador/index.html</a> if you want a version that doesn&apos;t require https.</li>
+<li>Load the manifest using Add new object from URL</li>
+<li>Click on one of the images to view the manifest</li>
+<li>Click on the speech bubble to show the annotations.</li>
 </ul>
-<p><img src="../images/anno_bor_text.png" alt="image"></p>
+<p><img src="../images/annos_download_show.png" alt="image">  </p>
 <ul>
-<li>Once you&apos;ve typed everything double click on a word or highlight two words if required. </li>
+<li>and if it all worked OK you should see your annotation.</li>
 </ul>
-<p><img src="../images/anno_bor_highlight.png" alt="image"></p>
-<ul>
-<li>Now click the button that matches the type of the text. In this example I would click name and see the text go black:</li>
-</ul>
-<p><img src="../images/anno_bor_typed.png" alt="image"></p>
-<ul>
-<li>Now do the rest:</li>
-</ul>
-<p><img src="../images/anno_bor_finshed.png" alt="image"></p>
-<ul>
-<li>Then click save:</li>
-</ul>
-<p><img src="../images/anno_bor_view_anno.png" alt="image"></p>
-<ul>
-<li>Now complete the page</li>
-</ul>
-<div class="git-author-container git-author-bottom"><div class="modified">Last modified by Glen Robson 2019-06-05 05:05:51</div><div class="created">Created by Glen Robson 2019-06-05 05:05:51</div></div>
+<p><img src="../images/annos_download_success.png" alt="image">  </p>
+<p>It is also possible to do the above with a locally running SimpleAnnotationServer just follow the <a href="day-three/annotations-stores-install.md">Annotating Stores - Do it yourself</a> part of the course. When you get to downloading the annotations the file to get the list of annotated canvases is:</p>
+<p><a href="http://localhost:8080/list.html" target="_blank">http://localhost:8080/list.html</a></p>
+<div class="git-author-container git-author-bottom"><div class="modified">Last modified by Glen Robson 2019-06-07 00:00:40</div><div class="created">Created by Glen Robson 2019-06-06 23:55:30</div></div>
                                 
                                 </section>
                             
@@ -822,12 +854,12 @@
 
             
                 
-                <a href="annotations-exercises.html" class="navigation navigation-prev " aria-label="Previous page: Annotating with Mirador">
+                <a href="annotations-stores-install.html" class="navigation navigation-prev " aria-label="Previous page: Annotating Stores - Do it yourself">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="annotations-stores-results.html" class="navigation navigation-next " aria-label="Next page: Annotating Stores - Results">
+                <a href="advanced-annotations.html" class="navigation navigation-next " aria-label="Next page: Advanced annotation presentation">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -838,7 +870,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Annotating Stores","level":"4.2.3","depth":2,"next":{"title":"Annotating Stores - Results","level":"4.2.4","depth":2,"path":"day-three/annotations-stores-results.md","ref":"day-three/annotations-stores-results.md","articles":[]},"previous":{"title":"Annotating with Mirador","level":"4.2.2","depth":2,"path":"day-three/annotations-exercises.md","ref":"day-three/annotations-exercises.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","theme-default","toggle-chapters","git-author","-highlight","sunlight-highlighter","toggle-chapters"],"styles":{},"pluginsConfig":{"git-author":{"position":"bottom","modifyTpl":"Last modified by {user} {timeStamp}","createTpl":"Created by {user} {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"include":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"sunlight-highlighter":{"lineNumbers":false,"theme":"gitbook"},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"IIIF 5 Day Workshop","gitbook":"3.2.3"},"file":{"path":"day-three/annotations-stores.md","mtime":"2019-06-07T07:01:34.727Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-07T17:05:45.995Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Annotation Stores - download","level":"4.2.5.1","depth":3,"next":{"title":"Advanced annotation presentation","level":"4.2.6","depth":2,"path":"day-three/advanced-annotations.md","ref":"day-three/advanced-annotations.md","articles":[]},"previous":{"title":"Annotating Stores - Do it yourself","level":"4.2.5","depth":2,"path":"day-three/annotations-stores-install.md","ref":"day-three/annotations-stores-install.md","articles":[{"title":"Annotation Stores - download","level":"4.2.5.1","depth":3,"path":"day-three/annotation-store-download.md","ref":"day-three/annotation-store-download.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["include","theme-default","toggle-chapters","git-author","-highlight","sunlight-highlighter","toggle-chapters"],"styles":{},"pluginsConfig":{"git-author":{"position":"bottom","modifyTpl":"Last modified by {user} {timeStamp}","createTpl":"Created by {user} {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"include":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"sunlight-highlighter":{"lineNumbers":false,"theme":"gitbook"},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"IIIF 5 Day Workshop","gitbook":"3.2.3"},"file":{"path":"day-three/annotation-store-download.md","mtime":"2019-06-07T17:04:54.759Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-07T17:05:45.995Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

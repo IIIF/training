@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Annotating Stores · IIIF 5 Day Workshop</title>
+        <title>Advanced annotation presentation · IIIF 5 Day Workshop</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -53,10 +53,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="annotations-stores-results.html" />
+    <link rel="next" href="collections.html" />
     
     
-    <link rel="prev" href="annotations-exercises.html" />
+    <link rel="prev" href="annotation-store-download.html" />
     
 
     </head>
@@ -500,7 +500,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="4.2.3" data-path="annotations-stores.html">
+        <li class="chapter " data-level="4.2.3" data-path="annotations-stores.html">
             
                 <a href="annotations-stores.html">
             
@@ -566,7 +566,7 @@
             
         </li>
     
-        <li class="chapter " data-level="4.2.6" data-path="advanced-annotations.html">
+        <li class="chapter active" data-level="4.2.6" data-path="advanced-annotations.html">
             
                 <a href="advanced-annotations.html">
             
@@ -720,7 +720,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Annotating Stores</a>
+        <a href=".." >Advanced annotation presentation</a>
     </h1>
 </div>
 
@@ -735,67 +735,25 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="annotation-stores">Annotation Stores</h1>
-<p>Like image servers there are a number to choose from:</p>
-<p><a href="https://github.com/IIIF/awesome-iiif#annotations" target="_blank">https://github.com/IIIF/awesome-iiif#annotations</a></p>
-<p>Popular ones include:</p>
+                                <h1 id="advanced-annotations">Advanced Annotations</h1>
+<p>For this section I will be using this <a href="https://docs.google.com/presentation/d/1StVt_Eixt9wmFXoyPRjjlq-J1VevR7b4qvVmVs7yBWg/edit?usp=sharing" target="_blank">google slides</a> presentation.  Links for the different examples are available below:</p>
 <ul>
-<li>annotot - Simple IIIF annotations mounted in a Ruby on Rails applications by Jack Reed</li>
-<li>Elucidate - Java and Postgres annotation server by Digirati</li>
-<li><p>SimpleAnnotationServer - Java annotation server backed by an Apache Jena triple store, Sesame, or Solr. - developed while working at the NLW</p>
-<p>For this exercise we are going to be using the <a href="https://github.com/glenrobson/SimpleAnnotationServer" target="_blank">SimpleAnnotationServer</a> and we are going to work on a copy of the National Library of Wales Book of Remembrance. You may remember this book from the Presentation API talk yesterday. The live version of the books is available at:</p>
+<li><a href="https://www.georeferencer.com/" target="_blank">Georeferencer for maps</a></li>
+<li><a href="https://www.davidrumsey.com/view/georeferencer" target="_blank">Stanford Georeference example</a></li>
+<li><a href="https://places.library.wales/" target="_blank">Final site for the Cynefin data</a></li>
+<li><a href="https://medium.com/@404mike/shipping-records-73e3fd48a16e#.aqxgfeogl" target="_blank">Visualisation of the Shipping records data</a></li>
+<li>Tribunal data<ul>
+<li>Graphs: <a href="https://iiif.gdmrdigital.com/ww1-tribunal/index.html" target="_blank">https://iiif.gdmrdigital.com/ww1-tribunal/index.html</a></li>
+<li>Data: <a href="https://github.com/NLW-paulm/Welsh-Tribunal-annotations" target="_blank">https://github.com/NLW-paulm/Welsh-Tribunal-annotations</a> </li>
+</ul>
 </li>
+<li><a href="https://www.youtube.com/playlist?list=PLMd2mmRYjSJlKs829X0z_kYueQemSfwDd" target="_blank">Video on how to configure the crowdsourcing system</a></li>
+<li><a href="https://recogito.pelagios.org/" target="_blank">Recogito</a></li>
+<li><a href="https://fromthepage.com/" target="_blank">From the Page</a></li>
+<li><a href="https://omeka.dlcs-ida.org/s/ida/page/home" target="_blank">Indigenous Digital Archive</a></li>
+<li><a href="https://www.libcrowds.com/collection/playbills" target="_blank">LibCrowds from the BL</a></li>
 </ul>
-<p><a href="http://hdl.handle.net/10107/4642022" target="_blank">http://hdl.handle.net/10107/4642022</a> </p>
-<p>but we are going to use the following version which has a annotation server connected to Mirador:</p>
-<p><a href="http://sas.gdmrdigital.com/examples/bor/lcc-en.html" target="_blank">http://sas.gdmrdigital.com/examples/bor/lcc-en.html</a></p>
-<p>Mirador doesn&apos;t cope well with multiple people annotating the same page so I will distribute the following sections to each of you:</p>
-<ul>
-<li>Cavalry</li>
-<li>Corps of Lancers</li>
-<li>Grenadier Guards</li>
-<li>The Queen&apos;s (Royal West Surrey Regiment)</li>
-<li>The King&apos;s Own (Royal Lancaster Regiment)</li>
-<li>Northumberland Fusiliers</li>
-<li>Norfolk Regiment</li>
-<li>The Prince of Wales&apos;s Own (West Yorkshire Regiment)</li>
-<li>Canadian Expeditionary Force Service in France (right at the bottom of the book)</li>
-<li>New Zealand Expeditionary Force (also at the bottom)</li>
-</ul>
-<p>I am going to ask you to transcribe one page for the section that you are assigned. As part of this project we wanted to capture not just a transcription but also the fields to allow research so we customised Mirador to capture the different fields. </p>
-<p>To annotate a name:</p>
-<h2 id="step-1">Step 1:</h2>
-<ul>
-<li>To navigate make sure the  pen and paper at the top left is disabled</li>
-<li>Get the line in full view</li>
-<li>Click the pen and paper to start annotating</li>
-<li>Draw a box as well as you can around the name </li>
-</ul>
-<p><img src="../images/anno_bor_start.png" alt="image">  </p>
-<ul>
-<li>Now type what you see (don&apos;t worry about the buttons yet). So in this example I would type <code>Ty.Sub.Lt. Eric Hugh Allan R.N.R Bombala</code></li>
-</ul>
-<p><img src="../images/anno_bor_text.png" alt="image"></p>
-<ul>
-<li>Once you&apos;ve typed everything double click on a word or highlight two words if required. </li>
-</ul>
-<p><img src="../images/anno_bor_highlight.png" alt="image"></p>
-<ul>
-<li>Now click the button that matches the type of the text. In this example I would click name and see the text go black:</li>
-</ul>
-<p><img src="../images/anno_bor_typed.png" alt="image"></p>
-<ul>
-<li>Now do the rest:</li>
-</ul>
-<p><img src="../images/anno_bor_finshed.png" alt="image"></p>
-<ul>
-<li>Then click save:</li>
-</ul>
-<p><img src="../images/anno_bor_view_anno.png" alt="image"></p>
-<ul>
-<li>Now complete the page</li>
-</ul>
-<div class="git-author-container git-author-bottom"><div class="modified">Last modified by Glen Robson 2019-06-05 05:05:51</div><div class="created">Created by Glen Robson 2019-06-05 05:05:51</div></div>
+<div class="git-author-container git-author-bottom"><div class="modified">Last modified by Glen Robson 2019-06-05 13:34:01</div><div class="created">Created by Glen Robson 2019-06-05 13:34:01</div></div>
                                 
                                 </section>
                             
@@ -822,12 +780,12 @@
 
             
                 
-                <a href="annotations-exercises.html" class="navigation navigation-prev " aria-label="Previous page: Annotating with Mirador">
+                <a href="annotation-store-download.html" class="navigation navigation-prev " aria-label="Previous page: Annotation Stores - download">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="annotations-stores-results.html" class="navigation navigation-next " aria-label="Next page: Annotating Stores - Results">
+                <a href="collections.html" class="navigation navigation-next " aria-label="Next page: Collections">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -838,7 +796,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Annotating Stores","level":"4.2.3","depth":2,"next":{"title":"Annotating Stores - Results","level":"4.2.4","depth":2,"path":"day-three/annotations-stores-results.md","ref":"day-three/annotations-stores-results.md","articles":[]},"previous":{"title":"Annotating with Mirador","level":"4.2.2","depth":2,"path":"day-three/annotations-exercises.md","ref":"day-three/annotations-exercises.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","theme-default","toggle-chapters","git-author","-highlight","sunlight-highlighter","toggle-chapters"],"styles":{},"pluginsConfig":{"git-author":{"position":"bottom","modifyTpl":"Last modified by {user} {timeStamp}","createTpl":"Created by {user} {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"include":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"sunlight-highlighter":{"lineNumbers":false,"theme":"gitbook"},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"IIIF 5 Day Workshop","gitbook":"3.2.3"},"file":{"path":"day-three/annotations-stores.md","mtime":"2019-06-07T07:01:34.727Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-07T17:05:45.995Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Advanced annotation presentation","level":"4.2.6","depth":2,"next":{"title":"Collections","level":"4.3","depth":1,"path":"day-three/collections.md","ref":"day-three/collections.md","articles":[]},"previous":{"title":"Annotation Stores - download","level":"4.2.5.1","depth":3,"path":"day-three/annotation-store-download.md","ref":"day-three/annotation-store-download.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","theme-default","toggle-chapters","git-author","-highlight","sunlight-highlighter","toggle-chapters"],"styles":{},"pluginsConfig":{"git-author":{"position":"bottom","modifyTpl":"Last modified by {user} {timeStamp}","createTpl":"Created by {user} {timeStamp}","timeStampFormat":"YYYY-MM-DD HH:mm:ss"},"include":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"sunlight-highlighter":{"lineNumbers":false,"theme":"gitbook"},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"IIIF 5 Day Workshop","gitbook":"3.2.3"},"file":{"path":"day-three/advanced-annotations.md","mtime":"2019-06-07T07:01:34.722Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-07T17:05:45.995Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
