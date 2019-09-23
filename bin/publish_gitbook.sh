@@ -8,6 +8,10 @@ gitbook install && gitbook build
 cd ../iiif-5-day-workshop
 gitbook install && gitbook build
 
+# build 1 day workshop
+cd ../iiif-1-day-workshop
+gitbook install && gitbook build
+
 cd ../
 
 # checkout to the gh-pages branch
@@ -19,6 +23,7 @@ git pull origin gh-pages --rebase
 # copy the static site files into the current directory.
 cp -R intro-to-iiif/_book/* ./intro-to-iiif
 cp -R iiif-5-day-workshop/_book/* ./iiif-5-day-workshop
+cp -R iiif-1-day-workshop/_book/* ./iiif-1-day-workshop
 
 # remove 'node_modules' and '_book' directory
 git clean -fx node_modules
