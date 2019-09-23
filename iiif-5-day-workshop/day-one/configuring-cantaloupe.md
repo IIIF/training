@@ -38,3 +38,7 @@ Notice how we added our local IIIF server's info.json response url as a paramete
 ![eddie in iiif](../images/eddie_iiif.png)
 
 Cross our fingers, but you should see a picture of Eddie in a zoomable viewer.
+
+Other ways to view this image include:
+ * OpenSeaDragon: [http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json](http://iiif.gdmrdigital.com/openseadragon/index.html?image==http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json)
+ * UCD Image Cropper: [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=http://127.0.0.1:8182/iiif/2/eddie.jpg](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=http://127.0.0.1:8182/iiif/2/eddie.jpg)
