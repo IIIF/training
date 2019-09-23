@@ -13,6 +13,7 @@ cd ../iiif-1-day-workshop
 gitbook install && gitbook build
 
 cd ../
+cp README.md README.bwk
 
 # checkout to the gh-pages branch
 git checkout gh-pages
@@ -24,6 +25,8 @@ git pull origin gh-pages --rebase
 cp -R intro-to-iiif/_book/* ./intro-to-iiif
 cp -R iiif-5-day-workshop/_book/* ./iiif-5-day-workshop
 cp -R iiif-1-day-workshop/_book/* ./iiif-1-day-workshop
+cp README.bwk README.md
+rm README.bwk
 
 # remove 'node_modules' and '_book' directory
 git clean -fx node_modules
