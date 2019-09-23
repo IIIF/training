@@ -39,3 +39,11 @@ Now you have a hosted version of your image, using a IIIF Image API server. If y
   ]
 }
 ```
+
+Try this image with:
+ * Leaflet: http://mejackreed.github.io/Leaflet-IIIF/examples/?url=<url_to_info.json>
+   * e.g. http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://free.iiifhosting.com/iiif/9dfc3d789672fcbe8f47b9fb51db1b3eb1fa38b0badf35df093e5b7df7f8c549/info.json
+ * OpenSeaDragon: http://iiif.gdmrdigital.com/openseadragon/index.html?image=<url_to_info.json>
+   * http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://free.iiifhosting.com/iiif/9dfc3d789672fcbe8f47b9fb51db1b3eb1fa38b0badf35df093e5b7df7f8c549/info.json
+ * UCD Image clipper: https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=<url_to_image_id>
+   * e.g. https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=http://free.iiifhosting.com/iiif/9dfc3d789672fcbe8f47b9fb51db1b3eb1fa38b0badf35df093e5b7df7f8c549
