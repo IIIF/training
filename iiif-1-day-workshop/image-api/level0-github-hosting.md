@@ -62,7 +62,7 @@ where _username_ is your GitHub user.
 
  * Name the file `index.html` and copy and paste the following content:
 
-```
+```html
 <html>
   <head><title>IIIF Workshop</title></head>
   <body>
@@ -112,5 +112,10 @@ You should now be able to show your image using Leaflet and OpenseaDragon:
 
 Note not all software works with level 0 images. For example Leaflet doesn't seem to be working currently. 
 
-  
+For a fully working example see the following in OpenSeaDragon:
 
+https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif-test.github.io/iiif/image/info.json
+
+From the following source GitHub repository:
+
+https://github.com/iiif-test/iiif-test.github.io
