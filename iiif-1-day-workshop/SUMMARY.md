@@ -7,6 +7,7 @@
 ## Morning - IIIF Image API
 - [Introduction](image-api/README.md)
   - [IIIF Image API]()
+  - [IIIF Hosting](image-api/iiif-hosting-saas.md)
   - [Generating static tiles](image-api/static-tiles.md)
   - [Hosting with github pages](image-api/level0-github-hosting.md)
   - [Running a IIIF Image server](image-api/setting-up-cantaloupe.md)
