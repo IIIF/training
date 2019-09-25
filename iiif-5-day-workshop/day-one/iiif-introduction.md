@@ -106,7 +106,7 @@ And more!
 
 50 Consortium members can be seen [here](http://iiif.io/community/consortium/)
 
-355+ million images
+1 billion+ images
 
 ![image](../images/Adoption.jpg?raw=true) 
 
@@ -117,15 +117,16 @@ Community Groups
 * Outreach
 * Text Granulaity
 * 3D
+* Archives
 
-Tehnial Specification Groups
+Technical Specification Groups
 * A/V 
 * Discovery
 * Software Developers
 
 ## The Future
-* Archives interest group
 * IIIF 3.0 - support for audiovisual content
+* Discovery for Humans (companion to Discovery TSG)
 
 #### Videos
 

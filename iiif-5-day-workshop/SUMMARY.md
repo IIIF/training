@@ -6,37 +6,49 @@
 - [Introduction](day-one/README.md)
 - [IIIF Introduction](day-one/iiif-introduction.md)
 - [Image API](day-one/image-api.md)
-  - [Basic Image API Examples](day-one/image-api-examples.md)
-  - [Image API Internals](day-one/image-api-internals.md)
-- [Presentation API](day-one/presentation-api.md)
 - [Getting started with the Image API](day-one/getting-started-with-the-image-api.md)
   - [IIIF Hosting software as a service](day-one/iiif-hosting-saas.md)
   - [Setting up Cantaloupe as an image server](day-one/setting-up-cantaloupe.md)
   - [Configuring Canataloupe](day-one/configuring-cantaloupe.md)
+  - [Level 0 hosting with GitHub pages](day-one/level0-github-hosting.md)
   - [Creating a basic image viewer](day-one/creating-a-basic-image-viewer.md)
 
 ## Day Two
 - [Introduction](day-two/README.md)
-- [Building a Simple Gallery Viewer](day-two/0-building-a-gallery-viewer-intro.md)
-  - [Building a Simple Gallery Viewer From Scratch](day-two/1-building-a-gallery-viewer.md)
-  - [Adding Open Seadragon](day-two/2-building-a-gallery-viewer-with-opensea-dragon.md)
-  - [Adding Leaflet](day-two/3-building-a-gallery-viewer-with-leaflet.md)
-- [Presentation API Deep Dive](day-two/4-presentation-api-introduction.md)
-  - [Anatomy of a Basic Manifest](day-two/5-anatomy-of-a-basic-manifest.md)
-  - [Building a Group Manifest](day-two/6-activity-group-manifest.md)
-  - [Building an Individual Manifest](day-two/7-activity-create-your-own-manifest.md)
-  - [Serving Your Manifest](day-two/8-serving-your-manifest.md)
-  - [Viewing Your Manifest](day-two/9-viewing-your-manifest-in-a-viewer.md)
+- [Presentation API Deep Dive](day-two/0-presentation-api-introduction.md)
+  - [Anatomy of a Basic Manifest](day-two/1-anatomy-of-a-basic-manifest.md)
+  - [Building a Group Manifest](day-two/2-activity-group-manifest.md)
+  - [Building an Individual Manifest](day-two/3-activity-create-your-own-manifest.md)
+  - [Serving Your Manifest](day-two/4-serving-your-manifest.md)
+  - [Viewing Your Manifest](day-two/5-viewing-your-manifest-in-a-viewer.md)
+- [Building a Simple Gallery Viewer](day-two/6-building-a-gallery-viewer-intro.md)
+  - [Building a Simple Gallery Viewer From Scratch](day-two/7-building-a-gallery-viewer.md)
+  - [Adding Open Seadragon](day-two/8-building-a-gallery-viewer-with-opensea-dragon.md)
+  - [Adding Leaflet](day-two/9-building-a-gallery-viewer-with-leaflet.md)
 
 ## Day Three
 - [Introduction](day-three/README.md)
 - [Annotations, AnnotationLists](day-three/annotations-and-annotation-lists.md)
+  - [Annotations Exercise](day-three/exercise.md)
+  - [Annotating with Mirador](day-three/annotations-exercises.md)
+  - [Annotating Stores](day-three/annotations-stores.md)
+  - [Annotating Stores - Results](day-three/annotations-stores-results.md)
+  - [Annotating Stores - Do it yourself](day-three/annotations-stores-install.md)
+    - [Annotation Stores - download](day-three/annotation-store-download.md)
+  - [Advanced annotation presentation](day-three/advanced-annotations.md)
 - [Collections](day-three/collections.md)
 - [Ranges](day-three/ranges.md)
 <!-- - [Search](day-three/search.md) -->
 
 ## Day Four
 - [Introduction](day-four/README.md)
+<!-- - [Mirador 3](day-four/mirador-3.md) -->
+<!-- - [IIIF + A/V](day-four/iiif-and-av.md) -->
+- [IIIF + AI](day-four/iiif-and-ai.md)
+- [IIIF + A/V](day-four/iiif-and-av.md)
+<!-- - [IIIF Integration with DH Tools](day-four/iiif-dh-tools.md) -->
+<!--  - [Omeka](day-four/omeka.md) -->
+<!--  - [Islandora/Drupal](day-four/islandora-drupal.md) -->
 
 ## Day Five
 - [Introduction](day-five/README.md)

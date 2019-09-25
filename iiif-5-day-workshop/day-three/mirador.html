@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="./mirador/css/mirador-combined.min.css">
+    <title>Mirador Viewer</title>
+    <style type="text/css">
+     #viewer {
+       width: 100%;
+       height: 100%;
+       position: fixed;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="viewer"></div>
+
+    <script src="./mirador/mirador.min.js"></script>
+    <script type="text/javascript">
+     $(function() {
+       var manifest_data = [
+         { "manifestUri": "http://localhost:8887/manifest.json",
+           "location": "localhost" },
+         { "manifestUri": "https://d.lib.ncsu.edu/collections/catalog/segPap_022/manifest", "location": "NCSU Libraries"},
+         { "manifestUri": "https://d.lib.ncsu.edu/collections/catalog/nubian-message-2003-04-01/manifest",
+           "location": "NCSU Libraries"},
+         { "manifestUri": "http://demos.biblissima-condorcet.fr/iiif/metadata/BVMM/chateauroux/manifest.json",
+           "viewType": "ImageView"
+         },
+         {
+           "manifestUri": "https://wellcomelibrary.org/iiif/b18035978/manifest",
+           "viewType": "ImageView"
+         }
+       ];
+       var this_manifest = "http://localhost:8887/manifest.json"
+       var qs = /manifest=(.*)/g.exec(window.location.href);
+       if(qs && qs[1]){
+          this_manifest = qs[1];
+          manifest_data.push({"manifestUri": this_manifest, "location": "manifest location"});
+       }
+       var myMiradorInstance = Mirador({
+         "language": "en",
+         "id": "viewer",
+         "layout": "1x1",
+         "buildPath": "",
+         "data": manifest_data,
+         "windowObjects": [{
+           loadedManifest: this_manifest,
+           viewType: "ImageView",
+           slotAddress: ""
+         }],
+         "annotationEndpoint": { "name":"Local Storage", "module": "LocalStorageEndpoint" },
+         "windowSettings": {
+           "canvasControls": { // The types of controls available to be displayed on a canvas
+             "imageManipulation" : {
+               "manipulationLayer" : true,
+               "controls" : {
+                 "mirror" : true
+               }
+             }
+           },
+           "sidePanelVisible": false
+         },
+         "sidePanelOptions" : {
+           "tocTabAvailable": true,
+           "layersTabAvailable": true,
+           "searchTabAvailable": true
+         }
+       });
+     });
+    </script>
+  </body>
+</html>
