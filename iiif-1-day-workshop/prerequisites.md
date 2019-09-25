@@ -2,6 +2,10 @@
 
 This workshop is meant to be hands-on and interactive. This means you have the option of installing the software and playing with it during the workshop. We would prefer not to spend time during the workshop getting everyone setup, so some things are needed in advance of the workshop.
 
+## Images
+
+You will find the workshop more useful if you are able to work with your own images. Although IIIF will work with most image formats for this workshop please convert them to JPEGs. Images of your digitised collections will work well if you are able to bring them.  
+
 ## JSON Viewer
 The IIIF APIs provide many of their responses using the `JSON` format so it is useful to have a viewer which will format this response to make it easier to read. There is a similar plugin for Firefox but as this workshop also uses other Chrome plugins it is recommended to use Chrome. 
 
