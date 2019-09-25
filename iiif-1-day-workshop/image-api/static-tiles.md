@@ -10,26 +10,28 @@ To generate these IIIF images we are going to use a IIIF tilling program which i
 
 ## Step 1: Download the IIIF Tiler
 
- * Navigate to the release page: https://github.com/glenrobson/iiif-tiler/releases
+ * Navigate to the release page: https://github.com/glenrobson/iiif-tiler/releases/tag/0.3
  * Click the `assets` drop down
- * Download [iiif-tiler.jar](https://github.com/glenrobson/iiif-tiler/releases/download/0.1/iiif-tiler.jar)
- * Store this jar file in your `iiif-workshop` directory
+ * Download [iiif-tiler.jar](https://github.com/glenrobson/iiif-tiler/releases/download/0.3/iiif-tiler.jar)
+ * Store this jar file in your `~/iiif-workshop` directory
 
 ## Step 2: Prepare your image files
- * Move the image files you want to work with into your `iiif-workshop` directory
+ * Move the image files you want to work with into your `~/iiif-workshop` directory
 
 ## Step 3: Generate the IIIF Image tiles
-Either:
 
- * Drag an image on to the iiif-tiler.jar in the Finder or Windows interface.
+Now either:
+ * Double click on the `iiif-tiler.jar` file in Finder or Windows.
 
-or
+or 
 
  * from the command line run:
 
-```java -jar iiif-tiler.jar images/67352ccc-d1b0-11e1-89ae-279075081939.jpg```
-
- * Both options will generate the IIIF tiles in a `iiif` directory.
+```sh
+cd ~/iiif-workshop
+java -jar iiif-tiler.jar
+```
+ * This will generate the IIIF image tiles in a `iiif` directory for every image it finds in the same directory as the iiif-tiler.jar.
 
 ## Step 4: Point the Chrome webserver to your `iiif-workshop` directory
 
@@ -55,7 +57,7 @@ or
  * Click this directory then click on the `info.json`.
  * If your image was called picture.png the URL should be.
 
-`http://127.0.0.1:8887/iiif/picture/info.json`
+`http://127.0.0.1:8887/iiif/image/info.json`
 
  * If you see the info.json you are now ready to view your image in a IIIF Image viewer.
 
@@ -63,10 +65,10 @@ or
 
 You can now load your image to a IIIF image viewer. The main image viewer is OpenseaDragon. This takes the URL of the info.json. So if your info.json URL is:
 
-```http://127.0.0.1:8887/iiif/picture/info.json```
+```http://127.0.0.1:8887/iiif/image/info.json```
 
 Open it with OpenseaDragon:
 
-[http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8887/iiif/picture/info.json](http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8887/iiif/picture/info.json)
+[http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8887/iiif/image/info.json](http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8887/iiif/image/info.json)
 
 
