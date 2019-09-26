@@ -20,7 +20,6 @@ Here I've created a basic manifest for all of us to share. As you'll notice, it 
   "@type": "sc:Manifest",
   "sequences": [
     {
-      "@context": "http://iiif.io/api/presentation/2/context.json",
       "@id": "https://example.com/my-sequence",
       "@type": "sc:Sequence",
       "canvases": [
@@ -61,7 +60,9 @@ There's also no substitute for reading the documentation behind a specification 
 
 Therefore, in this activity, we want you with a partner to look at the [IIIF Presentation API documentation](http://iiif.io/api/presentation/2.1/) and hunt for answers to the following questions.
 
-When you think you've found the answer, add it to the manifest above -- you'll need to copy and paste it into a text editor or, better yet, a JSON editor.
+When you think you've found the answer, add it to the manifest above -- you'll need to copy and paste it into a text editor or, better yet, a JSON editor. If you have Atom installed you can use that but if not there is also the following online JSON editor:
+
+https://jsoneditoronline.org/
 
 When we're done, we'll go through the completed manifests together and compare answers.
 

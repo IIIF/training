@@ -2,11 +2,9 @@
 
 - [Introduction](README.md)
   - [Workshop Prerequisites](prerequisites.md)
-  - [What is IIIF?]()
 
 ## Morning - IIIF Image API
 - [Introduction](image-api/README.md)
-  - [IIIF Image API]()
   - [IIIF Hosting](image-api/iiif-hosting-saas.md)
   - [Running a IIIF Image server](image-api/setting-up-cantaloupe.md)
   - [Generating static tiles](image-api/static-tiles.md)
@@ -14,7 +12,6 @@
 
 ## Afternoon - IIIF Presentation API
 - [Introduction](presentation/README.md)
-  - [IIIF Presentation API]()
   - [Exercise](presentation/activity-group-manifest.md)
   - [Creating a manifest](presentation/bodleian_editor/README.md)
   - [Viewing your manifest](presentation/view_manifest/README.md)
