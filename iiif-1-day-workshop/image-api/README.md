@@ -70,7 +70,7 @@ Given the following info.json:
 ```
 and image:
 
-![image](../images/4_Quadrants.jpg)    
+![image](4_Quadrants.jpg)    
 
 **HINT**: remember 0,0 is the top left of the image. 
 
