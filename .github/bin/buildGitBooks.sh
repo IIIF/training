@@ -7,7 +7,7 @@ for dir in */ ; do
     if [ $count != 0 ]; then
         echo "$dir"
         mkdir "../build/$dir"
-        gitbook install && gitbook build "../build/$dir"
+        gitbook install && gitbook build . "../build/$dir"
     fi    
     cd ..
 done
