@@ -23,9 +23,12 @@ jobs:
     - uses: actions/checkout@v2
 
     - uses: actions/setup-node@v1
-    - run: npm install -g gitbook-cli
+    - run: npm install -g gitbook-cli marked
 
     # Runs a single command using the runners shell
     - name: Build gitbooks
       run: .github/bin/buildGitBooks.sh 
+
+    - name: convert index  
+      run: marked -i index.md -o build/index.html
 
