@@ -25,10 +25,22 @@ jobs:
     - uses: actions/setup-node@v1
     - run: npm install -g gitbook-cli marked
 
-    # Runs a single command using the runners shell
+    # Create the gitbooks in the build directory
     - name: Build gitbooks
       run: .github/bin/buildGitBooks.sh 
 
     - name: convert index  
       run: marked -i index.md -o build/index.html
+
+    - name: Deploy to S3
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read 
+      env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_PRODUCTION_BUCKET_NAME }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: ${{ secrets.AWS_REGION }}
+        SOURCE_DIR: "build"
+        DEST_DIR: "/training/"
 
