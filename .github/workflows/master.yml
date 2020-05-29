@@ -30,7 +30,7 @@ jobs:
       run: .github/bin/buildGitBooks.sh 
 
     - name: convert index  
-      run: marked -i index.md -o build/index.html
+      run: .github/bin/createIndex.sh
 
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
@@ -42,5 +42,5 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: ${{ secrets.AWS_REGION }}
         SOURCE_DIR: "build"
-        DEST_DIR: "/training/"
+        DEST_DIR: "/"
 
