@@ -5,7 +5,9 @@ name: Deploy-preview
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-    pull_request:
+    push:
+        branches-ignore:
+            - 'master'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,6 +26,8 @@ jobs:
     - name: Extract branch name
       shell: bash
       run: echo "${GITHUB_REF}"
+      run: echo "${GITHUB_BASE_REF}"
+      run: echo "${GITHUB_HEAD_REF}"
 
     - uses: actions/setup-node@v1
     - run: npm install -g gitbook-cli marked
