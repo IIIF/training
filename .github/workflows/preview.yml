@@ -34,7 +34,7 @@ jobs:
     - name: convert index  
       run: .github/bin/createIndex.sh
 
-    - uses: chrnorm/deployment-action@releases/v1.2.0
+    - uses: chrnorm/deployment-action@v1.2.0
       name: Create GitHub deployment
       id: deployment
       with:
@@ -57,7 +57,7 @@ jobs:
 
     - name: Update deployment status (success)
       if: success()
-      uses: chrnorm/deployment-status@releases/v1
+      uses: chrnorm/deployment-status@v1.0.0
       with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           environment_url: https://preview.iiif.io/training/${BRANCH_NAME}/index.html
@@ -66,7 +66,7 @@ jobs:
 
     - name: Update deployment status (failure)
       if: failure()
-      uses: chrnorm/deployment-status@releases/v1
+      uses: chrnorm/deployment-status@v1.0.0
       with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           environment_url: https://preview.iiif.io/training/test/index.html
