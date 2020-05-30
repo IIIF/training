@@ -24,7 +24,11 @@ jobs:
     - name: Extract branch name
       shell: bash
       run: echo "${GITHUB_REF}"
+    - name: Extract branch name
+      shell: bash
       run: echo "${GITHUB_BASE_REF}"
+    - name: Extract branch name
+      shell: bash
       run: echo "${GITHUB_HEAD_REF}"
 
     - uses: actions/setup-node@v1
