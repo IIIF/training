@@ -6,6 +6,9 @@ name: Deploy-preview
 # events but only for the master branch
 on:
     push:
+        branches:
+          - '*'
+          - '!master'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,16 +24,6 @@ jobs:
     # store branch name in ${BRANCH_NAME}
     - uses: nelonoel/branch-name@v1
     
-    - name: Extract branch name
-      shell: bash
-      run: echo "${GITHUB_REF}"
-    - name: Extract branch name
-      shell: bash
-      run: echo "${GITHUB_BASE_REF}"
-    - name: Extract branch name
-      shell: bash
-      run: echo "${GITHUB_HEAD_REF}"
-
     - uses: actions/setup-node@v1
     - run: npm install -g gitbook-cli marked
 
@@ -41,7 +34,7 @@ jobs:
     - name: convert index  
       run: .github/bin/createIndex.sh
 
-    - uses: chrnorm/deployment-action@releases/v1
+    - uses: chrnorm/deployment-action@releases/v1.2.0
       name: Create GitHub deployment
       id: deployment
       with:
@@ -67,7 +60,7 @@ jobs:
       uses: chrnorm/deployment-status@releases/v1
       with:
           token: "${{ secrets.GITHUB_TOKEN }}"
-          target_url: https://preview.iiif.io/training/${BRANCH_NAME}/index.html
+          environment_url: https://preview.iiif.io/training/${BRANCH_NAME}/index.html
           state: "success"
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
 
@@ -76,7 +69,7 @@ jobs:
       uses: chrnorm/deployment-status@releases/v1
       with:
           token: "${{ secrets.GITHUB_TOKEN }}"
-          target_url: https://preview.iiif.io/training/${BRANCH_NAME}/index.html
+          environment_url: https://preview.iiif.io/training/test/index.html
           state: "failure"
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
 
