@@ -39,7 +39,7 @@ jobs:
       id: deployment
       with:
         token: "${{ secrets.GITHUB_TOKEN }}"
-        target_url: https://preview.iiif.io/training/$BRANCH_NAME/index.html
+        target_url: "https://preview.iiif.io/training/${BRANCH_NAME}/index.html"
         environment: staging
 
     # Deploy to 
@@ -60,7 +60,7 @@ jobs:
       uses: chrnorm/deployment-status@v1.0.0
       with:
           token: "${{ secrets.GITHUB_TOKEN }}"
-          environment_url: https://preview.iiif.io/training/$BRANCH_NAME/index.html
+          environment_url: "https://preview.iiif.io/training/${BRANCH_NAME}/index.html"
           state: "success"
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
 
@@ -69,7 +69,7 @@ jobs:
       uses: chrnorm/deployment-status@v1.0.0
       with:
           token: "${{ secrets.GITHUB_TOKEN }}"
-          environment_url: https://preview.iiif.io/training/$BRANCH_NAME/index.html
+          description: "Failed to deploy to preview.iiif.io"
           state: "failure"
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
 
