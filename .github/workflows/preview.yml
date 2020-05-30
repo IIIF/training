@@ -44,7 +44,7 @@ jobs:
 
     # Deploy to 
     - name: Deploy to S3
-      uses: jakejarvis/s3-sync-action@master
+      uses: jakejarvis/s3-sync-action@v0.4.1
       with:
         args: --acl public-read 
       env:
@@ -55,8 +55,8 @@ jobs:
         SOURCE_DIR: "build/"
         DEST_DIR: "training/${BRANCH_NAME}"
 
-    - name: Update deployment status (success)
-      uses: bobheadxi/deployments@master
+    - name: Update deployment status
+      uses: bobheadxi/deployments@v0.4.1
       if: always()
       with:
         step: finish
