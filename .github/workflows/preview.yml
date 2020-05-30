@@ -34,13 +34,13 @@ jobs:
     - name: convert index  
       run: .github/bin/createIndex.sh
 
-    - uses: chrnorm/deployment-action@v1.2.0
-      name: Create GitHub deployment
+    - name: Create GitHub deployment
+      uses: bobheadxi/deployments@master
       id: deployment
       with:
-        token: "${{ secrets.GITHUB_TOKEN }}"
-        target_url: "https://preview.iiif.io/training/${BRANCH_NAME}/index.html"
-        environment: staging
+        step: start
+        token: ${{ secrets.GITHUB_TOKEN }}
+        env: staging
 
     # Deploy to 
     - name: Deploy to S3
@@ -56,22 +56,12 @@ jobs:
         DEST_DIR: "training/${BRANCH_NAME}"
 
     - name: Update deployment status (success)
-      if: success()
-      uses: chrnorm/deployment-status@v1.0.0
+      uses: bobheadxi/deployments@master
+      if: always()
       with:
-          token: "${{ secrets.GITHUB_TOKEN }}"
-          environment_url: "https://preview.iiif.io/training/${BRANCH_NAME}/index.html"
-          state: "success"
-          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-
-    - name: Update deployment status (failure)
-      if: failure()
-      uses: chrnorm/deployment-status@v1.0.0
-      with:
-          token: "${{ secrets.GITHUB_TOKEN }}"
-          description: "Failed to deploy to preview.iiif.io"
-          state: "failure"
-          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-
-
+        step: finish
+        token: ${{ secrets.GITHUB_TOKEN }}
+        status: ${{ job.status }}
+        deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+        env_url: "https://preview.iiif.io/training/${BRANCH_NAME}/index.html"
 
