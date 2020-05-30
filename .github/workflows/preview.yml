@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Deploy-live
+name: Deploy-preview
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -20,6 +20,10 @@ jobs:
     - uses: actions/checkout@v2
     # store branch name in ${BRANCH_NAME}
     - uses: nelonoel/branch-name@v1
+    
+    - name: Extract branch name
+      shell: bash
+      run: echo "${GITHUB_REF}"
 
     - uses: actions/setup-node@v1
     - run: npm install -g gitbook-cli marked
@@ -35,7 +39,7 @@ jobs:
       name: Create GitHub deployment
       id: deployment
       with:
-        token: "${{ github.token }}"
+        token: "${{ secrets.GITHUB_TOKEN }}"
         target_url: https://preview.iiif.io/training/${BRANCH_NAME}/index.html
         environment: staging
 
@@ -56,8 +60,8 @@ jobs:
       if: success()
       uses: chrnorm/deployment-status@releases/v1
       with:
-          token: "${{ github.token }}"
-          target_url: http://my-app-url.com
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          target_url: https://preview.iiif.io/training/${BRANCH_NAME}/index.html
           state: "success"
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
 
@@ -65,8 +69,8 @@ jobs:
       if: failure()
       uses: chrnorm/deployment-status@releases/v1
       with:
-          token: "${{ github.token }}"
-          target_url: http://my-app-url.com
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          target_url: https://preview.iiif.io/training/${BRANCH_NAME}/index.html
           state: "failure"
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
 
