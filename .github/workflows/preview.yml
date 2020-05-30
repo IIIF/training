@@ -6,6 +6,8 @@ name: Deploy-preview
 # events but only for the master branch
 on:
     push:
+        branches:
+            - '*'
         branches-ignore:
             - 'master'
 
