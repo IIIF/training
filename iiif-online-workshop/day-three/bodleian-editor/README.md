@@ -6,7 +6,7 @@ First, assemble a list of IIIF `info.json` URLs for your content.
  * Here is a sample image at the [Yale Center for British Art](https://images.britishart.yale.edu/iiif/2/9e08d901-a26b-4acb-a768-28f90a062adf/info.json)
    
 ## Use the Bodleian Manifest Editor to create a manifest
-   - Navigate to the editor.  If *any* of your `info.json` URLs begin with HTTP, use the HTTP version:
+   - Navigate to the editor.  If *any* of your `info.json` URLs begin with HTTP, use the HTTP version.  See this note on [Mixed Content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content) for an explanation.
      - HTTP version at [text and bytes](http://iiif-manifest-editor.textandbytes.com/)
      - HTTPS version at [the Bodleian](https://digital.bodleian.ox.ac.uk/manifest-editor/)
    - Add a Canvas.  This option is below the main image preview, to the left.
