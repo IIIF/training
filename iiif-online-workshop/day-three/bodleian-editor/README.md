@@ -38,6 +38,7 @@ View the Manifest JSON at http://127.0.0.1:8887/manifest.json in your browser:
 - Explore the Manifest structure:
     - Sequence
         - Canvas
+            - `@id`
             - `label`
             - Annotation
                 - IIIF Image API service
