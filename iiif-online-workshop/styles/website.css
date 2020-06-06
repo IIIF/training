@@ -1,0 +1,25 @@
+
+.demo li {
+    display: inline-block !important;
+    margin: 0px;
+}
+.demo {
+    padding-left: 0px !important;
+    list-style: none !important;
+    margin: auto;
+    text-align: center;
+    word-wrap: break-word !important;
+}
+.attr2 {
+    font-size: small;
+}
+
+.centre {
+     display:block;
+    margin:auto;
+    text-align: center;
+}
+
+#identifier {
+    max-width:300px;
+}
