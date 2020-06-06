@@ -3,8 +3,10 @@ The concepts of the Presentation API can be difficult to grasp until we actually
 
 Learning by doing: In production systems (such as a digital library's image collection), manifests can get very big and are usually machine generated, but for getting the basic concepts down, there's no substitute for editing a manifest "by hand."
 
-## Back Up Your Manifest
-Make a backup copy of the Manifest you created in the last lesson.  That way you'll be sure to have a working version that you can fall back on.
+## Save a Copy
+Save a copy of the Manifest you created in the last lesson as `manifest2.json`.  Edit `manifest2.json` for this section.
+
+That way you'll be sure to have a working version that you can fall back on.
 
 ## Edit Your Manifest
 There are some important elements of the Manifest that we did not add or edit using the online editor.  The goal of this exercise will be to add them manually.
@@ -12,9 +14,11 @@ There are some important elements of the Manifest that we did not add or edit us
 Use the [IIIF Presentation API documentation](http://iiif.io/api/presentation/2.1/) and hunt for answers to the following questions.
 
 When you think you've found the answer, add it to the manifest you created.  
-After each step, reload the Manifest in the [Universal Viewer](http://universalviewer.io) and confirm that the changes appear.
+  - After each step, reload the Manifest in the [Universal Viewer](http://universalviewer.io) and confirm that the changes appear.  Remember that the URL of the Manifest for this section is http://127.0.0.1:8887/manifest2.json because you are editing the copy.
+  - Consult the [sample Manifest](https://iiif.io/api/presentation/2.1/#c-example-manifest-response) in the specification to see examples of these properties.
+  - If your Manifest doesn't load, first check for missing quotes or commas.
 
-1. Provide a short `description` of this manifest -- the content is up to you.
-1. Add an `attribution` to the manifest that names the source of the images
-1. Add the viewing hint to indicate that the item is paged (i.e., should display in two-up book reader mode)
-1. Indicate that the manifest resource has a Creative Commons 4.0 by-nc-sa license.
+1. Provide a short [description](https://iiif.io/api/presentation/2.1/#description) of this manifest -- the content is up to you.
+1. Add an [attribution](https://iiif.io/api/presentation/2.1/#attribution) to the manifest that names the source of the images
+1. Add the [viewingHint](https://iiif.io/api/presentation/2.1/#viewinghint) to indicate that the item is paged (i.e., should display in two-up book reader mode)
+1. Indicate that the manifest resource has a Creative Commons 4.0 by-nc-sa [license](https://iiif.io/api/presentation/2.1/#license).

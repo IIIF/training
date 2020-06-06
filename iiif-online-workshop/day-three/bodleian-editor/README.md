@@ -10,7 +10,7 @@ First, assemble a list of IIIF `info.json` URLs for your content.
       - HTTP version at [text and bytes](http://iiif-manifest-editor.textandbytes.com/)
       - HTTPS version at [the Bodleian](https://digital.bodleian.ox.ac.uk/manifest-editor/)
       
-   1. Add a Canvas.  This option is below the main image preview, to the left.
+   1. Add at least two Canvases to your Manifest.  The option to add a Canvas is below the main image preview, to the left.
       - Click the "Canvas Metadata" expander in the right-hand column.  
       - Click "Add an Image".  Choose the option to supply the `info.json` URL and enter the URL for your first image
       - Edit the Canvas Label and provide an appropriate label for your immage
