@@ -4,6 +4,7 @@
 
 ## Day One - Monday June 8th
 - [Introductions and IIIF Basics](day-one/README.md)
+- [IIIF for Research](day-one/IIIFforResearch.md)
 
 ## Day Two - Tuesday June 9th
 - [Image API](day-two/README.md)
