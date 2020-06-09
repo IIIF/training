@@ -30,6 +30,7 @@ Report back / demo zoom session - All 6:00pm CEST / 5:00pm UK / 12:00pm EST / 09
 
 The above sessions will set hands on work for participants to complete and participants are expected to participate in the meeting or watch recordings for these core sessions. As well as the above core sessions there will also be guest sessions which will demo IIIF tools and techniques. Attendance at these are optional. There is the following Google calendar available which you can subscribe to:
 
+## Calendar
 <div id="calendar-container"></div>
 
 <script type="text/javascript">

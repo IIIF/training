@@ -11,6 +11,7 @@
   ],
   "gitbook": "3.2.3",
   "styles": {
+        "website": "styles/website.css"
   },
   "pluginsConfig": {
     "theme-default": {
