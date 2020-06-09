@@ -3,6 +3,8 @@
     display: inline-block !important;
     margin: 0px;
     padding-left: 3px;
+    padding-right: 3px;
+    border-right: 1px solid black;
 }
 .demo {
     padding-left: 0px !important;
@@ -23,6 +25,20 @@
 
 .identifier {
     max-width:300px;
+}
+.region {
+    max-width:100px;
+}
+
+.highlight {
+    background-color: gainsboro;
+    box-shadow: 0.5px 0.5px 5px gray;
+    border: none;
+}
+
+.standout-image {
+    box-shadow: 0.5px 0.5px 5px gray;
+    border: 1px solid black !important;
 }
 
 #iiif-image-api-div { 

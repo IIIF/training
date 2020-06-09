@@ -61,7 +61,7 @@ function addParams(config) {
     div.appendChild(imgDiv);
 
     var img = createElementStyle('img', 'centre');
-    img.id = 'iiif-image-api-img';
+    img.id = config.div + '_iiif-image-api-img';
     imgDiv.appendChild(img);
     showImage(config.div,null);
 }
@@ -78,6 +78,9 @@ function cacheInfoJson(identifier) {
 
 function addIdentifiers(ul, config) {
     var li = document.createElement('li');
+    if ('highlight' in config && config.highlight.includes('identifier')) {
+        li.setAttribute('class', 'highlight');
+    }
     ul.appendChild(li);
     li.appendChild(createDescription('Identifier'));
 
@@ -92,11 +95,14 @@ function addIdentifiers(ul, config) {
     for (var i = 0; i < config.images.length; i++) {
         cacheInfoJson(config.images[i]);
     }
-    addOptions('identifier_' + config.div, config.images, '', '/');
+    addOptions('identifier_' + config.div, config.images, '', '');
 }
 
 function addRegion(ul, config) {
     var li = document.createElement('li');
+    if ('highlight' in config && config.highlight.includes('region')) {
+        li.setAttribute('class', 'highlight');
+    }
     ul.appendChild(li);
     li.appendChild(createDescription('Region'));
 
@@ -139,10 +145,13 @@ function updateRegion(uuid, suppliedRegions) {
         }
 
     }
-    addOptions('region_' + uuid, regions, '', '/');
+    addOptions('region_' + uuid, regions, '', '');
 }
 function addSizes(ul, config) {
     var li = document.createElement('li');
+    if ('highlight' in config && config.highlight.includes('size')) {
+        li.setAttribute('class', 'highlight');
+    }
     ul.appendChild(li);
     li.appendChild(createDescription('Size'));
 
@@ -166,11 +175,14 @@ function addSizes(ul, config) {
         }
     }
 
-    addOptions('size_' + config.div, sizes, '', '/');
+    addOptions('size_' + config.div, sizes, '', '');
 }
 
 function addRotation(ul, config) {
     var li = document.createElement('li');
+    if ('highlight' in config && config.highlight.includes('rotation')) {
+        li.setAttribute('class', 'highlight');
+    }
     ul.appendChild(li);
     li.appendChild(createDescription('Rotation'));
 
@@ -209,7 +221,7 @@ function updateRotation(uuid, suppliedRotations) {
             rotations.push('!180');
         }
     }
-    addOptions('rotation_' + uuid, rotations, '', '/');
+    addOptions('rotation_' + uuid, rotations, '', '');
 }
 
 function addOptions(identifier, options, prepend, append) {
@@ -227,6 +239,9 @@ function addOptions(identifier, options, prepend, append) {
 
 function addQuality(ul, config) {
     var li = document.createElement('li');
+    if ('highlight' in config && config.highlight.includes('quality')) {
+        li.setAttribute('class', 'highlight');
+    }
     ul.appendChild(li);
     li.appendChild(createDescription('Quality'));
 
@@ -259,6 +274,9 @@ function updateQuality(uuid, suppliedQualities) {
 
 function addFormats(ul, config) {
     var li = document.createElement('li');
+    if ('highlight' in config && config.highlight.includes('format')) {
+        li.setAttribute('class', 'highlight');
+    }
     ul.appendChild(li);
     li.appendChild(createDescription('Format'));
 
@@ -511,7 +529,7 @@ function showImage(uuid, source) {
         highlight.style.height = img.offsetHeight; 
     }*/
 
-    var img = document.getElementById('iiif-image-api-img');
+    var img = document.getElementById(uuid + '_iiif-image-api-img');
     img.src = url;
 }
 
