@@ -1,121 +1,101 @@
 # Level 0 hosting with GitHub Pages
 
-Now that you have a IIIF Level 0 image it would be great to publish this online so others can see your image. In the previous chapter using the Chrome Web server only users on your Machine can view the image. By publishing it on the web you can share it with others. We are going to use something called GitHub Pages which allows you to have free webspace hosting. 
+Once you have created your level 0 image we need to make it available to the public. 
 
-GitHub is software and web application created to manage projects with multiple developers and manages the source code to ensure people's changes don't get overwritten. One feature of Github is GitHub Pages which allows you to create a Web page about your project. We are going to use this functionality to host our IIIF Images. This is a relatively convoluted process but once setup it will give you a free way to publish IIIF Images and later on IIIF Manifests.
+One way to get access to free web hosting is to use GitHub pages. GitHub is a software and web application created to manage projects with multiple developers and manages the source code to ensure people's changes don't get overwritten. One feature of Github is GitHub Pages which allows you to create a Web page about your project. We are going to use this functionality to host a IIIF Image. This is a relatively convoluted process but once setup it will give you a free way to publish IIIF Images.
 
 ## Step 1: Sign up to GitHub
 Created an account by going to [Github](https://github.com/) and clicking signup.
 
  * Create Username, password, email
 
-![image](../images/github/level0-github-signup.png)    
+![image](github/level0-github-signup.png)    
 
  * Complete verify puzzle
 
-![image](../images/github/level0-verifygithub.png)    
+![image](github/level0-verifygithub.png)    
 
  * Choose free option
 
-![image](../images/github/level0-github-account-type.png)    
+![image](github/level0-github-account-type.png)    
 
+ * Customise experience (skip this step)
+
+![image](github/level0-github-customise.png)    
+
+ * Verify email address
+
+![image](github/level0-github-email-verify.png)    
 
  * Success!!
 
-![image](../images/github/level0-github-success.png)    
+![image](github/level0-github-success.png)    
 
-## Step 2: Email verification
+## Step 2: Get Read/write access to repo
+ * Add username to: https://github.com/dhsi-iiif/dhsi-iiif.github.io/issues/1
+ * You will get an invitation through the email you registered with in GitHub
 
-You may see the following screen once you have logged in. 
+![image](github/level0-github-invitation.png)    
 
-![image](../images/github/level0-github-email-verify.png) 
+ * Accept invitation
 
-Check your email to see if you have a message like the following from GitHub:
+![image](github/level0-github-invitation-accept.png)    
 
-![image](../images/github/github-email.png) 
+## Step 3: Check out repo
+The GitHub desktop application manages the upload of your data to GitHub. It is possible to do this through the Git command line but for this part of the workshop it is suggested to use the Desktop version. 
 
-Click the `Verify email address` button. This should take you back to GitHub.
+ * Download and install Github desktop https://desktop.github.com/
+ * Login 
+  * Click login through website
 
-## Step 3: Create your GitHub pages repository
+![image](github/level0-github-desktop-login.png)    
 
- * Click the + on the top right and click `New Repository`
+ * Configure name and email
 
-![image](../images/github/New_repo.png)
+![image](github/level0-github-desktop-nameemail.png)    
 
- * For the repository name call it:
+ * Download the GitHub dhsi 2019 repository to your local machine in the dhsi2019/dhsi-iiif.github.io. GitHub calls download a repository 'cloning'. So select the dhsi-iiif.github.io repository and click clone.
 
- _username_.github.io
+![image](github/level0-github-clone.png)    
 
-where _username_ is your GitHub user.
+ * Selecting where to download the repo to.
 
- * Then click `Create repository`
+![image](github/level0-github-clone-2.png)    
 
-![image](../images/github/create_repo.png)
+ * Click open in Finder or similar for Windows
 
- * You should see the following screen. 
+![image](github/level0-github-desktop-open.png)    
 
-![image](../images/github/githubio_repo.png)
-
- * Now click `Create new file`:
-
-![image](../images/github/index.png)
-
- * Name the file `index.html` and copy and paste the following content:
-
-```html
-<html>
-  <head><title>IIIF Workshop</title></head>
-  <body>
-    <h1>IIIF Workshop</h1>
-    
-    <ul>
-      <li><a href=""> </a></li>
-    </ul>
-  </body>
-</html>
-```
-
- * Scroll to the bottom of the page and click `Commit new file`.
- * In a browser you should now be able to navigate to
-
-[https://username.github.io](https://iiif-test.github.io)
-
-and see a page with a title of `IIIF Workshop`. 
-
-If you have reached this far you have created a GitHub pages website and are ready to start uploading your IIIF Images
-
-## Step 4: Upload level 0 image
-
- * Switch back to your pages repo (https://github.com/username/username.github.io
- * Click `Upload files`
-
-![image](../images/github/upload_files.png)
-
- * Drag your IIIF directory into the GitHub page
-
-![image](../images/github/drag_files.png)
-
- * Then click `Commit changes`
-
-You should now be able to access your info.json using the following URL:
-
-https://username.github.io/iiif/identifier/info.json
-
-Where:
- * _username_ is your GitHub username
- * _identifier_ is the name of your image file 
+ * Make a directory inside the 2019 directory for your examples:
  
-## Step 5: View image:
-You should now be able to show your image using Leaflet and OpenseaDragon:
+ ```
+ dhsi-iiif.github.io/2019/<your_github_user>
+```
+## Step 4: Upload level 0 image
+Now move the directory you created in the previous step (Step 3 from [static-tiles](static-tiles.md)) into the following:
 
- * Openseadragon: http://iiif.gdmrdigital.com/openseadragon/index.html?image=https://_username_.github.io/iiif/_identifier_/info.json
+ ```
+ dhsi-iiif.github.io/2019/<your_github_user>
+ ```
 
-Note not all software works with level 0 images. For example Leaflet doesn't seem to be working currently. 
+Now go to Github Desktop
 
-For a fully working example see the following in OpenSeaDragon:
+![image](github/level0-github-commit.png)    
 
-https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif-test.github.io/iiif/image/info.json
+ * Add a commit message on the left hand side. Fill in the Summary and a short description.
+ * Click commit to master
+ * You now need to send your local changes to GitHub. To do this click the Push Origin button. Note if others in the class are also on this step they may have made changes to GitHub and the GitHub desktop application will not let you send your changes until you have the latest copy from GitHub. If this is the case it may ask you to Pull from origin. If this is the case Pull the latest changes before pushing your changes. 
 
-From the following source GitHub repository:
+![image](github/level0-github-pushpull.png)    
 
-https://github.com/iiif-test/iiif-test.github.io
+ * In your local copy of `2019/<your_github_user>/<your_image_dir>/info.json`, open it up in an editor and edit the `@id` with: `https://dhsi-iiif.github.io/2019/<your_github_user>/<your_image_dir>`
+ * As you did earlier add a Commit summary and description then commit and Push changes
+ * Wait 2mins
+ * Go to: `https://dhsi-iiif.github.io/2019/<your_github_user>/<your_image_dir>/info.json`
+ * and you should see your info.json!
+
+##  Step 5: View image:
+ * Leaflet: http://mejackreed.github.io/Leaflet-IIIF/examples/?url=https://dhsi-iiif.github.io/2019/glenrobson/page001/info.json
+ * Openseadragon: http://iiif.gdmrdigital.com/openseadragon/index.html?image=https://dhsi-iiif.github.io/2019/glenrobson/page001/info.json
+ * Note not all software works with level 0 images. 
+

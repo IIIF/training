@@ -15,11 +15,13 @@
    - [Rotation](day-two/image-api/rotation.md)
    - [Quality](day-two/image-api/quality.md)
    - [Format](day-two/image-api/format.md)
+- [File formats](day-two/fileformats.md)
 - [Uses](day-two/uses.md)
 - [Getting started](day-two/image-servers/README.md)
    - [Hosted - Internet Archive](day-two/image-servers/iiif-hosting-ia.md)
    - [Cantaloupe (Advanced)](day-two/image-servers/setting-up-cantaloupe.md)
    - [Static Images (Advanced)](day-two/image-servers/static-tiles.md)
+       - [Hosting static images with GitHub](day-two/image-servers/level0-github-hosting.md)
 
 ## Day Three - Wednesday June 10th
 - [Presentation API](day-three/README.md)

@@ -4,10 +4,12 @@
 
 The Quality parameter defines whether the image should be delivered as:
 
- * Default - the source colour
- * Gray - grayscale
- * Bitonal - each pixel black or white
- * Color  - color image. This could be a colorized black and white image.  
+| Name | Definition  |
+| --- | --- |
+| Default | The source colour |
+| Gray | Grayscale |
+| Bitonal | Each pixel is black or white | 
+| Color  | The color image. This could be a colorized black and white image | 
 
 This can be useful for some image processing tools like OCR generation. To see what types a image server supports you can look into the `info.json` profile section:
 
