@@ -15,6 +15,7 @@
    - [Rotation](day-two/image-api/rotation.md)
    - [Quality](day-two/image-api/quality.md)
    - [Format](day-two/image-api/format.md)
+- [Group Question](day-two/question.md)   
 - [File formats](day-two/fileformats.md)
 - [Uses](day-two/uses.md)
 - [Getting started](day-two/image-servers/README.md)
