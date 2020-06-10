@@ -29,9 +29,9 @@ You should see version `1.11.x`. For more information on the install options see
 
 ## Step 1: Download the IIIF Tiler
 
- * Navigate to the release page: https://github.com/glenrobson/iiif-tiler/releases/tag/0.3
+ * Navigate to the release page: https://github.com/glenrobson/iiif-tiler/releases/tag/0.9.1
  * Click the `assets` drop down
- * Download [iiif-tiler.jar](https://github.com/glenrobson/iiif-tiler/releases/download/0.3/iiif-tiler.jar)
+ * Download [iiif-tiler.jar](https://github.com/glenrobson/iiif-tiler/releases/download/0.9.1/iiif-tiler.jar)
  * Store this jar file in your `~/iiif-workshop` directory
 
 ## Step 2: Prepare your image files
@@ -51,6 +51,22 @@ cd ~/iiif-workshop
 java -jar iiif-tiler.jar
 ```
  * This will generate the IIIF image tiles in a `iiif` directory for every image it finds in the same directory as the iiif-tiler.jar.
+
+### Common issues:
+
+If you see the following error:
+
+```
+Exception in thread "main" java.lang.IllegalArgumentException: Failed to find combination under 100 files
+```
+
+Try running the following command:
+
+```
+java -jar iiif-tiler.jar image_filename 5
+```
+ 
+Where `image_filename` is the filename of your image e.g. `image.jpg`
 
 ## Step 4: Point the Chrome webserver to your `iiif-workshop` directory
 We will cover the Chrome WebServer in more detail in the Presentation API session but this plugin makes your laptop work like an image server. 
