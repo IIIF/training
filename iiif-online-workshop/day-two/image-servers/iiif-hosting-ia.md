@@ -2,16 +2,16 @@
 
 The Internet Archive allows you to upload images and then provides a IIIF Image API service. Helpfully they also have a function to delete your images after 30 days if you are using this as a test. The overall process is as follows:
 
-__Note__: some people have had some issues getting their images to show when uploading to the InternetArchive. To avoid these issues:
+__Note__: some people have had some issues getting their images to show when uploading to the Internet Archive. To avoid these issues:
 
  * Ensure you only upload 1 image ( if you want multiple images you will need to create multiple items)
- * Ensure the mediatype is set to `image`. `Texts` seems to break the image viewing
- * Some of the IIIF images appear very small even if you uploaded a large image. See note below on adding the filename to the URL.
+ * Ensure the collection is 'Community Image' collection. The `Community Texts` collection seems to break the image viewing currently
+ * Some of the IIIF images appear very small even if you uploaded a large image. See the note below on adding the filename to the URL to get the original image available as IIIF.
 
 1. Register for a user account at [archive.org](https://archive.org)
 2. Upload your image
   * __Ensure you only upload a single image__ 
-  * __Set the mediatype to `image`__ 
+  * __Ensure you select the 'Community Image' collection__ 
 3. On the details page get the identifier for the image. For example if the details page link is:
   
   https://archive.org/details/img-8664
@@ -36,8 +36,6 @@ __Note__: some people have had some issues getting their images to show when upl
   [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archivelab.org/iiif/img-8664](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archivelab.org/iiif/img-8664)
 
 ### Small images workaround
-
-__Update - 10th June__: hopefully this issue has been fixed now. 
 
 Some images are appearing small, to get round this issue you will need to add the filename to the URL. In the following example:
 
