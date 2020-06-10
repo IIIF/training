@@ -29,9 +29,9 @@ You should see version `1.11.x`. For more information on the install options see
 
 ## Step 1: Download the IIIF Tiler
 
- * Navigate to the release page: https://github.com/glenrobson/iiif-tiler/releases/tag/0.3
+ * Navigate to the release page: https://github.com/glenrobson/iiif-tiler/releases/tag/0.9.1
  * Click the `assets` drop down
- * Download [iiif-tiler.jar](https://github.com/glenrobson/iiif-tiler/releases/download/0.3/iiif-tiler.jar)
+ * Download [iiif-tiler.jar](https://github.com/glenrobson/iiif-tiler/releases/download/0.9.1/iiif-tiler.jar)
  * Store this jar file in your `~/iiif-workshop` directory
 
 ## Step 2: Prepare your image files
