@@ -52,6 +52,22 @@ java -jar iiif-tiler.jar
 ```
  * This will generate the IIIF image tiles in a `iiif` directory for every image it finds in the same directory as the iiif-tiler.jar.
 
+### Common issues:
+
+If you see the following error:
+
+```
+Exception in thread "main" java.lang.IllegalArgumentException: Failed to find combination under 100 files
+```
+
+Try running the following command:
+
+```
+java -jar iiif-tiler.jar image_filename 5
+```
+ 
+Where `image_filename` is the filename of your image e.g. `image.jpg`
+
 ## Step 4: Point the Chrome webserver to your `iiif-workshop` directory
 We will cover the Chrome WebServer in more detail in the Presentation API session but this plugin makes your laptop work like an image server. 
 
