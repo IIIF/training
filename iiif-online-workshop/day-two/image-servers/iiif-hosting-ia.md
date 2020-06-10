@@ -37,6 +37,8 @@ __Note__: some people have had some issues getting their images to show when upl
 
 ### Small images workaround
 
+__Update - 10th June__: hopefully this issue has been fixed now. 
+
 Some images are appearing small, to get round this issue you will need to add the filename to the URL. In the following example:
 
 https://archive.org/details/img-8664
