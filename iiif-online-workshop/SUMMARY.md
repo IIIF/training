@@ -34,7 +34,15 @@
     - [IIIF Presentation API 3.0](day-three/v3-changes/README.md) 
 
 ## Day Four - Thursday June 11th
-- [Annotations](day-four/README.md)
+- [Schedule](day-four/README.md)
+- [Annotations](day-four/annotations-and-annotation-lists.md)
+  - [Annotating with Mirador](day-four/annotations-exercises.md)
+  - [Annotating Stores](day-four/annotations-stores.md)
+  - [Annotating Stores - Results](day-four/annotations-stores-results.md)
+  - [Annotating your own content](day-four/annotation-store-download.md)
+  - [Annotating Store - Do it yourself](day-four/annotations-stores-install.md)
+  - [Advanced annotation presentation](day-four/advanced-annotations.md)
+
 
 ## Day Five - Friday June 12th
 - [Project work and report back](day-five/README.md)
