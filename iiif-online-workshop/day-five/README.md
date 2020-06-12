@@ -7,4 +7,15 @@
   - **Aims**: 
     - Share participants work during the week
 
+## Project Demos
+
+ * Dawn’s Group
+ * Mike’s Group
+ * Emma’s Group
+ * Ben’s Group
+ * Josh’s Group
+ * Glen’s Group
+
+## Links to projects:
+
 
