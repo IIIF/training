@@ -46,4 +46,7 @@
 
 ## Day Five - Friday June 12th
 - [Project work and report back](day-five/README.md)
+  - [Thank you](day-five/thankyou.md)
+  - [Survey](day-five/survey.md)
+  - [Join the community](day-five/Community.md)
  
