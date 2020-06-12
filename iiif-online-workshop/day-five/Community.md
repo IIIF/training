@@ -7,14 +7,14 @@ IIIF is driven by the community and we would love to have you involved.
 
 Join some of the other channels:
 
- * #general - general discussion and announcements
- * #beginner - beginner questions lots of people to help
- * #iiif-in-the-classroom - ideas for IIIF in the classroom
- * #curators_of_awesome - become a curator of awesome by helping to curate: https://github.com/IIIF/awesome-iiif
- * #jobs - IIIF related Job announcements
- * #mirador - ask questions and see the latest developments with Mirador
- * #technical - ask difficult technical questions :-)
- * #wikimedia - Wikimedia related discussion
+* general - general discussion and announcements
+* beginner - beginner questions lots of people to help
+* iiif-in-the-classroom - ideas for IIIF in the classroom
+* curators_of_awesome - become a curator of awesome by helping to curate: https://github.com/IIIF/awesome-iiif
+* jobs - IIIF related Job announcements
+* mirador - ask questions and see the latest developments with Mirador
+* technical - ask difficult technical questions :-)
+* wikimedia - Wikimedia related discussion
 
 ## Community Calls 
 
