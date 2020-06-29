@@ -34,4 +34,11 @@ As part of the online workshop the participants were split into 5 tutor groups w
 
 ## Links to projects:
 
+Some working links mentioned in the above presentations:
 
+ * [Reuniting dispersed manuscript leaves using IIIF](https://sxb891.github.io/iiifworkshop-m2/)
+ * [Trying out Mirador & annotations for transcription](https://ckarpinski.github.io/iiifworkshop-m2/)
+ * [Exploring Map Annotations using IIIF](https://iiif.archivelab.org/iiif/columbus-map/manifest.json)
+ * [Exploring Chicago Aerial Surveys and Annotations using IIIF](https://www.getty.edu/art/collection/static/viewers/mirador/?manifest=https://everreau.github.io/manifest.json)
+ * [Experiiiments in IIIF - UniversalViewer, Mirador, Compariscope, Storiiies and annotations](https://noirchivist.github.io/experiiiments/)
+ * [Working with Leonardo da Vinci’s writings and drawings](https://github.com/dhsi-iiif/dhsi-iiif.github.io/tree/master/2019/giudicirni)
