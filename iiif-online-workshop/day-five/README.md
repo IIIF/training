@@ -8,13 +8,27 @@
     - Share participants work during the week
 
 ## Project Demos
+As part of the online workshop the participants were split into 5 tutor groups with a tutor who could provide assistance and guidance. At the end of the week each tutor worked with their group to give a presentation on their projects. The results of the projects can be seen below. 
 
- * Dawn’s Group
- * Mike’s Group
- * Emma’s Group
- * Ben’s Group
- * Josh’s Group
- * Glen’s Group
+### Dawn’s Group
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQutMBhL5irg3cw6PQipfO1R4MdXZV4UN_C36Rjh5le4X8YNLHAjf02LU9VypLKitCkL58PDVy42ky3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### Mike’s Group
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSNjUbdCfNaE-C4vrvrQTacyOcJqJ3_KIMUhChwyuTD_fOFXlASwwqw8G0K0HobA304-8neBA2F2uvO/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### Emma’s Group
+
+### Ben’s Group
+
+### Josh’s Group
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRue73VNoUwftNmwbCb2dmqxS9d0BRmyBQFAkJFuGBu0zMgFU7yL1l4Rg7duJzme6zHaud_F6GugpdG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### Glen’s Group
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSlErxqVMnht6XqEM2MkzIV2JKa2sQaYICux1uVoe4453ruetNSL0FaFFZDHCdnKdTsjJm7gd1sYsYO/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Links to projects:
 
