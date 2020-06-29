@@ -1,13 +1,14 @@
 # Summary
 
 - [Overview](README.md)
+  - [Guest Presentations](GuestPresentations.md)
 
 ## Day One - Monday June 8th
-- [Introductions and IIIF Basics](day-one/README.md)
+- [Introduction](day-one/README.md)
 - [IIIF for Research](day-one/IIIFforResearch.md)
 
 ## Day Two - Tuesday June 9th
-- [Schedule](day-two/README.md)
+- [Introduction](day-two/README.md)
 - [Image API](day-two/image-api.md)
    - [Identifier](day-two/image-api/identifier.md)
    - [Region](day-two/image-api/region.md)
@@ -34,7 +35,7 @@
     - [IIIF Presentation API 3.0](day-three/v3-changes/README.md) 
 
 ## Day Four - Thursday June 11th
-- [Schedule](day-four/README.md)
+- [Introduction](day-four/README.md)
 - [Annotations](day-four/annotations-and-annotation-lists.md)
   - [Annotating with Mirador](day-four/annotations-exercises.md)
   - [Annotating Stores](day-four/annotations-stores.md)
