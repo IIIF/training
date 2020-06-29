@@ -12,10 +12,10 @@ The workshop is split into 5 different areas which were split into 5 days:
  * Day 4 - [Annotations](day-four/README.md)
  * Day 5 - [Project demos](day-five/README.md)
 
-All of these sessions were recorded and you will find them embedded in the relevant sections. The first video to watch is mentioned below.  
+All of these sessions were recorded and you will find them embedded in the relevant sections.   
 
 ## IIIF Online Week - June 1st - June 5th
-Some of the core sessions will include prerequisite videos to watch before attending and for the introduction session on Day 1 we would like you to watch the following introductory session:
+Some of the core sessions include prerequisite videos to watch before attending and for the introduction session on Day 1 we would like you to watch the following introductory session:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wVjrqsqzwNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
