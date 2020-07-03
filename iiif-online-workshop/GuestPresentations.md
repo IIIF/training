@@ -6,6 +6,7 @@ Guest lecture by Jack Reed, Stanford University
 
 This workshop will showcase several projects and uses for using machine learning with IIIF content. Based on https://iiif-ml-workshop.netlify.app/docs/machine-learning-iiif/intro
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u9uNGIk8wrI" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Day 3: Storiiies – a free online storytelling platform for everyone
 Guest lecture by Andy Cummins, Cogapp
@@ -26,6 +27,8 @@ Guest presentation by Andy Irving, British Library.
 
 Andy Irving from the British Library will talk about how they are using the new A/V features in IIIF version 3.0.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1noRWCvyUrg" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Day 4: Crowdsourced Transcription using FromThePage & IIIF
 Guest Presentation by Sara and Ben Brumfield from Brumfield labs. 
 
@@ -35,3 +38,5 @@ A hands on workshop that will walk you through:
  * Discussion of how research projects have used transcription
  * Advanced features in FromThePage:  Translation, OCR Correction, Field Based Transcription
  * Exporting & using FromThePage's IIIF API to pull transcriptions out for reuse
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zlFj3yItlE8" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
