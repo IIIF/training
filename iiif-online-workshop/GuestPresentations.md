@@ -17,10 +17,15 @@ In this presentation Andy Cummins from Cogapp will demonstrate both the editing 
 
 Andy is keen to hear any feedback on Storiiies to help direct future enhancements for the good of the wider IIIF community.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u4GC9ULypls" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Day 3: Supporting Teaching and Scholarship using Omeka and IIIF
 Guest lecture by Rachel Di Cresce, University of Toronto
 
 Rachel Di Cresce, Project Librarian, will review how a set of IIIF plugins developed by the University of Toronto Library for the Omeka Classic platform. The talk will outline how IIIF is used at the library and how Omkea supports classes and faculty research. 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rkY4sfDbjU0" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Day 4: IIIF and AV
 Guest presentation by Andy Irving, British Library.
