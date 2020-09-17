@@ -48,4 +48,6 @@
   - [Thank you](day-five/thankyou.md)
   - [Survey](day-five/survey.md)
   - [Join the community](day-five/Community.md)
- 
+
+## Editions of the course
+- [September 2020](September2020.md)

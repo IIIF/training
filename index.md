@@ -1,7 +1,7 @@
 # training
 Documentation and workshop materials for IIIF training
 
-* [IIIF Online workshop (June 8th to 12th 2020)](iiif-online-workshop/index.html)
+* [IIIF Online workshop](iiif-online-workshop/index.html)
 
 * [Introduction to IIIF Guidebook](intro-to-iiif/index.html)
 
