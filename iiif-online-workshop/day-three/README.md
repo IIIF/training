@@ -1,5 +1,5 @@
 # Day Three - IIIF Presentation API
-## Wednesday the 10th of June
+## Wednesday
 
 ### Presentation API 
 

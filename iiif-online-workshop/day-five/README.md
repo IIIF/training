@@ -1,13 +1,14 @@
 # Day 5 Project work and report back 
-## Friday the 12th of June
+## Friday 
 
 ### Report back and demo zoom session 
-6:00pm CEST / 5:00pm UK / 12:00pm EST / 09:00am PST 
-  - **Mandatory session**
   - **Aims**: 
     - Share participants work during the week
 
-## Project Demos
+# September 2020 cohort demos
+Participants will meet on Friday September 25th to demo their work for the week. 
+
+# June 2020 cohort demos
 As part of the online workshop the participants were split into 5 tutor groups with a tutor who could provide assistance and guidance. At the end of the week each tutor worked with their group to give a presentation on their projects. The results of the projects can be seen below. 
 
 ### Dawn’s Group

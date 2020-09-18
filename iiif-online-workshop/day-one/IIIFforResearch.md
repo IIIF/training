@@ -1,5 +1,4 @@
-# Using IIIF for research zoom session
-
+# Using IIIF for research
 
 ## Quick review
 
