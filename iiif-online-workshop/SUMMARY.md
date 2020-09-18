@@ -3,11 +3,11 @@
 - [Overview](README.md)
   - [Guest Presentations](GuestPresentations.md)
 
-## Day One - Monday June 8th
+## Day One - Monday 
 - [Introduction](day-one/README.md)
 - [IIIF for Research](day-one/IIIFforResearch.md)
 
-## Day Two - Tuesday June 9th
+## Day Two - Tuesday 
 - [Introduction](day-two/README.md)
 - [Image API](day-two/image-api.md)
    - [Identifier](day-two/image-api/identifier.md)
@@ -25,14 +25,14 @@
    - [Static Images (Advanced)](day-two/image-servers/static-tiles.md)
        - [Hosting static images with GitHub](day-two/image-servers/level0-github-hosting.md)
 
-## Day Three - Wednesday June 10th
+## Day Three - Wednesday 
 - [Presentation API](day-three/README.md)
     - Set up the [Web Server for Chrome](day-three/chrome-web-server/README.md) plugin   
     - [Create a Manifest](day-three/bodleian-editor/README.md)
     - [Edit a Manifest](day-three/edit-a-manifest/README.md)
     - [Add Structure](day-three/ranges/README.md)
 
-## Day Four - Thursday June 11th
+## Day Four - Thursday 
 - [Introduction](day-four/README.md)
 - [Annotations](day-four/annotations-and-annotation-lists.md)
   - [Annotating with Mirador](day-four/annotations-exercises.md)
@@ -43,7 +43,7 @@
   - [Advanced annotation presentation](day-four/advanced-annotations.md)
 
 
-## Day Five - Friday June 12th
+## Day Five - Friday 
 - [Project work and report back](day-five/README.md)
   - [Thank you](day-five/thankyou.md)
   - [Survey](day-five/survey.md)

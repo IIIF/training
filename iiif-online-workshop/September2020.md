@@ -13,9 +13,9 @@ The course will follow this GitBook and will be a mix of pre-recorded sessions a
 * Calls:
   * Introductions and course overview zoom call at 5:00pm BST / 12:00pm EST / 09:00am PST
 * Tasks:
-  * [Introduction to IIIF](#introduction-to-iiif-video) - Video 1 hour
-  * [Using IIIF for research](day-one/) - Video 1 hour
-  * Follow the exercises in the [Workshop documents](https://training.iiif.io/iiif-online-workshop/day-one/IIIFforResearch.html)
+  * [Introduction to IIIF](day-one/index.html#introduction-to-iiif) - Video 1 hour
+  * [Using IIIF for research](day-one/index.html#using-iiif-for-research) - Video 1 hour
+  * Follow the exercises in the [Workshop documents](day-one/IIIFforResearch.html)
 
 ### Day 2  - **IIIF Image API**
 * Calls:
@@ -69,11 +69,10 @@ One of the most useful features of previous workshops have been where participan
 ## Install Requirements
 All sessions will use [Zoom](https://zoom.us/) and participants are encouraged to join the [IIIF Slack](http://bit.ly/iiif-slack) where a special channel will be created for workshop participants. 
 
-## Introduction to IIIF Video
-Before you start the course we would like you to watch the following video to give you an introduction to iiif. 
+## Participants locations
+We are delighted to welcome such a diverse group to the course and we have participants from the following locations:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wVjrqsqzwNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1o3YSQVIYNXtGWJ7eyB4bXXillCQc6WU4" width="640" height="480"></iframe>
 
 I look forward to working with you and if you have any questions please don’t hesitate to get in contact. 
 
