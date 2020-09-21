@@ -11,7 +11,7 @@ The course will follow this GitBook and will be a mix of pre-recorded sessions a
 ## Sessions
 ### Day 1 - **IIIF Basics**
 * Calls:
-  * Introductions and course overview zoom call at 5:00pm BST / 12:00pm EST / 09:00am PST
+  * Introductions and course overview zoom call at 5:00pm BST / 12:00pm EST / 09:00am PST - [Recording](https://stanford.zoom.us/rec/play/r-gGP8C0AM8SY9vwpVNRdeEC5Tj6Ryf5KuY7Dhd8-7X8zZsGZXTSBePzhI6VBIXb9RW9PD8SKXd8Mi2l.doykHFBUF8bmopyX?continueMode=true&_x_zm_rtaid=IKm1oFO9THOh6FjoB0RFHg.1600722283360.2107611857caac9a9b46ce0896b9f5b2&_x_zm_rhtaid=770)
 * Tasks:
   * [Introduction to IIIF](day-one/index.html#introduction-to-iiif) - Video 1 hour
   * [Using IIIF for research](day-one/index.html#using-iiif-for-research) - Video 1 hour
