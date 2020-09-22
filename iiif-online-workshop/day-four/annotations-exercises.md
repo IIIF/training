@@ -1,30 +1,30 @@
 # Annotation Exercises
 
-In this example we are going to have a look at Annotating in Mirador 2. They announced last week that Mirador 3 now supports creating annotations so future workshops will probably be based on Mirador 3. 
+In this example we are going to have a look at Annotating in Mirador 2. Mirador 3 now supports creating annotations so future workshops will probably be based on Mirador 3. 
 
 During the session I will go through the steps and feel free to follow along although if you get lost you can follow the instructions below.
 
-### Step 1 - Open Mirador
+## Step 1 - Open Mirador
 
  * Go to [https://projectmirador.org/demo/](https://projectmirador.org/demo/)
- * __Note__ now Mirador 3 is released you have to use the link above as they have moved Mirador 2 from the front page.
+ * __Note__ now Mirador 3 is released you have to use the link above as they have moved Mirador 3 to the front page of [https://projectmirador.org](https://projectmirador.org).
 
-Mirador commands: 
+### A quick intro into using Mirador: 
+
+The image below shows a circle around the cross at the top left of the image. Use this to close one of the windows. Then click the 4 rectangles to drop down a menu where you can select **Replace Object**. Click this to view other manifests.
 
 ![image](images/annos_mirador.png)    
 
- * Select a Manifest by clicking on one of the Rows:
+Select a Manifest by clicking on one of the rows or add your own manifest in the 'Add new object from URL'.
 
 ![image](images/annos_select_manifest.png)    
 
- * Or add your own manifest in the 'Add new object from URL'
-
-### Step 2 - Start annotating: 
- * Click the speech bubble on the top left
+## Step 2 - Start annotating: 
+Click the speech bubble on the top left
 
 ![image](images/annos_toggle_annotations.png)  
 
- * Lots of options:
+Lots of options:
 
 ![image](images/annos_anno_options.png)  
 
@@ -40,7 +40,7 @@ From left to right the buttons are:
  * Line colour - change the colour of the shape's line
  * Fill - fill the shape with a colour. 
 
- * Once you have drawn a shape on the image you get a box where you can add content for the annotation.
+Once you have drawn a shape on the image you get a box where you can add content for the annotation.
 
 ![image](images/annos_anno_options.png)  
 
