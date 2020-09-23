@@ -1,6 +1,6 @@
 # What are annotations?
 
-We have seen many examples of annotations during the course and the have many uses including:
+We have seen many examples of annotations during the course and they have many uses including:
 
  * Transcribing documents
  * Commenting or analysis of content
@@ -9,17 +9,17 @@ We have seen many examples of annotations during the course and the have many us
 
 and we also saw yesterday that annotations are fundamental to how a IIIF Manifest works with images and video painted on to a canvas with annotations. The way we distinguish the fundamental in built annotations with the extra transcribing or commenting annotations is through the motivation. We use a special `sc:painting` motivation for painting on to canvas which we will see in the example.  
 
-Annotations in IIIF follow the W3C annotation model and its precursor Open Annotations. I will go through the difference briefly later but the model is conceptionally similar:
+Annotations in IIIF follow the [W3C annotation model](https://www.w3.org/TR/annotation-model/) and its precursor [Open Annotations](http://www.openannotation.org/). I will go through the difference briefly later but the model is conceptionally similar:
 
 ![Web Annotation model](https://www.w3.org/TR/annotation-model/images/intro_model.png)
 
-The annotation is made up of two parts. The body which is the thing you want to annotate `on` to something and the target which is the thing your annotating. Examples of bodies might be:
+The annotation is made up of two parts. The body which is the **resource** you want to annotate **on** to something and the target which is the thing you are annotating. Examples of bodies might be:
 
  * Text transcription of a line
  * Video giving background to a painting
  * IIIF Image painted on to a canvas
 
-The target might be:
+A target might be:
  * A whole canvas
  * A part of a canvas (maybe a line in the transcription example above)
 
@@ -104,14 +104,14 @@ For this workshop we will be focusing on Open Annotations which are in the examp
 
 The changes are:
  * `@id` becomes `id`
- * `@type` becomes `type` and `oa:Annotation` becomes `annotation`
+ * `@type` becomes `type` and `oa:Annotation` becomes `Annotation`
  * `resource` becomes `body`
  * `on` becomes `target`
  * The body type changes from `cnt:ContentAsText` to `TextualBody`.
 
 Quite a few changes but is defiantly clearer to understand.  
 
-## What are annotationsLists?
+## What are annotations lists?
 
 See Specification Chapter:  [http://iiif.io/api/presentation/2.1/#annotation-list](http://iiif.io/api/presentation/2.1/#annotation-list)
 

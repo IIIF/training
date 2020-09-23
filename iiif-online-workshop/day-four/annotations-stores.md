@@ -7,17 +7,21 @@ https://github.com/IIIF/awesome-iiif#annotations
 Popular ones include:
  * annotot - Simple IIIF annotations mounted in a Ruby on Rails applications by Jack Reed
  * Elucidate - Java and Postgres annotation server by Digirati
- * SimpleAnnotationServer - Java annotation server backed by an Apache Jena triple store, Sesame, or Solr. - developed while working at the NLW
+ * SimpleAnnotationServer - Java annotation server backed by an Apache Jena triple store, Elastic Search, or Solr. - developed while working at the NLW
 
 For this exercise we are going to be using the [SimpleAnnotationServer](https://github.com/glenrobson/SimpleAnnotationServer) and we are going to work on a copy of the Welsh Centre for International Affairs' Book of Remembrance hosted by the National Library of Wales. The live version of the books is available at:
 
 https://viewer.library.wales/4642022 
+
+### DOIs (Digital Object Identifiers)
 
 As an aside a question came up about DOIs. When I worked at the National Library of Wales we created DOIs for our IIIF implementation:
 
 http://hdl.handle.net/10107/4642022
 
 This should resolve to the viewer link above. We didn't create a DOI for the Manifest because this was a 'presentation' of the resource rather than a constituent of the resource. IIIF aims to be good for presentation and doesn't serve the needs required for preservation. 
+
+### Transcribing the Book of Remembrance
 
 This example will demonstrate the following:
 
