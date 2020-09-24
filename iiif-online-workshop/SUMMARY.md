@@ -39,6 +39,7 @@
   - [Annotating Stores](day-four/annotations-stores.md)
   - [Annotating Stores - Results](day-four/annotations-stores-results.md)
   - [Annotating your own content](day-four/annotation-store-download.md)
+  - [IIIF Search API](day-four/iiif-search-api.md)
   - [Annotating Store - Do it yourself](day-four/annotations-stores-install.md)
   - [Advanced annotation presentation](day-four/advanced-annotations.md)
 
