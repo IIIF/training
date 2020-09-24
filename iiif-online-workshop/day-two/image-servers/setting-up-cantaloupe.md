@@ -19,10 +19,7 @@ $ java -version
 # java version "1.11.0_102"
 ```
 
-You should see version `1.11.x`. For more information on the install options see:
-
- - [Java install options](https://java.com/en/download/help/download_options.xml)
-
+You should see version `1.11.x`. 
 
 ### Using a text editor
 

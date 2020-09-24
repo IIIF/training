@@ -27,26 +27,28 @@ To use this manifest download it to your Chrome web server directory and call it
 
 Now you have finished annotating you need to download the annotations and link them to canvases in your manifest. To do this you will download 1 annotation list per page/canvas. 
 
- * Navigate to http://sas.gdmrdigital.com/list.html
- * You will have to check the canvas ids linked on that page next to the canvas ids in your manifest.
- * Right click and do save as.
- * Save the annotations to your Google Chrome Web server folder with the name `annotations1.json`, `annotations2.json` etc...
+ * Navigate to http://sas.gdmrdigital.com/manifests.xhtml
 
-## Step 4: Turn annotation list into a list that can be linked in Mirador
+You will see a list of manifests that have been annotated by the class and previous classes. You will need to search for your manifest by getting the `@id` from your manifest. For example if my manifest started with:
 
-By default the SimpleAnnotationServer generates a list of annotations that need to be slightly edited when linked to the manifest. To do this open the annotations in Atom (`annotations1.json`. Add the following to the top of the file:
-
-```json
+```
 {
-       "@context":"http://iiif.io/api/presentation/2/context.json",
-       "@id":"http://localhost:8887/annotations1.json",
-       "@type":"sc:AnnotationList",
-       "resources":
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://d937e822-64cd-4815-a6da-bc6a79f11619",
+	"@type": "sc:Manifest",
+	"label": "Test Manifest",
+	"metadata": [],
 ```
 
-and also add `}` at the end of the file. Now save this and go on to the following step.
+I would look for `http://d937e822-64cd-4815-a6da-bc6a79f11619` in the list of Annotated Manifests. Once you have found your manifest click the link and you should see a page similar to the following:
 
-## Step 5: Link annotations to Manifest
+![image](images/anno_download_canvas.png)
+
+The links at the bottom of the page are annotations for each canvas (page) you have annotated. For each canvas Right click and do save as. Save the annotations to your Google Chrome Web server folder with the name `annotations1.json`, `annotations2.json` etc...
+
+![image](images/anno_download_saveas.png)
+
+## Step 4: Link annotations to Manifest
 To get the annotations to display you need to link them into the manifest. To do this find the canvas your annotations point to then add the following:
 
 ```json
@@ -99,7 +101,16 @@ after the images array. A full canvas example is below:
 
 ```
 
-Save the manifest.
+Save the manifest. Watch out for JSON typing errors. Common JSON issues include:
+
+ * Make sure that all the brackets match up
+ * Lines that are not the last line in a list or array must have a `,` at the end of the line. 
+
+To make this easier you may want to use a JSON aware editor like ATOM which will tell you if you are missing brackets or commas. You can also copy and paste your JSON to:
+
+https://jsonlint.com/
+
+which will tell you if the JSON is valid and if not where the error is. 
 
 ## Step 5: check the annotations are showing
 
@@ -117,4 +128,4 @@ Save the manifest.
 
 It is also possible to do the above with a locally running SimpleAnnotationServer just follow the [Annotating Stores - Do it yourself](day-four/annotations-stores-install.md) part of the course. When you get to downloading the annotations the file to get the list of annotated canvases is:
 
-http://localhost:8080/list.html
+http://localhost:8888/manifests.xhtml
