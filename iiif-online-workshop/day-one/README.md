@@ -10,6 +10,6 @@ An Introduction to IIIF given my Meg O'Hearn the IIIF Community Coordinator.
 
 ### Using IIIF for research
  - Ben Albritton gave a talk on the exciting ways to use IIIF resources.
- - Ben will be using the [IIIF for Reasearch](day-one/IIIFforResearch.md) notes in his presentation and participants are encouraged to follow along.
+ - Ben will be using the [IIIF for Reasearch](IIIFforResearch.md) notes in his presentation and participants are encouraged to follow along.
 
  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uTZD0a4ofno" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
