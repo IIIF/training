@@ -107,7 +107,7 @@ Open it with OpenseaDragon:
 
 [http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8887/iiif/image/info.json](http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8887/iiif/image/info.json)
 
-## Step 7: Hosting your image publicaly 
+## Step 7: Hosting your image publicly
 
-You now have a working level 0 implementation. As are using the Chrome plugin the images are only accesiable on your machine. You can't share your images with other people. To be able to share your images you need to copy them to a public Web Server. As mentioned there are paid for services but you can also access free Web Hosting through GitHub which we will do next.
+You now have a working level 0 implementation. As you are using the Chrome plugin the images are only accessible on your machine. You can't share your images with other people. To be able to share your images you need to copy them to a public Web Server. As mentioned there are paid for services but you can also access free Web Hosting through GitHub which we will do next.
 
