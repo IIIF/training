@@ -6,7 +6,9 @@
     - Share participants work during the week
 
 # September 2020 cohort demos
-Participants will meet on Friday September 25th to demo their work for the week. 
+The 13 Participants from the September 2020 session produced the following demos of their work: 
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRZaJTtatVCgtR5ixzNHR3S4UyPvi7IkX0J8ULb1N8OaSMD5aIu9yd567NCCspvdqb2p0PGWkxWT-Rh/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # June 2020 cohort demos
 As part of the online workshop the participants were split into 5 tutor groups with a tutor who could provide assistance and guidance. At the end of the week each tutor worked with their group to give a presentation on their projects. The results of the projects can be seen below. 
