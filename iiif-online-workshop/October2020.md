@@ -14,12 +14,18 @@ We are keen to adapt many of the techniques that have worked in person to create
 
 The course will follow this GitBook and will be a mix of pre-recorded sessions and live presentations. This GitBook contains embedded videos and also exercises to follow. There are drop in sessions on Tuesday, Wednesday and Thursday and these are meant for the group to get together to discuss any issues or get questions answered. Live sessions will be recorded and sent to the group over email.
 
+If you are new to IIIF you may want to watch the following video which gives you some ideas on what the IIIF standards can provide before starting the course:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wVjrqsqzwNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Sessions
+
+The following sessions will set hands on work for participants to complete and participants are expected to participate in the meeting or watch recordings for these core sessions. 
+
 ### Day 1 - **IIIF Basics** 
 * Calls:
   * Introductions and course overview zoom call on <span id="intro"></span>
 * Tasks:
-  * [Introduction to IIIF](day-one/index.html#introduction-to-iiif) - Video 1 hour
   * [Using IIIF for research](day-one/index.html#using-iiif-for-research) - Video 1 hour
   * Follow the exercises in the [Workshop documents](day-one/IIIFforResearch.html)
 
@@ -55,9 +61,9 @@ The course will follow this GitBook and will be a mix of pre-recorded sessions a
 * Tasks:
   * Work on projects and presentation
 
-The above sessions will set hands on work for participants to complete and participants are expected to participate in the meeting or watch recordings for these core sessions. There is the following Google calendar available which you can subscribe to:
 
 ## Calendar
+There is also a course Google calendar available which you can subscribe to:
 <div id="calendar-container"></div>
 
 <script type="text/javascript">
