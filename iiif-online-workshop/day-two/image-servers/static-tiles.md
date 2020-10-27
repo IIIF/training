@@ -91,7 +91,7 @@ We will cover the Chrome WebServer in more detail in the Presentation API sessio
  * Open a browser and navigate to [http://127.0.0.1:8887/](http://127.0.0.1:8887/)
  * You should see a `iiif` directory and if you click that you should see your image file. 
  * Click this directory then click on the `info.json`.
- * If your image was called picture.png the URL should be.
+ * If your image was called `image.jpg` the URL should be.
 
 `http://127.0.0.1:8887/iiif/image/info.json`
 
