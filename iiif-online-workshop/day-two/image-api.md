@@ -22,6 +22,7 @@
  * __Server__ - Software that runs on a machine at all times and is assessable over the Web. For this workshop I will mostly be referring to Image API Servers but there are other types of servers including Web servers or Email servers. Sometimes they are also know as Services e.g. Image API service, Web Service or Mail Service.  
  * __Image API__ - the agreed standard and specification which forms the contract between Client and Server
  * __Image API Server__ - the running software that provides access to images using the Image API. Sometimes shortened in this context to Image Servers. 
+ * __IIIF Image__ - an Image that is made available through a IIIF Image API Server. 
 
 ## History
 

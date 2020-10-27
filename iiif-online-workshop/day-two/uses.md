@@ -20,7 +20,7 @@ The most common use case is to show the image in a viewer like OpenSeaDragon:
 
 ## National Museum of Sweden
 
-Some places embed a IIIF Image into their content management system and it means they don't need to us the Presentation API. For example:
+Some places embed a IIIF Image into their content management system and it means they don't need to use the Presentation API. For example:
 
 [Magistrate Heurlin's Residence Truveholm in Västergötland](http://emp-web-84.zetcom.ch/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=26240&viewType=detailView)
 
