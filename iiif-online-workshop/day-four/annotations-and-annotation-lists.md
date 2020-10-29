@@ -5,9 +5,9 @@ We have seen many examples of annotations during the course and they have many u
  * Transcribing documents
  * Commenting or analysis of content
  * Highlighting areas of the item like hand written annotations on a printed book
- * Teaching or explaining content (Storiiies)
+ * Teaching or explaining content (Storiiies and Exhibit)
 
-and we also saw yesterday that annotations are fundamental to how a IIIF Manifest works with images and video painted on to a canvas with annotations. The way we distinguish the fundamental in built annotations with the extra transcribing or commenting annotations is through the motivation. We use a special `sc:painting` motivation for painting on to canvas which we will see in the example.  
+and we also saw yesterday that annotations are fundamental to how a IIIF Manifests work with images and video painted on to a canvas with annotations. 
 
 Annotations in IIIF follow the [W3C annotation model](https://www.w3.org/TR/annotation-model/) and its precursor [Open Annotations](http://www.openannotation.org/). I will go through the difference briefly later but the model is conceptionally similar:
 
@@ -24,42 +24,8 @@ A target might be:
  * A part of a canvas (maybe a line in the transcription example above)
 
 ## Example Annotation
-In the previous manifest example you will find the following annotation painting a IIIF image on to a canvas:
+A simple commenting annotation looks like the following:
 
-```json
-{
-    "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "http://31a6054d-098a-4cb1-8aca-7e620d01c391",
-    "@type": "oa:Annotation",
-    "motivation": "sc:painting",
-    "resource": {
-        "@id": "https://iiif-test.github.io/iiif/image/full/full/0/default.jpg",
-        "@type": "dctypes:Image",
-        "format": "image/jpeg",
-        "service": {
-            "@context": "http://iiif.io/api/image/2/context.json",
-            "@id": "https://iiif-test.github.io/iiif/image",
-            "profile": "http://iiif.io/api/image/2/level0.json"
-        },
-        "height": 3024,
-        "width": 4032
-    },
-    "on": "http://626842ed-7da0-4ef4-91f1-9cba03a137c5"
-}    
-```
-
-This is using Open annotations and the keys map as follows:
-
- * Body -> resource
- * Target -> on
-
-Other things to take note of are:
-
- * motivation is this special IIIF motivating `sc:painting` 
- * Annotations should have an `@id`
- * The target (`on`) points to the whole canvas
-
-A transcribing annotation is much simpler and looks like this:
 ```json
 {
     "@id": "http://localhost:8887/coin/list/1",
@@ -74,15 +40,19 @@ A transcribing annotation is much simpler and looks like this:
 }
 ```
 
-In this example the body or resource is the text `Zeus seated on stool-throne`. The target (or `on`) is the following:
+This is using Open annotations and the keys map as follows:
 
-```
-http://localhost:8887/coin/canvas#xywh=3706,208,522,522
-```
+ * Body -> resource
+ * Target -> on
 
-The canvas id in this example is `http://localhost:8887/coin/canvas` and the `#xywh=3706,208,522,522` denotes we are looking at a rectangle starting `3706` pixels from the left, `208` pixels from the top and with dimensions `522` pixels wide and `522` pixels high. The image mentioned in this annotation is:
+Other things to take note of are:
 
-![Coin image](http://ronallo.com/iiif-workshop-new/images/coin-side-by-side.png)
+ * motivation is `commenting` 
+ * Annotations should have an `@id`
+
+In this example the body or resource is the text `Zeus seated on stool-throne`. The canvas id in this example is `http://localhost:8887/coin/canvas` and the `#xywh=3706,208,522,522` denotes we are looking at a rectangle starting `3706` pixels from the left, `208` pixels from the top and with dimensions `522` pixels wide and `522` pixels high. The image mentioned in this annotation is:
+
+![Coin image](https://ronallo.com/iiif-workshop-new/images/coin-side-by-side.png)
 
 ## Caveat: Open Annotations vs Web Annotations
 
@@ -109,7 +79,7 @@ The changes are:
  * `on` becomes `target`
  * The body type changes from `cnt:ContentAsText` to `TextualBody`.
 
-Quite a few changes but is defiantly clearer to understand.  
+Quite a few changes but it is defiantly clearer to understand.  
 
 ## What are annotations lists?
 
