@@ -106,7 +106,7 @@ Save the manifest. Watch out for JSON typing errors. Common JSON issues include:
  * Make sure that all the brackets match up
  * Lines that are not the last line in a list or array must have a `,` at the end of the line. 
 
-To make this easier you may want to use a JSON aware editor like ATOM which will tell you if you are missing brackets or commas. You can also copy and paste your JSON to:
+To make this easier you may want to use a JSON aware editor like [ATOM](https://atom.io/) which will tell you if you are missing brackets or commas. You can also copy and paste your JSON to:
 
 https://jsonlint.com/
 
@@ -126,6 +126,4 @@ which will tell you if the JSON is valid and if not where the error is.
 ![image](images/annos_download_success.png)  
 
 
-It is also possible to do the above with a locally running SimpleAnnotationServer just follow the [Annotating Stores - Do it yourself](day-four/annotations-stores-install.md) part of the course. When you get to downloading the annotations the file to get the list of annotated canvases is:
-
-http://localhost:8888/manifests.xhtml
+It is also possible to do the above with a locally running SimpleAnnotationServer just follow the [Annotating Stores - Do it yourself](day-four/annotations-stores-install.md) part of the course. 
