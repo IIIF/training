@@ -6,7 +6,7 @@ During the session I will go through the steps and feel free to follow along alt
 
 ## Step 1 - Open Mirador
 
- * Go to [https://projectmirador.org/demo/](https://projectmirador.org/demo/)
+ * Go to [https://deploy-preview-13--mirador.netlify.app/demo/](https://deploy-preview-13--mirador.netlify.app/demo/)
  * __Note__ now Mirador 3 is released you have to use the link above as they have moved Mirador 3 to the front page of [https://projectmirador.org](https://projectmirador.org).
 
 ### A quick intro into using Mirador: 
