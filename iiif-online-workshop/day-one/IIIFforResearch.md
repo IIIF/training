@@ -25,7 +25,7 @@ How we encounter IIIF materials at various repositories varies widely. Explore s
 
 #### Quick Exercise:
 
-* Open an instance of Mirador 2 - [this one, for instance](http://dms-data.stanford.edu/data/mirador_cropper/example.html) or [this one](https://projectmirador.org/demo/)
+* Open an instance of Mirador 2 - [this one, for instance](http://dms-data.stanford.edu/data/mirador_cropper/example.html) or [this one](https://deploy-preview-13--mirador.netlify.app/demo/)
 * Find an item from the collections listed above that you might be interested in exploring further
 * Find the IIIF badge and drag it into Mirador, or use the IIIF manifest URL and add it to the Mirador workspace
 * As a point of comparison, use the same IIIF manifest URL and add it to the [Universal Viewer](https://universalviewer.io/)
