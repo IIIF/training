@@ -1,6 +1,15 @@
 # Guest presentations
 During the week there were a number of guest presentations covering topics raised by participants or going more in depth around different tools. 
 
+### 28th October 2020: Exhibit
+Guest lecture by Andrew Wilson, University of St Andrews and Ed Silverton, Mnemoscene
+
+Andrew and Ed give a demo of their Exhibit tool. Exhibit was developed in response to the challenge of providing an engaging and interactive experience using the museums and special collections. It addresses the sensory and tactile encounters students would have with original material
+
+The Exhibit tool is available at: [https://exhibit.so/](https://exhibit.so/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K8-lBJOLXq0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Day 2: IIIF and AI
 Guest lecture by Jack Reed, Stanford University
 
