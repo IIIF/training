@@ -67,7 +67,11 @@ and doing a bit more research I found:
 and a Newspaper article and blog post:
 
 ![image](images/annos_bor_newspaper.png)  
-![image](images/annos_bor_article.png)  
+
+and this can be tied together into a presentation using the Exhibit tool:
+
+[https://exhibit.so/exhibits/vjxZwSD0sgKKzQhU4r7i](https://exhibit.so/exhibits/vjxZwSD0sgKKzQhU4r7i)
+<iframe src="https://exhibit.so/exhibits/vjxZwSD0sgKKzQhU4r7i?embedded=true" width="1024" height="768" allowfullscreen frameborder="0"></iframe>
 
 A full export of the data is available at: https://github.com/NLW-paulm/BoR-annotations 
 
@@ -89,7 +93,7 @@ The key part is this service definition:
 "service": {
 
     "profile": "http://iiif.io/api/search/0/search",
-    "@id": "http://sas.gdmrdigital.com/search-api/cabbb6de5303266bd9adc6cb23fb5c1b/search",
+    "@id": "https://sas.gdmrdigital.com/search-api/cabbb6de5303266bd9adc6cb23fb5c1b/search",
     "@context": "http://iiif.io/api/search/0/context.json"
 
 },
