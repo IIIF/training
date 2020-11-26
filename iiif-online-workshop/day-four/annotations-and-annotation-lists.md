@@ -9,7 +9,7 @@ We have seen many examples of annotations during the course and they have many u
 
 and we also saw yesterday that annotations are fundamental to how a IIIF Manifests work with images and video painted on to a canvas with annotations. 
 
-Annotations in IIIF follow the [W3C annotation model](https://www.w3.org/TR/annotation-model/) and its precursor [Open Annotations](http://www.openannotation.org/). I will go through the difference briefly later but the model is conceptionally similar:
+Annotations in IIIF follow the [W3C annotation model](https://www.w3.org/TR/annotation-model/) and its precursor [Open Annotations](http://www.openannotation.org/). I will go through the differences briefly later but the model is conceptionally similar:
 
 ![Web Annotation model](https://www.w3.org/TR/annotation-model/images/intro_model.png)
 
