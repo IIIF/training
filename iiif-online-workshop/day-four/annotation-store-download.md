@@ -126,4 +126,4 @@ which will tell you if the JSON is valid and if not where the error is.
 ![image](images/annos_download_success.png)  
 
 
-It is also possible to do the above with a locally running SimpleAnnotationServer just follow the [Annotating Stores - Do it yourself](day-four/annotations-stores-install.md) part of the course. 
+It is also possible to do the above with a locally running SimpleAnnotationServer just follow the [Annotating Stores - Do it yourself](annotations-stores-install.md) part of the course. 
