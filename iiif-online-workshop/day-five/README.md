@@ -5,6 +5,12 @@
   - **Aims**: 
     - Share participants work during the week
 
+# November 2020 cohort demos
+The 6 Participants from the November 2020 session produced the following demos of their work: 
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTmCzRRu9C8oVVLe4VyceQov3zCTko9CUWHhXMwV_hTBOVw9ntVNOFdK_zU7e_vAZnwWDGdmBbhXpv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 # October 2020 cohort demos
 The 14 Participants from the October 2020 session produced the following demos of their work: 
 
