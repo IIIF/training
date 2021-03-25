@@ -51,6 +51,11 @@
   - [Survey](day-five/survey.md)
   - [Join the community](day-five/Community.md)
 
+## Extras
+ - [Guides](extras/README.md)
+    - [Using non IIIF images in a manifest](https://glenrobson.github.io/iiif_stuff/simple_images/)
+    - [A basic Video manifest](extras/AVExample.md)
+
 ## Editions of the course
 - [September 2020](September2020.md)
 - [October 2020](October2020.md)
