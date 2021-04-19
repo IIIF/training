@@ -65,6 +65,7 @@ __Meeting:__ Project demos and closing meeting at <b><span id="demos"></span></b
 Tasks to be completed __before__ the meeting:
  * Work on projects and presentation
 
+<a id="calendar">&nbsp;</a>
 ## Calendar
 There is also a course Google calendar available which you can subscribe to:
 <div id="calendar-container"></div>
