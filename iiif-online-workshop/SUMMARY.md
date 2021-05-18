@@ -24,6 +24,7 @@
    - [Cantaloupe (Advanced)](day-two/image-servers/setting-up-cantaloupe.md)
    - [Static Images (Advanced)](day-two/image-servers/static-tiles.md)
        - [Hosting static images with GitHub](day-two/image-servers/level0-github-hosting.md)
+   - [Static Images - Workbench](day-two/image-servers/level0-workbench.md)
 
 ## Day Three - Wednesday 
 - [Presentation API](day-three/README.md)
