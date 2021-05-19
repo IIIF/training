@@ -32,6 +32,7 @@
     - [Create a Manifest](day-three/bodleian-editor/README.md)
     - [Edit a Manifest](day-three/edit-a-manifest/README.md)
     - [Add Structure](day-three/ranges/README.md)
+    - [Publishing your manifest](day-three/workbench/README.md)
 
 ## Day Four - Thursday 
 - [Introduction](day-four/README.md)
