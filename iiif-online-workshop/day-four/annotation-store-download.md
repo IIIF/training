@@ -2,18 +2,40 @@
 
 In this tutorial we are going to annotate an image from your own manifest using the hosted SimpleAnnotationStore. Once we have finished annotating we are going to download the annotations created in an Annotation list and link them to the Manifest. This is a way of permanently attaching annotations to a manifest. 
 
-Note from this step forward the activities get more difficult and will involve editing your Manifest. These stages are optional and will give you a complete workflow for annotating and publishing your annotations.    
+Note from this step forward the activities get more difficult and will involve editing your Manifest. These stages are optional and will give you a complete workflow for annotating and publishing your annotations. There are three options for getting a Manifest to Annotate.
 
-We will be using the Manifest you setup in the previous chapter but make sure your Chrome Web server is running, this should be running on port `8887`. If you didn't manage to get a manifest in the previous step you can use any IIIF Manifest. My personal favourite is:
+### Option 1 use the Workbench
+
+This is the preferred option as it will save some steps later on. This option uses a combination of annotating the version of the manifest from your Workbench (see step [Publishing your Manifest](../day-three/workbench/)) and creating a copy that you can edit and test using the Chrome Web Server. For this option you need to do the following two things:
+
+1. Download your manifest for editing
+
+ * Navigate to the manifest in your workbench 
+ * Right click on the IIIF logo and select `Save Link As`
+ * Save it in the Chrome Web Server directory
+ * Ensure your Chrome Web server is running. This should be running on port `8887` 
+ * Open the downloaded manifest in [Atom](https://atom.io/) ready for editing. 
+ 
+2. Copy the Manifest URL
+
+Now go back to your manifest in the Workbench and right click on the IIIF logo again but this time select `copy link`. This will copy the Manifest URL to your clipboard. 
+
+### Option 2 Use manifest2.json in your Chrome Web Server
+
+As part of the Presentation API stage you created a file called `manifest2.json` in your Chrome Web Server directory. You can use this file and the URL: `http://localhost:8887/manifest2.json` for the annotations but note there are some extra steps you will need in the next section on presenting your annotations. 
+
+
+### Option 3 Use any public IIIF manifest
+
+If you didn't manage to get a manifest in the previous step you can use any IIIF Manifest. My personal favourite is:
 
 https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json
-
-To use this manifest download it to your Chrome web server directory and call it `manifest2.json` to match the instructions below. 
 
 ## Step 1 Load your manifest into the hosted Mirador:
  * Go to http://sas.gdmrdigital.com
  * Add your manifest to the addNewObject field and click load:
-   * In the last chapter you were using the following Manifest: http://localhost:8887/manifest2.json
+   * If you are using the Workbench use the URL copied from the IIIF logo.
+   * If you are using the Chrome web server the URL is: http://localhost:8887/manifest2.json
 
 ![image](images/annos_download_annotating.png)  
 
@@ -44,12 +66,14 @@ I would look for `http://d937e822-64cd-4815-a6da-bc6a79f11619` in the list of An
 
 ![image](images/anno_download_canvas.png)
 
-The links at the bottom of the page are annotations for each canvas (page) you have annotated. For each canvas Right click and do save as. Save the annotations to your Google Chrome Web server folder with the name `annotations1.json`, `annotations2.json` etc...
+The links at the bottom of the page are annotations for each canvas (page) you have annotated. For each canvas Right click and do save as. Save the annotations to your Google Chrome Web server folder with the name `annotations1.json`, `annotations2.json` etc... Do this step for both the Workbench and `manifest2.json` options. 
 
 ![image](images/anno_download_saveas.png)
 
 ## Step 4: Link annotations to Manifest
-To get the annotations to display you need to link them into the manifest. To do this find the canvas your annotations point to then add the following:
+To get the annotations to display you need to link them into the manifest. Open up your manifest in your Chrome Web Server directory in [Atom](https://atom.io/). 
+
+Then find the canvas your annotations point to then add the following:
 
 ```json
 "otherContent": [
@@ -112,10 +136,20 @@ https://jsonlint.com/
 
 which will tell you if the JSON is valid and if not where the error is. 
 
+Now test your edited manifest in the browser to check it looks OK. If you are using `manifest2.json` then the link will be:
+
+http://localhost:8887/manifest2.json
+
+If you are using the workbench then the link will be similar but the name might be different to `mainfest2.json`. If you go to:
+
+http://localhost:8887/
+
+You should be able to see your manifest. If you click on your manifest you should see the JSON. If you copy the URL in the browser address bar you will have the Manifest URL for your edited manifest. 
+
 ## Step 5: check the annotations are showing
 
  * Go to http://iiif.gdmrdigital.com/mirador/index.html.
- * Load the manifest using Add new object from URL
+ * Load the manifest using Add new object from URL (using the manifest hosted in the Chrome Web Server)
  * Click on one of the images to view the manifest
  * Click on the speech bubble to show the annotations.
 

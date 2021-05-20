@@ -2,7 +2,7 @@
 
 In this exercise we are going to create a presentation of our annotations using the [Annona Storyboard viewer](https://ncsu-libraries.github.io/annona/) by Niqui O'Neill from NC State University Libraries. This will demonstrate the interoperability of these annotations and also provide an option for the end of week projects. Annona is a powerful tool to create stories from annotations and supports a wide variety of use cases. The most important one for this lesson is to support annotations created by the SimpleAnnotationServer (SAS). 
 
-There are few complications with the process due to the way we have setup our Manifests and Annotation lists in the previous steps, but the overall process is as follows:
+The overall process is as follows:
 
  * Create your annotations in SAS
  * Get the link to your annotation list for a canvas (see Step 3 in previous section).
@@ -10,7 +10,11 @@ There are few complications with the process due to the way we have setup our Ma
 
 `http://iiif.gdmrdigital.com/annona/index.html?iiif-content=[Annotation List URL]`
 
-This process would work fine if we were annotating a publicly available Manifest but for out Manifests and Annotation lists we host locally on `http://localhost:8887` we have to make a few fixes to get it to work. 
+If you took the option of annotating the Manifest in your Workbench then you can go ahead and use Annona straight away. The URL is in the following form:
+
+[http://iiif.gdmrdigital.com/annona/index.html?iiif-content=http://localhost:8887/annotations1.json](http://iiif.gdmrdigital.com/annona/index.html?iiif-content=http://localhost:8887/annotations1.json)
+
+If you used the `manifest2.json` in your Chrome Web Server there are a few extra steps. 
 
 ## Step 1 Find your Manifest ID
 

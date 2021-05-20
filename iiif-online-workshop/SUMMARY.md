@@ -43,6 +43,7 @@
   - [Annotating your own content](day-four/annotation-store-download.md)
   - [Presenting your annotations](day-four/annotations-annona.md)
   - [IIIF Search API](day-four/iiif-search-api.md)
+  - [Publishing your annotated Manifest](day-four/workbench.md)
   - [Annotating Store - Do it yourself](day-four/annotations-stores-install.md)
   - [Advanced annotation presentation](day-four/advanced-annotations.md)
 
