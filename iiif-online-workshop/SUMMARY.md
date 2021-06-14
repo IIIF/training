@@ -21,10 +21,8 @@
 - [Uses](day-two/uses.md)
 - [Getting started](day-two/image-servers/README.md)
    - [Hosted - Internet Archive](day-two/image-servers/iiif-hosting-ia.md)
-   - [Cantaloupe (Advanced)](day-two/image-servers/setting-up-cantaloupe.md)
-   - [Static Images (Advanced)](day-two/image-servers/static-tiles.md)
-       - [Hosting static images with GitHub](day-two/image-servers/level0-github-hosting.md)
    - [Static Images - Workbench](day-two/image-servers/level0-workbench.md)
+   - [Cantaloupe (Advanced)](day-two/image-servers/setting-up-cantaloupe.md)
 
 ## Day Three - Wednesday 
 - [Presentation API](day-three/README.md)
