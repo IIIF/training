@@ -2,7 +2,7 @@
 
 # Introduction
 
-This workshop was held during the week of the 8th to 12th of June 2020 and 30 people attended from across the world. The workshops materials and videos are now available for you to follow along at your own pace. If you have any questions about any of the activities or get into difficult you can get help from the IIIF community using the [IIIF Slack](http://bit.ly/iiif-slack), particularly the `beginners` channel. At the end of this workshop there is a survey and we would be grateful if you could fill it in so we know how it went. 
+This workshop is part of a regularly run online workshop and you can see the next available session by scrolling to the bottom of the [IIIF Consortium events page](https://www.eventbrite.com/o/iiif-consortium-19836883937). You are also welcome to go through these materials independently and if you any questions about any of the activities or get into difficult you can get help from the IIIF community using the [IIIF Slack](http://bit.ly/iiif-slack), particularly the `beginners` channel. At the end of this workshop there is a survey and we would be grateful if you could fill it in so we know how it went. 
 
 The workshop is split into 5 different areas which were split into 5 days: 
 
