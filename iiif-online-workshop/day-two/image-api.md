@@ -18,7 +18,8 @@
 
 ## Terminology
  * __API__ - Application Programming Interface. In this case an agreed standard between the Image API Server and the Image API Client. 
- * __Client__- The software which allows you to view a IIIF Image. As Web Browser don't support the Image API Natively there are many Javascript viewers that live on webpages that can allow you to view IIIF Images. Examples include OpenSeaDragon, Mirador and Universal Viewer. 
+ * __Client__- The software which allows you to view a IIIF Image. As Web Browsers don't support the Image API Natively there are many Javascript viewers that live on webpages that can allow you to view IIIF Images. Examples include OpenSeaDragon, Mirador and Universal Viewer. 
+ * __Viewer__ - also known as a IIIF Viewer. This is the same as a Client and lets you view IIIF Images. Examples include OpenSeaDragon, Mirador and Universal Viewer. 
  * __Server__ - Software that runs on a machine at all times and is assessable over the Web. For this workshop I will mostly be referring to Image API Servers but there are other types of servers including Web servers or Email servers. Sometimes they are also know as Services e.g. Image API service, Web Service or Mail Service.  
  * __Image API__ - the agreed standard and specification which forms the contract between Client and Server
  * __Image API Server__ - the running software that provides access to images using the Image API. Sometimes shortened in this context to Image Servers. 

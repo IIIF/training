@@ -78,4 +78,4 @@ Extras:
 
  * [Loading a Newspaper example with OCR](https://github.com/glenrobson/SimpleAnnotationServer/blob/master/doc/PopulatingAnnotations.md)
  * [Download annotations](https://github.com/glenrobson/SimpleAnnotationServer/blob/master/doc/DownloadAnnotations.md)
- * Note as well as storing Static Images you can also host manifests and annotation lists using GitHub pages. For details on loading content to Github see the [Static Images](day-two/image-servers/static-tiles.md) tutorial from Tuesday. 
+ * Note as well as storing Static Images you can also host manifests and annotation lists using GitHub pages. For details on loading content to Github see the [Publishing your annotated Manifest](workbench.html). 
