@@ -3,7 +3,7 @@
 ## Gather images
 First, assemble a list of IIIF `info.json` URLs for your content.  
  * Here is a sample image at [Klokan](http://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/info.json)
- * Here is a sample image at the [Yale Center for British Art](https://images.britishart.yale.edu/iiif/2/9e08d901-a26b-4acb-a768-28f90a062adf/info.json)
+ * Here is a sample image at the [Yale Center for British Art](https://images.collections.yale.edu/iiif/2/ycba:9e08d901-a26b-4acb-a768-28f90a062adf/info.json)
    
 ## Use the Bodleian Manifest Editor to create a manifest
    1. Navigate to the editor.  If *any* of your `info.json` URLs begin with HTTP, use the HTTP version.  See the [Note on Mixed Content](#note-on-mixed-content) section at the bottom of this page for more information.  
