@@ -65,3 +65,4 @@
 - [March 2021](March2021.md)
 - [April 2021](April2021.md)
 - [May 2021](May2021.md)
+- [July 2021](July2021.md)
