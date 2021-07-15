@@ -13,7 +13,7 @@ A really interesting recent development is Annonatate from [Niqui O'Neill](https
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This application is now live at <a href="https://t.co/fAq7CiiFdA">https://t.co/fAq7CiiFdA</a>. Please feel free to reach out to me with questions and any problems you see or open an issue on this repo: <a href="https://t.co/W4PbzHiTiA">https://t.co/W4PbzHiTiA</a> <a href="https://t.co/NRb9V24HAY">https://t.co/NRb9V24HAY</a></p>&mdash; Niqui O&#39;Neill (@niqui_o) <a href="https://twitter.com/niqui_o/status/1361708671949041678?ref_src=twsrc%5Etfw">February 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-and the application is available at [https://annonatate.herokuapp.com/]([https://annonatate.herokuapp.com/.
+and the application is available at [https://annonatate.herokuapp.com/](https://annonatate.herokuapp.com/).
 
 For this exercise we are going to be using the [SimpleAnnotationServer](https://github.com/glenrobson/SimpleAnnotationServer) and we are going to work on a copy of the Welsh Centre for International Affairs' Book of Remembrance hosted by the National Library of Wales. The live version of the books is available at:
 
