@@ -78,6 +78,10 @@ There is also a course Google calendar available which you can subscribe to:
   var iframe_html = pref + timezone.name() + suff;
   document.getElementById('calendar-container').innerHTML = iframe_html;
 
+  var cal = ics();
+  function download() {
+      cal.download();
+  }
 </script>
 
 You can also download a [ICS Version](ics/September2021.ics).
