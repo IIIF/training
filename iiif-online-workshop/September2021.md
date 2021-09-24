@@ -84,7 +84,7 @@ There is also a course Google calendar available which you can subscribe to:
   }
 </script>
 
-You can also download a [ICS Version](ics/September2021.ics).
+You can also download a <a href="ics/September2021.ics">ICS version</a>.
 
 ## Project Work 
 One of the most useful features of previous workshops have been where participants work on a project during the week which they can demo on the [last day](day-five/README.md). We are hoping to re-create this and we encourage participants to bring their own images and project ideas to the workshop. We will discuss them in the [first meeting](day-one/README.md) and will provide support during the workshop to produce a demonstration. Participants will be able to book time with a tutor for one on one advice and can also get help from others using a shared Slack channel. 
