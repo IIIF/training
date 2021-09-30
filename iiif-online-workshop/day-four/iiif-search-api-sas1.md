@@ -2,28 +2,23 @@
 
 In the last session we looked at downloading annotations so they could be linked to a manifest. In this session we are going to look at adding a Search service to the manifest so that the annotations you created can be searched using a IIIF Viewer. The procedure to achieve this is:
 
- * Find the SAS IIIF Search URL
+ * Index your manifest with the SimpleAnnotationServer
  * Add a link to the Search service in your manifest
  * Test with a IIIF Viewer
 
 
-## Step 1: Find the IIIF Search URL
+## Step 1: Index your manifest
+The SimpleAnnotationServer supports the IIIF Search API but for it to be able to provide this service it needs to index the manifest so it as a list of Canvas Ids to search. To do this navigate to:
 
-If you navigate to your collections page either by clicking on the Home link or by navigating to:
+http://sas.gdmrdigital.com/uploadManifest.xhtml
 
-https://dev.gdmrdigital.com/collections.xhtml
+and upload your Manifest. We have used http://localhost:8887/manifest2.json in previous examples.
 
-On the collections page click "Browse Annotations":
+If this is successful then you will see a page similar to the following:
 
-![image](images/sas/collections.png)  
+![image](images/anno_search.png)  
 
-and then you will be taken to the Manifest page. Now select the Configure IIIF Search link highlighted below. 
-
-![image](images/sas/manifest-search.png)  
-
-The IIIF search page gives details on how to add a link to the search service. Copy the URL circled in Red in the image below:
-
-![image](images/sas/search-url.png)  
+This page gives details on how to add a link to the search service. Copy the URL circled in Red in the image above.
  
 ## Step 2: Link Manifest to Search Service
 
@@ -43,7 +38,7 @@ Now add the following JSON to the manifest after the `label`:
 
 Now replace the SEARCH_ID with the URL you copied earlier. In my example it would look like:
 
-![image](images/sas/search-atom.png)  
+![image](images/annos_search_api_atom.png)  
 
 ## Step 3: Test with a IIIF Viewer
 Test your manifest with the Universal Viewer to see if has worked.
@@ -51,6 +46,6 @@ Test your manifest with the Universal Viewer to see if has worked.
  * Open up http://universalviewer.io/
  * and paste your manifest http://localhost:8887/manifest2.json in the View a IIIF Manifest section
  * Does it show a search box?
- * Has it found an annotation? 
+ * Has it found an annotation? Note the search is case sensitive. 
  * If you add an annotation in Mirador does it show up in the search results in the UV?
 

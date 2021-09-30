@@ -5,7 +5,7 @@ In this exercise we are going to create a presentation of our annotations using 
 The overall process is as follows:
 
  * Create your annotations in SAS
- * Get the link to your annotation list for a canvas (see Step 3 in previous section).
+ * Get the link to your annotation list for a canvas (see previous page).
  * Pass the Annotation list URL to Annona:
 
 `http://iiif.gdmrdigital.com/annona/index.html?iiif-content=[Annotation List URL]`
