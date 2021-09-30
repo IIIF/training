@@ -1,8 +1,6 @@
 # Creating and downloading Annotations
 
-In this tutorial we are going to annotate an image from your own manifest using a very recently released version of the SimpleAnnotationStore. Once we have finished annotating we are going to download the annotations created, in an Annotation list and link them to the Manifest. This is a way of permanently attaching annotations to a manifest. 
-
-The major difference with this new version of the SimpleAnnotationServer is that you are asked to login and your annotations will be private. The previous version only had a single use so everyone could see and edit all of the annotations. 
+In this tutorial we are going to annotate an image from your own manifest using the hosted SimpleAnnotationStore. Once we have finished annotating we are going to download the annotations created in an Annotation list and link them to the Manifest. This is a way of permanently attaching annotations to a manifest. 
 
 Note from this step forward the activities get more difficult and will involve editing your Manifest. These stages are optional and will give you a complete workflow for annotating and publishing your annotations. There are three options for getting a Manifest to Annotate.
 
@@ -33,62 +31,46 @@ If you didn't manage to get a manifest in the previous step you can use any IIIF
 
 https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json
 
-## Step 1 Login to SAS
- * Navigate to https://dev.gdmrdigital.com/ and click the Log in / Sign Up link. 
- * This will take you to the following screen where you can choose to either login using your Google or Github accounts
-
-![image](images/sas/login.png)  
-
-Unlike the workbench SAS doesn't write to your Google drive or GitHub account. The GitHub/Google methods are purely used to provide authentication to SAS with all of the data being stored on the SAS server. 
-
-## Step 2 Load your manifest into SAS:
-Once you have logged in you will be presented with the following collection screen: 
-
-![image](images/sas/empty_collection.png)  
-
- * Now click the Add IIIF manifest (URL) link and enter the URL to your manifest as below.
+## Step 1 Load your manifest into the hosted Mirador:
+ * Go to http://sas.gdmrdigital.com
+ * Add your manifest to the addNewObject field and click load:
    * If you are using the Workbench use the URL copied from the IIIF logo.
    * If you are using the Chrome web server the URL is: http://localhost:8887/manifest2.json
 
-![image](images/sas/add_manifest.png)  
+![image](images/annos_download_annotating.png)  
 
- * Then click Add. Depending on how many pages the manifest takes this might take a minute or two to index.
- * Once your manifest is loaded you should see it appear in your default Collection:
+## Step 2: annotate manifest
 
-![image](images/sas/manifest.png)  
+ * Start annotating your manifest
 
-## Step 3: Annotate manifest
+![image](images/annos_download_success.png)  
 
- * Now we have the manifest loaded into your SAS account we can start annotating.
- * Click the blue "Annotate in Mirador" button.
- * This should open up your manifest in Mirador
- * Navigate to a page you want to annotate then click the speech bubbles at the top right to start annotating. 
+## Step 3: Download annotations
 
-![image](images/sas/annotate.png)  
+Now you have finished annotating you need to download the annotations and link them to canvases in your manifest. To do this you will download 1 annotation list per page/canvas. 
 
-## Step 4: Download annotations
+ * Navigate to http://sas.gdmrdigital.com/manifests.xhtml
 
-Now you have finished annotating you need to download the annotations and link them to canvases in your manifest. To do this you will download 1 annotation list per page or canvas. 
+You will see a list of manifests that have been annotated by the class and previous classes. You will need to search for your manifest by getting the `@id` from your manifest. For example if my manifest started with:
 
- * Navigate back to the collections page by either clicking the Home menu item or following this link: https://dev.gdmrdigital.com/collections.xhtml
- * Now click the grey "Browse Annotations" button
+```
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://d937e822-64cd-4815-a6da-bc6a79f11619",
+	"@type": "sc:Manifest",
+	"label": "Test Manifest",
+	"metadata": [],
+```
 
-![image](images/sas/browse_annos.png)  
+I would look for `http://d937e822-64cd-4815-a6da-bc6a79f11619` in the list of Annotated Manifests. Once you have found your manifest click the link and you should see a page similar to the following:
 
- * You should now see the canvases which have annotations. 
- * Click the List Annotations button for the annotations you want to download.
+![image](images/anno_download_canvas.png)
 
-![image](images/sas/browse_manifest.png)  
+The links at the bottom of the page are annotations for each canvas (page) you have annotated. For each canvas Right click and do save as. Save the annotations to your Google Chrome Web server folder with the name `annotations1.json`, `annotations2.json` etc... Do this step for both the Workbench and `manifest2.json` options. 
 
- * You should now see the annotations you created for this page. Now select the Link Annotations to Manifest link highlighted below:
+![image](images/anno_download_saveas.png)
 
-![image](images/sas/browse_annos_page.png)  
-
- * The "Linking Annotations to the Manifest" page gives instructions for adding the annotation list to the Manifest. 
- * First download the annotation list by clicking on the link highlighted below and saving it to your Chrome Web Server directory. For the following instructions it should be called `annotation1.json`.
-
-
-## Step 5: Link annotations to Manifest
+## Step 4: Link annotations to Manifest
 To get the annotations to display you need to link them into the manifest. Open up your manifest in your Chrome Web Server directory in [Atom](https://atom.io/). 
 
 Then find the canvas your annotations point to then add the following:
@@ -164,7 +146,7 @@ http://localhost:8887/
 
 You should be able to see your manifest. If you click on your manifest you should see the JSON. If you copy the URL in the browser address bar you will have the Manifest URL for your edited manifest. 
 
-## Step 6: check the annotations are showing
+## Step 5: check the annotations are showing
 
  * Go to http://iiif.gdmrdigital.com/mirador/index.html.
  * Load the manifest using Add new object from URL (using the manifest hosted in the Chrome Web Server)
@@ -176,5 +158,6 @@ You should be able to see your manifest. If you click on your manifest you shoul
  * and if it all worked OK you should see your annotation.
 
 ![image](images/annos_download_success.png)  
+
 
 It is also possible to do the above with a locally running SimpleAnnotationServer just follow the [Annotating Stores - Do it yourself](annotations-stores-install.md) part of the course. 
