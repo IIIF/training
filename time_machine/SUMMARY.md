@@ -3,7 +3,6 @@
 - [Overview](README.md)
 
 ## Part One - Image API
-- [Introduction](README.md)
 - [Image API](day-two/image-api.md)
 - [Group Question](day-two/question.md)   
 - [File formats](day-two/fileformats.md)
