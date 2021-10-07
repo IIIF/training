@@ -123,7 +123,7 @@ var mirador = Mirador.viewer({
       "sideBarOpen": false,
     },
     {
-      "loadedManifest": "https://damsssl.llgc.org.uk/iiif/2.0/4628556/manifest.json?manifest=https://damsssl.llgc.org.uk/iiif/2.0/4628556/manifest.json",
+      "loadedManifest": "https://damsssl.llgc.org.uk/iiif/2.0/4628556/manifest.json",
       "canvasIndex": 14,
       "view": "single",
       "sideBarOpen": false,

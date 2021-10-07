@@ -12,9 +12,11 @@
    - [Hosted - Internet Archive](day-two/image-servers/iiif-hosting-ia.md)
    - [Static Images - Workbench](day-two/image-servers/level0-workbench.md)
    - [Cantaloupe (Advanced)](day-two/image-servers/setting-up-cantaloupe.md)
+- [Scaling IIIF Images](scaling.md)   
 
 ## Part Two - Presentation API 
 - [Presentation API](day-three/README.md)
+    - [How to people create Manifests?](prezi-how.md)
     - Set up the [Web Server for Chrome](day-three/chrome-web-server/README.md) plugin   
     - [Create a Manifest](day-three/bodleian-editor/README.md)
     - [Edit a Manifest](day-three/edit-a-manifest/README.md)
