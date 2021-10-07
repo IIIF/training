@@ -1,0 +1,292 @@
+<style>
+    * {
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #474e5d;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+</style>
+
+<div class="timeline">
+  <div class="container right">
+    <div class="content">
+      <h2>2011 Cambridge, England</h2>
+      <p>First IIIF meeting mainly focused on the Image API. The group was very small but contained institutions that were interested in experimenting. They tended to be larger institutions like the National Library of Norway, Stanford and British Library.</p>
+      <p>Even early on there were regular conference calls every two weeks on a Wednesday and most communication was done on a google group called iiif-discuss.</p>
+    </div>
+    </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2012 The Hague, Netherlands and Edinburgh, Scotland</h2>
+      <p>Similar small group which started discussions on what became known as the Presntation API but started life as the Metadata API.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>August 2012</h2>
+      <p><a href="https://iiif.io/api/image/1.0/">Image API 1.0 Released</a></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>September 2013</h2>
+      <p><a href="https://iiif.io/api/metadata/1.0/">Metadata API 1.0 Released</a></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2013 Paris, France and Copenhagen, Denmark</h2>
+      <p>Discussing use cases and preparing for IIIF version 2.0. The meetings were usually 2-3 days with the first day used as an outreach session with the participants presenting the benefits of IIIF. The other days were a small group working through use cases and changing the specifications to fit the new requirements.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>August 2014</h2>
+      <p><a href="https://iiif.io/api/presentation/2.0/">Presentation API 2.0 Released</a></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>August 2014</h2>
+      <p><a href="https://iiif.io/api/image/2.0/">Image API 2.0 Released</a></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Spring 2015 - Washington, D.C.</h2>
+      <p>The community started a routine of alternating between North America and Europe for meetings. Following a similar pattern of a day of outreach and then hands on working for the rest of the time.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2015 Ghent Belgium</h2>
+      <p>This is where the first community group formed around <a href="https://iiif.io/community/groups/manuscripts/">Manuscripts</a>. It allowed for detailed discussions on how to implement and use IIIF mainly for medieval manuscripts. The had separate meetings at working meetings and also met around other conferences.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>June 2015 - IIIF Consortium Formed</h2>
+      <p>To support the continued development of IIIF, 11 institutions started a <a href="https://iiif.io/news/2015/06/17/iiif-consortium/">new Consortium</a> to provide guidance and funding to start hiring staff and setup infrastructure.</p>
+      <p>The founding members were University of Oxford, the British Library, Stanford University, ARTstor, Die Bayerische Staatsbibliothek (The Bavarian State Library), Cornell University, La Bibliothèque nationale de France (The National Library of France), Nasjonalbiblioteket (The National Library of Norway), Princeton University Library, Wellcome Trust and Yale University</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Spring 2016 - New York, City USA</h2>
+      <p>The first <a href="https://iiif.io/event/2016/newyork/">IIIF conference</a>. This turned into an annual event which also switched between Europe and North America. The conferences moved away from being working meetings and more into demonstrating the different ways people were using IIIF.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Spring 2016 - Slack</h2>
+      <p>The IIIF Community moved to using Slack for discussions. This had many benefits including quicker discussions and separate channels for the community groups but we did see a dramatic reduction in traffic to the iiif-discuss email list.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Summer 2016 - AV Group started</h2>
+      <p>The New York conference highlighted the need to support Audio Visual material with IIIF. To achieve this a new group was formed to focus on the issues. It started by gathering use cases and prioritising them based on how many of the use cases were shared between multiple institutions. Thanks to funding from the British Library and a Mellon Grant this work continued for a number of years with travel for three in person meetings being funded.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>August 2016 - First staff member started</h2>
+      <p>Sheila Rabun started as a <a href="https://iiif.io/news/2016/08/05/community-manager/">Community and Communications officer</a> and took responsibility for organising the community calls and also in person events including the second much larger IIIF conference.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Fall/Autumn 2016 - The Hague, Netherlands</h2>
+      <p>The first <a href="https://iiif.io/event/2016/thehague/">IIIF working meeting</a> which was similar to early meetings in that it encompassed an outreach session followed by hands on working sessions. </p>
+    </div>
+</div>    
+  <div class="container right">
+    <div class="content">
+      <h2>Spring 2017 - Vatican IIIF Conference</h2>
+      <p><a href="https://iiif.io/event/2017/vatican">Program</a></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>August 2017 - IIIF Technical Coordinator Hired</h2>
+      <p><a href="https://iiif.io/news/2017/08/30/technical-coordinator/">Details</a></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Spring 2018 - Washington IIIF Conference</h2>
+      <p><a href="https://iiif.io/event/2018/washington/">Program</a></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>November 2018 - IIIF Managing Director Hired</h2>
+      <p><a href="https://iiif.io/news/2018/11/06/managing-director/">Details</a></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Spring 2019 - Göttingen, Germany IIIF Conference</h2>
+      <p><a href="https://iiif.io/event/2019/goettingen/">Program</a></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>February 2020 - IIIF Community and Event Coordinator</h2>
+      <p>Megan O'Hearn starts as the IIIF Community and Event Coordinator.<a href="https://iiif.io/news/2020/02/24/community-and-event-coordinator/">Details</a></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Spring 2020 - First Virtual conference due to COVID</h2>
+      <p>This was initially intended to be a physical conference in Boston but due to COVID quickly turned to a virtual event using Zoom. <a href="https://iiif.io/event/2020/iiifweek/">Program</a></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>June 2020</h2>
+      <p><a href="https://iiif.io/api/image/3.0/">Image API 3.0 Released</a></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>June 2014</h2>
+      <p><a href="https://iiif.io/api/presentation/3.0/">Presentation API 3.0 Released</a></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Spring 2021 - Second Virtual conference due to COVID</h2>
+      <p><a href="https://iiif.io/event/2021/annual_conference">Program</a></p>
+    </div>
+  </div>
+</div>
