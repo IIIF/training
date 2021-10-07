@@ -1,10 +1,11 @@
 # Summary
 
 - [Overview](README.md)
+- [What is IIIF](iiif_intro/whatisiiif.md)
+- [Where did it start?](iiif_intro/timeline.md)
 
 ## Part One - Image API
 - [Image API](day-two/image-api.md)
-- [Group Question](day-two/question.md)   
 - [File formats](day-two/fileformats.md)
 - [Uses](day-two/uses.md)
 - [Getting started](day-two/image-servers/README.md)
@@ -19,3 +20,6 @@
     - [Edit a Manifest](day-three/edit-a-manifest/README.md)
     - [Add Structure](day-three/ranges/README.md)
     - [Publishing your manifest](day-three/workbench/README.md)
+
+## IIIF Community
+- [Get involved](involved.md)
