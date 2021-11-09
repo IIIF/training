@@ -6,7 +6,7 @@ marked -i index.md -o build/content.html
 
 echo "<html><head><title>IIIF Training</title>" > build/index.html
 echo '<link rel="stylesheet" href="css/style.css" >' >> build/index.html
-echo '</head><body>' >> build/index.html >> build/index.html
+echo '</head><body>' >> build/index.html
 
 echo '<div class="container-lg px-3 my-5 markdown-body">' >> build/index.html 
 cat build/content.html >> build/index.html
