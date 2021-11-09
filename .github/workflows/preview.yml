@@ -25,7 +25,7 @@ jobs:
     - uses: nelonoel/branch-name@v1.0.1
     
     - uses: actions/setup-node@v1
-    - run: npm install -g gitbook-cli marked
+    - run: npm install -g gitbook-cli marked@v3.0.8
 
     # Create the gitbooks in the build directory
     - name: Build gitbooks
