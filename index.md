@@ -5,6 +5,8 @@ Documentation and workshop materials for IIIF training
 
 * [IIIF Online workshop](iiif-online-workshop/index.html) - updated regularly 
 
+* [Annotating Cultural Heritage via IIIF](annotations/index.html) - a 1.5 hour session run on the 9th of November 2021
+
 * [European Time machine Training](time_machine/index.html) - a 2 hour session run on the 7th of October 2021
 
 ## Older training
