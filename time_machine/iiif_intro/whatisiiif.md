@@ -8,7 +8,7 @@ IIIF stands for the International Image Interoperability Framework and is best d
 
 ## International
 
-IIIF has been implemented internationally and is not based in one country. It has been implemented by:
+IIIF has been implemented internationally and is not based in one country. It has been implemented by places like:
 
  * National Institutions:
     * Österreichische Nationalbibliothek (Austrian National Library), 
@@ -145,5 +145,5 @@ These two APIs will be covered in detail in the rest of the workshop. As well as
  * [Authentication API](https://iiif.io/api/auth/1.0) - for protecting resources by username or giving lower quality images to unauthenticated users
  * [Change Discovery API](https://iiif.io/api/discovery/) - for Aggregators like Europeana to harvest IIIF data
  * [Content State API](https://iiif.io/api/content-state/) - to improve the method of taking content from one viewer to another
- * Maps Extension - coming soon but a preview is [here](https://preview.iiif.io/api/navplace_extension/api/extension/navplace/) - to link a Geographical place to a IIIF image. Could be used to Georeference a map or photograph. 
+ * [Maps Extension](https://iiif.io/api/extension/navplace/) - to link a Geographical place to a IIIF image. Could be used to Georeference a map or photograph. 
 
