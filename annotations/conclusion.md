@@ -50,22 +50,32 @@ Technical Groups
  * Join the IIIF Discuss [email list](https://groups.google.com/forum/#!forum/iiif-discuss)
 
 <script>
-    function addEvent(parentDiv) {
+     function addEvent(parentDiv, event) {
+        if (!event.name.text.includes("Online Training")) {
+            return;
+        }
         let li = document.createElement('li');
         parentDiv.appendChild(li);
         li.style = "display: flex; box-shadow: 0 1px 2px 1px #ddd;padding: 15px; margin: 10px 3px;";
+
+       /* let logo = document.createElement('img');
+        logo.src = event.logo.url;
+        logo.style = "flex: none";
+        logo.alt = 'Event Logo';
+        logo.height = 100;
+        li.appendChild(logo);*/
         
         let div = document.createElement('div');
         div.style = "flex: auto; padding-left: 20px;";
         li.appendChild(div);
 
         let eventName = document.createElement('h3');
-        eventName.innerHTML = "January IIIF Online Training (5-Day Course)";
+        eventName.innerHTML = event.name.text;
         eventName.style = 'margin-top: 10px; margin-bottom: 10px;'
         div.appendChild(eventName);
 
         let eventSummary = document.createElement('p');
-        eventSummary.innerHTML = "This workshop will meet daily January 24th to 28th for one hour starting at 12:00pm CET / 11:00am GMT / 6:00am EDT and as such will be suitable for people in the UK, Europe, Africa and Asian timezones. ";
+        eventSummary.innerHTML = strip(event.modules[0].data.body.text);
         div.appendChild(eventSummary);
 
         let button = document.createElement('button')
@@ -73,7 +83,7 @@ Technical Groups
         button.innerHTML = 'Register'
         button.onclick = function () { 
             window.open(
-              "https://www.eventbrite.com/e/january-iiif-online-training-5-day-course-tickets-176371781747",
+              event.url,
               '_blank' // <- This is what makes it open in a new window.
             );}
         div.appendChild(button);
@@ -88,7 +98,24 @@ Technical Groups
     let ul = document.createElement('ul');
     ul.style = "padding-left: 0px;"
     div.appendChild(ul);
-    
-    addEvent(ul);
+    fetch('https://iiif.io/events/eventbrite.json')
+      .then(resp => {
+         if (resp.ok) {
+           return resp.json();
+         } else {
+           throw new Error(`Got back ${resp.status}`);
+         }
+      }).then(data => {
+        if (data.hasOwnProperty('events')) {
+            let p = document.createElement('p');
+            p.innerHTML = 'If you would like more support we have the following training sessions available:'; 
+            div.insertBefore(p, ul);
+            data.events.forEach(event => addEvent(ul, event));
+        }
+        console.log(data);
+      }).catch(err => {
+        console.log('Failed due to ' + err);
+      });
+        
 </script>
 
