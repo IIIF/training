@@ -1,11 +1,12 @@
 ## Identifier
 <script src="../viewer.js" >
 </script>
+<script src="../../extras.js" >
+</script>
 
 The identifier is highlighted below. Everything to the right of the identifier is controlled by the Image API and is predictable. In the viewer below a full IIIF image URL is shown. One thing to watch out for with a image URL is that it uses _https_ rather than _http_. With _http_ URLs you will not be able to open the image in a _https_ hosted viewer.
 
 You can see some different image examples by changing the identifier.  
-
 <div id="image_api_demo2">
 </div>
 <script>

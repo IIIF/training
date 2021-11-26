@@ -31,6 +31,13 @@ infoJsons = {};
  * }
  */
 function addViewer(config) {
+    let iiifContent = getURLParameter("iiif-content");
+    if (iiifContent != null) {
+        config.images.unshift(iiifContent);
+    }
+    if (typeof addExtraImages == 'function') { 
+        addExtraImages(config); 
+    }
     addParams(config); 
 }
 
@@ -364,7 +371,11 @@ function getImageQualities(uuid) {
         if ('profile' in infoJson) {
             for (i = 0; i < infoJson.profile.length; i++) {
                 if (typeof infoJson.profile[i] === 'object' && 'qualities' in infoJson.profile[i]) {
-                    return infoJson.profile[i]['qualities'];
+                    let qualities = infoJson.profile[i]['qualities'];
+                    if (!qualities.includes("default")) {
+                        qualities.unshift("default");
+                    }
+                    return qualities;
                 }
             }
         }
@@ -536,4 +547,18 @@ function showImage(uuid, source) {
 function getSelected(uuid, ident) {
     var select = document.getElementById(ident + '_' + uuid);
     return select.options[select.selectedIndex].value;
+}
+
+function getURLParameter(param) {
+    if(typeof(param) == "string" && param.length > 0) {
+        if(typeof(window.location.search) == "string" && window.location.search.length > 0) {
+            var _results = new RegExp(param + "=([^&]*)", "i").exec(window.location.search);
+            if(typeof(_results) == "object" && _results !== null && typeof(_results.length) == "number" && _results.length > 0 && _results[1]) {
+                if(typeof(_results[1]) == "string" && _results[1].length > 0) {
+                    return unescape(_results[1]);
+                }
+            }
+        }
+    }
+    return null;
 }
