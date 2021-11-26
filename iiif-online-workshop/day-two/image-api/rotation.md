@@ -1,4 +1,7 @@
 ## Rotation
+
+<script src="../../extras.js" >
+</script>
 <script src="../viewer.js" >
 </script>
 
@@ -26,6 +29,7 @@ The Harvard image service supports all rotation parameters and is known as a Lev
         ],
         regions: [
             'full',
+            'max',
             'square',
             '1000,100,3000,2000',
             '2000,3000,2000,2000',

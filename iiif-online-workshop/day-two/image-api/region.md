@@ -1,4 +1,7 @@
 ## Region
+
+<script src="../../extras.js" >
+</script>
 <script src="../viewer.js" >
 </script>
 

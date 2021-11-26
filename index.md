@@ -9,6 +9,10 @@ Documentation and workshop materials for IIIF training
 
 * [European Time machine Training](time_machine/index.html) - a 2 hour session run on the 7th of October 2021
 
+## Bespoke Training
+
+ * [British Library online Training](iiif-bl-workshop/index.html) - a customised 5 day workshop
+
 ## Older training
 
 * [Europeana IIIF Working Group - Presentation API](presentation-api/index.html) - a hour long intro into the Presentation API given as part of the IIIF Europeana Working Meeting in September 2020
