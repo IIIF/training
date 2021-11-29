@@ -4,7 +4,7 @@
   - [Guest Presentations](GuestPresentations.md)
 
 ## Day One - Monday 
-- [Introduction](day-one.md)
+- [Introduction](day-one/README.md)
 
 ## Day Two - Tuesday 
 - [Introduction](day-two/README.md)
@@ -19,6 +19,7 @@
 - [File formats](day-two/fileformats.md)
 - [Uses](day-two/uses.md)
 - [Getting started](bl-image.md)
+   - [British Library Images](day-two/image-servers/bl_images.md)
    - [Hosted - Internet Archive](day-two/image-servers/iiif-hosting-ia.md)
    - [Static Images - Workbench](day-two/image-servers/level0-workbench.md)
    - [Cantaloupe (Advanced)](day-two/image-servers/setting-up-cantaloupe.md)
