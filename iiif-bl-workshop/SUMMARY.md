@@ -7,7 +7,7 @@
 - [Introduction](day-one/README.md)
 
 ## Day Two - Tuesday 
-- [Introduction](day-two/README.md)
+- [Introduction](day-two-bl.md)
 - [Image API](day-two/image-api.md)
    - [Identifier](day-two/image-api/identifier.md)
    - [Region](day-two/image-api/region.md)
