@@ -27,6 +27,7 @@ https://iiif.io/community/call/
 We have content specific community groups which organise regular calls with demos and discussions:
 
  * [3D](https://iiif.io/community/groups/3d)
+ * [A/V](https://iiif.io/community/groups/av) 
  * [Archives](https://iiif.io/community/groups/archives)
  * [Discovery for Humans](https://iiif.io/community/groups/D4H)
  * [Manuscripts](https://iiif.io/community/groups/manuscripts)
@@ -37,11 +38,12 @@ We have content specific community groups which organise regular calls with demo
 
 ## Join a Technical Specification Group
 
-Want to help define the next version of the specification? Join a TSG group and give your usecases and contribute to the discussion.
+Want to help define the next version of the specification? Join a TSG group and give your use cases and contribute to the discussion.
 
- * [A/V](https://iiif.io/community/groups/av) will soon be a Community Group
  * [Discovery](https://iiif.io/community/groups/discovery)
- * Maps - starting soon
+ * [Maps](https://iiif.io/community/groups/maps-tsg/)
+ * [Authentication](https://iiif.io/community/groups/auth-tsg)
+ * [Content Search](https://iiif.io/community/groups/content-search-tsg)
 
 ## Stay informed
 

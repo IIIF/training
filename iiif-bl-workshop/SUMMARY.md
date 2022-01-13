@@ -47,9 +47,7 @@
 
 
 ## Day Five - Friday 
-- [Project work and report back](day-five/README.md)
-  - [Thank you](day-five/thankyou.md)
-  - [Survey](day-five/survey.md)
+- [Project work and report back](day-five/BL.md)
   - [Join the community](day-five/Community.md)
 
 ## Extras
@@ -59,3 +57,4 @@
 
 ## Editions of the course
 - [November 2021](November2021.md)
+- [January 2022](January2022.md)
