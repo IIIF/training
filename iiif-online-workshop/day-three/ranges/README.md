@@ -13,28 +13,33 @@ Find the `@id` of each Canvas you created in your Manifest.  Your structural map
 1. Save the file
 
 ```
-	"structures": [
-		{
-		  "@id": "http://example.org/iiif/book1/range/r0",
-		  "@type": "sc:Range",
-		  "label": "Table of Contents",
-		  "members": [
-				{
-				  "@id": "http://example.org/iiif/book1/range/r1",
-				  "@type": "sc:Range",
-				  "label": "Introduction"
-				}
-		  ]
-		},
-		{
-			  "@id": "http://example.org/iiif/book1/range/r1",
-			  "@type": "sc:Range",
-			  "label": "Introduction",
-			  "canvases": ["$YOUR_CANVAS_ID"]
-		}
-	]
+"structures": [
+    {
+        "@id": "http://example.org/iiif/book1/range/top",
+        "@type": "sc:Range",
+        "label": "Table of Content",
+        "viewingHint": "top",
+        "ranges": [
+            "http://example.org/iiif/book1/range/intro"
+        ]
+    },
+    {
+        "@id": "http://example.org/iiif/book1/range/intro",
+        "@type": "sc:Range",
+        "label": "Introduction",
+        "canvases": [
+            "$YOUR_CANVAS_ID"
+        ]
+    }
+]
 ```
 
 ## Verify in the Universal Viewer
 
 Open the Manifest in the [Universal Viewer](http://universalviewer.io).  Assuming you named your Manifest `manifest.json` , your Manifest URL will be http://127.0.0.1:8887/manifest.json
+
+## Table of contents in notes
+
+Note Table of Contents in IIIF version 2, as is discussed in this course has been simplified in version 3. You can see an example version 3 table of contents in a book [here](https://iiif.io/api/cookbook/recipe/0024-book-4-toc/) and in a AV resource [here](https://iiif.io/api/cookbook/recipe/0026-toc-opera/).
+
+The table of contents (TOC) shown above should work in the latest copy of the Universal Viewer and Mirador but the version 2 of the specification allows a number of different ways to structure a table of contents. For a more in-depth investigation on the ways you can work with structures, including a multi level hierarchical table of contents please see this [note](https://glenrobson.github.io/iiif_stuff/toc/). 
