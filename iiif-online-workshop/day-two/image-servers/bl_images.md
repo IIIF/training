@@ -17,7 +17,7 @@ Now we have found the item we want to get the 'IIIF Manifest' for this item. We 
 
 To find the manifest click the 'share' link at the bottom of the viewer and then right click on the IIIF icon and select 'Copy link' or 'Copy Link Address' in Chrome:
 
-***Note:*** some collections like the Microsoft printed books collection do not currently allow sharing so the share button will not be present.
+***Note:*** some collections like the Google printed books collection do not currently allow sharing so the share button will not be present.
 
 ![BL digital item with manifest link open](imgs/uv_bl_share.png)
 
