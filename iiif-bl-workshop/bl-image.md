@@ -59,12 +59,12 @@ Only has a limited number of sizes and regions defined. Enough to work in a zoom
 
 You can see the [generated files on github](https://github.com/glenrobson/glenrobson.github.io/tree/master/iiif/welsh_book/page002/). There is also a blog on how to use IIIF level 0 images. [IIIF from Scratch](https://glenrobson.github.io/iiif/2018/01/12/iiif-from-scrtach.html). 
 
-You can optionally follow this guide to create your own level 0 images. [Workshop Guide](level0-workbench.md)
+You can optionally follow this guide to create your own level 0 images. [Workshop Guide](day-two/image-servers/level0-workbench.md)
 
 Once you have created your level 0 images you can make them available with the following example services:
 
 Free:
- * [GitHub Pages](https://pages.github.com/) - ([Workbench Guide](level0-workbench.md))
+ * [GitHub Pages](https://pages.github.com/) - ([Workbench Guide](day-two/image-servers/level0-workbench.md))
 
 Paid for:
  * [Amazon s3 web hosting](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html)
