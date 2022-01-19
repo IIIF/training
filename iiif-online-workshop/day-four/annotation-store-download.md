@@ -20,7 +20,7 @@ This option uses a combination of annotating the version of the manifest from yo
  * Navigate to your manifest in your workbench 
  * Right click on the IIIF logo and select `Save Link As`
  * Save it in the Chrome Web Server directory and call it `manifest3.json`
- * Ensure your Chrome Web server is running. This should be running on port `8887` 
+ * Ensure your Chrome Web server is running. This should be running on port `8887` and the manifest should be available at http://localhost:8887/manifest3.json
  * Open the downloaded manifest in [Atom](https://atom.io/) ready for editing. 
  
 2. Copy the Manifest URL
