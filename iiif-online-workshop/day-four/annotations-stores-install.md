@@ -64,7 +64,7 @@ dependency			simpleAnnotationStore.war
   * Now add your manifest
     * Go to http://localhost:8888/index.html
     * Go to the list of manifests (click the big plus sign or if you are viewing a manifest click the four boxes at the top left and select 'newObject').
-    * In the list of manifests paste the link to your manifest http://localhost:8887/manifest2.json into the addNewObject text field and click `load`.
+    * In the list of manifests paste the link to your manifest http://localhost:8887/manifest3.json into the addNewObject text field and click `load`.
  * You should now see:
 
 ![image](images/annos_mirador_addItem.png)  

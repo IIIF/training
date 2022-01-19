@@ -19,7 +19,7 @@ This option uses a combination of annotating the version of the manifest from yo
 
  * Navigate to your manifest in your workbench 
  * Right click on the IIIF logo and select `Save Link As`
- * Save it in the Chrome Web Server directory
+ * Save it in the Chrome Web Server directory and call it `manifest3.json`
  * Ensure your Chrome Web server is running. This should be running on port `8887` 
  * Open the downloaded manifest in [Atom](https://atom.io/) ready for editing. 
  
@@ -171,9 +171,9 @@ https://jsonlint.com/
 
 which will tell you if the JSON is valid and if not where the error is. 
 
-Now test your edited manifest in the browser to check it looks OK. If you are using `manifest2.json` then the link will be:
+Now test your edited manifest in the browser to check it looks OK. If you are using `manifest3.json` then the link will be:
 
-http://localhost:8887/manifest2.json
+http://localhost:8887/manifest3.json
 
 If you are using the workbench then the link will be similar but the name might be different to `mainfest2.json`. If you go to:
 

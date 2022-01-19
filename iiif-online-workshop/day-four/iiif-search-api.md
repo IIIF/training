@@ -49,7 +49,7 @@ Now replace the SEARCH_ID with the URL you copied earlier. In my example it woul
 Test your manifest with the Universal Viewer to see if has worked.
 
  * Open up http://universalviewer.io/
- * and paste your manifest http://localhost:8887/manifest2.json in the View a IIIF Manifest section
+ * and paste your manifest http://localhost:8887/manifest3.json in the View a IIIF Manifest section
  * Does it show a search box?
  * Has it found an annotation? 
  * If you add an annotation in Mirador does it show up in the search results in the UV?
