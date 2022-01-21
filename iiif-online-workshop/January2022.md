@@ -53,7 +53,7 @@ Minimum progress:
 
 
 <h3>**Annotations** - <span id="day4"></span></h3>
-__Meeting:__ Live presentation at <b><span id="annotations"></span></b>
+__Meeting:__ Group check in meeting at <b><span id="annotations"></span></b>
 
 Tasks to be completed __after__ the meeting:
  * [IIIF and Annotations](day-four/) - video 1 hour
