@@ -3,6 +3,17 @@ The concepts of the Presentation API can be difficult to grasp until we actually
 
 Learning by doing: In production systems (such as a digital library's image collection), manifests can get very big and are usually machine generated, but for getting the basic concepts down, there's no substitute for editing a manifest "by hand."
 
+## Required Software
+
+We have tested the following bits of software and they seem to be relatively easy to install even on work machines where you do not have admin privileges. 
+
+The first bit of software we recommend is called [Atom](https://atom.io/) and we use this to edit the JSON in the instructions below. You are welcome to use any text editor but we prefer AtoM as it has some features which makes it easier to work with JSON. 
+
+The second bit of helpful software to install is a plugin to your browser that will format JSON so it is easier to read. The following are available for Chrome and Firefox:
+
+ * [Firefox JSON View](https://addons.mozilla.org/en-US/firefox/addon/jsonview/)
+ * [Chrome JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/aimiinbnnkboelefkjlenlgimcabobli)
+
 ## Save a Copy
 Save a copy of the Manifest you created in the last lesson as `manifest2.json`.  Edit `manifest2.json` for this section.
 
