@@ -13,9 +13,13 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    environment:
+      name: 'staging'
+      url: "https://preview.iiif.io/training/`git rev-parse --abbrev-ref HEAD`/index.html"
+
     # These permissions are needed to interact with GitHub's OIDC Token endpoint.
     permissions:
       id-token: write
@@ -51,11 +55,11 @@ jobs:
         env: staging
 
     # Deploy to 
-    - name: Configure AWS credentials from Test account
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        role-to-assume: arn:aws:iam::420715881449:role/GithubIdentify
-        aws-region: us-east-1
+   # - name: Configure AWS credentials from Test account
+   #   uses: aws-actions/configure-aws-credentials@v1
+   #   with:
+   #     role-to-assume: arn:aws:iam::420715881449:role/GithubIdentify
+   #     aws-region: us-east-1
 
     - name: Copy files to the test website with the AWS CLI
       run: |
@@ -74,13 +78,13 @@ jobs:
    #     SOURCE_DIR: "build/"
    #     DEST_DIR: "training/${BRANCH_NAME}"
 
-    - name: Update deployment status
-      uses: bobheadxi/deployments@v0.4.1
-      if: always()
-      with:
-        step: finish
-        token: ${{ secrets.GITHUB_TOKEN }}
-        status: ${{ job.status }}
-        deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-        env_url: "https://preview.iiif.io/training/${{ env.BRANCH_NAME}}/index.html"
+   # - name: Update deployment status
+   #   uses: bobheadxi/deployments@v0.4.1
+   #   if: always()
+   #   with:
+   #     step: finish
+   #     token: ${{ secrets.GITHUB_TOKEN }}
+   #     status: ${{ job.status }}
+   #     deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+   #     env_url: "https://preview.iiif.io/training/${{ env.BRANCH_NAME}}/index.html"
 
