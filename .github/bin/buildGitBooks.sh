@@ -9,7 +9,7 @@ failure_message="Failed to build: "
 for dir in */ ; do
     cd $dir;
     count=`ls -1 *.md 2>/dev/null | wc -l`
-    if [ $count != 0 ]; then
+    if [ $count != 1 ]; then
         echo "Building $dir"
         if [ -d "../build/$dir" ]; then
             rm -rf "../build/$dir";
