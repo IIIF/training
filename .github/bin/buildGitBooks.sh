@@ -3,13 +3,14 @@
 if [ ! -d "build" ]; then
     mkdir build
 fi   
+
+exclude="build css scripts _book"
 # if this is 1 the build failed
 failed_build=0
 failure_message="Failed to build: "
 for dir in */ ; do
-    cd $dir;
-    count=`ls -1 *.md 2>/dev/null | wc -l`
-    if [ $count != 1 ]; then
+    if [[ ! "$exclude" =~ .*"`basename $dir`".* ]]; then
+        cd $dir;
         echo "Building $dir"
         if [ -d "../build/$dir" ]; then
             rm -rf "../build/$dir";
@@ -27,8 +28,10 @@ for dir in */ ; do
             echo "Failed to build gitbook in $dir"
             failure_message="$failure_message $dir"
         fi
+        cd ..
+    else
+        echo "Ignoring $dir"
     fi    
-    cd ..
 done
 
 if [ $failed_build -eq 1 ];then
