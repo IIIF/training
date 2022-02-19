@@ -9,20 +9,29 @@ on:
         branches:
           - '*'
           - '!master'
+          - '!main'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    environment:
+      name: 'staging'
+      url: "https://preview.iiif.io/training/${{ github.ref_name}}/index.html"
+
+    # These permissions are needed to interact with GitHub's OIDC Token endpoint.
+    permissions:
+      id-token: write
+      contents: read
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    # Depth 0 required for lastMod
     - uses: actions/checkout@v2
-    # store branch name in ${BRANCH_NAME}
-    - uses: nelonoel/branch-name@v1.0.1
+      with:
+        fetch-depth: '0'
     
     - uses: actions/setup-node@v1
     - run: npm install -g gitbook-cli marked@v3.0.8
@@ -34,34 +43,16 @@ jobs:
     - name: convert index  
       run: .github/bin/createIndex.sh
 
-    - name: Create GitHub deployment
-      uses: bobheadxi/deployments@v0.4.1
-      id: deployment
-      with:
-        step: start
-        token: ${{ secrets.GITHUB_TOKEN }}
-        env: staging
+    - name: update lastmod
+      run: .github/bin/updateLastMod.sh
 
-    # Deploy to 
-    - name: Deploy to S3
-      uses: jakejarvis/s3-sync-action@master
+    - name: Configure AWS credentials 
+      uses: aws-actions/configure-aws-credentials@v1
       with:
-        args: --acl public-read 
-      env:
-        AWS_S3_BUCKET: "preview.iiif.io"
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: ${{ secrets.AWS_REGION }}
-        SOURCE_DIR: "build/"
-        DEST_DIR: "training/${BRANCH_NAME}"
+        role-to-assume: arn:aws:iam::420715881449:role/GithubIdentify
+        aws-region: us-east-1
 
-    - name: Update deployment status
-      uses: bobheadxi/deployments@v0.4.1
-      if: always()
-      with:
-        step: finish
-        token: ${{ secrets.GITHUB_TOKEN }}
-        status: ${{ job.status }}
-        deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-        env_url: "https://preview.iiif.io/training/${{ env.BRANCH_NAME}}/index.html"
+    - name: Copy files to preview
+      run: |
+        aws s3 sync build/ s3://preview.iiif.io/training/${{ github.ref_name}} --acl 'public-read' 
 

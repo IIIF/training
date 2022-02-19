@@ -8,18 +8,29 @@ on:
     push:
         branches:
             - master
+            - main
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    environment:
+      name: 'production'
+      url: "https://training.iiif.io/index.html"
+
+    # These permissions are needed to interact with GitHub's OIDC Token endpoint.
+    permissions:
+      id-token: write
+      contents: read
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
 
     - uses: actions/setup-node@v1.4.4
     - run: npm install -g gitbook-cli marked@v3.0.8
@@ -31,14 +42,15 @@ jobs:
     - name: convert index  
       run: .github/bin/createIndex.sh
 
-    - name: Deploy to S3
-      uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --acl public-read 
-      env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET_NAME }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: ${{ secrets.AWS_REGION }}
-        SOURCE_DIR: "build/"
+    - name: update lastmod
+      run: .github/bin/updateLastMod.sh
 
+    - name: Configure AWS credentials 
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        role-to-assume: arn:aws:iam::420715881449:role/GithubIdentify
+        aws-region: us-east-1
+
+    - name: Copy files to preview
+      run: |
+        aws s3 sync build/ s3://training.iiif.io/ --acl 'public-read'
