@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: 'staging'
-      url: "https://preview.iiif.io/training/`git rev-parse --abbrev-ref HEAD`/index.html"
+      url: "https://preview.iiif.io/training/${GITHUB_REF##*/}/index.html"
 
     # These permissions are needed to interact with GitHub's OIDC Token endpoint.
     permissions:
@@ -65,8 +65,7 @@ jobs:
 
     - name: Copy files to the test website with the AWS CLI
       run: |
-        aws s3 sync build/ s3://preview.iiif.io/training/${BRANCH_NAME} --acl 'public-read' --dryrun
-
+        aws s3 sync build/ s3://preview.iiif.io/training/${BRANCH_NAME} --acl 'public-read' 
 
    # - name: Deploy to S3
    #   uses: jakejarvis/s3-sync-action@master
