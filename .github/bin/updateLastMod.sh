@@ -30,7 +30,6 @@ updateFile() {
 
     modification=`git log -1 --pretty="format:%cd" --date local $mdFile `
     echo "Filename $filename lastmod: $modification sourceFile: $mdFile"
-    git log -1 $mdFile
     if [ -n "$modification" ];then
         if [[ $OSTYPE == 'darwin'* ]]; then
             touchFormat=`date -jf "%a %b %e %T %Y" "$modification" +"%FT%T"`
