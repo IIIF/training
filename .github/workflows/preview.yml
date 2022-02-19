@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: 'staging'
-      url: "https://preview.iiif.io/training/${GITHUB_REF##*/}/index.html"
+      url: "https://preview.iiif.io/training/${{ github.ref_name}}/index.html"
 
     # These permissions are needed to interact with GitHub's OIDC Token endpoint.
     permissions:
