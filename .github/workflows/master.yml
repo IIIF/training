@@ -51,6 +51,6 @@ jobs:
         role-to-assume: arn:aws:iam::420715881449:role/GithubIdentify
         aws-region: us-east-1
 
-    - name: Copy files to preview
+    - name: Copy files to live
       run: |
         aws s3 sync build/ s3://training.iiif.io/ --acl 'public-read'
