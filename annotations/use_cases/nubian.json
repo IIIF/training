@@ -1,0 +1,311 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "The Nubian Message (LH1 .H6 N83), Special Collections Research Center at NC State University Libraries",
+    "dcterms:created": "2016-02-23T21:02:56.000Z",
+    "dcterms:modified": "2021-02-03T08:43:04.000Z",
+    "label": "Nubian Message, April 1, 1995",
+    "license": [
+        "https://d.lib.ncsu.edu/collections/about#rights_and_use"
+    ],
+    "logo": {
+        "@id": "https://d.lib.ncsu.edu/collections/assets/ncsu-libraries-white-logo-placement-0ac6d32dfc3427d3325882e6a32c81be.jpg"
+    },
+    "metadata": [
+        {
+            "label": "title",
+            "value": "Nubian Message, April 1, 1995"
+        },
+        {
+            "label": "Creator",
+            "value": "<span><a href=\"https://d.lib.ncsu.edu/collections/catalog?f%5Bnames_facet%5D%5B%5D=Nubian+Message+%28Raleigh%2C+N.C.%29\">Nubian Message (Raleigh, N.C.)</a> (Publisher)</span>"
+        },
+        {
+            "label": "Created Date",
+            "value": "1995-04-01"
+        },
+        {
+            "label": "URL",
+            "value": "<span><a href=\"https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01\">https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01</a></span>"
+        },
+        {
+            "label": "",
+            "value": "<span><a title=\"IIIF drag &amp; drop\" href=\"https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01?manifest=https%3A%2F%2Fd.lib.ncsu.edu%2Fcollections%2Fcatalog%2Fnubian-message-1995-04-01%2Fmanifest.json\">IIIF drag &amp; drop</a> (<a href=\"https://d.lib.ncsu.edu/collections/about-iiif\">About IIIF</a>)</span>"
+        }
+    ],
+    "related": {
+        "@id": "https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01",
+        "dcterms:modified": "2021-02-03T08:43:04.92Z",
+        "format": "text/html",
+        "label": "HTML page for the resource"
+    },
+    "seeAlso": [
+        {
+            "@id": "https://d.lib.ncsu.edu/collections/catalog/oai?identifier=ncsul%2Fnubian-message-1995-04-01&metadataPrefix=oai_dc&verb=GetRecord",
+            "format": "text/xml",
+            "label": "Dublin Core XML via OAI-PMH"
+        },
+        {
+            "@id": "https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01/schemaorg.json",
+            "format": "application/ld+json",
+            "label": "Schema.org metadata as JSON-LD",
+            "profile": "https://schema.org"
+        }
+    ],
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001",
+                    "@type": "sc:Canvas",
+                    "height": 6559,
+                    "images": [
+                        {
+                            "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001/image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0001",
+                            "resource": {
+                                "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01_0001/full/1170,/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 6559,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01_0001",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 4724
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "otherContent": 
+                        {
+                            "@id": "https://training.iiif.io/annotations/use_cases/annotations.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (line level)"
+                        }
+                    ,
+                    "seeAlso": [
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001.hocr",
+                            "format": "text/vnd.hocr+html",
+                            "label": "hOCR",
+                            "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0001/nubian-message-1995-04-01_0001.txt",
+                            "format": "text/plain",
+                            "label": "plain text OCR"
+                        }
+                    ],
+                    "width": 4724
+                },
+                {
+                    "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0002",
+                    "@type": "sc:Canvas",
+                    "height": 6547,
+                    "images": [
+                        {
+                            "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0002/image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0002",
+                            "resource": {
+                                "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01_0002/full/1170,/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 6547,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01_0002",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 4768
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "otherContent": [
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0002/nubian-message-1995-04-01_0002-annotation-list-word.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (word level)"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0002/nubian-message-1995-04-01_0002-annotation-list-line.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (line level)"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0002/nubian-message-1995-04-01_0002-annotation-list-paragraph.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (paragraph level)"
+                        }
+                    ],
+                    "seeAlso": [
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0002/nubian-message-1995-04-01_0002.hocr",
+                            "format": "text/vnd.hocr+html",
+                            "label": "hOCR",
+                            "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0002/nubian-message-1995-04-01_0002.txt",
+                            "format": "text/plain",
+                            "label": "plain text OCR"
+                        }
+                    ],
+                    "width": 4768
+                },
+                {
+                    "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0003",
+                    "@type": "sc:Canvas",
+                    "height": 6548,
+                    "images": [
+                        {
+                            "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0003/image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0003",
+                            "resource": {
+                                "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01_0003/full/1170,/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 6548,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01_0003",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 4660
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "otherContent": [
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0003/nubian-message-1995-04-01_0003-annotation-list-word.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (word level)"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0003/nubian-message-1995-04-01_0003-annotation-list-line.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (line level)"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0003/nubian-message-1995-04-01_0003-annotation-list-paragraph.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (paragraph level)"
+                        }
+                    ],
+                    "seeAlso": [
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0003/nubian-message-1995-04-01_0003.hocr",
+                            "format": "text/vnd.hocr+html",
+                            "label": "hOCR",
+                            "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0003/nubian-message-1995-04-01_0003.txt",
+                            "format": "text/plain",
+                            "label": "plain text OCR"
+                        }
+                    ],
+                    "width": 4660
+                },
+                {
+                    "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0004",
+                    "@type": "sc:Canvas",
+                    "height": 6548,
+                    "images": [
+                        {
+                            "@id": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0004/image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-1995-04-01_0004",
+                            "resource": {
+                                "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01_0004/full/1170,/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "height": 6548,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01_0004",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                },
+                                "width": 4715
+                            }
+                        }
+                    ],
+                    "label": "[4]",
+                    "otherContent": [
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0004/nubian-message-1995-04-01_0004-annotation-list-word.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (word level)"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0004/nubian-message-1995-04-01_0004-annotation-list-line.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (line level)"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0004/nubian-message-1995-04-01_0004-annotation-list-paragraph.json",
+                            "@type": "sc:AnnotationList",
+                            "label": "Text of this page (paragraph level)"
+                        }
+                    ],
+                    "seeAlso": [
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0004/nubian-message-1995-04-01_0004.hocr",
+                            "format": "text/vnd.hocr+html",
+                            "label": "hOCR",
+                            "profile": "https://github.com/kba/hocr-spec/blob/master/hocr-spec.md"
+                        },
+                        {
+                            "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01_0004/nubian-message-1995-04-01_0004.txt",
+                            "format": "text/plain",
+                            "label": "plain text OCR"
+                        }
+                    ],
+                    "width": 4715
+                }
+            ],
+            "rendering": [
+                {
+                    "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01/nubian-message-1995-04-01.pdf",
+                    "format": "application/pdf",
+                    "label": "Download as PDF, 1.98 MB"
+                },
+                {
+                    "@id": "https://ocr.lib.ncsu.edu/ocr/nu/nubian-message-1995-04-01/nubian-message-1995-04-01.txt",
+                    "format": "plain/text",
+                    "label": "Download OCR Text"
+                }
+            ],
+            "viewingHint": "paged"
+        }
+    ],
+    "service": [
+        {
+            "@context": "http://iiif.io/api/search/0/context.json",
+            "@id": "https://ocr.lib.ncsu.edu/search/nubian-message-1995-04-01",
+            "label": "Search within this thing",
+            "profile": "http://iiif.io/api/search/0/search",
+            "service": {
+                "@id": "https://ocr.lib.ncsu.edu/suggest/nubian-message-1995-04-01",
+                "label": "Get suggested words",
+                "profile": "http://iiif.io/api/search/0/autocomplete"
+            }
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01/full/150,/0/default.jpg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://iiif.lib.ncsu.edu/iiif/nubian-message-1995-04-01",
+            "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+    }
+}

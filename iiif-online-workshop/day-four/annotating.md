@@ -4,7 +4,7 @@ In this tutorial we are going to annotate an image from your own manifest using 
 
 ## Step 1 find a Manifest
 
-If you haven't aleady go back to the [Finding Manifests](basics/guides.md) guide and find a Manifest from one of the public collections. My personal favourite is:
+If you haven't already go back to the [Finding Manifests](basics/guides.md) guide and find a Manifest from one of the public collections. My personal favourite is:
 
 https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json
 
