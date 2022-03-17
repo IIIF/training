@@ -4,11 +4,9 @@ One of the problems that the IIIF Community is struggling with is how to find II
 
 ![Screenshot of the Guides Website](guides.png)
 
-This is currently available on the beta version of the IIIF website at the following location:
+This is available on the IIIF website at the following location:
 
- [https://beta.iiif.io/guides/finding_resources/](https://beta.iiif.io/guides/finding_resources/)
-
-but we hope to go live with our new site tomorrow so this will then live at [https://iiif.io/guides/finding_resources/](https://iiif.io/guides/finding_resources/). 
+[https://iiif.io/guides/finding_resources/](https://iiif.io/guides/finding_resources/)
 
 This is a community effort and if your institution isn't listed then please feel free to add it to the [Github Repository](https://github.com/IIIF/guides) or fill in the following [Google form](https://forms.gle/S6LLjBy2o4iEBR8C9).
 
