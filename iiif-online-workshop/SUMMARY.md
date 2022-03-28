@@ -5,7 +5,8 @@
 
 ## Day One - Monday 
 - [Introduction](day-one/README.md)
-- [IIIF for Research](day-one/IIIFforResearch.md)
+- [What is IIIF](day-one/whatisiiif.md)
+  - [Exercise](day-one/guides.md)
 
 ## Day Two - Tuesday 
 - [Introduction](day-two/README.md)
