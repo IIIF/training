@@ -10,4 +10,4 @@ During the call participants will be given a guided hands on task to create thei
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1-8hT9YARiY" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This video is also aviliable on [youTube](https://www.youtube.com/watch?v=1-8hT9YARiY)
+This video is also aviliable on [YouTube](https://www.youtube.com/watch?v=1-8hT9YARiY)
