@@ -24,4 +24,6 @@
 `edm:WebResource` | svcs:has_service dcterms:isReferencedBy
 `svcs:Service` | dcterms:conformsTo doap:implements
 
+	![Classes and properties used in the pattern](iiif_pattern.jpg)
+
 
