@@ -24,6 +24,16 @@
 `edm:WebResource` | svcs:has_service dcterms:isReferencedBy
 `svcs:Service` | dcterms:conformsTo doap:implements
 
-	![Classes and properties used in the pattern](iiif_pattern.jpg)
+![Classes and properties used in the pattern](iiif_pattern.jpg)
+
+## Manifests can be generated on-the-fly
+
+When a manifest is not available, we generate one automatically from EDM
+We support both IIIF Presentation API v2 and v3
+
+- [Example from the Newspaper Collection](https://www.europeana.eu/en/item/9200355/BibliographicResource_3000096341989)
+- [Manifest v2](https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096341989/manifest)
+- [Manifest v3](https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096341989/manifest?format=3)
+
 
 
