@@ -83,4 +83,4 @@ NB: {region}/{size}/{rotation}/{quality}
 * Pattern, classes and properties used, complete examples 
 * Some issues with the guidelines - they need updated. You will find them on the knowledge base - coming soon! 
 
-![Pro Page](Europeana_guidelines.jpg)
+![Pro Page](Europeana_guidelines.png)
