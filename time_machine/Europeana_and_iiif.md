@@ -35,5 +35,52 @@ We support both IIIF Presentation API v2 and v3
 - [Manifest v2](https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096341989/manifest)
 - [Manifest v3](https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096341989/manifest?format=3)
 
+## PROVIDING IIIF RESOURCES TO EUROPEANA: How to? - 4 Steps
 
+1. Provide the IIIF Resource as EDM WebResource
 
+`<ore:Aggregation rdf:about="[ … ]">`
+[ … ]
+`<edm:isShownBy rdf:resource="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1/full/full/0/native.jpg”/>`
+[ … ]
+`</ore:Aggregation>`
+
+`<edm:WebResource rdf:about="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1/full/full/0/native.jpg"/>`
+…
+
+NB: {region}/{size}/{rotation}/{quality}
+
+![Book with gemstones and ivory](BnF_livre.jpg)
+
+2. Flag the WebResource as IIIF-compliant
+
+`<edm:WebResource rdf:about="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1/full/full/0/native.jpg">
+<dcterms:isReferencedBy rdf:resource="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/manifest.json"/>
+<svcs:has_service rdf:resource=”https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1”/>
+</edm:WebResource>`
+
+`<svcs:Service rdf:about="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1">`
+....
+
+* Make sure that you have enabled CORS, Cross Origin Resource Sharing to enable Europeana to display the images (CORS->security feature for browsers)
+
+3. Indicate a level of IIIF implementation
+
+`<svcs:Service rdf:about=”https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1”/>
+ <dcterms:conformsTo rdf:resource=”http://iiif.io/api/image”/>
+ <doap:implements rdf:resource=”"http://iiif.io/api/image/2/level2.json">
+</svcs:Service>`
+
+4. Provide access to a IIIF manifest
+
+`<edm:WebResource rdf:about="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1/full/full/0/native.jpg">
+<dcterms:isReferencedBy rdf:resource="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/manifest.json"/>
+<svcs:has_service rdf:resource=”https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1”/>
+</edm:WebResource>`
+
+## IIIF to EDM Profile on Pro
+
+* Pattern, classes and properties used, complete examples 
+* Some issues with the guidelines - they need updated. You will find them on the knowledge base - coming soon! 
+
+![Pro Page](Europeana_guidelines.jpg)
