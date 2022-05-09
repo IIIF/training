@@ -81,6 +81,4 @@ NB: {region}/{size}/{rotation}/{quality}
 ## IIIF to EDM Profile on Pro
 
 * Pattern, classes and properties used, complete examples 
-* Some issues with the guidelines - they need updated. You will find them on the knowledge base - coming soon! 
-
-![Pro Page](Europeana_guidelines.png)
+* Some issues with the guidelines - they need updated. You will find them on the [knowledge base](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties)
