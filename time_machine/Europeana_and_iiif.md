@@ -87,3 +87,15 @@ NB: {region}/{size}/{rotation}/{quality}
 
 * Pattern, classes and properties used, complete examples 
 * Some issues with the guidelines - they need updated. You will find them on the [knowledge base](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties)
+
+## Prepare your own edm-iiif files
+
+To create an edm-file using iiif, please fill out the [edm-iiif template file](https://docs.google.com/document/d/1hAiXhP2MdnJZPbmBG8hcaKLwAHnuCADi-m0hAVYubp0/edit) using your favourite xml editor.
+```
+* Yellow: link to image in the repository that you created in part 1 of this workshop
+* Green: insert your metadata
+* Orange: insert your rights statements (!Make sure your rights statements are valid)
+```
+* Save as .xml
+* Zip
+* Upload in Sandbox
