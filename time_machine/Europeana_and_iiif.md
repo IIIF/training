@@ -6,7 +6,12 @@
 * Reused available IIIF solutions for display and playout
 
 ## EDM 
+
+basics on EDM
+
 ### 3 Core classes
+
+concept of rdf classes
 
 * `edm:ProvidedCHO` Class representing the provided cultural heritage object
 * `edm:WebResource` Class for the web resource that is the digital representation
