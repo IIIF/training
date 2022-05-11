@@ -29,7 +29,7 @@ To create an edm-file using iiif, please fill out the [edm-iiif template file](h
 
 ## Did it not work? - No worries!
 Here is an example of Glen's tractor:
-* In the [Sandbox](https://metis-sandbox.europeana.eu/dataset/128)
-* In the [Sandbox preview](https://metis-sandbox-publish-api-prod-portal.eanadev.org/nl/item/128/_TEMPLATE_IIIF_Tractor)
+* In the [Sandbox](https://metis-sandbox.europeana.eu/dataset/161)
+* In the [Sandbox preview](https://metis-sandbox-publish-api-prod-portal.eanadev.org/nl/item/161/_TEMPLATE_IIIF_Tractor)
 
 
