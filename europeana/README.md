@@ -1,4 +1,4 @@
-# Europeana Aggreagtor IIIF Training
+# Europeana Aggregator IIIF Training
 
 This training is part the [Europeana training on IIIF] sessions. 
 
