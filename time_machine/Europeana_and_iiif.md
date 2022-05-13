@@ -90,11 +90,11 @@ NB: {region}/{size}/{rotation}/{quality}
 
 ## Prepare your own edm-iiif files
 
-To create an edm-file using iiif, please fill out the [edm-iiif template file](https://docs.google.com/document/d/1hAiXhP2MdnJZPbmBG8hcaKLwAHnuCADi-m0hAVYubp0/edit) using your favourite xml editor.
+To create an edm-file using iiif, please copy-paste the [edm-iiif template file](https://docs.google.com/document/d/1hAiXhP2MdnJZPbmBG8hcaKLwAHnuCADi-m0hAVYubp0/edit) into your favourite xml editor and fill it out.
 ```
-* Yellow: link to image in the repository that you created in part 1 of this workshop
+* Yellow: link to the image(s) in the repository that you created in part 1 of this workshop
 * Green: insert your metadata
-* Orange: insert your rights statements (!Make sure your rights statements are valid)
+* Orange: insert your rights statements (!Make sure your rights statements are valid, if you are unsure, leave the default.)
 ```
 * Save as .xml
 * Zip
