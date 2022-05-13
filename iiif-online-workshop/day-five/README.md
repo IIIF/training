@@ -5,78 +5,26 @@
   - **Aims**: 
     - Share participants work during the week
 
-# May 2021 cohort demos
+As well as the examples below there are also examples from previous years:
+ * [2021](2021.md) 
+ * [2020](2020.md) 
 
-The participants from the May 2021 session produced the following demos of their work:
+# April 2022 cohort demos    
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTm7YhG8OuA15JSHFz2ZpTpq3iLEwFhGgvkvQx_eZlV1zDMkAqIr4xC1EHxNlZ-eWcLg_AfIR1F7Rys/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+The participants from the April 2022 session produced the following demos of their work:
 
-# April 2021 cohort demos
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQvPZGQsdREik8U-ftgPolzKxb3GB19S7xR8CngeTXaEhjHbdU2qqNU-odAeTiNtLzcsAwGypUnDpkf/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-The participants from the April 2021 session produced the following demos of their work:
+# March 2022 cohort demos
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR7XMLCvz5ydgqgqnicw48KsucT5UehO_MJV7auiFOhYBMNwJxbP_Yx8O9L09XEBPk3jUWx6q6M0Wf-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+The participants from the March 2022 session produced the following demos of their work:
 
-# March 2021 cohort demos
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSSIMZZ77wcUF7DjmGOGeSrynMp5uFWjWn5IpZyVTN_C604xP6sKoCpyz_dwqgF7ybGbtNzLoDyPVqH/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-The participants from the March 2021 session produced the following demos of their work:
+# January 2022 cohort demos
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTAp1vyWwruCNP2MLpTZo5wlYwProAXcBlZbjL10Z2OVlUtjxJyQjrZcMQn3sDZTnwHsh6C0DIMTMIR/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+The participants from the January 2022 session produced the following demos of their work:
 
-# February 2021 cohort demos
-
-The 8 Participants from the February 2021 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTkqGTpf7qxZIfUhB3EZtHt8mD9uOPVT89LszCHgmO_432-HBKB9S5qPMEyjTF820bMMNf74FoZIeT7/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# November 2020 cohort demos
-The 6 Participants from the November 2020 session produced the following demos of their work: 
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTmCzRRu9C8oVVLe4VyceQov3zCTko9CUWHhXMwV_hTBOVw9ntVNOFdK_zU7e_vAZnwWDGdmBbhXpv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQe3QvDs7simAQjCD0VezBJIg0xEyeE4YfSiYy7vQJhi-njw7hCqtBMq0PVtzoXouxmJdrddHgGRmvX/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
-# October 2020 cohort demos
-The 14 Participants from the October 2020 session produced the following demos of their work: 
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRuJ4LbvMf7Rk09nkLvjx6z-e4rAlJHaS9Uc7KD2rmEWS8uoYRiaWnGFhCum3nuBbTnq5KzB97SdFVx/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# September 2020 cohort demos
-The 13 Participants from the September 2020 session produced the following demos of their work: 
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRZaJTtatVCgtR5ixzNHR3S4UyPvi7IkX0J8ULb1N8OaSMD5aIu9yd567NCCspvdqb2p0PGWkxWT-Rh/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# June 2020 cohort demos
-As part of the online workshop the participants were split into 5 tutor groups with a tutor who could provide assistance and guidance. At the end of the week each tutor worked with their group to give a presentation on their projects. The results of the projects can be seen below. 
-
-### Dawn’s Group
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQutMBhL5irg3cw6PQipfO1R4MdXZV4UN_C36Rjh5le4X8YNLHAjf02LU9VypLKitCkL58PDVy42ky3/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### Mike’s Group
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSNjUbdCfNaE-C4vrvrQTacyOcJqJ3_KIMUhChwyuTD_fOFXlASwwqw8G0K0HobA304-8neBA2F2uvO/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### Emma’s Group
-
-### Ben’s Group
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQfNIjLatqMokL_pdhwQPcXqJl0sxwUxAh-Jgt_dSo7mCeEuDVd0kN3dL0Tp5jq4ZJdwvJmJ6FyhidY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### Josh’s Group
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRue73VNoUwftNmwbCb2dmqxS9d0BRmyBQFAkJFuGBu0zMgFU7yL1l4Rg7duJzme6zHaud_F6GugpdG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### Glen’s Group
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSlErxqVMnht6XqEM2MkzIV2JKa2sQaYICux1uVoe4453ruetNSL0FaFFZDHCdnKdTsjJm7gd1sYsYO/embed?start=false&loop=false&delayms=3000" frameborder="0" width="770" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-## Links to projects:
-
-Some working links mentioned in the above presentations:
-
- * [Reuniting dispersed manuscript leaves using IIIF](https://sxb891.github.io/iiifworkshop-m2/)
- * [Trying out Mirador & annotations for transcription](https://ckarpinski.github.io/iiifworkshop-m2/)
- * [Exploring Map Annotations using IIIF](https://iiif.archivelab.org/iiif/columbus-map/manifest.json)
- * [Exploring Chicago Aerial Surveys and Annotations using IIIF](https://www.getty.edu/art/collection/static/viewers/mirador/?manifest=https://everreau.github.io/manifest.json)
- * [Experiiiments in IIIF - UniversalViewer, Mirador, Compariscope, Storiiies and annotations](https://noirchivist.github.io/experiiiments/)
- * [Working with Leonardo da Vinci’s writings and drawings](https://github.com/dhsi-iiif/dhsi-iiif.github.io/tree/master/2019/giudicirni)
