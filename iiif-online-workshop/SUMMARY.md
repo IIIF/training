@@ -49,9 +49,11 @@
 
 ## Day Five - Friday 
 - [Project work and report back](day-five/README.md)
-  - [Thank you](day-five/thankyou.md)
-  - [Survey](day-five/survey.md)
-  - [Join the community](day-five/Community.md)
+  - [2021 Demos](day-five/2021.md)
+  - [2020 Demos](day-five/2020.md)
+- [Thank you](day-five/thankyou.md)
+- [Survey](day-five/survey.md)
+- [Join the community](day-five/Community.md)
 
 ## Extras
  - [Guides](extras/README.md)
