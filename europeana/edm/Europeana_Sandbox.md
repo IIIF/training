@@ -1,6 +1,6 @@
 # Europeana Metis Sandbox
 
-![Sandbox](Sandbox_screen_v2.png)
+![Sandbox](img/Sandbox_screen_v2.png)
 
 ## Prepare your own edm-iiif files
 

@@ -29,7 +29,7 @@ concept of rdf classes
 `edm:WebResource` | svcs:has_service dcterms:isReferencedBy
 `svcs:Service` | dcterms:conformsTo doap:implements
 
-![Classes and properties used in the pattern](iiif_pattern.jpg)
+![Classes and properties used in the pattern](img/iiif_pattern.jpg)
 
 ## Manifests can be generated on-the-fly
 
@@ -55,7 +55,7 @@ We support both IIIF Presentation API v2 and v3
 
 NB: {region}/{size}/{rotation}/{quality}
 
-![Book with gemstones and ivory](BnF_livre.jpg)
+![Book with gemstones and ivory](img/BnF_livre.jpg)
 
 2. Flag the WebResource as IIIF-compliant
 
