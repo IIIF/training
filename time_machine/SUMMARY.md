@@ -25,3 +25,7 @@
 
 ## IIIF Community
 - [Get involved](involved.md)
+
+## Europeana and iiif
+- [How to integrate](Europeana_and_iiif.md)
+- [How to - Sandbox](Europeana_Sandbox.md)
