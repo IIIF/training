@@ -37,7 +37,7 @@ The Metis Sandbox is a test environment for your data. It consists of a set of t
 * Wait 15 minutes to ‘view published records’
 
 ## Try for yourself!
-* Instructions: follow the indicated steps
+* Instructions: follow the steps indicated above
 * Fiona & Lianne are available for questions
 * 20 minutes
 
