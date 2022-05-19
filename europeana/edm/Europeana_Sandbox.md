@@ -29,7 +29,7 @@ The Metis Sandbox is a test environment for your data. It consists of a set of t
 ## Try for yourself!
 * Instructions: follow the steps indicated above
 * Fiona & Lianne are available for bugfixes and questions
-* 20 minutes
+* 20 minutes, but in the meantime:...
 
 ## One example that we prepared for you earlier
 Here is an example of Glen's tractor:
