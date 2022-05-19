@@ -1,5 +1,11 @@
 # EDM (Europeana Data Model) and IIIF
 
+### Learning Objectives
+- Understand the basic concepts of EDM
+- Make an EDM record for an image
+- Understand the basics of the IIIF extension in EDM
+- Make an EDM record with full IIIF extension
+
 ## EDM
 
 [EDM](https://pro.europeana.eu/page/edm-documentation), the Europeana Data Model, is a metadata model for aggregating content to the Europeana website. Most Europeana partners create their own metadata in a format which suits their cultural heritage organisation. They will then map that metadata format to EDM and transform it to make a new version of their metadata in EDM ready for publishing on the Europeana website. This process is normally completed with the help of an [aggregator](https://pro.europeana.eu/share-your-data/process). 
@@ -14,6 +20,8 @@ These three classes are:
 * `ore:Aggregation` A class that groups together the cultural heritage object with its digital surrogate
 
 Each class starts with the “rdf:about” statement which is its identifier. This same identifier can be found within other classes as the content of an “rdf:resource” statement, thus linking the classes together.
+
+Don't forget to add the xml declaration at the top of the record, the rdf:RDF at the beginning and end of the record and the namespaces.
 
 ## EDM for images
 
@@ -61,7 +69,11 @@ A basic EDM record for a standard image file looks like this:
             </ore:Aggregation>
         </rdf:RDF>
 
-Here you can see the rdf:about statements introducing each class and where these are found in other classes. The rdf:about of the Provided CHO is the rdf:resource of the edm:aggregatedCHO property in the ore:Aggregation class and the rdf:about of the edm:WebResource class is the rdf:resource of the edm:isShownBy propert in the ore:Aggregation class.
+Here you can see the rdf:about statements introducing each class and where these are found in other classes. 
+
+- The rdf:about of the Provided CHO is the rdf:resource of the edm:aggregatedCHO property in the ore:Aggregation class
+
+- The rdf:about of the edm:WebResource class is the rdf:resource of the edm:isShownBy propert in the ore:Aggregation class.
 
 
 ## IIIF to EDM Profile
@@ -73,20 +85,21 @@ IIIF images need some extra information in EDM. So an extension to [EDM](https:/
 Two properties were added to the the edm:WebResource:
 svcs:has_service (to point to the IIIF service) and dcterms:isReferencedBy (for the IIIF manifest)
 
-The svcs:Service class was created to indicate the level of implementation, using the properties dcterms:conformsTo doap:implements
+The svcs:Service class was created to indicate the level of implementation, using the properties dcterms:conformsTo and doap:implements
 
 This is summarised below:
 
 ![Classes and properties used in the pattern](img/iiif_pattern.jpg)
 
 The namespaces and ProvideCHO class remain as in standard EDM so there is no need to change these.
+
 We will need to make one change to the ore:Aggregation class, one change to the edm:WebResource class, plus we need to add the two new properties to this class, and we need to create the new svsc:Service class.
 
-Let's do this in 4 steps!
+**Let's do this in 5 steps!**
 
-## EDM from a basic image to compliant IIIF in 4 Steps
+## EDM from a basic image to compliant IIIF in 5 Steps
 
-1. Provide the IIIF Resource in the EDM WebResource class
+### 1. Provide the IIIF Resource in the EDM WebResource class
 
 Make sure that in the rdf:about of the WebResource class you provide the full IIIF link.
 This is the link to the image you made in the first part of the training.
@@ -99,7 +112,7 @@ For region and size use full, for rotation 0 and quality use default/native.
 
 You can scale down on size, which can save on the processing time, however if you are aiming to meet the top quality tier of the EPF (Europeana Publishing Framework) then you must ensure the resulting size is still 0.95 megapixels (950,000 pixels) in size. You can check this by copying the url you want to check in the browser and inspecting the properties.
 
-2. Flag the WebResource as IIIF compliant
+### 2. Flag the WebResource as IIIF compliant
 
 Next in the WebResource class you want to flag that the link you added is compliant with IIIF. 
 
@@ -110,7 +123,7 @@ In the IIIF syntax this is the base URL (scheme, server, prefix), plus the ID (i
 
 * N.B. Make sure that you have enabled CORS, Cross Origin Resource Sharing to enable Europeana to display the images (CORS->security feature for browsers)
 
-3. Provide access to a IIIF manifest
+### 3. Provide access to a IIIF manifest
 
 The next step is to provide access to the IIIF manifest.
 
@@ -128,7 +141,7 @@ This is what the WebResource class now looks like:
         <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
     </edm:WebResource>
 
-4. Update the isShownBy link ore:Aggregation class
+### 4. Update the isShownBy link ore:Aggregation class
 
 Before we create the last class and complete the final step, we will update the isShownBy of the ore:Aggregation class to match the rdf:about of the WebResource class and the first image of the json manifest.
 
@@ -142,7 +155,7 @@ This is what the ore:Aggregation class now looks like:
                 <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
             </ore:Aggregation>
 
-5. Indicate the level of IIIF compliance by adding the new svcs:Service class
+### 5. Indicate the level of IIIF compliance by adding the new svcs:Service class
 
 Create a new class using the <svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/> reference from the has_service property in the WebResource class.
 
@@ -223,27 +236,36 @@ The example record has now been extended:
 
 ## Try it out!
 
-To create an edm file with the IIIF extension, please fill out the [edm-iiif template file](https://docs.google.com/document/d/1hAiXhP2MdnJZPbmBG8hcaKLwAHnuCADi-m0hAVYubp0/edit) inserting your own metadata (we included the most basic properties but you can add your own).
+To help you to create an EDM file with the IIIF extension you can go to the [edm-iiif template file](https://docs.google.com/document/d/1hAiXhP2MdnJZPbmBG8hcaKLwAHnuCADi-m0hAVYubp0/edit). You can copy in your own metadata (we included the most basic properties but you can add your own) including the new IIIF image link and manifest link. Please also make sure to change the rdf:about of the Provided CHO to something unique.
 
 Template Key:
 ```
-* Yellow: link to the image(s) in the repository that you created in part 1 of this workshop
+* Yellow: is the base link to the item/s in the repository that you created in part 1 of this workshop
+* Blue: is the image request syntax
+* Pink insert the link to your manifest
 * Green: insert your metadata (or leave the default.)
 * Orange: insert your rights statements (!Make sure your rights statements are valid, if you are unsure, leave the default.)
 ```
 
 ## Double check time
 
-Checklist:
+Checklist for common errors
+1. Are the links to the main image **all the same** (in isShownBy, rdf:about of the WebResource, and inside the manifest)?
+2. Is the base link of the IIIF service the same as the main image link (base link / identifier)?
+3. Are all the images served via **https**?
+4. Are the two links in the two properties of the svcs:service class **http** links?
+5. Do all the links resolve (check the images and the manifest)?
 
 
+## Save your new record
 
-Once you have finished then you can copy and paste the code into an xml editor or into notepad (in Windows Accessories on a PC) and
+Once you have finished and double checked your g-doc record then you can copy and paste the code into an xml editor or into notepad (in Windows Accessories on a PC) and:
 
 * Save as .xml
 
-Then,
+Then:
+
 * Create a folder and put the file in it
 * Zip the folder
 
-In the next section we will show you how to upload the record into the Sandbox.
+In the next section we will show you how to upload the record into the Metis Sandbox to see what it will look like in Europeana.
