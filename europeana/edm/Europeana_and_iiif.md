@@ -21,7 +21,7 @@ These three classes are:
 
 Each class starts with the “rdf:about” statement which is its identifier. This same identifier can be found within other classes as the content of an “rdf:resource” statement, thus linking the classes together.
 
-Don't forget to add the xml declaration at the top of the record, the rdf:RDF at the beginning and end of the record and the namespaces.
+Don't forget to add the xml declaration at the top of the record, the rdf:RDF container at the beginning and end of the record and the namespaces at the top before the first class begins. See the example below.
 
 ## EDM for images
 
@@ -73,19 +73,19 @@ Here you can see the rdf:about statements introducing each class and where these
 
 - The rdf:about of the Provided CHO is the rdf:resource of the edm:aggregatedCHO property in the ore:Aggregation class
 
-- The rdf:about of the edm:WebResource class is the rdf:resource of the edm:isShownBy propert in the ore:Aggregation class.
+- The rdf:about of the edm:WebResource class is the rdf:resource of the edm:isShownBy property in the ore:Aggregation class.
 
 
 ## IIIF to EDM Profile
 
 IIIF images need some extra information in EDM. So an extension to [EDM](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties) was created which added an extra class and some extra properties.
 
-### Classes and key properties to use within the classes 
+### New properties and class
 
 Two properties were added to the the edm:WebResource:
-svcs:has_service (to point to the IIIF service) and dcterms:isReferencedBy (for the IIIF manifest)
+svcs:has_service (to point to the IIIF service) and dcterms:isReferencedBy (for the IIIF manifest).
 
-The svcs:Service class was created to indicate the level of implementation, using the properties dcterms:conformsTo and doap:implements
+The svcs:Service class was created to indicate the level of implementation, using the properties dcterms:conformsTo and doap:implements.
 
 This is summarised below:
 
@@ -104,24 +104,24 @@ We will need to make one change to the ore:Aggregation class, one change to the 
 Make sure that in the rdf:about of the WebResource class you provide the full IIIF link.
 This is the link to the image you made in the first part of the training.
 
-<edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg"/>
+<edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg">
 
 Remember to include the correct parameters: {scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
 
 For region and size use full, for rotation 0 and quality use default/native. 
 
-You can scale down on size, which can save on the processing time, however if you are aiming to meet the top quality tier of the EPF (Europeana Publishing Framework) then you must ensure the resulting size is still 0.95 megapixels (950,000 pixels) in size. You can check this by copying the url you want to check in the browser and inspecting the properties.
+You can scale down on size, which can save on the processing time, however if you are aiming to meet the top quality tier of the EPF ([Europeana Publishing Framework](https://pro.europeana.eu/post/publishing-framework)) then you must ensure the resulting size is still 0.95 megapixels (950,000 pixels) in size. You can check this by copying the url you want to check in the browser and inspecting the properties.
+
+All image links should be served via **https**.
 
 ### 2. Flag the WebResource as IIIF compliant
 
 Next in the WebResource class you want to flag that the link you added is compliant with IIIF. 
 
-To do this you add the following has_service property: 
+To do this you add the base of the image URL into the has_service property: 
 <svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/>
 
-In the IIIF syntax this is the base URL (scheme, server, prefix), plus the ID (identifier).
-
-* N.B. Make sure that you have enabled CORS, Cross Origin Resource Sharing to enable Europeana to display the images (CORS->security feature for browsers)
+In the IIIF syntax the base URL is the {scheme}://{server}{/prefix}/{identifier} part.
 
 ### 3. Provide access to a IIIF manifest
 
@@ -131,7 +131,7 @@ We do this by adding the property isReferencedBy as so:
 
 <dcterms:isReferencedBy rdf:resource="https://iiif-test.github.io/Jan2022/manifests/manifest.json"/>
 
-The link should end .json and should resolve in the manifest for the item which is the subject of the EDM record. The first image in the manifest should be the same as the isShownBy in the aggregation class and the rdf:about of the WebResource class. If there are any errors then the image will not display in the Europeana portal.
+The link usually ends .json and should resolve in the manifest for the item which is the subject of the EDM record. The first image in the manifest should be the same as the isShownBy in the aggregation class and the rdf:about of the WebResource class. If there are any errors then the image will not display in the Europeana portal.
 
 This is what the WebResource class now looks like:
 
@@ -168,7 +168,7 @@ Add the following two properties to the class:
         <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
         <doap:implements rdf:resource="http://iiif.io/api/image/2/level2.json"/>
         
-These properties are always the same and never change. The only part that changes between different records in the same set will be the item identifier in the URL.
+The dcterms:conforms to propety is always the same and never changes. The level in doap:implements may change depending on the level of implementation, however, the only change you can anticipate between different records in the same dataset will be the item identifier in the URL.
 
 Finally, close off your new class.
 
@@ -214,7 +214,9 @@ The example record has now been extended:
                 <edm:currentLocation rdf:resource="http://www.wikidata.org/entity/Q4093"/>
             </edm:ProvidedCHO>
             <edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg">
-                <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+                <dcterms:isReferencedBy rdf:resource="https://iiif-test.github.io/Jan2022/manifests/manifest.json"/>
+                <svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/>
+                <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
             </edm:WebResource>
             <ore:Aggregation rdf:about="#example_direct_Image_4_IIIFTraining_AGG">
                 <edm:aggregatedCHO rdf:resource="#example_direct_Image_4_IIIFTraining"/>
@@ -229,6 +231,7 @@ The example record has now been extended:
             </svcs:Service>
         </rdf:RDF>
 
+* N.B. Make sure that you have enabled CORS, Cross Origin Resource Sharing to enable Europeana to display the images (CORS->security feature for browsers)
 
 ## IIIF to EDM Profile
 
@@ -236,13 +239,12 @@ The example record has now been extended:
 
 ## Try it out!
 
-To help you to create an EDM file with the IIIF extension you can go to the [edm-iiif template file](https://docs.google.com/document/d/1hAiXhP2MdnJZPbmBG8hcaKLwAHnuCADi-m0hAVYubp0/edit). You can copy in your own metadata (we included the most basic properties but you can add your own) including the new IIIF image link and manifest link. Please also make sure to change the rdf:about of the Provided CHO to something unique.
+To help you to create an EDM file with the IIIF extension you can go to the [edm-iiif template file](https://docs.google.com/document/d/1dtRSsQwT4KL8F0dLaTG8h8K0Pb65sbj4tecA9V2L3g4/edit). You can copy in your own metadata (we included the most basic properties but you can add your own) including the new IIIF image link and manifest link. Please also make sure to change the rdf:about of the Provided CHO to something unique.
 
 Template Key:
 ```
-* Yellow: is the base link to the item/s in the repository that you created in part 1 of this workshop
-* Blue: is the image request syntax
-* Pink insert the link to your manifest
+* Yellow: insert the base link to the item in the repository that you created in part 1 of this workshop
+* Pink: insert the link to your manifest
 * Green: insert your metadata (or leave the default.)
 * Orange: insert your rights statements (!Make sure your rights statements are valid, if you are unsure, leave the default.)
 ```
@@ -259,13 +261,13 @@ Checklist for common errors
 
 ## Save your new record
 
-Once you have finished and double checked your g-doc record then you can copy and paste the code into an xml editor or into notepad (in Windows Accessories on a PC) and:
+Once you have finished and double checked your gdoc record then you can copy and paste the code into an xml editor or into notepad (in Windows Accessories on a PC) and:
 
 * Save as .xml
 
 Then:
 
-* Create a folder and put the file in it
+* Create a folder and put the file in it (make sure the name of the file and the folder do not contain illegal characters - e.g. use CamelCase or underscores)
 * Zip the folder
 
 In the next section we will show you how to upload the record into the Metis Sandbox to see what it will look like in Europeana.
