@@ -1,48 +1,89 @@
-# HOW HAS EUROPEANA ADOPTED IIIF?
-### By Fiona Mowat
+# EDM (Europeana Data Model) and IIIF?
 
-* An [EDM extension](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties) was created to allow partners to supply links to IIIF resources and manifests from their own services 
-* Europeana has reviewed its technology stack to be aligned with IIIF standards
-* Reused available IIIF solutions for display and playout
+###
 
-## EDM 
+## EDM
 
-basics on EDM
+[EDM](https://pro.europeana.eu/page/edm-documentation), the Europeana Data Model, is a metadata model for aggregating content to the Europeana website. Most Europeana partners create their own metadata in a format which suits their cultural heritage organisation. They will then map that metadata format to EDM and transform it to make a new version of their metadata in EDM ready for publishing on the Europeana website. This process is normally completed with the help of an [aggregator](https://pro.europeana.eu/share-your-data/process). 
 
-### 3 Core classes
+## EDM core classes
 
-concept of rdf classes
+The most basic EDM record consists of 3 classes consisting of properties, where classes are linked together using rdf statements. 
+These three classes are:
 
-* `edm:ProvidedCHO` Class representing the provided cultural heritage object
-* `edm:WebResource` Class for the web resource that is the digital representation
-* `ore:Aggregation` Class that groups together the cultural heritage object with its digital version
----
-* Each class starts with the “rdf:about” statement containing the identifier of the resource
-* The class itself can be referred to within another class using the “rdf:resource” statement containing the same identifier
+* `edm:ProvidedCHO` A class representing the provided cultural heritage object
+* `edm:WebResource` A class for the web resource that is the digital surrogate of the cultural heritage object
+* `ore:Aggregation` A class that groups together the cultural heritage object with its digital surrogate
+
+Each class starts with the “rdf:about” statement which is its identifier. This same identifier can be found within other classes as the content of an “rdf:resource” statement, thus linking the classes together.
+
+## EDM for images
+
+A basic EDM record for a standard image file looks like this:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" 
+    xmlns:cc="http://creativecommons.org/ns#" 
+    xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm/" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xmlns:doap="http://usefulinc.com/ns/doap#" 
+    xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#" 
+    xmlns:edm="http://www.europeana.eu/schemas/edm/" 
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    xmlns:odrl="http://www.w3.org/ns/odrl/2/" 
+    xmlns:ore="http://www.openarchives.org/ore/terms/" 
+    xmlns:owl="http://www.w3.org/2002/07/owl#" 
+    xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+    xmlns:svcs="http://rdfs.org/sioc/services#" 
+    xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+    xmlns:xalan="http://xml.apache.org/xalan">
+    <edm:ProvidedCHO rdf:about="#example_direct_Image_4_IIIFTraining">
+        <dcterms:created>Roman</dcterms:created>
+        <dc:title xml:lang="en">Image JPG Example IIIF Record Tier 4</dc:title>
+        <dc:subject rdf:resource="http://vocab.getty.edu/aat/300020103"/>
+        <dc:type rdf:resource="http://vocab.getty.edu/aat/300430220"/>
+        <dcterms:isPartOf>Europeana Foundation IIIF Example Records</dcterms:isPartOf>
+        <dc:format>photo</dc:format>
+        <edm:type>IMAGE</edm:type>
+        <edm:currentLocation rdf:resource="http://www.wikidata.org/entity/Q4093"/>
+    </edm:ProvidedCHO>
+    <edm:WebResource rdf:about="http://media.culturegrid.org.uk/mediaLibrary/Partage/LoveArtNouveau/Glasgow/DSCF4092.JPG">
+       <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+    </edm:WebResource>
+    <ore:Aggregation rdf:about="#example_direct_Image_4_IIIFTraining_AGG">
+        <edm:aggregatedCHO rdf:resource="#example_direct_Image_4_IIIFTraining"/>
+        <edm:isShownBy rdf:resource="http://media.culturegrid.org.uk/mediaLibrary/Partage/LoveArtNouveau/Glasgow/DSCF4092.JPG"/>
+        <edm:dataProvider>Europeana Foundation</edm:dataProvider>
+        <edm:provider>Europeana Foundation</edm:provider>
+        <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+    </ore:Aggregation>
+</rdf:RDF>
+
+Here you can see the rdf:about statements introducing each class and where these are found in other classes. The rdf:about of the Provided CHO is the rdf:resource of the edm:aggregatedCHO property in the ore:Aggregation class and the rdf:about of the edm:WebResource class is the rdf:resource of the edm:isShownBy propert in the ore:Aggregation class.
+
 
 ## IIIF to EDM Profile
 ### Classes and key properties to use within the classes 
 
- Class | Key properties
- ----------- | ----------- 
-`ore:Aggregation` | edm:isShownBy or edm:hasView or edm:object 
-`edm:WebResource` | svcs:has_service dcterms:isReferencedBy
-`svcs:Service` | dcterms:conformsTo doap:implements
+IIIF images need some extra information in EDM. So an extension to [EDM](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties) was created which added an extra class and some extra properties.
+
+Two properties were added to the the edm:WebResource 
+svcs:has_service (to point to the IIIF service) and dcterms:isReferencedBy (for the IIIF manifest)
+
+The svcs:Service class was created to indicate the level of implementation, using the properties dcterms:conformsTo doap:implements
+
+This is summarised below:
 
 ![Classes and properties used in the pattern](img/iiif_pattern.jpg)
 
-## Manifests can be generated on-the-fly
 
-When a manifest is not available, we generate one automatically from EDM
-We support both IIIF Presentation API v2 and v3
+## EDM from a basic image to compliant IIIF in 4 Steps
 
-- [Example from the Newspaper Collection](https://www.europeana.eu/en/item/9200355/BibliographicResource_3000096341989)
-- [Manifest v2](https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096341989/manifest)
-- [Manifest v3](https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096341989/manifest?format=3)
-
-## PROVIDING IIIF RESOURCES TO EUROPEANA: How to? - 4 Steps
-
-1. Provide the IIIF Resource as EDM WebResource
+1. Provide the IIIF Resource in the EDM WebResource class
 
 `<ore:Aggregation rdf:about="[ … ]">`
 [ … ]
@@ -53,7 +94,11 @@ We support both IIIF Presentation API v2 and v3
 `<edm:WebResource rdf:about="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1/full/full/0/native.jpg"/>`
 …
 
-NB: {region}/{size}/{rotation}/{quality}
+This is the link to the image you made in the first part of the training.
+
+Remember to include the parameters we discussed: {region}/{size}/{rotation}/{quality}
+
+Example - mention the EPF
 
 ![Book with gemstones and ivory](img/BnF_livre.jpg)
 
