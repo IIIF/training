@@ -1,6 +1,4 @@
-# EDM (Europeana Data Model) and IIIF?
-
-###
+# EDM (Europeana Data Model) and IIIF
 
 ## EDM
 
@@ -21,57 +19,58 @@ Each class starts with the “rdf:about” statement which is its identifier. Th
 
 A basic EDM record for a standard image file looks like this:
 
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" 
-    xmlns:cc="http://creativecommons.org/ns#" 
-    xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm/" 
-    xmlns:dc="http://purl.org/dc/elements/1.1/" 
-    xmlns:dcterms="http://purl.org/dc/terms/" 
-    xmlns:doap="http://usefulinc.com/ns/doap#" 
-    xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#" 
-    xmlns:edm="http://www.europeana.eu/schemas/edm/" 
-    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
-    xmlns:odrl="http://www.w3.org/ns/odrl/2/" 
-    xmlns:ore="http://www.openarchives.org/ore/terms/" 
-    xmlns:owl="http://www.w3.org/2002/07/owl#" 
-    xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" 
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
-    xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
-    xmlns:svcs="http://rdfs.org/sioc/services#" 
-    xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#" 
-    xmlns:xalan="http://xml.apache.org/xalan">
-    <edm:ProvidedCHO rdf:about="#example_direct_Image_4_IIIFTraining">
-        <dcterms:created>Roman</dcterms:created>
-        <dc:title xml:lang="en">Image JPG Example IIIF Record Tier 4</dc:title>
-        <dc:subject rdf:resource="http://vocab.getty.edu/aat/300020103"/>
-        <dc:type rdf:resource="http://vocab.getty.edu/aat/300430220"/>
-        <dcterms:isPartOf>Europeana Foundation IIIF Example Records</dcterms:isPartOf>
-        <dc:format>photo</dc:format>
-        <edm:type>IMAGE</edm:type>
-        <edm:currentLocation rdf:resource="http://www.wikidata.org/entity/Q4093"/>
-    </edm:ProvidedCHO>
-    <edm:WebResource rdf:about="http://media.culturegrid.org.uk/mediaLibrary/Partage/LoveArtNouveau/Glasgow/DSCF4092.JPG">
-       <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
-    </edm:WebResource>
-    <ore:Aggregation rdf:about="#example_direct_Image_4_IIIFTraining_AGG">
-        <edm:aggregatedCHO rdf:resource="#example_direct_Image_4_IIIFTraining"/>
-        <edm:isShownBy rdf:resource="http://media.culturegrid.org.uk/mediaLibrary/Partage/LoveArtNouveau/Glasgow/DSCF4092.JPG"/>
-        <edm:dataProvider>Europeana Foundation</edm:dataProvider>
-        <edm:provider>Europeana Foundation</edm:provider>
-        <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
-    </ore:Aggregation>
-</rdf:RDF>
+        ?xml version="1.0" encoding="UTF-8"?>
+        <rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" 
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:doap="http://usefulinc.com/ns/doap#"
+        xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#" 
+        xmlns:edm="http://www.europeana.eu/schemas/edm/" 
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+        xmlns:odrl="http://www.w3.org/ns/odrl/2/" 
+        xmlns:ore="http://www.openarchives.org/ore/terms/" 
+        xmlns:owl="http://www.w3.org/2002/07/owl#" 
+        xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+        xmlns:svcs="http://rdfs.org/sioc/services#" 
+        xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+        xmlns:xalan="http://xml.apache.org/xalan">
+            <edm:ProvidedCHO rdf:about="#example_direct_Image_4_IIIFTraining">
+                <dcterms:created>1970</dcterms:created>
+                <dc:title xml:lang="en">Image JPG Example IIIF Record Tier 4</dc:title>
+                <dc:subject rdf:resource="http://vocab.getty.edu/aat/300020103"/>
+                <dc:type rdf:resource="http://vocab.getty.edu/aat/300430220"/>
+                <dcterms:isPartOf>Europeana Foundation IIIF Example Records</dcterms:isPartOf>
+                <dc:format>photo</dc:format>
+                <edm:type>IMAGE</edm:type>
+                <edm:currentLocation rdf:resource="http://www.wikidata.org/entity/Q4093"/>
+            </edm:ProvidedCHO>
+            <edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg">
+                <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </edm:WebResource>
+            <ore:Aggregation rdf:about="#example_direct_Image_4_IIIFTraining_AGG">
+                <edm:aggregatedCHO rdf:resource="#example_direct_Image_4_IIIFTraining"/>
+                <edm:isShownBy rdf:resource="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg"/>
+                <edm:dataProvider>Europeana Foundation</edm:dataProvider>
+                <edm:provider>Europeana Foundation</edm:provider>
+                <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </ore:Aggregation>
+        </rdf:RDF>
 
 Here you can see the rdf:about statements introducing each class and where these are found in other classes. The rdf:about of the Provided CHO is the rdf:resource of the edm:aggregatedCHO property in the ore:Aggregation class and the rdf:about of the edm:WebResource class is the rdf:resource of the edm:isShownBy propert in the ore:Aggregation class.
 
 
 ## IIIF to EDM Profile
-### Classes and key properties to use within the classes 
 
 IIIF images need some extra information in EDM. So an extension to [EDM](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties) was created which added an extra class and some extra properties.
 
-Two properties were added to the the edm:WebResource 
+### Classes and key properties to use within the classes 
+
+Two properties were added to the the edm:WebResource:
 svcs:has_service (to point to the IIIF service) and dcterms:isReferencedBy (for the IIIF manifest)
 
 The svcs:Service class was created to indicate the level of implementation, using the properties dcterms:conformsTo doap:implements
@@ -80,68 +79,171 @@ This is summarised below:
 
 ![Classes and properties used in the pattern](img/iiif_pattern.jpg)
 
+The namespaces and ProvideCHO class remain as in standard EDM so there is no need to change these.
+We will need to make one change to the ore:Aggregation class, one change to the edm:WebResource class, plus we need to add the two new properties to this class, and we need to create the new svsc:Service class.
+
+Let's do this in 4 steps!
 
 ## EDM from a basic image to compliant IIIF in 4 Steps
 
 1. Provide the IIIF Resource in the EDM WebResource class
 
-`<ore:Aggregation rdf:about="[ … ]">`
-[ … ]
-`<edm:isShownBy rdf:resource="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1/full/full/0/native.jpg”/>`
-[ … ]
-`</ore:Aggregation>`
-
-`<edm:WebResource rdf:about="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1/full/full/0/native.jpg"/>`
-…
-
+Make sure that in the rdf:about of the WebResource class you provide the full IIIF link.
 This is the link to the image you made in the first part of the training.
 
-Remember to include the parameters we discussed: {region}/{size}/{rotation}/{quality}
+<edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg"/>
 
-Example - mention the EPF
+Remember to include the correct parameters: {scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
 
-![Book with gemstones and ivory](img/BnF_livre.jpg)
+For region and size use full, for rotation 0 and quality use default/native. 
 
-2. Flag the WebResource as IIIF-compliant
+You can scale down on size, which can save on the processing time, however if you are aiming to meet the top quality tier of the EPF (Europeana Publishing Framework) then you must ensure the resulting size is still 0.95 megapixels (950,000 pixels) in size. You can check this by copying the url you want to check in the browser and inspecting the properties.
 
-`<edm:WebResource rdf:about="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1/full/full/0/native.jpg">
-<dcterms:isReferencedBy rdf:resource="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/manifest.json"/>
-<svcs:has_service rdf:resource=”https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1”/>
-</edm:WebResource>`
+2. Flag the WebResource as IIIF compliant
 
-`<svcs:Service rdf:about="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1">`
-....
+Next in the WebResource class you want to flag that the link you added is compliant with IIIF. 
 
-* Make sure that you have enabled CORS, Cross Origin Resource Sharing to enable Europeana to display the images (CORS->security feature for browsers)
+To do this you add the following has_service property: 
+<svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/>
 
-3. Indicate a level of IIIF implementation
+In the IIIF syntax this is the base URL (scheme, server, prefix), plus the ID (identifier).
 
-`<svcs:Service rdf:about=”https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1”/>
- <dcterms:conformsTo rdf:resource=”http://iiif.io/api/image”/>
- <doap:implements rdf:resource=”"http://iiif.io/api/image/2/level2.json">
-</svcs:Service>`
+* N.B. Make sure that you have enabled CORS, Cross Origin Resource Sharing to enable Europeana to display the images (CORS->security feature for browsers)
 
-4. Provide access to a IIIF manifest
+3. Provide access to a IIIF manifest
 
-`<edm:WebResource rdf:about="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1/full/full/0/native.jpg">
-<dcterms:isReferencedBy rdf:resource="https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/manifest.json"/>
-<svcs:has_service rdf:resource=”https://gallica.bnf.fr/iiif/ark:/12148/btv1b55001425m/f1”/>
-</edm:WebResource>`
+The next step is to provide access to the IIIF manifest.
 
-## IIIF to EDM Profile on Pro
+We do this by adding the property isReferencedBy as so:
 
-* Pattern, classes and properties used, complete examples 
-* Some issues with the guidelines - they need updated. You will find them on the [knowledge base](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties)
+<dcterms:isReferencedBy rdf:resource="https://iiif-test.github.io/Jan2022/manifests/manifest.json"/>
 
-## Prepare your own edm-iiif files
+The link should end .json and should resolve in the manifest for the item which is the subject of the EDM record. The first image in the manifest should be the same as the isShownBy in the aggregation class and the rdf:about of the WebResource class. If there are any errors then the image will not display in the Europeana portal.
 
-To create an edm-file using iiif, please fill out the [edm-iiif template file](https://docs.google.com/document/d/1hAiXhP2MdnJZPbmBG8hcaKLwAHnuCADi-m0hAVYubp0/edit) inserting your own metadata and copy-paste into your favourite xml editor (or just copy-paste it into Notepad).
+This is what the WebResource class now looks like:
+
+    <edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg">
+        <dcterms:isReferencedBy rdf:resource="https://iiif-test.github.io/Jan2022/manifests/manifest.json"/>
+        <svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/>
+        <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+    </edm:WebResource>
+
+4. Update the isShownBy link ore:Aggregation class
+
+Before we create the last class and complete the final step, we will update the isShownBy of the ore:Aggregation class to match the rdf:about of the WebResource class and the first image of the json manifest.
+
+This is what the ore:Aggregation class now looks like:
+
+            <ore:Aggregation rdf:about="#example_direct_Image_4_IIIFTraining_AGG">
+                <edm:aggregatedCHO rdf:resource="#example_direct_Image_4_IIIFTraining"/>
+                <edm:isShownBy rdf:resource="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg"/>
+                <edm:dataProvider>Europeana Foundation</edm:dataProvider>
+                <edm:provider>Europeana Foundation</edm:provider>
+                <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </ore:Aggregation>
+
+5. Indicate the level of IIIF compliance by adding the new svcs:Service class
+
+Create a new class using the <svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/> reference from the has_service property in the WebResource class.
+
+Use it to begin the new class like so: 
+
+            <svcs:Service rdf:about="https://iiif.archivelab.org/iiif/img-0353">
+
+Add the following two properties to the class: 
+
+        <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+        <doap:implements rdf:resource="http://iiif.io/api/image/2/level2.json"/>
+        
+These properties are always the same and never change. The only part that changes between different records in the same set will be the item identifier in the URL.
+
+Finally, close off your new class.
+
+The whole thing will look like this:
+
+    <svcs:Service rdf:about="https://iiif.archivelab.org/iiif/img-0353">
+        <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+        <doap:implements rdf:resource="http://iiif.io/api/image/2/level2.json"/>
+    </svcs:Service>
+
+## Example Record
+
+The example record has now been extended:
+
+        ?xml version="1.0" encoding="UTF-8"?>
+        <rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/" 
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:doap="http://usefulinc.com/ns/doap#"
+        xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#" 
+        xmlns:edm="http://www.europeana.eu/schemas/edm/" 
+        xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+        xmlns:odrl="http://www.w3.org/ns/odrl/2/" 
+        xmlns:ore="http://www.openarchives.org/ore/terms/" 
+        xmlns:owl="http://www.w3.org/2002/07/owl#" 
+        xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" 
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+        xmlns:svcs="http://rdfs.org/sioc/services#" 
+        xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+        xmlns:xalan="http://xml.apache.org/xalan">
+            <edm:ProvidedCHO rdf:about="#example_direct_Image_4_IIIFTraining">
+                <dcterms:created>1970</dcterms:created>
+                <dc:title xml:lang="en">Image JPG Example IIIF Record Tier 4</dc:title>
+                <dc:subject rdf:resource="http://vocab.getty.edu/aat/300020103"/>
+                <dc:type rdf:resource="http://vocab.getty.edu/aat/300430220"/>
+                <dcterms:isPartOf>Europeana Foundation IIIF Example Records</dcterms:isPartOf>
+                <dc:format>photo</dc:format>
+                <edm:type>IMAGE</edm:type>
+                <edm:currentLocation rdf:resource="http://www.wikidata.org/entity/Q4093"/>
+            </edm:ProvidedCHO>
+            <edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg">
+                <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </edm:WebResource>
+            <ore:Aggregation rdf:about="#example_direct_Image_4_IIIFTraining_AGG">
+                <edm:aggregatedCHO rdf:resource="#example_direct_Image_4_IIIFTraining"/>
+                <edm:isShownBy rdf:resource="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg"/>
+                <edm:dataProvider>Europeana Foundation</edm:dataProvider>
+                <edm:provider>Europeana Foundation</edm:provider>
+                <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+            </ore:Aggregation>
+            <svcs:Service rdf:about="https://iiif.archivelab.org/iiif/img-0353">
+                <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
+                <doap:implements rdf:resource="http://iiif.io/api/image/2/level2.json"/>
+            </svcs:Service>
+        </rdf:RDF>
+
+
+## IIIF to EDM Profile
+
+* If you would like to read more you can check out our extension on the [knowledge base](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties). Here the Pattern, classes and properties used are repeated with complete examples 
+
+## Try it out!
+
+To create an edm file with the IIIF extension, please fill out the [edm-iiif template file](https://docs.google.com/document/d/1hAiXhP2MdnJZPbmBG8hcaKLwAHnuCADi-m0hAVYubp0/edit) inserting your own metadata (we included the most basic properties but you can add your own).
+
+Template Key:
 ```
 * Yellow: link to the image(s) in the repository that you created in part 1 of this workshop
 * Green: insert your metadata (or leave the default.)
 * Orange: insert your rights statements (!Make sure your rights statements are valid, if you are unsure, leave the default.)
 ```
+
+## Double check time
+
+Checklist:
+
+
+
+Once you have finished then you can copy and paste the code into an xml editor or into notepad (in Windows Accessories on a PC) and
+
 * Save as .xml
+
+Then,
 * Create a folder and put the file in it
 * Zip the folder
-* Upload the folder in the Sandbox (See next section)
+
+In the next section we will show you how to upload the record into the Sandbox.
