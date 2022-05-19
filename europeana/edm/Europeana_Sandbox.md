@@ -2,18 +2,7 @@
 
 ![Sandbox](img/Sandbox_screen_v2.png)
 
-## Prepare your own edm-iiif files
-
-To create an edm-file using iiif, please fill out the [edm-iiif template file](https://docs.google.com/document/d/1hAiXhP2MdnJZPbmBG8hcaKLwAHnuCADi-m0hAVYubp0/edit) inserting your own metadata and copy-paste into your favourite xml editor (or just copy-paste it into Notepad).
-```
-* Yellow: link to the image(s) in the repository that you created in part 1 of this workshop
-* Green: insert your metadata (or leave the default.)
-* Orange: insert your rights statements (!Make sure your rights statements are valid, if you are unsure, leave the default.)
-```
-* Save as .xml
-* Create a folder and put the file in it
-* Zip the folder
-* Upload the folder in the Sandbox:
+After creating your iiif-edm-files, what is next?
 
 ## A quick Sandbox how-to
 For many extra features, advanced instructions can be found in the [Metis Sandbox User Guide](https://europeana.atlassian.net/wiki/spaces/EF/pages/2104295432/Metis+Sandbox+User+Guide)
@@ -33,13 +22,13 @@ The Metis Sandbox is a test environment for your data. It consists of a set of t
 
 * Prepare zip-file using your own edm-iiif files (see above)
 * Navigate to the [Sandbox](https://metis-sandbox.europeana.eu/) 
-* Create new dataset: fill out the short form
+* Create new dataset: name your dataset and fill out the short form
 * Press the ‘submit’ button
 * Wait 15 minutes to ‘view published records’
 
 ## Try for yourself!
 * Instructions: follow the steps indicated above
-* Fiona & Lianne are available for questions
+* Fiona & Lianne are available for bugfixes and questions
 * 20 minutes
 
 ## One example that we prepared for you earlier
