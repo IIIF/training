@@ -42,9 +42,9 @@ The Metis Sandbox is a test environment for your data. It consists of a set of t
 * Fiona & Lianne are available for questions
 * 20 minutes
 
-## Did it not work? - No worries!
+## One example that we prepared for you earlier
 Here is an example of Glen's tractor:
-* In the [Sandbox](https://metis-sandbox.europeana.eu/dataset/186)
-* In the [Sandbox preview](https://metis-sandbox-publish-api-prod-portal.eanadev.org/nl/item/186/_TEMPLATE_IIIF_Tractor)
+* In the [Sandbox](https://metis-sandbox.europeana.eu/dataset/213)
+* In the [Sandbox preview]([https://metis-sandbox-publish-api-prod-portal.eanadev.org/nl/item/186/_TEMPLATE_IIIF_Tractor](https://metis-sandbox-publish-api-prod-portal.eanadev.org/nl/item/213/_TEMPLATE_IIIF_Tractor))
 
 
