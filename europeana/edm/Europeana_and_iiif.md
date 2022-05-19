@@ -5,6 +5,8 @@
 - Make an EDM record for an image
 - Understand the basics of the IIIF extension in EDM
 - Make an EDM record with full IIIF extension
+- Understand the basics of the Metis Sandbox
+- Preview a record in the Metis Sandbox
 
 ## EDM
 
@@ -15,9 +17,9 @@
 The most basic EDM record consists of 3 classes consisting of properties, where classes are linked together using rdf statements. 
 These three classes are:
 
-* `edm:ProvidedCHO` A class representing the provided cultural heritage object
-* `edm:WebResource` A class for the web resource that is the digital surrogate of the cultural heritage object
-* `ore:Aggregation` A class that groups together the cultural heritage object with its digital surrogate
+* `edm:ProvidedCHO` **A class representing the provided cultural heritage object.**
+* `edm:WebResource` **A class for the web resource that is the digital surrogate of the cultural heritage object.**
+* `ore:Aggregation` **A class that groups together the cultural heritage object with its digital surrogate.**
 
 Each class starts with the “rdf:about” statement which is its identifier. This same identifier can be found within other classes as the content of an “rdf:resource” statement, thus linking the classes together.
 
@@ -27,7 +29,7 @@ Don't forget to add the xml declaration at the top of the record, the rdf:RDF co
 
 A basic EDM record for a standard image file looks like this:
 
-        ?xml version="1.0" encoding="UTF-8"?>
+        <?xml version="1.0" encoding="UTF-8"?>
         <rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#"
         xmlns:cc="http://creativecommons.org/ns#"
         xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm/"
@@ -71,21 +73,22 @@ A basic EDM record for a standard image file looks like this:
 
 Here you can see the rdf:about statements introducing each class and where these are found in other classes. 
 
-- The rdf:about of the Provided CHO is the rdf:resource of the edm:aggregatedCHO property in the ore:Aggregation class
+- The rdf:about of the Provided CHO is the rdf:resource of the edm:aggregatedCHO property in the ore:Aggregation class.
 
 - The rdf:about of the edm:WebResource class is the rdf:resource of the edm:isShownBy property in the ore:Aggregation class.
 
 
 ## IIIF to EDM Profile
 
-IIIF images need some extra information in EDM. So an extension to [EDM](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties) was created which added an extra class and some extra properties.
+IIIF images need some extra information in EDM. So an [extension to EDM](https://europeana.atlassian.net/wiki/spaces/EF/pages/2189262924/EDM+IIIF+EDM+classes+and+properties) was created which added an extra class and some extra properties.
 
 ### New properties and class
 
 Two properties were added to the the edm:WebResource:
-svcs:has_service (to point to the IIIF service) and dcterms:isReferencedBy (for the IIIF manifest).
+**svcs:has_service** (to point to the IIIF service) and **dcterms:isReferencedBy** (for the IIIF manifest).
 
-The svcs:Service class was created to indicate the level of implementation, using the properties dcterms:conformsTo and doap:implements.
+The **svcs:Service** class was created to indicate the level of implementation, 
+using the properties **dcterms:conformsTo** and **doap:implements**.
 
 This is summarised below:
 
@@ -104,7 +107,7 @@ We will need to make one change to the ore:Aggregation class, one change to the 
 Make sure that in the rdf:about of the WebResource class you provide the full IIIF link.
 This is the link to the image you made in the first part of the training.
 
-<edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg">
+        <edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg">
 
 Remember to include the correct parameters: {scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
 
@@ -119,7 +122,7 @@ All image links should be served via **https**.
 Next in the WebResource class you want to flag that the link you added is compliant with IIIF. 
 
 To do this you add the base of the image URL into the has_service property: 
-<svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/>
+          <svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/>
 
 In the IIIF syntax the base URL is the {scheme}://{server}{/prefix}/{identifier} part.
 
@@ -129,17 +132,17 @@ The next step is to provide access to the IIIF manifest.
 
 We do this by adding the property isReferencedBy as so:
 
-<dcterms:isReferencedBy rdf:resource="https://iiif-test.github.io/Jan2022/manifests/manifest.json"/>
+         <dcterms:isReferencedBy rdf:resource="https://iiif-test.github.io/Jan2022/manifests/manifest.json"/>
 
 The link usually ends .json and should resolve in the manifest for the item which is the subject of the EDM record. The first image in the manifest should be the same as the isShownBy in the aggregation class and the rdf:about of the WebResource class. If there are any errors then the image will not display in the Europeana portal.
 
 This is what the WebResource class now looks like:
 
-    <edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg">
-        <dcterms:isReferencedBy rdf:resource="https://iiif-test.github.io/Jan2022/manifests/manifest.json"/>
-        <svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/>
-        <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-    </edm:WebResource>
+        <edm:WebResource rdf:about="https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg">
+                <dcterms:isReferencedBy rdf:resource="https://iiif-test.github.io/Jan2022/manifests/manifest.json"/>
+                <svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/>
+                <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        </edm:WebResource>
 
 ### 4. Update the isShownBy link ore:Aggregation class
 
@@ -168,7 +171,7 @@ Add the following two properties to the class:
         <dcterms:conformsTo rdf:resource="http://iiif.io/api/image"/>
         <doap:implements rdf:resource="http://iiif.io/api/image/2/level2.json"/>
         
-The dcterms:conforms to propety is always the same and never changes. The level in doap:implements may change depending on the level of implementation, however, the only change you can anticipate between different records in the same dataset will be the item identifier in the URL.
+The dcterms:conforms to property is always the same and never changes. The level in doap:implements may change depending on the level of implementation, however, the only change you can anticipate between different records in the same dataset will be the item identifier in the URL.
 
 Finally, close off your new class.
 
@@ -183,7 +186,7 @@ The whole thing will look like this:
 
 The example record has now been extended:
 
-        ?xml version="1.0" encoding="UTF-8"?>
+        <?xml version="1.0" encoding="UTF-8"?>
         <rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#"
         xmlns:cc="http://creativecommons.org/ns#"
         xmlns:crm="http://www.cidoc-crm.org/rdfs/cidoc_crm/"
@@ -243,10 +246,10 @@ To help you to create an EDM file with the IIIF extension you can go to the [edm
 
 Template Key:
 ```
-* Yellow: insert the base link to the item in the repository that you created in part 1 of this workshop
-* Pink: insert the link to your manifest
+* Yellow: insert the base link to the item in the repository that you created in part 1 of this workshop.
+* Pink: insert the link to your new manifest.
 * Green: insert your metadata (or leave the default.)
-* Orange: insert your rights statements (!Make sure your rights statements are valid, if you are unsure, leave the default.)
+* Orange: insert your rights statements (Make sure your rights statements are valid, if you are unsure, leave the default.)
 ```
 
 ## Double check time
