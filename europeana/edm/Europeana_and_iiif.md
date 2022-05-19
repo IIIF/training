@@ -122,6 +122,7 @@ All image links should be served via **https**.
 Next in the WebResource class you want to flag that the link you added is compliant with IIIF. 
 
 To do this you add the base of the image URL into the has_service property: 
+          
           <svcs:has_service rdf:resource="https://iiif.archivelab.org/iiif/img-0353"/>
 
 In the IIIF syntax the base URL is the {scheme}://{server}{/prefix}/{identifier} part.
