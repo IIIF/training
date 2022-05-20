@@ -96,7 +96,7 @@ This is summarised below:
 
 The namespaces and ProvideCHO class remain as in standard EDM so there is no need to change these.
 
-We will need to make one change to the ore:Aggregation class, one change to the edm:WebResource class, plus we need to add the two new properties to this class, and we need to create the new svsc:Service class.
+We will need to make one change to the ore:Aggregation class, one change to the edm:WebResource class, plus we need to add the two new properties to this class, and we need to create the new svcs:Service class.
 
 **Let's do this in 5 steps!**
 
