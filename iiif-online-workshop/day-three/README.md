@@ -8,9 +8,9 @@ This day will focus on the IIIF Presentation API.  This session will focus on [v
 Prerequisite video: 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/98z9YNFiUqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This video is also aviliable on [YouTube](https://www.youtube.com/watch?v=98z9YNFiUqU)
+This video is also available on [YouTube](https://www.youtube.com/watch?v=98z9YNFiUqU)
 
 Main video:
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ph2KQa-_ieM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This video is also aviliable on [YouTube](https://www.youtube.com/watch?v=Ph2KQa-_ieM)
+This video is also available on [YouTube](https://www.youtube.com/watch?v=Ph2KQa-_ieM)
