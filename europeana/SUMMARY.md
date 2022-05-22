@@ -3,7 +3,7 @@
 - [Overview](README.md)
 - [What is IIIF](iiif_intro/whatisiiif.md)
 
-## Part One - Image API
+## Image API
 - [Image API](day-two/image-api.md)
 - [File formats](day-two/fileformats.md)
 - [Uses](day-two/uses.md)
@@ -13,15 +13,12 @@
    - [Cantaloupe (Advanced)](day-two/image-servers/setting-up-cantaloupe.md)
 - [Scaling IIIF Images](scaling.md)   
 
-## Part Two - Presentation API 
+## Presentation API 
 - [Presentation API](prezi-intro.md)
 - [How do people create Manifests?](prezi-how.md)
 - [Create a Manifest](bodliean-editor.md)
 - [Publishing your manifest](day-three/workbench/short.md)
    - [Extra: Create an Exhibit](exhibit/exhibit.md)
-
-## IIIF Community
-- [Get involved](involved.md)
 
 ## Europeana and iiif
 - [How to integrate](edm/Europeana_and_iiif.md)
