@@ -1,6 +1,6 @@
 # Europeana Aggregator IIIF Training
 
-This training is part the [Europeana training on IIIF] sessions. 
+This training is part the Europeana Aggregator training on IIIF. 
 
 ## About IIIF
 
@@ -14,7 +14,11 @@ Duration: 3 hours
  * Presentation API - 1 hour
  * Working with EDM - 1 hour
 
-Instructor: Glen Robson (IIIF Technical Coordinator, IIIF Consortium) and TBC
+Instructor: 
+
+ * Glen Robson (IIIF Technical Coordinator, IIIF Consortium)
+ * Lianne Heslinga (Metadata Coordinator, Europeana)
+ * Fiona Mowat (Programme and Business Development, Europeana)
 
 This session will introduce you to the IIIF Image and Presentation standards and go through a short workshop to show how you can create and use off the shelf tools to use these standards. We will discuss how to setup a IIIF system in production starting with a small collection and then how to scale up to millions of images. We will then conclude with a discussion on the wider IIIF community and where you can go for help and advice after the workshop has completed. 
 

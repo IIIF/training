@@ -14,13 +14,11 @@
 - [Scaling IIIF Images](scaling.md)   
 
 ## Part Two - Presentation API 
-- [Presentation API](day-three/README.md)
-    - [How do people create Manifests?](prezi-how.md)
-    - [Create a Manifest](day-three/bodleian-editor/README.md)
-       - Set up the [Web Server for Chrome](day-three/chrome-web-server/README.md) plugin   
-       - [Edit a Manifest](day-three/edit-a-manifest/README.md)
-       - [Add Structure](day-three/ranges/README.md)
-    - [Publishing your manifest](day-three/workbench/README.md)
+- [Presentation API](prezi-intro.md)
+- [How do people create Manifests?](prezi-how.md)
+- [Create a Manifest](bodliean-editor.md)
+- [Publishing your manifest](day-three/workbench/short.md)
+   - [Extra: Create an Exhibit](exhibit/exhibit.md)
 
 ## IIIF Community
 - [Get involved](involved.md)

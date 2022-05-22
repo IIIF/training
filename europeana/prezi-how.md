@@ -5,10 +5,10 @@ In this workshop we are going to take you through creating a Manifest using a Ma
 Generally the data required to create a manifest generator are as follows:
 
  * Accessible IIIF Images
- * Data on how the images relate to each other. For example the order of the pages in a manuscript
+ * Structural data on how the images relate to each other. For example the order of the pages in a manuscript
  * Descriptive metadata for example:
    * Title - Name of the item this is called a `label` in IIIF
-   * Descriptions (optional)
+   * Description (optional)
    * Rights or licensing (optional)
    * Metadata useful for discovery (optional) - this will be explained later
 
@@ -24,7 +24,7 @@ Generally the format of the incoming metadata means that often these manifest ge
  * [O'Sullivan](https://github.com/IIIF/osullivan) - Ruby API for creating IIIF manifests.
  * [Swiiift](https://github.com/mejackreed/Swiiift) - IIIF presentation API library for Swift.
  * [tabula-rasa](https://www.npmjs.com/package/tabula-rasa) - npm module for creating and manipulating IIIF manifests.
- * [ViewDir](https://iiif-commons.github.io/) - Documentation on IIIF-related libraries and components, from an open community of designers and developers interested in creating composable and interoperable interfaces for consuming and creating online content.
+ * [ViewDir](https://iiif-commons.github.io/) - Documentation on IIIF-related libraries and components.
 
 Once the Manifests are generated they can be stored on any Web Server and don't need a specific server like the Image API.
 
