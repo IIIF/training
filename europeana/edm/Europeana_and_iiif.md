@@ -1,6 +1,6 @@
 # EDM (Europeana Data Model) and IIIF
 
- <p align="center"><iframe src="https://player.vimeo.com/video/716825132?h=f94b85a96a" width="640" height="360" frameborder="0"/></p>
+ <iframe width="560" height="315" src="https://player.vimeo.com/video/716825132?h=f94b85a96a" title="Fiona explaining iiif-edm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Learning Objectives
 - Understand the basic concepts of EDM
