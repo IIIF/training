@@ -215,6 +215,61 @@ Now we can switch back to our page in Omeka and add a Map block to show where th
 Then click Save at the top right and then click the View button to see if your map has now appeared. 
 
 ![Map preview](img/omeka_page_map_preview.png)
-## Step 4: Use storiies and Exhibit 
+
+## Step 4: Use Storiiies and Exhibit 
+
+We can now expand our website to include interactive IIIF tools like Storiiies or Exhibit. We will start with Storiiies as we have covered Exhibit in the [Working with Exhibit](../../exhibit/exhibit.md) tutorial. 
+
+Storiiies is similar to Exhibit but only works with a single image rather than a Manifest. As we are working with single image in this workshop it is a good choice for us. Navigate to the Storiiies editor:
+
+[https://storiiies-editor.cogapp.com/](https://storiiies-editor.cogapp.com/)
+
+and add in your IIIF URL. For storiiies you don't need the info.json at the end. You will also need to give your story a title and your email address. You will get an email with your storiiies link if you later want to edit it. 
+
+![Create your story](img/storiiies_create.png)
+
+Once you have created your story you will be presented with your image on the right/centre and a add annotations button on the top left. If you zoom into the image then click add annotation you can associate text with the area of the image you are looking at. 
+
+![Start storiiies](img/storiiies_start.png)
+
+Once you have added a few annotations by moving around the image and clicking add annotation you should see something similar to:
+
+![Multiple annotations](img/storiiies_annos.png)
+
+You can click the Preview link to see a version you can click through but for Omeka we need to embed this viewer into the Omeka site. To do this click the Links link at the top right then copy the HTML given in the embed box. It will look something like this:
+
+```
+<iframe width="100%" height="600" src="https://storiiies.cogapp.com/viewer/9c3cd/Beinecke-Library-?embed=true" title="Beinecke Library "></iframe>
+```
+
+![Embed storiiies](img/storiiies_embed.png)
+
+Now switch back to your Omeka-s instance and open up the welcome page for editing. Add a HTML block to your page. I've moved my HTML block to the top of the page but this is optional. To change the order click on the hamburger symbol (three horizontal bars) and drag to re-order.
+
+Once you have a HTML block click the source button.
+
+![Add html block](img/omeka_storiiies_embed.png)
+
+Paste in the code you copied from storiiies and click OK:
+
+![Embed storiiies code](img/omeka_storiiies_source.png)
+
+Then click save page and view to see if your story now appears on your site. 
+
+![Demo of storiiies](img/omeka_storiiies_demo.png)
+
+### Exhibit
+
+Embedding Exhibit is very similar. To access the embed HTML click the share link at the bottom then copy the embed code highlighted in the image below. Add this copied HTML to a HTML block as detailed for storiiies. 
+
+![Embed Exhibit](img/omeka_exhibit_embed.png)
+
 ## Step 5: Share the collection
 
+The final step is to share your project with others. As we have been using the public version of Omeka your website is now available to anyone with the URL until the data is reset. The URL to share is the one you are looking at when you click the View button of a page.
+
+# Conclusion
+
+Hopefully we have demonstrated how to make a powerful IIIF driven website with Omeka using only the tools it provides by default. There are many plugins which could be used to enhance this website but I think even out of the box Omeka is a powerfu tool. Particularly in a class room setting as outlined with the Ghent use case. 
+
+You should now be able to play around with your data in Omeka-s and create extra pages and really add detail to the images you are working with.
