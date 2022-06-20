@@ -6,7 +6,7 @@ https://www.exhibit.so/
 
 ## Step 1 find a Manifest
 
-If you haven't already go back to the [Finding Manifests](basics/guides.md) guide and find a Manifest from one of the public collections. My personal favourite is:
+If you haven't already go back to the [Finding Manifests](../basics/guides.md) guide and find a Manifest from one of the public collections. My personal favourite is:
 
 https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json
 

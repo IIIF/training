@@ -19,7 +19,7 @@
  - [Audio / Visual Annotations](use_cases/AV.md)
 
 ## Hands on Annotations
- - [Exhibit](exhibit.md)
+ - [Exhibit](exhibit/exhibit.md)
  - [Annotating](annotations/annotating.md)
  - [Sharing your Annotations](annotations/sharing.md)
 
