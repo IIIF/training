@@ -11,14 +11,21 @@
 - [Finding images in Manifests](day-two/image-servers/images_in_manifest.md)
 
 ## Choose your adventure
-- [Working with Annotations in Mirador]()
-- [Transcribing material with FromThePage](modules/FromThePage/README.md)
-- [Crowdsourcing with Zooniverse](modules/zooniverse/README.md)  
+- [Overview](modules/README.md)
 - [Exhibiting content with Omeka-s](modules/omeka/README.md)
-- [Working with Manifests]()
+- [Crowdsourcing with Zooniverse](modules/zooniverse/README.md)  
+- [Transcribing material with FromThePage](modules/FromThePage/README.md)
+- [Working with Annotations in Mirador](modules/annotations.md)
+   - [IIIF Basics - Annotations](basics/annos.md)
+   - [Annotating with Mirador](modules/annotations/annotations-exercises.md)
+   - [Book of Remembrance](modules/annotations/annotations-stores.md)
+   - [Book of Remembrance - Results](modules/annotations/annotations-stores-results.md)
+   - [Annotating](modules/annotations/annotating.md)
+   - [Sharing your Annotations](modules/annotations/sharing.md)
+
 
 ## Demos
-- [Presentation]()
+- [Presentation](presentation.md)
 
 ## Summary
 - [Closing](conclusion.md)
