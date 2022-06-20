@@ -12,7 +12,7 @@
 
 ## Choose your adventure
 - [Working with Annotations in Mirador]()
-- [Transcribing material with FromThePage]()
+- [Transcribing material with FromThePage](modules/FromThePage/README.md)
 - [Crowdsourcing with Zooniverse](modules/zooniverse/README.md)  
 - [Exhibiting content with Omeka-s](modules/omeka/README.md)
 - [Working with Manifests]()
