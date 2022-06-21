@@ -2,7 +2,7 @@
 
 FromThePage is a open source or hosted transcription platform which is a great way of transcribing manuscripts. It has a long history of working with cultural heritage institutions and offers powerful full page transcription software that can be used either by public volunteers or a private group of collaborators. It offers export of this data as TEI or as IIIF Annotations. 
 
-There are many different use cases for this product but to focus on one that is given on their website. Classics professor, Adam Rabinowitz, at the University of Texas uses FromThePage to run a class based project where students are first asked to find a collection of letters in the University library and are then given access to FromThePage to transcribe them. The letters are are from a collection of a Texas Judge and Legislator Alexander Watkins Terrell who tried to convince the University to buy the ancient city of Troy. Once the students have done the transcription it is assessed by the course tutor and they are given access to a larger part of the archive which has already been transcribed. They are then have to write a report using the source material on whether the university should have purchased these antiquities in the 1890s. You can see further details on this use case in the [FromThePage blog](https://content.fromthepage.com/transcription-for-pedagogy/).
+There are many different use cases for this product but to focus on one that is given on their website: Classics professor, Adam Rabinowitz, at the University of Texas uses FromThePage to run a class based project where students are first asked to find a collection of letters in the University library and are then given access to FromThePage to transcribe them. The letters are are from a collection of a Texas Judge and Legislator Alexander Watkins Terrell who tried to convince the University to buy the ancient city of Troy. Once the students have done the transcription it is assessed by the course tutor and they are given access to a larger part of the archive which has already been transcribed. They are then have to write a report using the source material on whether the university should have purchased these antiquities in the 1890s. You can see further details on this use case in the [FromThePage blog](https://content.fromthepage.com/transcription-for-pedagogy/).
 
 There is a step by step guide below and accompanying video on uploading a manifest into FromThePage and starting to transcribe it. The step by step guide is shorter than the video as it miss out some steps and skips some of the questions there were asked in the original workshop.
 
@@ -12,7 +12,7 @@ There is a step by step guide below and accompanying video on uploading a manife
 
 FromThePage will import images from a Manifest so you can follow the guide given in [Finding Yale Manifests](../../basics/finding_yale.md) but note you will need a version 2 IIIF manifest.
 
-For this guide I will be using the following item from the Stanford University:
+For this guide I will be using the following item from the Yale University:
 
 [https://collections.library.yale.edu/manifests/30907745](https://collections.library.yale.edu/manifests/30907745)
  
@@ -57,7 +57,7 @@ From the list of Canvases page choose a page to transcribe and click the help tr
 
 ![Canvas list page](img/canvas_list.png)
 
-You will now be taken to a screen where you can do the transcription. This has your image on the left hand side which can be zoomed to make out difficult characters and a text box on the right where you can enter your transcription. FromThePage has a powerful wiki markup interface where you can enter controlled vocabularies and this is covered in the video at the top. 
+You will now be taken to a screen where you can do the transcription. This has your image on the left hand side which can be zoomed to make out difficult characters and a text box on the right where you can enter your transcription. FromThePage has a powerful wiki markup interface where you can enter controlled vocabularies and this is covered in the video at the top of this guide. 
 
 ![Transcription interface](img/transcribe.png)
 

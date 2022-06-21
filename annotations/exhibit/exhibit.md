@@ -1,6 +1,6 @@
 # Exhibit
 
-This is a tool which uses a simple workflow to create annotations in then present them to the user as a story or Exhibit. It is possible to have multiple manifests and images as was shown in the Book of Remembrance use case earlier. 
+This is a tool which uses a simple workflow to create annotations and then present them to the user as a story or Exhibit. It is possible to have multiple manifests and images. The tool is available at: 
 
 https://www.exhibit.so/
 

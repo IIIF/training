@@ -1,6 +1,6 @@
 # Zooniverse
 
-This is the most popular crowdsourcing or citizen science tool and it started out as a project called Galaxy Zoo which enabled volunteers to tag and classify a large number of galaxies. It has since morphed into a general crowdsourcing tool and is used by many cultural heritage institutions to involve the public in their collections. 
+This is the most popular crowdsourcing or citizen science tool which started out as a project called Galaxy Zoo to enable volunteers to tag and classify galaxies. It has since morphed into a general crowdsourcing tool and is used by many cultural heritage institutions to involve the public in their collections. 
 
 To give you a flavour of the type of projects that Zooniverse run here are a few examples:
 
@@ -8,9 +8,9 @@ To give you a flavour of the type of projects that Zooniverse run here are a few
  * [MEASURING THE ANZACS](https://www.zooniverse.org/projects/zooniverse/measuring-the-anzacs/about/research) a project from New Zealand to create a rich index of persons who served in the New Zealand military in World War 1.
  * [Saint George on a Bike](https://www.zooniverse.org/projects/artem-dot-reshetnikov/saint-george-on-a-bike/about/research) a project to generate a machine generated textual description of an image using source data collected from volunteers.
 
-Recently the British Library worked with Zooniverse to add IIIF support. This was demoed in a recent IIIF community call and the [video is available](https://www.youtube.com/watch?v=DINVrp7ojHw). 
+Recently the British Library worked with Zooniverse to add IIIF support. This was demoed in a recent IIIF community call and the [video is available on YouTube](https://www.youtube.com/watch?v=DINVrp7ojHw). 
 
-Below is a step by step guide to creating a crowdsourcing project using the Zooniverse project builder.
+Below is a step by step guide to creating a crowdsourcing project using the Zooniverse project builder. Note at the end of this task you will have a Zooniverse instance which can be shared with collaborators. There is a separate process for making it live to the public which is discussed below. 
 
 ## Step 1 - Find content
 
@@ -88,7 +88,7 @@ If you now scroll down you can see you can add answers by clicking the + button.
 
 ![Add answer](img/add_task_answer.png)
 
-Now you have to configure the Subject Set to ensure the images are shown and also turn on pan and zoom functionality which is optional but helpful for larger images. 
+Now you have to associate the Subject Set to ensure the images are shown and also turn on pan and zoom functionality which is optional but helpful for larger images. 
 
 ![Configure workflow](img/configure_workflow.png)
 
@@ -96,7 +96,7 @@ You are now ready to preview your crowdsourcing application.
 
 ## Step 5: Testing
 
-If you scroll down to the bottom of the workflow page you should see a "Test this workflow" button. If you click this a new tab will open showing your workflow with associated image. 
+If you scroll down to the bottom of the workflow page you should see a "Test this workflow" button. If you click this a new tab will open showing your workflow with a random image from your Manifest. 
 
 ![test workflow](img/test_workflow.png)
 
@@ -104,7 +104,7 @@ If you scroll down to the bottom of the workflow page you should see a "Test thi
 
 ### Going live to the public
 
-It looks like there is a fairly rigours process before projects can be made live and involves a group of beta tests. Here is a note from the zooniverse website:
+It looks like there is a fairly rigours process before projects can be made live and involves a group of beta testers. Here is a note from the Zooniverse website:
 
 _"In order to launch publicly and be featured on zooniverse.org/projects, teams must go through beta review, wherein a team of Zooniverse volunteer beta testers give feedback on the project and answer a series of questions that tell us whether the project is 1) appropriate for the platform; and 2) ready to be launched. Anyone can be a beta tester! To sign up, visit https://www.zooniverse.org/settings/email. Note: the timeline from requesting beta review to getting scheduled in the queue to receiving beta feedback is a few weeks. It can then take a few weeks to a few months (depending on the level of changes needed) to improve your project based on beta feedback and be ready to apply for full launch. For more details and best practices around using the Project Builder, see https://help.zooniverse.org/getting-started/."_
 
@@ -117,9 +117,9 @@ _"To be eligible for beta review, projects also require:_
  * _at least 100 subjects in active workflows_
  * _content on the Research and FAQ pages in the About page"_
 
-The 100 subjects are pages/canvases in a manifest.
+The 100 subjects are the equivalent of pages/canvases in a Manifest.
 
-For small projects it may be possible to add collaborators and there is a Tester collaborator who can access private projects and run the classification tasks. 
+For small projects it may be possible to add collaborators and there is a Tester collaborator, who can access private projects and run the classification tasks. 
 
 ### Exporting data
 

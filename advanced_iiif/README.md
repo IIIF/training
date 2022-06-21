@@ -11,3 +11,8 @@ _Custom Yale training_
  * Choose your own adventure (1.5 hours including any breaks)
  * Demons (30mins) 
 
+Before we start I would like you to register for the IIIF slack:
+
+http://bit.ly/iiif-slack
+
+and we will be using a channel called #2022-06-yale

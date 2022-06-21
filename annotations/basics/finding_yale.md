@@ -1,27 +1,49 @@
 # Finding Yale manuscripts
 
-There are four guides on the IIIF guides site or different parts of Yale University:
+There are four guides on the IIIF guides site for different parts of Yale University:
 
  * [Yale Center for British Art](https://guides.iiif.io/guides/collections.britishart.yale.edu/)
  * [Yale Peabody Museum](https://guides.iiif.io/guides/collections.peabody.yale.edu/)
  * [Yale University Art Gallery](https://guides.iiif.io/guides/artgallery.yale.edu/)
  * [Yale University Library](https://guides.iiif.io/guides/collections.library.yale.edu/)
 
+## Viewing Manifests in a Viewer
+
+To give you an example of how to open a Manifest in a viewer lets take this page:
+
+https://collections.britishart.yale.edu/catalog/tms:1772
+
+Which has the following Manifest:
+
+https://manifests.collections.yale.edu/ycba/obj/1772
+
+We can view it in the Universal Viewer by going to:
+
+https://universalviewer.io/
+
+and in Mirador:
+
+https://projectmirador.org/
+
+Once you have found your Manifest it is a good idea to keep this in a note somewhere as we will be using this link quite a few times in this course. 
+
 ## Caveats  
 
-### IIIF Version
+### IIIF Version 2 or 3
 
 By default many of the IIIF resources available from Yale are using IIIF version 3 which is the latest and greatest IIIF version. Unfortunately some of the tools that are demonstrated today only work with IIIF version 2. Specifically Zooniverse, FromThePage and the section on working with annotations and Mirador will only work with v2 Manifests. 
 
-The Museums support both version 2 and 3 but will be default show version 3. To get to a v2 version you will need to edit the URL. For example this is a link to a v3 manifest:
+The Museums support both version 2 and 3 but will by default show version 3. To get to a v2 version you will need to edit the URL. For example this is a link to a v3 manifest:
 
 https://manifests.collections.yale.edu/yuag/obj/157210
 
 and to access a v2 version you would need to request:
 
-https://manifests.collections.yale.edu/v2/ycba/obj/272
+https://manifests.collections.yale.edu/v2/yuag/obj/157210
 
-i.e. insert `v2/` after the yale.edu part. The University Library only supports version 3 currently but we do have the following examples of v2 library material:
+i.e. insert `v2/` after the yale.edu part. 
+
+Yale Library only supports version 3 currently but we do have the following examples of v2 library material:
 
 * [ 1971 1063 ]( https://collections.library.yale.edu/catalog/30907105 )
 * [ 1976 425 ]( https://collections.library.yale.edu/catalog/31908820 )
@@ -93,7 +115,7 @@ Some items are restricted to only being accessible on the Yale campus. This will
 
 https://collections.library.yale.edu/catalog/31909488
 
-and the way to tell if this is an item that falls in this category is to scroll to the bottom of the catalogue page and look for Access and Usage rights similar to this:
+and the way to tell if this is an item that falls in this category is to scroll to the bottom of the catalogue page and look for the Access and Usage rights similar to this:
 
 ![Restricted images Yale](imgs/yale_restricted.png)
 

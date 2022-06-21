@@ -1,12 +1,12 @@
 # Omeka
 
-Omeka is a system which allows you to create a website and is primarily focused on Digital Humanities projects and making collections and their interpretation available. There are two versions in use today; [Omeka Classic](https://omeka.org/classic/) and [Omeka-s](https://omeka.org/s/). IIIF support is available in both but as Omeka-s is the latest version we will be focusing on this version for our tutorial. Out of the box Omeka-s supports the linking of IIIF images into a Omeka-s Website. There are various plugins available which extend this support and we will discuss a few options in this workshop. 
+Omeka is a system which allows you to create a website and is primarily focused on Digital Humanities projects and making collections and their interpretation available. There are two versions in use today; [Omeka Classic](https://omeka.org/classic/) and [Omeka S](https://omeka.org/s/). IIIF support is available in both but as Omeka S is the latest version we will be focusing on this version for our tutorial. Out of the box Omeka S supports the linking of IIIF images into a Omeka S Website. There are various modules available which extend this support and we will discuss a few options in this workshop. 
 
-To demonstrate the capabilities of Omeka-s we will start with a Use Case from the University of Ghent which was presented at the IIIF 2022 conference in Cambridge by Lise Foket. Once we have looked at their implementation we will go through the steps to replicate their project using the demo instance of Omeka-s. 
+To demonstrate the capabilities of Omeka S we will start with a Use Case from the University of Ghent which was presented at the IIIF 2022 conference in Cambridge by Lise Foket. Once we have looked at their implementation we will go through the steps to replicate this project using the demo instance of Omeka S. 
 
 ## Use case - University of Ghent DH department
 
-The use case presented at the IIIF conference was a group project looking to increase digital skills for a class of students taking a Masters of Cultural Sciences. The participants were split into small groups and were asked to create a small website using Omeka on the theme of a Belgium tradition or a Belgium place. The project was undertaken in the context of teaching the 15 digital competencies they defined as essential for the 2019-20 academic year. These are:
+The use case presented at the IIIF conference was a group project looking to increase digital skills for a class of students taking a Masters of Cultural Sciences course. The participants were split into small groups and were asked to create a small website using Omeka on the theme of a Belgium tradition or a Belgium place. The project was undertaken in the context of teaching the 15 digital competencies they defined as essential for the 2019-20 academic year. These are:
 
 1. Discover
 2. Source criticism 
@@ -31,18 +31,18 @@ The project was undertaken using the following workflow:
 ![Workflow in Omeka](img/workflow.png)
 
 ### Add digital items
-In this project they used a number of Omeka-s plugins to directly add images to Omeka-s and get access to IIIF images and Manifests. The plugin they used was called [IIIFServer](https://omeka.org/s/modules/IiifServer/) and this provides a IIIF image server and manifest generator. We will not be able to use this plugin on the demo Omeka-s instance but this is useful if you want to combine IIIF images available at Yale with content that is not available as IIIF. 
+In this project they used a number of Omeka S modules to directly add images to Omeka S and get access to IIIF images and Manifests. The module they used was called [IIIFServer](https://omeka.org/s/modules/IiifServer/) and this provides a IIIF image server and manifest generator. We will not be able to use this module on the demo Omeka S instance but this is useful if you want to combine IIIF images available at Yale with content that is not available as IIIF. 
 
 ### Add metadata, tags and mapping
-Omeka-s has extensive metadata editing capabilities and we will see this in the demo instance later. It is possible to add tags to content and also geo-locate images. 
+Omeka S has extensive metadata editing capabilities and we will see this in the demo instance later. It is possible to add tags to content and also geo-locate images. 
 
 ### Create web pages, Use storiies and Exhibit 
-This is the one of the main features of Omeka-s and with the possibility of embedding IIIF enabled tools like [storiiies](https://storiiies.cogapp.com/) and [exhibit](https://www.exhibit.so/) provide a rich interactive method of telling stories from collections.
+Creating Web Pages is the one of the main features of Omeka S and with the possibility of embedding IIIF enabled tools like [storiiies](https://storiiies.cogapp.com/) and [exhibit](https://www.exhibit.so/) provide a rich interactive method of telling stories with collections.
 
-You will see in the guide below that we are limited to using IIIF Images but there are a couple of useful Omeka-s plugins which allow you to work with Manifests and embed either the [Universal Viewer](https://omeka.org/s/modules/UniversalViewer/) or [Mirador](https://github.com/Daniel-KM/Omeka-S-module-Mirador). These plugins are unfortunately not available on the demo Omeka-s site. 
+You will see in the guide below that we are limited to using IIIF Images not Manifests in the demo Omeka S instance but there are a couple of useful modules which allow you to work with Manifests and embed either the [Universal Viewer](https://omeka.org/s/modules/UniversalViewer/) or [Mirador](https://github.com/Daniel-KM/Omeka-S-module-Mirador).  
 
 ### Share the collection
-For the Ghent project unfortunately the projects couldn't be shared due to copyright issues with the source material. There are a couple of example Omeka-s projects which are similar:
+For the Ghent project unfortunately the projects couldn't be shared due to copyright issues with the source material but there are a couple of example Omeka S projects which are similar:
 
  * [Looking at interior design through historical crime scene photographs](https://www.omeka.ugent.be/interieurdesign/s/plaatsdelict/page/welcome)
  * [An exhibition on the Belgium artist Yvonne Serruys](https://www.omeka.ugent.be/YvonneSerruys/s/in-het-spoor-van/page/welcome)
@@ -51,16 +51,16 @@ Both websites are in Dutch but can be translated using Google translate:
 
 [https://translate.google.co.uk/?sl=cy&tl=en&op=websites](https://translate.google.co.uk/?sl=cy&tl=en&op=websites)
 
-For the exercises below we will be creating a public website but note the demo instance of Omeka-s is reset every couple of days and the data is removed. 
+For the exercises below we will be creating a public website but note the demo instance of Omeka S is reset every couple of days and the data is removed. 
 
-# Hands on Omeka-s
+# Hands on Omeka S
 
-Using the Ghent project as an inspiration we are going to use content from Yale University to build a simple Omeka-s website. We will use the workflow explained above and IIIF images from Yale manifests.
+Using the Ghent project as an inspiration we are going to use content from Yale University to build a simple Omeka S website. We will use the workflow explained above with IIIF images from Yale manifests.
 
 
 ## Step 1: Add digital items
 
-The first step is to find some IIIF images to work with. As mentioned previously through plugins it is possible to load Manifests into Omeka but out of the box Omeka only supports the IIIF Image API. In later steps we will be associating a geographical location with the item so please find something that can be associated with a map. 
+The first step is to find some IIIF images to work with. As mentioned previously through a module it is possible to load Manifests into Omeka but out of the box Omeka only supports the IIIF Image API. In later steps we will be associating a geographical location with the item so please find something that can be associated with a map. 
 
 To find a Yale manifests to work with please follow the instructions in [Finding Yale Manifests](../../basics/finding_yale.md).
 
@@ -72,7 +72,7 @@ If you are struggling to find a manifest you can use the following example:
  * [Manifest](https://collections.library.yale.edu/manifests/2037663)
  * Image URL: [https://collections.library.yale.edu/iiif/2/1133457](https://collections.library.yale.edu/iiif/2/1133457)
 
-Now we have a IIIF image we need to upload it to Omeka-s. We will be using the demo/sandbox version of Omeka-s which can be accessed at the following URL:
+Now we have a IIIF image we need to upload it to Omeka S. We will be using the demo/sandbox version of Omeka S which can be accessed at the following URL:
 
 [http://dev.omeka.org/omeka-s-sandbox/login](http://dev.omeka.org/omeka-s-sandbox/login)
 
@@ -84,7 +84,7 @@ You can use the following login usernames and passwords:
 
 For further details on this sandbox version please see the [Omeka website](https://omeka.org/s/download/#sandbox) and please note sandbox content is reset every Monday, Wednesday, Friday, and Sunday.
 
-Once you have logged in you should see the screen below. To connect a IIIF image we are going to add a new Item. Click on one of the two Item links highlighted in the image below:
+Once you have logged in you should see the screen below. To connect a IIIF image we are going to add a new Item. Click on one of the two `Items` links highlighted in the image below:
 
 ![Post login Omeka screen](img/post_login.png)
 
@@ -123,19 +123,18 @@ If you switch back to the Values tab you can now add some brief metadata.
  1. Select Image as the class or type of the item
  2. Add a title for your item
  3. Add a description
- 4. Select the media tab to link in the IIIF image
 
 ![Add basic metadata to item](img/omeka_add_item_metadata.png)
 
 ### Tags
 
-Omeka-s has a powerful metadata editing functionality and allows you to associate any Linked Data ontology with your item. Out of the box it supports Dublin Core, a Biblographic Ontology and foaf (Friend of a Friend). For the pruposes of this demonstration we are going to treat tags as `foaf:topics` or `dcterms:subjects`. The process for doing this is as follows:
+Omeka S has a powerful metadata editing functionality and allows you to associate any Linked Data ontology to your item. Out of the box it supports Dublin Core, a Biblographic Ontology and foaf (Friend of a Friend). For the pruposes of this demonstration we are going to treat tags as `foaf:topics` or `dcterms:subjects`. The process for doing this is as follows:
 
  1. Use the search bar to filter the metadata fields for `topic` and select the topic option. This will add a topic block to the center panel.
  2. You are then given an option of whether to enter this value as either:
-   * A text string as given in example 3.
+   * A text string as given in box 3.
    * An Omeka resource if you want to relate it to another item in Omeka or create topics within Omeka
-   * A URI which links this item to an external authority as seen in example 4.
+   * A URI which links this item to an external authority as seen in box 4.
  3. If you chose to add the topic as text you will be presented with a text box
  4. If you chose to add the topic as a URI you will be given the option to enter a linked data URI and label
   
@@ -176,7 +175,7 @@ Now go back to you site by clicking the Sites link highlighted and then the penc
 
 ![Edit site](img/omeka_site_list_edit.png)
 
-Now click the Pages link on the left. Here we can see the Welcome page but we could also add a new page. For this demo we will just edit the Welcome page so click the pencil symbol next to Welcome.
+Now click the Pages link on the left. Here we can see the Welcome page. We could add a new page but for this demo we will just edit the Welcome page so click the pencil symbol next to Welcome.
 
 ![Edit welcome page](img/omeka_site_add_page.png)
 
@@ -228,7 +227,7 @@ and add in your IIIF URL. For storiiies you don't need the info.json at the end.
 
 ![Create your story](img/storiiies_create.png)
 
-Once you have created your story you will be presented with your image on the right/centre and a add annotations button on the top left. If you zoom into the image then click add annotation you can associate text with the area of the image you are looking at. 
+Once you have created your story you will be presented with your image on the right/centre and an add annotations button on the top left. If you zoom into the image then click add annotation you can associate text with the area of the image you are looking at. 
 
 ![Start storiiies](img/storiiies_start.png)
 
@@ -244,7 +243,7 @@ You can click the Preview link to see a version you can click through but for Om
 
 ![Embed storiiies](img/storiiies_embed.png)
 
-Now switch back to your Omeka-s instance and open up the welcome page for editing. Add a HTML block to your page. I've moved my HTML block to the top of the page but this is optional. To change the order click on the hamburger symbol (three horizontal bars) and drag to re-order.
+Now switch back to your Omeka S instance and open up the welcome page for editing. Add a HTML block to your page. I've moved my HTML block to the top of the page but this is optional. To change the order click on the hamburger symbol (three horizontal bars) and drag to re-order.
 
 Once you have a HTML block click the source button.
 
@@ -270,6 +269,6 @@ The final step is to share your project with others. As we have been using the p
 
 # Conclusion
 
-Hopefully we have demonstrated how to make a powerful IIIF driven website with Omeka using only the tools it provides by default. There are many plugins which could be used to enhance this website but I think even out of the box Omeka is a powerfu tool. Particularly in a class room setting as outlined with the Ghent use case. 
+Hopefully we have demonstrated how to make a powerful IIIF driven website with Omeka using only the tools it provides by default. There are many modules which could be used to enhance this website but I think even out of the box Omeka is a powerful tool. Particularly in a class room setting as outlined with the Ghent use case. 
 
-You should now be able to play around with your data in Omeka-s and create extra pages and really add detail to the images you are working with.
+You should now be able to play around with your data in Omeka S and create extra pages and really add detail to the images you are working with.
