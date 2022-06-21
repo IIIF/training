@@ -9,7 +9,7 @@ _Custom Yale training_
  * Intro to IIIF 30mins 
  * Adventure introduction - 30mins
  * Choose your own adventure (1.5 hours including any breaks)
- * Demons (30mins) 
+ * Demos (30mins) 
 
 Before we start I would like you to register for the IIIF slack:
 
