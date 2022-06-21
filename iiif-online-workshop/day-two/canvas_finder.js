@@ -180,7 +180,72 @@ function loadv2(manifest, target_div) {
     }
 }
 
-function loadv3(data, target_div) {
+function loadv3(manifest, target_div) {
+     if ('items' in manifest) {
+        let canvases = manifest.items;
+        let foundCanvas = false;
+        let filterDiv = document.createElement('div');
+        filterDiv.style="display: flex; justify-content: flex-end; padding-top: 5px; padding-bottom: 5px;"
+        filterDiv.innerHTML = '<label for="filter"><b>Filter: </b></label>';
+
+        let textBox = document.createElement('input');
+        textBox.style = "margin-left:10px;";
+        textBox.id = 'filter';
+        textBox.type="text";
+        textBox.placeholder="Filter canvas label";
+        textBox.addEventListener('input',filter);
+        filterDiv.appendChild(textBox);
+        target_div.appendChild(filterDiv);
+
+        let canvasLabel = "";
+        foundCanvas = true;
+        for (const canvas of canvases) {
+            let canvasDiv = document.createElement('div');
+            canvasDiv.style = "border: 1px black solid; padding: 5px;margin-top: 5px;";
+            canvasDiv.className = 'canvasDiv';
+            canvasLabel = getLangString(canvas.label);
+            canvasDiv.dataset.label = canvasLabel; 
+
+            let thumbnail = document.createElement('img');
+            thumbnail.src = getCanvasThumbnail(canvas, 150,150);
+            thumbnail.className = 'thumbnail';
+            let thumbDiv = document.createElement('div');
+            thumbDiv.style="display: inline-block;";
+            thumbDiv.appendChild(thumbnail);
+
+            let contentDiv = document.createElement('div');
+            contentDiv.style="width: 70%; display: inline-block;position: relative; padding-left: 20px;"
+            let label = document.createElement('p');
+            label.innerHTML = '<b>Page Label: </b>' + canvasLabel; 
+
+            var iiifURL = canvas.items[0].items[0].body.service[0]["@id"];
+
+            let link = document.createElement('a');
+            link.href = iiifURL;
+            link.innerHTML = iiifURL;
+
+            let pLink = document.createElement('p');
+            pLink.innerHTML = '<b>IIIF Image URL: </b><br/>';
+            pLink.appendChild(link);
+
+            let button = document.createElement('button');
+            button.style = "cursor: pointer; background-color: #0069d9; color: #fff; border-color: #0062cc; font-weight: 400; text-align: center; vertical-align: middle; user-select: none; border: 1px solid transparent; padding: .375rem .75rem; line-height: 1.5; border-radius: .25rem; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; -webkit-appearance: button;text-transform: none; overflow: visible; margin: 0; font-family: inherit;box-sizing: border-box; ";
+            button.innerHTML = '<i class="fas fa-copy"></i> Copy Image URL';       
+            button.addEventListener('click', copyURL);
+            button.dataset.link = link;
+
+            contentDiv.appendChild(label);
+            contentDiv.appendChild(pLink);
+            contentDiv.appendChild(button);
+            canvasDiv.appendChild(thumbDiv);
+            canvasDiv.appendChild(contentDiv);
+
+            target_div.appendChild(canvasDiv);
+        }
+    } else {
+        showMessage(target_div, 'Manifest Error', 'The manifest you supplied contains no sequence so there are no images to show.');
+    }
+
 }
 
 function manifestOK(manifest_uri, target_div) {
@@ -200,10 +265,18 @@ function manifestOK(manifest_uri, target_div) {
  */
 function getCanvasThumbnail(canvas, desired_width, desired_height) {
     // First try canvas thumbnail
-    if ('thumbnail' in canvas && isObject(canvas.thumbnail)) {
-        if ('width' in canvas.thumbnail && 'height' in canvas.thumbnail) {
-            if (canvas.thumbnail.width > desired_width && canvas.thumbnail.height > desired_height) {
-                return canvas.thumbnail["@id"];
+    if ('thumbnail' in canvas && (isObject(canvas.thumbnail) || Array.isArray(canvas.thumbnail))) {
+        let thumbnail = canvas.thumbnail;
+        if (Array.isArray(thumbnail)) {
+            thumbnail = thumbnail[0];
+        }
+        if ('width' in thumbnail && 'height' in thumbnail) {
+            if (thumbnail.width > desired_width && thumbnail.height > desired_height) {
+                if ("@id" in thumbnail) {
+                    return thumbnail["@id"];
+                } else {
+                    return thumbnail.id;
+                }
             }
         }
     }
@@ -271,6 +344,16 @@ function getCanvasThumbnail(canvas, desired_width, desired_height) {
             // No image service so just return image. Really this should have a thumbnail
             return canvas.images[0].resource["@id"];
         }
+    }
+}
+
+function getLangString(label) {
+    if ('en' in label) {
+        return label.en;
+    } else if ('none' in label) {
+        return label.none;
+    } else {
+        return label;
     }
 }
 

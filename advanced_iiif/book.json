@@ -1,0 +1,6 @@
+{
+  "title": "IIIF Tools Workshop",
+  "plugins": [
+    "toggle-chapters"
+  ]
+}

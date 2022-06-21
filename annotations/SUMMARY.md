@@ -2,7 +2,8 @@
 
 - [Overview](README.md)
 - [What is IIIF?](iiif_intro/whatisiiif.md)
-- [IIIF Basics](basics/README.md)
+    - [IIIF Basics - Manifests](basics/manifest.md)
+    - [IIIF Basics - Annotations](basics/annos.md)
 - [Finding Manifests](basics/guides.md)
 - [Finding British Library Manifests](basics/finding_bl.md)
 - [Annotating with Mirador](annotations/annotations-exercises.md)
@@ -18,7 +19,7 @@
  - [Audio / Visual Annotations](use_cases/AV.md)
 
 ## Hands on Annotations
- - [Exhibit](exhibit.md)
+ - [Exhibit](exhibit/exhibit.md)
  - [Annotating](annotations/annotating.md)
  - [Sharing your Annotations](annotations/sharing.md)
 
