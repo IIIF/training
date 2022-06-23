@@ -74,3 +74,4 @@
 - [March 2022](March2022.md)
 - [April 2022](April2022.md)
 - [May 2022](May2022.md)
+- [June 2022](June2022.md)
