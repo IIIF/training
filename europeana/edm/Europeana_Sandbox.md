@@ -4,6 +4,8 @@
 
 After creating your iiif-edm-files, what is next?
 
+<iframe width="560" height="315" src="https://player.vimeo.com/video/716825183?h=3ef4f3f7fe" title="Lianne explaining Metis Sandbox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## A quick Sandbox how-to
 For many extra features, advanced instructions can be found in the [Metis Sandbox User Guide](https://europeana.atlassian.net/wiki/spaces/EF/pages/2104295432/Metis+Sandbox+User+Guide)
 If you would like to look into all the Sandbox has to offer, follow the [Sandbox training](https://europeana.atlassian.net/wiki/spaces/EF/pages/2227765249/METIS+Sandbox+Training) whenever is convenient for you.
