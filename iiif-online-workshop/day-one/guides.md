@@ -1,6 +1,6 @@
 # Finding IIIF Manifests
 
-One of the problems that the IIIF Community is struggling with is how to find IIIF resources. One method that the community is using to solve this problem is to create a list of guides showing how to access IIIF manifest for various institutions. 
+One of the issues facing the IIIF Community is how to find IIIF resources. One method that the community is using to solve this problem is to create a list of guides showing how to access IIIF manifest for various institutions. 
 
 ![Screenshot of the Guides Website](img/guides.png)
 
@@ -14,7 +14,7 @@ If you look through the different collections listed you will notice there are m
 
 # Task: Find a Manifest
 
-Using the guides site above find a Manifest you would like to view in Mirador or the Universal Viewer. Opening Manifests in the UV and Mirador is something that we will do a lot of during the course. 
+Using the guides site above find a Manifest you would like to view in one of the major IIIF viewers, either Mirador or the Universal Viewer (UV). Opening Manifests in the UV and Mirador is something that we will do a lot of during the course. 
 
 ## Opening up a Manifest in Mirador 3
 

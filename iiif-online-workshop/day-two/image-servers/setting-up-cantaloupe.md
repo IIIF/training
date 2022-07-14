@@ -1,6 +1,6 @@
 # Setting up Cantaloupe IIIF Image Server
 
-Cantaloupe is one of the open source image servers which is free to use but takes some command line setup to install. Once installed you will see how a Image Server works but note if you install it on your laptop then only you will be able to access it. The example viewers at the end of this session will work for you on your machine but if you sent it to someone else they wouldn't be able to access your machine. 
+Cantaloupe is one of the open source image servers which is free to use but takes some command line setup to install. Once installed you will see how an Image Server works but note if you install it on your laptop then only you will be able to access it. The example viewers at the end of this session will work for you on your machine but if you sent it to someone else they wouldn't be able to access your machine. 
 
 Following this tutorial will be most useful for those that are interested in setting up a IIIF Service in their own institution. It will  be less relevant to those that are mostly interested in using IIIF Images in research. For those people it is better to use the hosted option or the static images option. 
 
