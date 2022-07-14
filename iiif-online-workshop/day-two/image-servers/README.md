@@ -17,10 +17,12 @@ For an institution, the best solution is probably to use existing software that 
  * Examples of IIIF supporting Vendors include:
   * [OCLC ContentDM](https://www.oclc.org/en/contentdm/iiif.html), 
   * [GallerySystems](https://www.gallerysystems.com/iiif-what-is-it-and-what-does-it-do/),
-  * [NeTx](https://www.netx.net/blog/iiif_museums_dams),
+  * [NetX](https://www.netx.net/blog/iiif_museums_dams),
   * [ResourceSpace](https://www.resourcespace.com/knowledge-base/api/iiif)
   * [Rosetta](https://knowledge.exlibrisgroup.com/Rosetta/Training/What%27s_New_Videos/Rosetta_5-3/IIIF_Image_Viewing)
   * [Veridian](https://veridiansoftware.com/news/veridian-joins-iiif-community/) and many others.
+
+We have a [page on the IIIF website that lists](https://iiif.io/get-started/vendors/) some of the major digital asset management (DAMs), collections management, and repository tools that support IIIF.
 
 ## Hosted
 Hosting allows you to upload your images to a service that provides a IIIF Image API. These hosting providers run the IIIF Image Servers mentioned below for you and provide interfaces for uploading and managing images. These are good solutions for individual researchers who want to make a few images available and for the commercial providers they also provide a good solution for mid to large sized institutions. For the commercial providers there are costs involved and you will have to weigh up the costs against the costs of running and supporting the Open Source Image servers in the next section. 

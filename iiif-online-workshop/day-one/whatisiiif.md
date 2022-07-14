@@ -141,9 +141,9 @@ The last part of the acronym is Framework and this is for the different standard
 
 These two APIs will be covered in detail in the rest of the workshop. As well as these APIs there are a number of other APIs defined by IIIF including:
 
- * [Content Search API](https://iiif.io/api/search/1.0) - to search annotations a but like a searching within a PDF file
+ * [Content Search API](https://iiif.io/api/search/1.0) - to search annotations, a bit like a searching within a PDF file
  * [Authentication API](https://iiif.io/api/auth/1.0) - for protecting resources by username or giving lower quality images to unauthenticated users
  * [Change Discovery API](https://iiif.io/api/discovery/) - for Aggregators like Europeana to harvest IIIF data
  * [Content State API](https://iiif.io/api/content-state/) - to improve the method of taking content from one viewer to another
- * [Maps Extension](https://iiif.io/api/extension/navplace/) - to link a Geographical place to a IIIF image. Could be used to Georeference a map or photograph. 
+ * [Maps Extension](https://iiif.io/api/extension/navplace/) - to link a Geographical place to a IIIF object. Could be used to Georeference a map or photograph. 
 
