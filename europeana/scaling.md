@@ -1,4 +1,6 @@
 # Image Server Scalability
+
+<iframe src="https://player.vimeo.com/video/716824966?h=10e0e74a41" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
  
 Horizontal scaling:
 

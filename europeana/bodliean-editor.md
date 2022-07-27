@@ -1,5 +1,7 @@
 # Create a IIIF Manifest using the Bodleian Manifest Editor
 
+<iframe src="https://player.vimeo.com/video/716824994?h=29d36a5e00#t=4m20s" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 ## Gather images
 First, assemble a list of IIIF `info.json` URLs for your content. Ideally you should use an image from the previous Image API step but you could also use one of these:
  * Here is a tractor image from the Internet Archive [Tractor from the Internet Archive](https://iiif.archivelab.org/iiif/img-0353/info.json)
@@ -18,3 +20,4 @@ First, assemble a list of IIIF `info.json` URLs for your content. Ideally you sh
    1. Click "Save Manifest" at the top of the right hand column.  Click "Download Manifest" in the dialog box.
  
 
+<iframe src="https://player.vimeo.com/video/716825026?h=1387ee0b57" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

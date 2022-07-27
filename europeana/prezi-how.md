@@ -1,5 +1,7 @@
 # How do people create Manifests?
 
+<iframe src="https://player.vimeo.com/video/716824994?h=29d36a5e00" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 In this workshop we are going to take you through creating a Manifest using a Manifest Editor. This works well for a small number of manifests and to give you an idea of what a Manifest contains. If you are going to create thousands or millions of manifests then you would need to look at automating this process.
 
 Generally the data required to create a manifest generator are as follows:
