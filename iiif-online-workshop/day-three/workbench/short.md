@@ -1,5 +1,7 @@
 # Publishing your Manifest
 
+<iframe src="https://player.vimeo.com/video/716825056?h=8353dfb649" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 Now we have downloaded the Manifest we can use a tool developed for the training called the Workbench. This will publish your manifest using GitHub and make it available on the Web. This encompasses the following stages:
 
 1. Logon to Workbench and navigate to the Manifests section

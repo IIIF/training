@@ -4,6 +4,7 @@
 - [What is IIIF](iiif_intro/whatisiiif.md)
 
 ## Image API
+- [Introduction](image-intro.md)
 - [Image API](day-two/image-api.md)
 - [File formats](day-two/fileformats.md)
 - [Uses](day-two/uses.md)

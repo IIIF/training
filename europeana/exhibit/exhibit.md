@@ -1,5 +1,7 @@
 # Extra - Create an Exhibit
 
+<iframe src="https://player.vimeo.com/video/716825099?h=d4ee6b8255" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 If you have successfully uploaded your Manifest to the Workbench you may want to create an exhibit using a IIIF compatible tool. An example of an exhibit I created is here:
 
 <iframe src="https://exhibit.so/exhibits/vjxZwSD0sgKKzQhU4r7i?embedded=true" width="1024" height="768" allowfullscreen frameborder="0"></iframe>
