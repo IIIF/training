@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1dvQ74y1pcTkEpiOtq3J13OG2QU3Ul6rOWVx47nGo86w/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/November2022.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20221123T090000Z
+SUMMARY:Group check in - Presentation API
+UID:f9e002fd-edd1-46e6-8661-03904fe6ec3a@f9e0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1q_T1hxjnDYbZdE21_SYpc-gxNB8152chNwjK8juLYDE/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/November2022.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20221122T090000Z
+SUMMARY:Group check in - Image API
+UID:588bdeb9-0d1b-4c8a-a407-58d56a2e9b81@588b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1Qco_fP5nClY17dcZt7p2caBCcehbyFNXNFzMEKzgXNk/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/November2022.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20221121T090000Z
+SUMMARY:Introductions and course overview zoom call
+UID:3860cab5-16f6-42f4-b167-4c996182deb7@3860.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1PQ3XBul6o38S3PqCVWutznAUbvW-tIYRJV81t1p2OC8/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/November2022.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20221125T090000Z
+SUMMARY:Project Demos
+UID:0cd4fae4-a8c9-47c9-9c7d-492777b83c17@0cd4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1VlrC3Unf_SPsgF_CNElOV4k1O7UUUvHI5Z625IuG5e8/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/November2022.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20221124T090000Z
+SUMMARY:Group check in - IIIF and Annotations
+UID:5a051790-6fc7-42a6-8ce8-60763db80ad3@5a05.org
+END:VEVENT
+END:VCALENDAR
