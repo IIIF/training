@@ -7,7 +7,7 @@
 
 # Introduction
 
-Thank you for registering for the [IIIF Online Workshop](https://www.eventbrite.com/e/october-2022-iiif-online-training-5-day-course-tickets-400715539967) between October 31st to October 4th. This course is an adapted version of an in person workshop and it is the 18th time we have run it online.  
+Thank you for registering for the [IIIF Online Workshop](https://www.eventbrite.com/e/october-2022-iiif-online-training-5-day-course-tickets-400715539967) between October 24th to October 28th. This course is an adapted version of an in person workshop and it is the 18th time we have run it online.  
 
 We are keen to adapt many of the techniques that have worked in person to create an inclusive, productive online version of the workshop. Running an online version does have its complications and one of these is differing timezones and we have participants from many different locations. We appreciate during this time attending all of the sessions will be difficult and so only the [first](day-one/README.md) and [last](day-five/README.md) sessions are **mandatory** to attend live.  
 
@@ -68,7 +68,7 @@ There is also a course Google calendar available which you can subscribe to:
 <script type="text/javascript">
   var timezone = jstz.determine();
   console.log('Name is ' + timezone.name());
-  var pref = '<iframe src="https://calendar.google.com/calendar/embed?src=clir.org_chugpdurgjm9njridh8uq676n0%40group.calendar.google.com&mode=WEEK&title=IIIF%20Online%20Workshop&dates=20221031/20221104&showTabs=0&ctz=';
+  var pref = '<iframe src="https://calendar.google.com/calendar/embed?src=clir.org_chugpdurgjm9njridh8uq676n0%40group.calendar.google.com&mode=WEEK&title=IIIF%20Online%20Workshop&dates=20221024/20221028&showTabs=0&ctz=';
   var suff = '" style="border: 0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>';
   var iframe_html = pref + timezone.name() + suff;
   document.getElementById('calendar-container').innerHTML = iframe_html;
@@ -134,11 +134,11 @@ http://iiif.io<br/>
     }
 
 
-    setDates(dayjs.tz("2022-10-31 16:00", "Europe/London"),"day1", "intro");
-    setDates(dayjs.tz("2022-11-01 16:00", "Europe/London"),"day2", "image");
-    setDates(dayjs.tz("2022-11-02 16:00", "Europe/London"),"day3", "presentation");
-    setDates(dayjs.tz("2022-11-03 16:00", "Europe/London"),"day4", "annotations");
-    setDates(dayjs.tz("2022-11-04 16:00", "Europe/London"),"day5", "demos");
+    setDates(dayjs.tz("2022-10-24 16:00", "Europe/London"),"day1", "intro");
+    setDates(dayjs.tz("2022-10-25 16:00", "Europe/London"),"day2", "image");
+    setDates(dayjs.tz("2022-10-26 16:00", "Europe/London"),"day3", "presentation");
+    setDates(dayjs.tz("2022-10-27 16:00", "Europe/London"),"day4", "annotations");
+    setDates(dayjs.tz("2022-10-28 16:00", "Europe/London"),"day5", "demos");
     
 </script>
 
