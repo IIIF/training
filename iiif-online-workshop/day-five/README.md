@@ -9,6 +9,12 @@ As well as the examples below there are also examples from previous years:
  * [2021](2021.md) 
  * [2020](2020.md) 
 
+# September 2022 cohort demos 
+
+The participants from the September 2022 session produced the following demos of their work:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQo6lxI7d03heXKhMF01zfSjhESc6nPwwDfndSNGQTl1fqHuJwrvWbSpooq2lqhc09-FEnEpBjGHko1/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 # June 2022 cohort demos
 
 The participants from the June 2022 session produced the following demos of their work:
