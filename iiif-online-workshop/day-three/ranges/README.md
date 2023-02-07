@@ -36,9 +36,9 @@ Find the `@id` of each Canvas you created in your Manifest.  Your structural map
 
 ## Verify in the Universal Viewer
 
-Open the Manifest in the [Universal Viewer](http://universalviewer.io).  Assuming you named your Manifest `manifest.json` , your Manifest URL will be http://127.0.0.1:8887/manifest.json
+Open the Manifest in the [Universal Viewer](http://universalviewer.io).  Assuming you named your Manifest `manifest.json` , your Manifest URL will be http://127.0.0.1:5500/manifest2.json
 
-## Table of contents in notes
+## Table of contents notes
 
 Note Table of Contents in IIIF version 2, as is discussed in this course has been simplified in version 3. You can see an example version 3 table of contents in a book [here](https://iiif.io/api/cookbook/recipe/0024-book-4-toc/) and in a AV resource [here](https://iiif.io/api/cookbook/recipe/0026-toc-opera/).
 
