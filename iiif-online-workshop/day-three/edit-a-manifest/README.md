@@ -26,3 +26,54 @@ Hints:
   - After each step, reload the Manifest in the [Universal Viewer](http://universalviewer.io) and confirm that the changes appear.  Remember that the URL of the Manifest for this section is http://127.0.0.1:5500/manifest2.json because you are editing the copy.
   - Consult the [sample Manifest](https://iiif.io/api/presentation/2.1/#c-example-manifest-response) in the specification to find examples of these properties.
   - If your Manifest doesn't load, first check for missing quotes or commas.
+
+
+## A short introduction to JSON
+
+JSON is a structured language related to HTML and XML and defines a method of separating and structuring data that is designed for a computer to read. It is possible to edit JSON by hand but care must be taken to ensure you adhere to the rules set out in the JSON standard. 
+
+The basic structure of a JSON object is as follows:
+
+```
+{
+  "key":"value",
+  "name":"Glen",
+  "location":"Aberystwyth"
+}
+```
+
+In this example JSON each of the rows is called a key value pair where the key is on the left and the value is on the right. For example the key 'name' has the value 'Glen'. Note that each key value pair has a `,` at the end apart from the last key value pair which doesn't. The `{}` brackets means this is a JSON Object with keys and values. 
+
+The following example denoted by `[]` (Square brackets) is for a list of items:
+
+```
+[
+  "apple",
+  "pear",
+  "orange"
+]
+```
+
+Note again every item in the list has a `,` at the end apart from the last one. 
+
+JSON objects and lists can be embedded which creates nested structures and this is where matching brackets becomes important so the Computer can understand which keys are part of which object. 
+
+```
+{
+  "person": {
+    "name":"Glen",
+    "location":"Aberystwyth"
+    "eats": [
+      "apple",
+      "pear",
+      "orange"
+    ]
+  }
+}
+```
+
+The indentation is not important for the computer in processing JSON but is important for humans so its possible to see where the brackets matchup. 
+
+Below there is a screen shot of the same JSON in VS Code and it draws vertical lines between the brackets so you can tell which brackets match.
+
+![VS code JSON handling](imgs/vs_code_json.png)

@@ -30,7 +30,7 @@ The next stage is to setup a Web Server so we can share our Manifest and open it
 
 This will load up a screen to search and install extensions. In the Search box enter `live server` and then click the small install button next to the top result. This will download and install the Live Server plugin. 
 
-![Add live server plugin](imgs/vs_code_add_pl)
+![Add live server plugin](imgs/vs_code_add_plugin.png)
 
 The Live Server adds  a Go Live button at the bottom of the editor highlighted in the screen shot below. If you click this it should open a link in your browser which allows you to navigate to your Manifest.json. 
 
