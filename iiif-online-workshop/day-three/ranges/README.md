@@ -36,7 +36,7 @@ Find the `@id` of each Canvas you created in your Manifest.  Your structural map
 
 ## Verify in the Universal Viewer
 
-Open the Manifest in the [Universal Viewer](http://universalviewer.io).  Assuming you named your Manifest `manifest.json` , your Manifest URL will be http://127.0.0.1:8887/manifest.json
+Open the Manifest in the [Universal Viewer](http://universalviewer.io).  Assuming you named your Manifest `manifest.json` , your Manifest URL will be http://127.0.0.1:5500/manifest2.json
 
 ## Table of contents in notes
 

@@ -18,31 +18,5 @@ First, assemble a list of IIIF `info.json` URLs for your content.
    1. Click the "Manifest Metadata" header in the right-hand column.  Edit the Label.  Supply a label for your manifest.
    1. Click "Save Manifest" at the top of the right hand column.  Click "Donwload Manifest" in the dialog box.
  
-## Copy the Manifest to the Web Server Folder
-Copy the downloaded Manifest to the folder you created when setting up the Web Server for Chrome.  Name the file `manifest.json`
-
-## View the Manifest JSON
-Visit the URL http://127.0.0.1:8887/manifest.json  You should see the Manifest's JSON.
-
-## View the Manifest in Universal Viewer
-1. Navigate to the [Universal Viewer](http://universalviewer.io) web page.  
-1. Scroll down to "View a IIIF Manifest". 
-1. Paste the URL http://127.0.0.1:8887/manifest.json into the text box and click "View".   
-1. You should see your manifest in the Universal Viewer.
-
-## Review the Manifest
-
-View the Manifest JSON at http://127.0.0.1:8887/manifest.json in your browser:
-
-- Find Manifest `label`
-- Explore the Manifest structure:
-    - Sequence
-        - Canvas
-            - `@id`
-            - `label`
-            - Annotation
-                - IIIF Image API service
-                
- 
 ## Note on Mixed Content
 The links above to Universal Viewer use the HTTP version of the site to avoid Mixed Content errors.  Likewise, you will need to use version of the Bodleian Manifest Editor served over HTTP if any of your IIIF images are served via HTTP. See this article on [Mixed Content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content) for an explanation of the issue.
