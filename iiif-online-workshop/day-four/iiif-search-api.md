@@ -27,9 +27,9 @@ The IIIF search page gives details on how to add a link to the search service. C
  
 ## Step 2: Link Manifest to Search Service
 
-Now open up your Manifest in Atom and it should look like this:
+Now open up your Manifest in VS Code and it should look like this:
 
-![image](images/annos_atom_pre_search.png)  
+![image](images/annos_vscode_pre_search.png)  
 
 Now add the following JSON to the manifest after the `label`:
 
@@ -43,13 +43,13 @@ Now add the following JSON to the manifest after the `label`:
 
 Now replace the SEARCH_ID with the URL you copied earlier. In my example it would look like:
 
-![image](images/sas/search-atom.png)  
+![image](images/sas/search-vscode.png)  
 
 ## Step 3: Test with a IIIF Viewer
 Test your manifest with the Universal Viewer to see if has worked.
 
  * Open up http://universalviewer.io/
- * and paste your manifest http://localhost:8887/manifest2.json in the View a IIIF Manifest section
+ * and paste your manifest http://127.0.0.1:5500/manifest.json in the View a IIIF Manifest section
  * Does it show a search box?
  * Has it found an annotation? 
  * If you add an annotation in Mirador does it show up in the search results in the UV?

@@ -13,13 +13,13 @@ Note from this step forward the activities get more difficult and will involve e
 
 ### Step 1: Setup your environment 
 
-Through various iterations of this workshop we have found it easiest to save a copy of your manifest from Workbench to the directory that you are using for the Chrome Web Server. Make your edits on this file, test to make sure its working and then finally replace the Manifest on Workbench with your updated copy. To get a copy of your Workbench manifest ready for editing:
+Through various iterations of this workshop we have found it easiest to save a copy of your manifest from Workbench to you computer. Make your edits to your local copy, test to make sure its working and then finally replace the Manifest on Workbench when you are happy with all of your changes. To get a copy of your Workbench manifest ready for editing:
 
  * Navigate to your manifest in your workbench 
  * Right click on the IIIF logo and select `Save Link As`
- * Save it in the Chrome Web Server directory and call it `manifest2.json`
- * Ensure your Chrome Web server is running. This should be running on port `8887` and the manifest should be available at http://localhost:8887/manifest2.json
- * Open the downloaded manifest in [Atom](https://atom.io/) ready for editing.
+ * Save it in the `iiif-workshop` directory you created as part of the Presentation API section and call it `manifest2.json`. If you already have a file called manifest2.json you can replace it. 
+ * Ensure the VS Code live server is running. This should be running on port `5500` and the manifest should be available at http://127.0.0.1:5500/manifest2.json
+ * Open the downloaded manifest in VS Code ready for editing.
 
 ## Step 2: Download your annotations from SAS
 
@@ -57,7 +57,7 @@ It takes about 10mins for the Workbench to publish the annotation list to your W
 
 ## Step 4: Link your manifest to the annotations
 
-To get the annotations to display you need to link them into the manifest. Open up your manifest in your Chrome Web Server directory in [Atom](https://atom.io/). 
+To get the annotations to display you need to link them into the manifest. Open up your manifest (manifest2.json) in the `iiif-workshop` directory in VS Code. 
 
 Then find the canvas your annotations point to then add the following:
 
@@ -116,7 +116,7 @@ Save the manifest. Watch out for JSON typing errors. Common JSON issues include:
  * Make sure that all the brackets match up
  * Lines that are not the last line in a list or array must have a `,` at the end of the line. 
 
-To make this easier you may want to use a JSON aware editor like [ATOM](https://atom.io/) which will tell you if you are missing brackets or commas. You can also copy and paste your JSON to:
+To make this easier you may want to use a JSON aware editor like VS Code which will tell you if you are missing brackets or commas. You can also copy and paste your JSON to:
 
 https://jsonlint.com/
 
@@ -124,7 +124,7 @@ which will tell you if the JSON is valid and if not where the error is.
 
 Now test your edited manifest in the browser to check it looks OK. If you are using `manifest2.json` then the link will be:
 
-http://localhost:8887/manifest2.json
+http://127.0.0.1:5500/manifest2.json
 
 If you click on your manifest you should see the JSON. If you copy the URL in the browser address bar you will have the Manifest URL for your edited manifest. 
 
