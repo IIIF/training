@@ -18,7 +18,7 @@ This option uses the Manifest you uploaded to the workbench in the [Publishing y
 
 ### Option 2 Use any public IIIF manifest
 
-If you didn't manage to get a manifest in the previous session you can use any IIIF Manifest. My personal favourite is:
+If you didn't manage to get a manifest in the previous session you can use any IIIF Manifest. My personal favorite is:
 
 https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json
 
@@ -39,7 +39,6 @@ Once you have logged in you will be presented with the following collection scre
 
  * Now click the Add IIIF manifest (URL) link and enter the URL to your manifest as below.
    * If you are using the Workbench use the URL copied from the IIIF logo.
-   * If you are using the Chrome web server the URL is: http://localhost:8887/manifest2.json
 
 ![image](images/sas/add_manifest.png)  
 
