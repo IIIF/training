@@ -26,8 +26,8 @@
 
 ## Day Three - Wednesday 
 - [Presentation API](day-three/README.md)
-    - Set up the [Web Server for Chrome](day-three/chrome-web-server/README.md) plugin   
     - [Create a Manifest](day-three/bodleian-editor/README.md)
+    - [Setup your environment](day-three/visual_studio_setup/README.md)
     - [Edit a Manifest](day-three/edit-a-manifest/README.md)
     - [Add Structure](day-three/ranges/README.md)
     - [Publishing your manifest](day-three/workbench/README.md)
@@ -58,3 +58,4 @@
 - [November 2021](November2021.md)
 - [January 2022](January2022.md)
 - [March 2022](March2022.md)
+- [March 2023](March2023.md)
