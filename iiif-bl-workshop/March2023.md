@@ -1,7 +1,7 @@
 
 # Introduction
 
-Thank you for signing up for the British Library IIIF Training between the 20st to 24th of March. This course has been adapted from the general online IIIF course for the British Library. 
+Thank you for signing up for the British Library IIIF Training between the 20th to 24th of March. This course has been adapted from the general online IIIF course for the British Library. 
 
 The course will follow this GitBook and will be a mix of pre-recorded sessions and live presentations. This GitBook contains embedded videos and also exercises to follow. There are drop in sessions on Tuesday, Wednesday and Thursday and these are meant for the group to get together to discuss any issues or get questions answered. Live sessions will be recorded and sent to the group over email.
 
