@@ -128,10 +128,10 @@ http://127.0.0.1:5500/manifest2.json
 
 If you click on your manifest you should see the JSON. If you copy the URL in the browser address bar you will have the Manifest URL for your edited manifest. 
 
-## Step 4: Test to see if your annotations are working
+## Step 5: Test to see if your annotations are working
 
  * Go to http://iiif.gdmrdigital.com/mirador/index.html.
- * Load the manifest using Add new object from URL (using the manifest hosted in the Chrome Web Server)
+ * Load the manifest using Add new object from URL (using the manifest hosted in the VS Code web server)
  * Click on one of the images to view the manifest
  * Click on the speech bubble to show the annotations.
 
