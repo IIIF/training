@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1a0ZEwYjhDX2wpXtC9AiGk2a35cAwa98F-BQ2wIWF2HM/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230323T120000Z
+SUMMARY:Group check in - IIIF and Annotations - Group C
+UID:727d396a-6f16-4d1f-a60d-249af3f27bd6@727d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/13nierM0XbFlk1rC63GEns6OLsLpTm-CKGPhaNiEvq34/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230324T130000Z
+SUMMARY:Project Demos
+UID:0e821ac5-db63-4083-a224-0ff9f30566b5@0e82.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1cxqfy4nLQxY4u4RysCpxKGYm_FrkrcXVxkQlwEIveuY/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230321T120000Z
+SUMMARY:Group check in - Image API - Group C
+UID:8f9a72fd-515f-45f7-8721-ae6fb0882fb0@8f9a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1hc5pxVmmdojyv8IRkgeJxBi5EaJV7hs0AZisI6eCDkY/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230323T100000Z
+SUMMARY:Group check in - IIIF and Annotations - Group A
+UID:aa24f5e1-df79-4d7a-bbc6-38a8f9e0f74c@aa24.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1YgaMMQuT2V7AAoyHOAKefTYO1kj27nPJ_Ip0dZIYRMY/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230321T100000Z
+SUMMARY:Group check in - Image API - Group A
+UID:776cbc94-f0b5-4b88-b5bc-eeb22aad3783@776c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1ZBxZRr3wgBfIUeV_u6SAgGiee4VZjx1Ms9PPiHQuDuE/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230322T120000Z
+SUMMARY:Group check in - Presentation API - Group C
+UID:14bd73da-7627-4d4c-a010-f87ab0a56106@14bd.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1h_Iikf3Bb7qEYo8dttBctKGfS4Pmmy0HrXTytt1Ark4/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230323T110000Z
+SUMMARY:Group check in - IIIF and Annotations - Group B
+UID:d85d203c-218f-4817-b5b8-71d7ae49fa08@d85d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1PyZ6LUFcUSd0VfkCfw9WXUi2IkW2RXeyFW3OROHY3a8/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230322T110000Z
+SUMMARY:Group check in - Presentation API - Group B
+UID:bba90368-c51f-416a-b866-b9b2cf279316@bba9.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1H5-_Xco90MiEiVkX-NOOyEIIPfAIz914pqzmvlN5ghA/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230321T110000Z
+SUMMARY:Group check in - Image API - Group B
+UID:a40930f0-6008-40f8-964d-76acfe94d24d@a409.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/17FMIW28Giv7xxdntmwrnQk6ys6BS7YfV66Mblpaju08/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230320T100000Z
+SUMMARY:Introductions and course overview zoom call
+UID:cb391dcd-4d1d-4469-9146-09f341781c63@cb39.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1deuZTmrkoP3_ghWxpQCC6ghzIgWm7ZssXppBjJyzFBI/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-bl-workshop/March2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20230322T100000Z
+SUMMARY:Group check in - Presentation API - Group A
+UID:88523289-2fe0-43d5-b644-e300915e4c10@8852.org
+END:VEVENT
+END:VCALENDAR
