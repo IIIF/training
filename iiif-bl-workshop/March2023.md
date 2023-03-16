@@ -13,14 +13,14 @@ If you are new to IIIF you may want to watch the following video which gives you
 
 The following sessions will set hands on work for participants to complete and are also an opportunity to ask questions. To allow the easier exchange of questions in the drop in sessions we are going to split the attendees into 3 groups. Group A, B and C. The first meeting on Monday and the last meeting on Friday will be for everyone. 
 
-<h3>**Introductions** - <span id="day1">Monday, March 20st</span></h3>
+<h3>**Introductions** - <span id="day1">Monday, March 20th</span></h3>
 __Meeting:__ Introductions and course overview zoom call at <b><span id="intro">10:00am</span> - all groups</b>
 
 Tasks to be completed __after__ the call:
  * [Image API](day-two/)  - video 1 hour
  * Image API tasks in [Workshop notes](bl-image.md)
 
-<h3>**IIIF Image API** - <span id="day2">Tuesday, March 21nd</span></h3>
+<h3>**IIIF Image API** - <span id="day2">Tuesday, March 21st</span></h3>
 __Meeting:__ Check in meeting at:
 <b>
     <ul>
@@ -37,7 +37,7 @@ Tasks to be completed __before__ the meeting:
 Minimum progress:  
  * Complete the [BL Images](bl-image.md) option
 
-<h3>**Presentation API** - <span id="day3">Wednesday, March 22rd</span></h3>
+<h3>**Presentation API** - <span id="day3">Wednesday, March 22nd</span></h3>
 __Meeting:__ Check in meeting at:
 <b>
     <ul>
@@ -56,7 +56,7 @@ Tasks to be completed __before__ the meeting:
 Minimum progress:  
  *  Create a Manifest using the Bodleian manifest editor that we can use in the Annotations session
 
-<h3>**Annotations** - <span id="day4">Thursday, March 23th</span></h3>
+<h3>**Annotations** - <span id="day4">Thursday, March 23rd</span></h3>
 __Meeting:__ Check in meeting at:
 <b>
     <ul>
