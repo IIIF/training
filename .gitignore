@@ -4,3 +4,4 @@ _book
 *.swp
 gitbook
 build
+scripts
