@@ -64,10 +64,10 @@ Check it works with a zooming viewer like OpenSeaDragon:
 
   [https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.qdl.qa/iiif/images/81055/vdc_100000000884.0x0001e3/IOR_L_PS_20_C260_0049.jp2/info.json](https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.qdl.qa/iiif/images/81055/vdc_100000000884.0x0001e3/IOR_L_PS_20_C260_0049.jp2/info.json)
 
-![Open seadragon](imgs/bl_osd.png)
+![Open seadragon](imgs/bl_osd-qa.png)
 
 Pull out regions using the UCD selector tool:
 
   [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.qdl.qa/iiif/images/81055/vdc_100000000884.0x0001e3/IOR_L_PS_20_C260_0049.jp2](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.qdl.qa/iiif/images/81055/vdc_100000000884.0x0001e3/IOR_L_PS_20_C260_0049.jp2)
 
-![TCD Image cropper](imgs/bl_image_cropping.png)
+![TCD Image cropper](imgs/bl_image_cropping-qa.png)
