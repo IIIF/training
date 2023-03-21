@@ -31,6 +31,9 @@
     - [Edit a Manifest](day-three/edit-a-manifest/README.md)
     - [Add Structure](day-three/ranges/README.md)
     - [Publishing your manifest](day-three/workbench/README.md)
+    - [An introduction to AV](day-three/BL-Audio/README.md) 
+       - [Remixing audio files](day-three/BL-Audio/RemixAudio.md)
+       - [British Library examples](day-three/BL-Audio/examples.md)
 
 ## Day Four - Thursday 
 - [Introduction](day-four/README.md)
