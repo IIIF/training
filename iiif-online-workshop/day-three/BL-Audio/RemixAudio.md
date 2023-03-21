@@ -145,9 +145,9 @@ The bits we are interested in are the duration and the links to the files:
     ],
 ```
 
-Note the authorization service has been removed. As this content is open access the authentication service doesn't function for this resource so to simplifying things it can be removed. 
+Note the authorization services have been removed. As this content is open access the authentication service doesn't function for this resource so to simplifying things it can be removed. 
 
-## Step 2: Use cookbook and insert new recording
+## Step 2: Use the cookbook example and insert new recording
 
 Download the JSON-LD from the Audio cookbook by right clicking on the JSON-LD link and clicking "Save Link As":
 
@@ -166,27 +166,28 @@ https://uv-v4.netlify.app/#?manifest=http://127.0.0.1:5500/av-manifest.json&c=&m
 Now you have the manifest working you need to make a slight change to the manifest so that it will open in the Timeliner. This is to do with the order of the different audio files as Timeliner currently has a problem with MPEG-Dash files. In the av-manifest.json file swap the different files so the index.m3u8 one is first:
 
 ```
-    "type": "Choice",
-    "items": [
-        {
-            "id": "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100142938728.0x000056/index.m3u8",
-            "format": "application/vnd.apple.mpegURL",
-            "type": "Sound"
-        },
-        {
-            "id": "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100142938728.0x000056/manifest.mpd",
-            "format": "application/dash+xml",
-            "type": "Sound"
-            }
-        ]
-    ]
+"type": "Choice",
+"items": [
+    {
+        "id": "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100142938728.0x000056/index.m3u8",
+        "format": "application/vnd.apple.mpegURL",
+        "type": "Sound"
+    },
+    {
+        "id": "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100142938728.0x000056/manifest.mpd",
+        "format": "application/dash+xml",
+        "type": "Sound"
+    }
+]
 ```
 
-Now navigate to the Timeliner and add the link to your manifest.
+Now navigate to the Timeliner and add the link to your manifest:
+
+https://timeliner.dlib.indiana.edu/app/index.html#
 
 ![Alt text](imgs/timeliner-open.png)
 
-To break the recording up into chapters click on the thin barrier highlighted in the image below. Then click the + button to create a new section. You can edit the name of your section by clicking the pencil next to the section name. 
+To break the recording up into chapters click on the thin line highlighted in the image below. Then click the + button to create a new section. You can edit the name and colour of your section by clicking the pencil next to the section name. 
 
 ![Alt text](imgs/timeliner-gtk.png)
 
@@ -194,9 +195,29 @@ Create three or four chapters by repeating the steps above.
 
 ## Step 4: Test table of contents
 
-You can export from Timeliner and it will create a manifest with the new structure included. 
+You can now export your work from the Timeliner application. The export will create a new manifest which contains your original audio resource and also the added structures element. To do this click the Download this timeline button highlighted below. 
 
-Now we can test to see if the changes you made work in the Universal Viewer. Unfortunately the UV doesn't support HLS and the Timeliner doesn't support  MPEG dash so in step three we had to re-organise the order of derivatives and now we have to do the reverse so that MPEG dash is first.
+![Download manifest button](imgs/timeliner-export.png)
+
+Now we can test to see if the changes you made work in the Universal Viewer. 
+
+Unfortunately the UV doesn't support HLS and the Timeliner doesn't support MPEG dash so in step 3 above we had to re-organise the order of derivatives and now we have to do the reverse so that MPEG dash is first.
+
+```
+    "type": "Choice",
+    "items": [
+        {
+            "id": "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100142938728.0x000056/manifest.mpd",
+            "format": "application/dash+xml",
+            "type": "Sound"
+        },
+        {
+            "id": "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100142938728.0x000056/index.m3u8",
+            "format": "application/vnd.apple.mpegURL",
+            "type": "Sound"
+        },
+    ]
+```
 
 Once you have done this change you should be able to open your manifest in the UV and see the table of contents included. 
 

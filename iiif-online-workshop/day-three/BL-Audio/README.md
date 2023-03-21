@@ -18,7 +18,7 @@ you can also discover the Manifest by opening up the Network developer tab in yo
 
 There are a number of interesting features of this Manifests and before we start customising it we are going to take a look at the Manifest in detail.  
 
-### 2 Canvases
+### Canvases
 
 This particular example contains two canvases and according to the Metadata this particular item is a [7" vinyl record](https://www.vectis.co.uk/vinyl/a-guide-to-record-sizes-and-speeds). There is one canvas for one side of the disk and another for the reverse. 
 
@@ -26,14 +26,11 @@ This particular example contains two canvases and according to the Metadata this
 
 ```
 items": [
-
     {
         "id": "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000004",
         "type": "Canvas",
         "label": {
-            "en": [
-                "Disc 1 Side 1"
-            ]
+            "en": [ "Disc 1 Side 1" ]
         },
         "duration": 182.88,
         "items": [ ... ],
@@ -43,9 +40,7 @@ items": [
         "id": "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000005",
         "type": "Canvas",
         "label": {
-            "en": [
-                "Disc 1 Side 2"
-            ]
+            "en": [ "Disc 1 Side 2" ]
         },
         "duration": 168.80000000000001,
         "items": [...],
@@ -54,7 +49,7 @@ items": [
 ],
 ```
 
-The duration is measured in seconds and is approximately `182 seconds` for the first canvas and `168 seconds` for the second canvas. Interestingly you will note in the [website](https://sounds.bl.uk/sounds/sals-got-a-sugar-lipdriftwood-1001406563200x000006) that the two recordings linked below the mini player are "Sal's Got A Sugar Lip/Driftwood" and "Chesapeake bay/Botsford". You might expect the names of these recordings would come from the canvas label so be "Disc 1 Side 1" and "Disc 1 Side 2". The labels are actually coming from the structure or table of contents explained below.
+The duration is measured in seconds and is approximately `182 seconds` for the first canvas and `168 seconds` for the second canvas. Interestingly you will note in the [website](https://sounds.bl.uk/sounds/sals-got-a-sugar-lipdriftwood-1001406563200x000006) that the two recordings linked below the mini player are called "Sal's Got A Sugar Lip/Driftwood" and "Chesapeake bay/Botsford". You might expect the names of these recordings would come from the canvas label so be "Disc 1 Side 1" and "Disc 1 Side 2". The labels are actually coming from the structure or table of contents explained below.
 
 ### Structure
 
@@ -69,9 +64,7 @@ structures": [
             "id": "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000006",
             "type": "Range",
             "label": {
-                "en": [
-                    "Sal's Got A Sugar Lip/Driftwood"
-                ]
+                "en": [ "Sal's Got A Sugar Lip/Driftwood" ]
             },
             "metadata": [...],
             "requiredStatement": {...},
@@ -87,9 +80,7 @@ structures": [
             "id": "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000008",
             "type": "Range",
             "label": {
-                "en": [
-                    "Chesapeake bay/Botsford"
-                ]
+                "en": [ "Chesapeake bay/Botsford" ]
             },
             "metadata": [...],
             "requiredStatement": {...},
@@ -109,7 +100,7 @@ structures": [
 
 The canvas is a core feature of IIIF. For images the canvas is usually equivalent to a page in a book. For AV material the distinction can be more complicated. It is sometimes thought of as a empty powerpoint slide where images or audio are `painted` on to the slide at particular positions. 
 
-In the slide below you can see the canvas has a height and a width. The example image is `painted` on to the full canvas so that the canvas width and height match the image width and height. This is the most common use case for IIIF images.
+In the image below you can see the canvas has a height and a width. The example image is `painted` on to the full canvas so that the canvas width and height match the image width and height. This is the most common use case for IIIF images.
 
 ![Diagram showing painting of an image on to a canvas.](imgs/IIIF_AV_EuropeanWorkingGroup1.png)
 
@@ -125,7 +116,7 @@ The support for AV in IIIF entailed the addition of duration to the canvas. Now 
 
 ![Alt text](imgs/IIIF_AV_EuropeanWorkingGroup3.png)
 
-With the canvas example below we have an imagined duration of 10 seconds. We can now `paint` an image on to the canvas and set it for a duration of 10 seconds so it will show for the full duration of the canvas. 
+With the canvas example below we have an canvas duration of 10 seconds. We can now `paint` an image on to the canvas and set it for a duration of 10 seconds so it will show for the full duration of the canvas. 
 
 ![Alt text](imgs/IIIF_AV_EuropeanWorkingGroup4.png)
 
@@ -247,21 +238,18 @@ seeAlso": [{
 
 ### Accompanying canvas
 
-This can't be seen in the BL sound website but there is an image associated with the Manifest which should be shown to the user while the audio is playing. Presumably this is to allow the viewer to show something if it can't understand the Waveform profile. The supplied image is of the original vinyl:
+This can't be seen in the BL sound website but there is an image associated with the Manifest which should be shown to the user while the audio is playing. Having this accompanying canvas allows the viewer to show something if it they can't process the Waveform profile. The supplied image is of the original vinyl:
 
 ![Alt text](https://api-beta.bl.uk/image/static/ark:/81055/vdc_100140656320.0x000011?vdc_100140656320.0x000002)
 
 An Accompanying Canvas is a special type of Canvas which is played while the main content is also playing. There is a [Cookbook recipe](https://iiif.io/api/cookbook/recipe/0014-accompanyingcanvas/) on accompanying canvas with further details on it's use. 
 
 ```
-accompanyingCanvas": {
-
+"accompanyingCanvas": {
     "id": "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000002/c/poster",
     "type": "Canvas",
     "label": {
-        "en": [
-            "Illustration"
-        ]
+        "en": [ "Illustration" ]
     },
     "width": 1440,
     "height": 1434,
