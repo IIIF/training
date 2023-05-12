@@ -49,6 +49,7 @@
 
 ## Day Five - Friday 
 - [Project work and report back](day-five/README.md)
+  - [2022 Demos](day-five/2022.md)
   - [2021 Demos](day-five/2021.md)
   - [2020 Demos](day-five/2020.md)
 - [Thank you](day-five/thankyou.md)
