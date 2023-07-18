@@ -27,7 +27,8 @@
 
 ## Day Three - Wednesday 
 - [Presentation API](day-three/README.md)
-    - [Create a Manifest](day-three/bodleian-editor/README.md)
+    - [Create a Manifest with the Bodleian Manifest Editor](day-three/bodleian-editor/README.md)
+       - [Create a Manifest with Digirati Manifest Editor](day-three/digirati-editor/README.md)
     - [Setup your environment](day-three/visual_studio_setup/README.md)
     - [Edit a Manifest](day-three/edit-a-manifest/README.md)
     - [Add Structure](day-three/ranges/README.md)
