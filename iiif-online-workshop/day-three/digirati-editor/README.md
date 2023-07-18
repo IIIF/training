@@ -1,5 +1,7 @@
 # Create a IIIF Manifest using the Digirati Manifest Editor
 
+The Digirati Manifest editor provides more functionality than the [Bodleian Manifest Editor](../bodleian-editor/README.md) that we used in the previous task. Specifically it supports version 3 of the IIIF specifications which allows you to add Video or Audio items to a canvas. 
+
 ## Gather images
 
 First, assemble a list of IIIF `info.json` URLs for your content. They should all be on HTTPS URLs (not unsecure HTTP).
@@ -7,18 +9,12 @@ First, assemble a list of IIIF `info.json` URLs for your content. They should al
  * Here is a sample image at the [Yale Center for British Art](https://images.collections.yale.edu/iiif/2/ycba:9e08d901-a26b-4acb-a768-28f90a062adf/info.json)
  * Here's another sample image at [Wellcome](https://iiif.wellcomecollection.org/image/V0037482/info.json)
  * Here are some [book pages from Wellcome](https://digirati-co-uk.github.io/me-testing/03-image-services.html)
-   
-## Use the Digirati Manifest Editor to create a manifest
-
-Navigate to the editor at https://manifest-editor.digirati.services/
 
 ## Steps to create your Manifest
 
-
 ### Step 1
 
-
-Click on the Create Empty Manifest option:
+Navigate to the editor at https://manifest-editor.digirati.services/ and click on the Create Empty Manifest option at the bottom of the page:
 
 ![Manifest Editor Splash Screen](imgs/splash.png)
 
@@ -46,19 +42,19 @@ Now edit the Canvas label, replacing the words "Untitled canvas" in the Label fi
 
 ![Editing the label](imgs/edit-label.png)
 
-Now repeat these steps to add a second canvas to your manifest, for example:
+Now repeat these steps to add a second canvas to your manifest by clicking the higlighted Add Canvas link on the left hand side. Once you've added a second canvas this will be listed on the left hand side:
 
 ![A second canvas](imgs/second-canvas.png)
 
-
 ### Step 3
 
-We are now going to edit the Manifest metadata to change the label. First click the **Edit manifest** link at the top of the left panel.
+We are now going to edit the Manifest metadata to change the label. First click the **Edit manifest** link at the top of the left panel. This changes the subject of the right panel.  The right panel always edits whatever is selected in the left hand or center panels.
 
-This changes the subject of the right panel. The right panel always edits whatever is selected in the left hand or center panels.
+![Edit manifest](imgs/edit_manifest.png)
+
+Now edit the Manifest label:
 
 ![Edit the manifest label](imgs/edit-manifest-label.png)
-
 
 ### Step 4
 
@@ -71,7 +67,6 @@ The Manifest Editor gives you the option of IIIF Presentation 3 or 2. Click the 
 ![Export a manifest](imgs/export.png)
 
 This will save to your default downloads location.
-
 
 ### Step 5
 
