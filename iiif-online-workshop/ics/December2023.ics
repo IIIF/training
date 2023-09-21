@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1K5t4AsJXyjAPzeArmFIiExfaEAf-9zB6w9KcjfzMp7o/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/December2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20231214T140000Z
+SUMMARY:Group check in - IIIF and Annotations
+UID:0aaee36c-3a4e-4875-92b3-bde05f5cadad@0aae.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1BVaoz7f2jnSsH3DEP7NneqOINQMySrsaWqPdeAT7fCg/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/December2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20231213T140000Z
+SUMMARY:Group check in - Presentation API
+UID:7a057686-1440-4428-9a07-e11060db17cd@7a05.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1WvLbFUYrNm-I87URnOW4rsQSzgiflz7c4xOxKEBUnzY/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/December2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20231212T140000Z
+SUMMARY:Group check in - Image API
+UID:76a49b73-47cf-4382-b20f-65dc90610e1d@76a4.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1fIItueTbk8yHrfjYwDOBu_JFq4O-MglT3CzOwD01_Kk/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/December2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20231211T140000Z
+SUMMARY:Introductions and course overview zoom call
+UID:a64f9044-42a9-422d-b355-01551263bfb8@a64f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/18rPGI6CDBZ9ElDjFWr-sBkjvsfPDqSXWbgolySHMkOM/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/December2023.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20231215T140000Z
+SUMMARY:Project Demos
+UID:8762c095-358c-4e02-9cef-11f2ece80675@8762.org
+END:VEVENT
+END:VCALENDAR
