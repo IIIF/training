@@ -82,6 +82,8 @@ Another example of a reconstructed manuscript is the one below from the BnF. Ins
 
 The full demo of this manuscript can be found on the [Biblissima website](https://demos.biblissima.fr/chateauroux/demo/).
 
+There is also a IIIF Cookbook [recipe](https://iiif.io/api/cookbook/recipe/0036-composition-from-multiple-images/) for this example which supports version 3. 
+
 
 ### Interoperable Collections
 
