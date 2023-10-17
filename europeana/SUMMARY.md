@@ -15,8 +15,8 @@
 - [Scaling IIIF Images](day-two/scaling.md)   
 
 ## Presentation API 
-- [Presentation API](prezi-intro.md)
-- [How do people create Manifests?](prezi-how.md)
+- [Presentation API](day-three/prezi-intro.md)
+- [How do people create Manifests?](day-three/prezi-how.md)
 - [Create a Manifest](bodliean-editor.md)
 - [Publishing your manifest](day-three/workbench/short.md)
    - [Extra: Create an Exhibit](exhibit/exhibit.md)
