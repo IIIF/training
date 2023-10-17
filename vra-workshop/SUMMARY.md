@@ -21,8 +21,16 @@
 - [Scaling IIIF Images](day-two/scaling.md)   
 
 ## Presentation API 
-- [Presentation API](prezi-intro.md)
-- [How do people create Manifests?](prezi-how.md)
-- [Create a Manifest](bodliean-editor.md)
-- [Publishing your manifest](day-three/workbench/short.md)
-- [Extra: Create an Exhibit](exhibit/exhibit.md)
+- [Presentation API](day-three/prezi-intro.md)
+- [How do people create Manifests?](day-three/prezi-how.md)
+- [Create a Manifest](day-three/digirati-editor/standalone.md)
+   - [Create a AV Manifest](day-three/digirati-editor/Add_video_manifest.md)
+- [Things to do with Manifests](manifests.md)   
+   - [Annotating with Mirador](day-four/annotations-exercises.md)
+   - [Book of Remembrance](day-four/annotations-stores.md)
+   - [Book of Remembrance - Results](day-four/annotations-stores-results.md)
+   - [Transcription for Pedagogy](annotation-use-cases/FromThePage.md)
+   - [Pandemic Crowdsourcing with Wikidata](annotation-use-cases/wikidata.md)
+
+- [Create an Exhibit](exhibit/exhibit.md)
+- [Project demos and summary](demos.md)
