@@ -67,7 +67,8 @@ Provides:
    addViewer({
         div: 'image_api_demo',
         images: [
-            'https://ids.lib.harvard.edu/ids/iiif/25286607'
+            'https://ids.lib.harvard.edu/ids/iiif/25286607',
+            'https://dlcs.io/iiif-img/wellcome/5/b14658197.jp2'
             ],
         sizes: [
             '500,',
