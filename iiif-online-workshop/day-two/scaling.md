@@ -4,11 +4,11 @@
  
 Horizontal scaling:
 
-![Diagram showing Horizontal Scaling](img/horizontal.jpg)
+![Diagram showing Horizontal Scaling](imgs/horizontal.jpg)
 
 Content Delivery Network
 
-![CDN](img/cdn.jpg)
+![CDN](imgs/cdn.jpg)
 
 Further reading:
  * [Getty Common Image Service](https://drive.google.com/file/d/1pB2eqlSlC4Ua5ZrEEEdJTbofl0wdDApg/view?usp%3Dsharing) - a useful comparison of Image API Servers
