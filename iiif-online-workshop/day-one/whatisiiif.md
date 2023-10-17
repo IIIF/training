@@ -39,13 +39,13 @@ First and foremost IIIF started with the problem of making large images availabl
 
 One of the examples of this is with the Japanese Tax Map below. In the image Wayne Vanderkuil, the Stanford lead photographer is shown next to the map for a sense of scale. Wayne is 6' 4" (1.93m) tall. The map is so big that it had to be photographed in separate sections and stitched together using Photoshop. If you click on the image below you will be taken to the IIIF image which allows you to zoom around this massive map.
 
-<a href="https://purl.stanford.edu/hs631zg4177" target="_blank"><img src="https://library.stanford.edu/sites/default/files/img_5813.jpg" /></a>
+<a href="https://purl.stanford.edu/hs631zg4177" target="_blank"><img src="img/img_5813.jpg" /></a>
 
-For details on how this map was scanned, there is a blog post [here](https://library.stanford.edu/blogs/digital-library-blog/2015/11/adventures-oversized-imaging-digitizing-omi-kuni-ezu-jin-jiang).
+For details on how this map was scanned, there is a blog post [here](https://web.archive.org/web/20230527005027/https://library.stanford.edu/blogs/digital-library-blog/2015/11/adventures-oversized-imaging-digitizing-omi-kuni-ezu-jin-jiang).
 
 * the star next to the image is because IIIF now also supports Audio Visual resources but it was too late to change the name...
 
-Here is an example of a video with table of contents shown in the [Universal Viewer](https://uv-v3.netlify.app/#?c=&m=&s=&cv=&manifest=https://iiif-commons.github.io/iiif-av-component/examples/data/iiif/lunchroom-manners.json)
+Here is an example of a video with table of contents shown in the [Universal Viewer](https://uv-v3.netlify.app/#?c=&m=&s=&cv=&manifest=https%3A%2F%2Fiiif.io%2Fapi%2Fcookbook%2Frecipe%2F0003-mvm-video%2Fmanifest.json)
 
 ## Interoperability
 
