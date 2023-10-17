@@ -38,10 +38,31 @@ function addViewer(config) {
     if (typeof addExtraImages == 'function') { 
         addExtraImages(config); 
     }
-    addParams(config); 
+    Promise.all(config.images.map(url => fetch(url + "/info.json").then(resp => cacheInfoJson(config, url, resp)))).then(addParams(config));
 }
 
-function addParams(config) {
+async function addParams(config) {
+    console.log('Running addParams')
+    let foundAll = false;
+    let maxCount = 1000;
+    let count = 0;
+    while (!foundAll) {
+        foundAll = true;
+        for (var i = 0; i < config.images.length; i++) {
+            if (config.images[i] in infoJsons) {
+                console.log('Awaiting ' + config.images[i]);
+                await infoJsons[config.images[i]];
+            } else {
+                console.log('Not found: ' + config.images[i]);
+                foundAll = false;
+            }    
+        }
+        if (count++ > maxCount) {
+            console.log('Failed to load images');
+            return;
+        }
+        await new Promise(r => setTimeout(r, 1000));
+    }   
     var div = document.getElementById(config.div);
 
     var ul = createElementStyle('ul', 'demo');
@@ -73,13 +94,18 @@ function addParams(config) {
     showImage(config.div,null);
 }
 
-function cacheInfoJson(identifier) {
+function cacheInfoJson(config, identifier, response) {
+    console.log('Running cache info json', identifier);
     if (!(identifier in infoJsons)) {
-        var request = new XMLHttpRequest();
-        request.open('GET', identifier + '/info.json', false);  // `false` makes the request synchronous
-        request.send(null);
+        if (!response.ok) {
+            console.error("Error: (" + response.status + ") " + response.statusText);
 
-        infoJsons[identifier] = JSON.parse(request.responseText);
+            console.log('Removing: ', identifier);
+            config.images.splice(config.images.indexOf(identifier), 1);
+        }
+        response.json().then((data) => {
+            infoJsons[identifier] = data;
+        }); 
     }
 }
 
@@ -99,9 +125,6 @@ function addIdentifiers(ul, config) {
     select.onchange = function(){  showImage(config.div,'identifier'); };
     div.appendChild(select);
 
-    for (var i = 0; i < config.images.length; i++) {
-        cacheInfoJson(config.images[i]);
-    }
     addOptions('identifier_' + config.div, config.images, '', '');
 }
 
@@ -231,7 +254,7 @@ function updateRotation(uuid, suppliedRotations) {
     addOptions('rotation_' + uuid, rotations, '', '');
 }
 
-function addOptions(identifier, options, prepend, append) {
+function addOptions(identifier, options, prepend, append, selected=null) {
     var select = document.getElementById(identifier);
     clearSelect(select);
     for (var i = 0; i < options.length; i++) {
@@ -241,6 +264,9 @@ function addOptions(identifier, options, prepend, append) {
         option.value = optionValue;
 
         select.appendChild(option);
+    }
+    if (selected != null) {
+        select.value = prepend + selected + append;
     }
 }
 
@@ -276,7 +302,7 @@ function updateQuality(uuid, suppliedQualities) {
     } else {
         var qualities = getImageQualities(uuid);
     }
-    addOptions('quality_' + uuid, qualities, '', '');
+    addOptions('quality_' + uuid, qualities, '', '', 'default');
 }
 
 function addFormats(ul, config) {
@@ -315,10 +341,12 @@ function updateFormats(uuid, suppliedFormats) {
 }
 
 function serviceVersion(image) {
-    var infoJson = infoJsons[image];
     var version = '2';
-    if ('type' in infoJson && infoJson['type'] == "ImageService3") {
-        version = '3';
+    if (image in infoJsons) {
+        var infoJson = infoJsons[image];
+        if ('type' in infoJson && infoJson['type'] == "ImageService3") {
+            version = '3';
+        }
     }
     return version;
 }
@@ -391,7 +419,6 @@ function getImageQualities(uuid) {
 
 function supports(image, feature) {
     var infoJson = infoJsons[image];
-
     var version = serviceVersion(image);
     if (version == '2') {
         if ('profile' in infoJson) {

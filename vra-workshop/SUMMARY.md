@@ -1,11 +1,17 @@
 # Summary
 
 - [Overview](README.md)
-- [What is IIIF](iiif_intro/whatisiiif.md)
+- [What is IIIF](day-one/whatisiiif.md)
+  - [Exercise](day-one/guides.md)
 
 ## Image API
-- [Introduction](image-intro.md)
 - [Image API](day-two/image-api.md)
+   - [Identifier](day-two/image-api/identifier.md)
+   - [Region](day-two/image-api/region.md)
+   - [Size](day-two/image-api/size.md)
+   - [Rotation](day-two/image-api/rotation.md)
+   - [Quality](day-two/image-api/quality.md)
+   - [Format](day-two/image-api/format.md)
 - [File formats](day-two/fileformats.md)
 - [Uses](day-two/uses.md)
 - [Getting started](day-two/image-servers/README.md)
@@ -19,8 +25,4 @@
 - [How do people create Manifests?](prezi-how.md)
 - [Create a Manifest](bodliean-editor.md)
 - [Publishing your manifest](day-three/workbench/short.md)
-   - [Extra: Create an Exhibit](exhibit/exhibit.md)
-
-## Europeana and iiif
-- [How to integrate](edm/Europeana_and_iiif.md)
-- [How to - Sandbox](edm/Europeana_Sandbox.md)
+- [Extra: Create an Exhibit](exhibit/exhibit.md)

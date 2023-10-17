@@ -11,9 +11,11 @@ Documentation and workshop materials for IIIF training
 
 * [Annotating Cultural Heritage via IIIF](annotations/index.html) - a 1.5 hour session run on the 9th of November 2021 looking at various use cases related to annotations. 
 
+* [VRA IIIF Workshop](vra-workshop/index.html) - Two 2 hour sessions run on the 17th of October 2023 as a basic intro to IIIF.
+
 ## Bespoke Training
 
- * [British Library online Training](iiif-bl-workshop/index.html) - a bespoke 5 day workshop written for the British Library and delivered in 2021/22. If this is of interest to your institution please contact staff (at) iiif.io.
+* [British Library online Training](iiif-bl-workshop/index.html) - a bespoke 5 day workshop written for the British Library and delivered in 2021/22. If this is of interest to your institution please contact staff (at) iiif.io.
 
 ## Older training
 
