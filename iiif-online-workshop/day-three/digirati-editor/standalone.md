@@ -10,6 +10,10 @@ First, assemble a list of IIIF `info.json` URLs for your content. They should al
  * Here's another sample image at [Wellcome](https://iiif.wellcomecollection.org/image/V0037482/info.json)
  * Here are some [book pages from Wellcome](https://digirati-co-uk.github.io/me-testing/03-image-services.html)
 
+You can also use the following canvas finder which will take a Manifest and show you the IIIF Image Ids you need for the manifest editor:
+
+[https://glenrobson.github.io/CanvasFinder/](https://glenrobson.github.io/CanvasFinder/)
+
 ## Steps to create your Manifest
 
 ### Step 1
