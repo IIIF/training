@@ -3,15 +3,17 @@ Documentation and workshop materials for IIIF training
 
 ## Current training
 
-* [IIIF Online workshop](iiif-online-workshop/index.html) - This online workshops covers working with the Image and Presentation APIs and annotating images. It is designed to be followed as a self-paced open access learning tool, though we also offer regular expert-led trainings using a combination of asynchronous learning, Zoom meetings, 1-on-1 help sesions, and a dedicated Slack channel that remains active following the course. This course is updated regularly. 
+* [IIIF Online workshop](iiif-online-workshop/index.html) - This online workshops covers working with the Image and Presentation APIs and annotating images. It is designed to be followed as a self-paced open access learning tool, though we also offer regular expert-led trainings using a combination of asynchronous learning, Zoom meetings, 1-on-1 help sesions, and a dedicated Slack channel that remains active following the course. This course is updated regularly.
 
 * [Making use of IIIF](advanced_iiif/index.html) - a 3 hour hands on session run on the 21st of June 2022 for Yale University. Covers how to make use of IIIF resources with tools like Omeka, FromThePage, Zooniverse and working with an annotation store.
 
-* [European Aggregators Training](europeana/index.html) - a 3 hour session run on the 23rd of May 2022, covering a basic introduction to the image and presentation API and looking at how to share date with Europeana. 
+* [European Aggregators Training](europeana/index.html) - a 3 hour session run on the 23rd of May 2022, covering a basic introduction to the image and presentation API and looking at how to share date with Europeana.
 
-* [Annotating Cultural Heritage via IIIF](annotations/index.html) - a 1.5 hour session run on the 9th of November 2021 looking at various use cases related to annotations. 
+* [Annotating Cultural Heritage via IIIF](annotations/index.html) - a 1.5 hour session run on the 9th of November 2021 looking at various use cases related to annotations.
 
 * [VRA IIIF Workshop](vra-workshop/index.html) - Two 2 hour sessions run on the 17th of October 2023 as a basic intro to IIIF.
+
+* [DCMI Workshop](dcmi-workshop/index.html) - A four hour session for the DCMI 2023 conference.
 
 ## Bespoke Training
 
