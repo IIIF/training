@@ -5,7 +5,7 @@
 <script src="../viewer.js" >
 </script>
 
-The size governs the size of the output image. A full list of options is available in the [Image API specification](https://iiif.io/api/image/2.1/#size). Some of the more common ones:
+The size portion of the URL governs the size of the output image, possibly scaling the selected region. A full list of options is available in the [Image API specification](https://iiif.io/api/image/2.1/#size). Some of the more common ones:
 
 | Form | Description |
 | -- | -- |
@@ -15,7 +15,7 @@ The size governs the size of the output image. A full list of options is availab
 | w,h | Explicit width and height. Note this will distort the image. Example: `250,250` |
 | !w,h | Fit in a box width by height but don't distort the image. Example `!250,250`  |
 
-See the examples below: 
+See the examples below:
 
 <div id="image_api_demo2">
 </div>
@@ -52,5 +52,3 @@ See the examples below:
 
    */
 </script>  
-
-

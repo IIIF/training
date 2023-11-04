@@ -15,9 +15,7 @@
 - [File formats](part2/fileformats.md)
 - [Uses](part2/uses.md)
 - [Getting started](part2/image-servers/README.md)
-   - [Hosted - Internet Archive](part2/image-servers/iiif-hosting-ia.md)
-   - [Static Images - Workbench](part2/image-servers/level0-workbench.md)
-   - [Cantaloupe (Advanced)](part2/image-servers/setting-up-cantaloupe.md)
+   - [Internet Archive hosting exercise](part2/image-servers/iiif-hosting-ia.md)
 - [Scaling IIIF Images](part2/scaling.md)   
 
 ## Presentation API

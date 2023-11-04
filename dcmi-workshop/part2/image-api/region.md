@@ -5,7 +5,7 @@
 <script src="../viewer.js" >
 </script>
 
-The region allows you to extract a portion of an image. The format is `/x,y,width,height/` with the origin of the image being the top left. See this simplified version below:
+The region portion of the URL allows you to extract a portion of an image. The format is `/x,y,width,height/` with the origin of the image being the top left. See this simplified version below:
 
 ![region example](https://iiif.io/api/image/2.1/img/region_px.png)
 
@@ -15,7 +15,7 @@ This region would be noted as `/125,15,120,140/` which is:
  * width = 120 pixels
  * heigh = 140 pixels
 
-The pixel dimensions are relative to the full width and height of the image. This generally makes the regions fiddly to work out by hand and there are many cropping tools available which will give you a region:
+The pixel dimensions are relative to the full width and height of the image. This generally makes the regions fiddly to work out by hand and there are many cropping tools available which will give you a region, for example:
 
  * [Jack Reed's Cropping tool](https://bl.ocks.org/mejackreed/6936585f435b60aa9451ae2bc1c199f2)
  * [UCD Image Cropping tool](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://ids.lib.harvard.edu/ids/iiif/25286607)
@@ -56,5 +56,3 @@ Use the region drop down to select different regions of the image:
 
    */
 </script>  
-
-

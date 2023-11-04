@@ -3,14 +3,14 @@
 <script src="../viewer.js" >
 </script>
 
-The Quality parameter defines whether the image should be delivered as:
+The quality parameter defines whether the image should be delivered as:
 
 | Name | Definition  |
 | --- | --- |
-| Default | The source colour |
+| Default | Using source color palette/style |
 | Gray | Grayscale |
-| Bitonal | Each pixel is black or white | 
-| Color  | The color image. This could be a colorized black and white image | 
+| Bitonal | Each pixel is black or white |
+| Color  | The color image. This could be a colorized version of a black and white source image |
 
 This can be useful for some image processing tools like OCR generation. To see what types a image server supports you can look into the `info.json` profile section:
 
@@ -73,5 +73,3 @@ See the example below:
 
    */
 </script>  
-
-

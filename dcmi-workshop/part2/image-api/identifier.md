@@ -43,7 +43,7 @@ You can see some different image examples by changing the identifier.
 
 ## Info.json
 
-As well as an image URL there is another special file accessible from the Identifier and this is the `info.json`:
+As well as images there is special file accessible from the Identifier and this is the `info.json`:
 
 [https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001/info.json](https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001/info.json)
 

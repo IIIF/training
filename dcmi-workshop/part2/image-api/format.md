@@ -5,7 +5,7 @@
 <script src="../viewer.js" >
 </script>
 
-The format of the image for example `jpg` or `png`. The list of images supported by the image server is again listed in the `info.json`.
+The format parameter specifies the format of the image returned, for example `jpg` or `png`. The list of images supported by the image server is again listed in the `info.json`.
 
 <div id="image_api_demo2">
 </div>
@@ -43,5 +43,3 @@ The format of the image for example `jpg` or `png`. The list of images supported
 
    */
 </script>  
-
-
