@@ -16,13 +16,13 @@
 - [Uses](part2/uses.md)
 - [Getting started](part2/image-servers/README.md)
    - [Internet Archive hosting exercise](part2/image-servers/iiif-hosting-ia.md)
-- [Scaling IIIF Images](part2/scaling.md)   
+- [Image Server Scalability](part2/scaling.md)   
 
 ## Presentation API
 - [Presentation API](part3/prezi-intro.md)
 - [How do people create Manifests?](part3/prezi-how.md)
 - [Create a Manifest](part3/digirati-editor/standalone.md)
-   - [Create a AV Manifest](part3/digirati-editor/Add_video_manifest.md)
+   - [Create a Video Manifest](part3/digirati-editor/Add_video_manifest.md)
 - [Things to do with Manifests](manifests.md)   
    - [Annotating with Mirador](part4/annotations-exercises.md)
    - [Book of Remembrance](part4/annotations-stores.md)
