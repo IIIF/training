@@ -34,19 +34,19 @@ Once the Manifests are generated they can be stored on any Web Server and don't 
 
 When publishing manifests there are a couple of considerations you need to take in account.
 
-### http/https issue
+### Use https not http
 
-With the Web more generally moving to https if you publish your manifests as http it means they will no longer work in many of the online viewers and tools. Previously this was encouraged but now with the number of https sites it is almost impossible to use a http manifest.
+Most of the web has moved to secure data transfer: `https` (http over TLS/SSL) and not `http`. If you publish your manifests as `http` it means they will not work in most online viewers and tools because browsers enforce rule forbidding mixing secure and insecure access. Using `http` will work only in unusual and restricted circumstances.
 
-### CORS issues
+### CORS headers are required for reuse
 
-Another requirement for IIIF is to enable CORS headers. CORS headers tell the browser that its OK to open this JSON on a website which doesn't match the location of your Manifest. For example it says projectMirador.org can open a manifest from the Library of Congress. Without CORS headers being set then you will only be able to open your manifest on your website. For more details see:
+Another requirement for IIIF interoperability is to enable CORS headers. CORS headers tell the browser that its OK to open this JSON on a website which doesn't match the location of your Manifest. For example it says `projectmirador.org` can open a manifest from the Library of Congress (domain `loc.gov`). Without CORS headers being set then you will only be able to open your Manifest on your website. For more details see:
 
 https://enable-cors.org/
 
-### JSON issues
+### JSON validity
 
-Finally if you are hand editing JSON documents it is very easy to miss required commas and brackets so the following tool is useful to validate your JSON:
+Finally, if you are hand editing JSON documents it is very easy to miss required commas and brackets so the following tool is useful to validate your JSON:
 
  * [JSONLint](https://jsonlint.com/)
 
