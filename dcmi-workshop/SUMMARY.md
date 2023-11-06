@@ -27,5 +27,6 @@
    - [Annotation Exercise with Mirador](part4/annotations-exercises.md)
    - [Annotation Stores](part4/annotations-stores.md)
 
+## Wrap-up
 - [Create an Exhibit](exhibit/exhibit.md)
 - [Project demos and summary](demos.md)

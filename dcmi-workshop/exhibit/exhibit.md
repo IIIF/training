@@ -1,4 +1,4 @@
-# Extra - Create an Exhibit
+# Create an Exhibit (extra)
 
 <iframe src="https://player.vimeo.com/video/716825099?h=d4ee6b8255" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
@@ -6,7 +6,7 @@ If you have successfully uploaded your Manifest to the Workbench you may want to
 
 <iframe src="https://exhibit.so/exhibits/vjxZwSD0sgKKzQhU4r7i?embedded=true" width="1024" height="768" allowfullscreen frameborder="0"></iframe>
 
-This tells the story of a ship called the Canganian and brings together IIIF resources from Newspapers to Manuscripts to make the presentation. 
+This tells the story of a ship called the Canganian and brings together IIIF resources from Newspapers to Manuscripts to make the presentation.
 
 ## Step 1: Create an Exhibit
 
@@ -22,10 +22,10 @@ On this screen you can choose the following type of presentation:
 
  * Kiosk - this will auto play the slides and is useful for a public display terminal
  * Scroll - 'slides' will be presented in a single long web page and uses will scroll down to read the story
- * Slides - the default and allows uses to press right or left to navigate the different parts of the story. 
+ * Slides - the default and allows uses to press right or left to navigate the different parts of the story.
  * Quiz - Similar to the Slides option buy you can ask your viewers to answer a questions
 
-For this tutorial we will focus on the slides option. Fill in a Title, Author and Description for your exhibit and agree to the Terms and Conditions and tick the I am not a robot button. Then click "Create Exhibit". 
+For this tutorial we will focus on the slides option. Fill in a Title, Author and Description for your exhibit and agree to the Terms and Conditions and tick the I am not a robot button. Then click "Create Exhibit".
 
 You will then be presented with the following screen:
 
@@ -49,11 +49,11 @@ Now we have the manifest loaded we want to create a 'slide'. Click the + on the 
 
 ![add slide button](img/add_anno.png)
 
-Enter a description of what you would like to show and then zoom the right hand image into an area of the image you would like to highlight. 
+Enter a description of what you would like to show and then zoom the right hand image into an area of the image you would like to highlight.
 
 ![add description and zoom](img/zoom.png)
 
-Once you are happy with the description and zoom click the tick symbol to save the annotation. 
+Once you are happy with the description and zoom click the tick symbol to save the annotation.
 
 You can now add a number of different slides to tell your story. You can also add different Manifests using the Add Item button.
 

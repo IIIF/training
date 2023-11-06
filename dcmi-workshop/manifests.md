@@ -1,6 +1,6 @@
 # Things to do with Manifests
 
-Once you have a IIIF manifest hosted publicly on the web you are ready to use most IIIF tools. The next part of this tutorial is an exercise to [Create annotations with Mirador](annotation-stores.md).
+Once you have a IIIF manifest hosted publicly on the web you are ready to use most IIIF tools. The next part of this tutorial is an exercise to [Create annotations with Mirador](part4/annotation-stores.md).
 
 The following pages provide a few highlights and there are also extras in the following online training:
 
