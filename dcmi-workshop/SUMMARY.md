@@ -24,11 +24,8 @@
 - [Create a Manifest](part3/digirati-editor/standalone.md)
    - [Create a Video Manifest](part3/digirati-editor/Add_video_manifest.md)
 - [Things to do with Manifests](manifests.md)   
-   - [Annotating with Mirador](part4/annotations-exercises.md)
-   - [Book of Remembrance](part4/annotations-stores.md)
-   - [Book of Remembrance - Results](part4/annotations-stores-results.md)
-   - [Transcription for Pedagogy](annotation-use-cases/FromThePage.md)
-   - [Pandemic Crowdsourcing with Wikidata](annotation-use-cases/wikidata.md)
+   - [Annotation Exercise with Mirador](part4/annotations-exercises.md)
+   - [Annotation Stores](part4/annotations-stores.md)
 
 - [Create an Exhibit](exhibit/exhibit.md)
 - [Project demos and summary](demos.md)
