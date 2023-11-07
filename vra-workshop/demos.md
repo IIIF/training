@@ -2,12 +2,9 @@
 
 We've now completed the course and would be interested in seeing the demos you've been working on. 
 
+Examples from the first workshop can be found at:
 
-<iframe src="https://exhibit.so/exhibits/2MJBVMOm8pNtYy2qQBae?embedded=true" width="1024" height="768" allowfullscreen frameborder="0"></iframe>
-<iframe src="https://exhibit.so/exhibits/yxoX0KTQLxIsRh8GvRGz?embedded=true" width="1024" height="768" allowfullscreen frameborder="0"></iframe>
-<iframe src="https://exhibit.so/exhibits/eGqN9oemAn4xni7IW1Uh?embedded=true" width="1024" height="768" allowfullscreen frameborder="0"></iframe>
-<iframe src="https://exhibit.so/exhibits/tMvgSGWgwUVrrht5qQ44?embedded=true" width="1024" height="768" allowfullscreen frameborder="0"></iframe>
-<iframe src="https://exhibit.so/exhibits/InieePr8N2TH55W2AtVf?embedded=true" width="1024" height="768" allowfullscreen frameborder="0"></iframe>
+https://docs.google.com/document/d/1W6sBXJEt3Ou2zIPRQxgDQtJtaHZ7qYvCYtixTcSO1Ro/edit?usp=sharing
 
 
 ## Slack channels
