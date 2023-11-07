@@ -2,6 +2,11 @@
 
 We've now completed the course and would be interested in seeing the demos you've been working on. 
 
+Examples from the first workshop can be found at:
+
+https://docs.google.com/document/d/1W6sBXJEt3Ou2zIPRQxgDQtJtaHZ7qYvCYtixTcSO1Ro/edit?usp=sharing
+
+
 ## Slack channels
 
 Join the [IIIF slack](http://bit.ly/iiif-slack):
