@@ -2,7 +2,11 @@
 
 <iframe src="https://player.vimeo.com/video/716824994?h=29d36a5e00" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-In this workshop we are going to take you through creating a Manifest using a Manifest Editor. This works well for a small number of manifests and to give you an idea of what a Manifest contains. If you are going to create thousands or millions of manifests then you would need to look at automating this process.
+In this workshop we are going to take you through creating a Manifest using a Manifest Editor. This works well for a small number of manifests and to give you an idea of what a Manifest contains. If you are going to create thousands or millions of manifests then you would need to look at automating this process. In the 2023 community survey we asked what people are using to generate manifests and the results can be seen below:
+
+![Chart showing manifest tool usage](imgs/presi-usage.svg)
+
+As you can see there isn't one solution and most people build their own tools using some shared libraries like iiif-prezi3. 
 
 Generally the data required to create a manifest generator are as follows:
 
@@ -22,6 +26,7 @@ Generally the format of the incoming metadata means that often these manifest ge
 ## Presentation API Libraries
  * [IIIF Manifest Generator](https://github.com/yale-web-technologies/IIIF-Manifest-Generator) - PHP library for generating IIIF manifests.
  * [iiif-apis](https://github.com/dbmdz/iiif-apis) - Java IIIF API libraries.
+ * [iiif-prezi3](https://github.com/iiif-prezi/iiif-prezi3) - Python library providing a reference implementation for IIIF v3.
  * [iiif-prezi](https://github.com/IIIF/iiif-prezi) - Python library providing a reference implementation.
  * [O'Sullivan](https://github.com/IIIF/osullivan) - Ruby API for creating IIIF manifests.
  * [Swiiift](https://github.com/mejackreed/Swiiift) - IIIF presentation API library for Swift.
