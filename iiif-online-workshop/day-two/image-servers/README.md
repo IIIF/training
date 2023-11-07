@@ -2,9 +2,9 @@
 
 There are many ways to make a IIIF Image available which is both a big advantage but also can add complexity. The decision on which option to go for depends on your institution or personal use case. IIIF is able to be used by single researchers up to National institutions and so there are setups to handle each individual case. Below is a list of options with benefits and issues. 
 
-In a 2018 survey we asked what people were using to provide the Image API and these were the results:
+In a 2023 survey we asked what people were using to provide the Image API and these were the results:
 
-<img src="imgs/img_server_use.png" alt="Use of image servers" class="standout-image"/>
+<img src="imgs/img_server_use_2023.svg" alt="Use of image servers" class="standout-image"/>
 
 Respondents were mostly from within the IIIF community and there is a weighting to larger institutions. Most respondents had installed one of the Image Servers but others are using hosted and DAMS solutions. 
 
