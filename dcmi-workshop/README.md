@@ -30,9 +30,9 @@ Glen Robson works as the IIIF Technical Coordinator and runs a monthly 5 day onl
   * 3:30 - Break
   * 4:00 - [Presentation API](part3/prezi-intro.md)
     * [Exercise: Create a Manifest](part3/digirati-editor/standalone.md) with the Digirati Manifest Editor
-  * 4:45 -
-  * [Things to do with Manifests](manifests.md) - 30mins
-  * Introduce Exhibit [exercise](exhibit/exhibit.md)
-  * Break - 15 mins
-  * [Exercise](exhibit/exhibit.md) time - 30 mins
-  * [Project demos and summary](demos.md) - 30 mins
+  * 4:45 - Wrap-up
+    * [Things to do with Manifests](manifests.md)   
+    * Setting up IIIF at your institution
+      * [Image Servers](part2/image-servers/README.md)
+      * [Image Server Scalability](part2/scaling.md)  
+    * [Project demos and summary](demos.md)
