@@ -3,6 +3,7 @@
 This is part the [DCMI 2023](https://www.dublincore.org/conferences/2023/) IIIF Workshop.
 
 ## About the workshop
+
 Access to image-based resources is fundamental to research, scholarship and the transmission of cultural knowledge. Digital images are a container for much of the information content in the Web-based delivery of images, books, newspapers, manuscripts, maps, scrolls, single sheet collections, and archival materials. Yet much of the Internet's image-based resources are locked up in silos, with access restricted to bespoke, locally built applications. A large community of the world's leading research libraries and image repositories have embarked on an effort to collaboratively produce an interoperable technology and community framework for image delivery.
 
 This workshop will introduce the basics of the International Image Interoperability Framework (IIIF) starting with demonstrating the use cases it supports; including side by side comparison, annotations and layering of images. It will then go on to look into the Image API and provide a method for participants to upload their own images to the Internet Archive so they can access the IIIF Image support the IA provides.

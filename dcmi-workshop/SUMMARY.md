@@ -2,7 +2,7 @@
 
 - [Overview](README.md)
 - [What is IIIF](part1/whatisiiif.md)
-  - [Exercise](part1/guides.md)
+- [Exercise: Finding IIIF Manifests](part1/guides.md)
 
 ## Image API
 - [Image API](part2/image-api.md)
@@ -15,13 +15,13 @@
 - [File formats](part2/fileformats.md)
 - [Uses](part2/uses.md)
 - [Getting started](part2/image-servers/README.md)
-   - [Internet Archive hosting exercise](part2/image-servers/iiif-hosting-ia.md)
-- [Image Server Scalability](part2/scaling.md)   
+- [Image Server Scalability](part2/scaling.md)  
+- [Exercise: Cropping images](part2/crop-exercise.md)
 
 ## Presentation API
 - [Presentation API](part3/prezi-intro.md)
 - [How do people create Manifests?](part3/prezi-how.md)
-- [Create a Manifest](part3/digirati-editor/standalone.md)
+- [Exercise: Create a Manifest](part3/digirati-editor/standalone.md)
    - [Create a Video Manifest](part3/digirati-editor/Add_video_manifest.md)
 - [Things to do with Manifests](manifests.md)   
    - [Annotation Exercise with Mirador](part4/annotations-exercises.md)
