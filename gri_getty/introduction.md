@@ -16,7 +16,7 @@ The Getty has been involved with the development of IIIF since the very beginnin
 
 One of the IIIF Community groups has done some research on how people use IIIF items and created the following groups of users: 
 
-![D4H Personas Diagram](img/IIIF-D4H-UX-Research-Findings.jpg)
+![D4H Personas Diagram](imgs/IIIF-D4H-UX-Research-Findings.jpg)
 
 From the [D4H Community Group Research Findings presentation](https://docs.google.com/presentation/d/1JhhjJdGIAZjYm0j9iNig7-YT2LJqFgVgThsoS59jAV0/edit#slide=id.gdbd80f572f_0_95)
 

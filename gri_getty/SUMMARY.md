@@ -11,5 +11,5 @@
 
 - [Looking at other GRI collections](gri_collections.md)
 - [Cropping Tools](cropping_tools.md)
-- [Exhibit building](exhibit/exhibit.md)
+- [Exhibit building](exhibit/getty.md)
 - [Project demos and summary](demos.md)
