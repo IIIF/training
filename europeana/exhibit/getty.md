@@ -33,11 +33,7 @@ You will then be presented with the following screen:
 
 ![Exhibition start screen](img/start.png)
 
-The first thing to do is to add your Manifest. If you switch back to the workbench ([https://workbench.gdmrdigital.com/](https://workbench.gdmrdigital.com/index.xhtml)) in another browser tab. Navigate to your Manifest and right click the IIIF icon and select "Copy link":
-
-![Workbench copy manifest link](img/workbench.png)
-
-Now switch back to the Exhibit tool and click the Add Item button and it will show this dialog:
+The first thing to do is to add your Manifest.  Now switch back to the Exhibit tool and click the Add Item button and it will show this dialog:
 
 ![Add Manifest URL](img/add_item.png)
 
