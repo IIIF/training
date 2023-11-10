@@ -17,7 +17,10 @@ Documentation and workshop materials for IIIF training
 
 ## Bespoke Training
 
-* [British Library online Training](iiif-bl-workshop/index.html) - a bespoke 5 day workshop written for the British Library and delivered in 2021/22. If this is of interest to your institution please contact staff (at) iiif.io.
+* [Getty Research Institute](gri_getty/index.html) - a bespoke 2 hour workshop written for the Getty GRI and delivered in 2023. 
+* [British Library online Training](iiif-bl-workshop/index.html) - a bespoke 5 day workshop written for the British Library and delivered in 2021/22. 
+
+If bespoke training is of interest to your institution please contact staff (at) iiif.io.
 
 ## Older training
 
