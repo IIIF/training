@@ -14,7 +14,6 @@
    - [Format](part2/image-api/format.md)
 - [File formats](part2/fileformats.md)
 - [Uses](part2/uses.md)
-
 - [Exercise: Cropping images](part2/crop-exercise.md)
 
 ## Presentation API
