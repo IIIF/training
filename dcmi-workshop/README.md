@@ -32,7 +32,6 @@ Glen Robson works as the IIIF Technical Coordinator and runs a monthly 5 day onl
     * [Exercise: Create a Manifest](part3/digirati-editor/standalone.md) with the Digirati Manifest Editor
   * 4:45 - Wrap-up
     * [Things to do with Manifests](manifests.md)   
-    * Setting up IIIF at your institution
-      * [Image Servers](part2/image-servers/README.md)
+    * [Setting up IIIF Image Servers for your institution](part2/image-servers/README.md)
       * [Image Server Scalability](part2/scaling.md)  
     * [Project demos and summary](demos.md)
