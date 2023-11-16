@@ -19,21 +19,21 @@ __Note__: some people have had some issues getting their images to show when upl
   the identifier would be `img-8664_202009`
 4. Use the Internet Archive image service with this identifier:
 
-  https://iiif.archivelab.org/iiif/img-8664_202009/info.json
+  https://iiif.archive.org/iiif/img-8664_202009/info.json
 
 5. You should then be able to use this image:
 
   Create an image link:
   
-  [https://iiif.archivelab.org/iiif/img-8664_202009/full/512,/0/default.jpg](https://iiif.archivelab.org/iiif/img-8664_202009/full/512,/0/default.jpg)
+  [https://iiif.archive.org/iiif/img-8664_202009/full/512,/0/default.jpg](https://iiif.archive.org/iiif/img-8664_202009/full/512,/0/default.jpg)
 
   Check it works with a zooming viewer like OpenSeaDragon:
 
-  [https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.archivelab.org/iiif/img-8664_202009/info.json](https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.archivelab.org/iiif/img-8664_202009/info.json)
+  [https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.archive.org/iiif/img-8664_202009/info.json](https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.archive.org/iiif/img-8664_202009/info.json)
 
   Pull out regions using the UCD selector tool:
 
-  [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archivelab.org/iiif/img-8664_202009](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archivelab.org/iiif/img-8664_202009)
+  [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009)
 
   **Note:** the UCD selector tool requires the Image link without the `info.json` at the end of the URL.
 
@@ -121,7 +121,7 @@ A step by step guide with screen shots for the above steps is below:
 
 4. Use the Internet Archive image service with this identifier:
 
-  [https://iiif.archivelab.org/iiif/img-8664_202009/full/full/0/default.jpg](https://iiif.archivelab.org/iiif/img-8664_202009/full/full/0/default.jpg)
+  [https://iiif.archive.org/iiif/img-8664_202009/full/full/0/default.jpg](https://iiif.archive.org/iiif/img-8664_202009/full/full/0/default.jpg)
 
   <img src="ia/iiif-image-url.png" alt="IIIF Image URL" class="standout-image"/>
 
@@ -129,17 +129,17 @@ A step by step guide with screen shots for the above steps is below:
 
   Create an image link:
   
-  [https://iiif.archivelab.org/iiif/img-8664_202009/full/512,/0/default.jpg](https://iiif.archivelab.org/iiif/img-8664_202009/full/512,/0/default.jpg)
+  [https://iiif.archive.org/iiif/img-8664_202009/full/512,/0/default.jpg](https://iiif.archive.org/iiif/img-8664_202009/full/512,/0/default.jpg)
 
   Check it works with a zooming viewer like OpenSeaDragon:
 
-  [https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.archivelab.org/iiif/img-8664_202009/info.json](https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.archivelab.org/iiif/img-8664_202009/info.json)
+  [https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.archive.org/iiif/img-8664_202009/info.json](https://iiif.gdmrdigital.com/openseadragon/index.html?image=https://iiif.archive.org/iiif/img-8664_202009/info.json)
 
   <img src="ia/openseadragon.png" alt="OpenSeaDragon example" class="standout-image" />
 
   Pull out regions using the UCD selector tool:
 
-  [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archivelab.org/iiif/img-8664_202009](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archivelab.org/iiif/img-8664_202009)
+  [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009)
 
   <img src="ia/ucd-image-cropper.png" alt="UCD Image Cropper" class="standout-image" />
 
