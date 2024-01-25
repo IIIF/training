@@ -10,20 +10,20 @@ Following this tutorial will be most useful for those that are interested in set
 
 In this workshop we will install and run a IIIF Image server and for this you will need Java 11 installed.
 
- - [Downloading Java 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
+ - [Downloading Java 17](https://www.oracle.com/java/technologies/downloads/#java17)
 
 To verify you have the correct package installed, you can run the following command from a terminal or command prompt:
 
 ```sh
 $ java -version
-# java version "1.11.0_102"
+# java version "1.17.0.10"
 ```
 
-You should see version `1.11.x`. 
+You should see version `1.17x`. 
 
 ### Using a text editor
 
-We will be using a text editor to edit some of the configuration files for Cantaloupe. If you don't know which text editor to choose, a good, free, open source option is [atom](http://flight-manual.atom.io/getting-started/sections/installing-atom/).
+We will be using a text editor to edit some of the configuration files for Cantaloupe. If you don't know which text editor to choose, a good, free, open source option is [VS Code](https://code.visualstudio.com/).
 
 ## Navigating on the command line / terminal
 
@@ -36,16 +36,16 @@ In this workshop, we will be running commands from a terminal / command prompt. 
 
 ## Download Cantaloupe
 
-This is a short guide to installing Cantaloupe, for more information on each step, checkout the [Cantaloupe getting started guide](https://cantaloupe-project.github.io/manual/4.1/getting-started.html).
+This is a short guide to installing Cantaloupe, for more information on each step, checkout the [Cantaloupe getting started guide](https://cantaloupe-project.github.io/manual/5.0/getting-started.html).
 
-Start by downloading [Cantaloupe v4.1.3](https://github.com/cantaloupe-project/cantaloupe/releases/download/v4.1.3/cantaloupe-4.1.3.zip)
+Start by downloading [Cantaloupe v5.0.6](https://github.com/cantaloupe-project/cantaloupe/releases/download/v5.0.6/cantaloupe-5.0.6.zip)
 
 Open and extract the zip file to your directory of choosing. We suggest `~/iiif-workshop`.
 
 Open up a terminal or command prompt and change directory to that extracted directory:
 
 ```sh
-cd ~/iiif-workshop/Cantaloupe-4.1.3
+cd ~/iiif-workshop/Cantaloupe-5.0.6
 ```
 
 ## Configure Cantaloupe
@@ -58,7 +58,7 @@ cp cantaloupe.properties.sample cantaloupe.properties
 
 Now open up the new `cantaloupe.properties` in your text edit so we can enable the admin panel.
 
-Scroll to line 104, and change `false` to `true`. Also add a password.
+Scroll to line 118, and change `false` to `true`. Also add a password.
 
 ```diff
 # Enables the Control Panel, at /admin.
@@ -73,7 +73,7 @@ Save the file.
 Now lets try and start the server. Run this command from your Cantaloupe directory
 
 ```sh
-java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-4.1.3.war
+java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar cantaloupe-5.0.6.jar
 ```
 
 Now navigate to [http://127.0.0.1:8182/iiif/2](http://127.0.0.1:8182/iiif/2) in your browser.
@@ -98,7 +98,7 @@ Could not reserve enough space for 2097152000000KB object heap
 to fix this change the `-Xmx` parameter to something smaller e.g:
 
 ```
-java -Dcantaloupe.config=./cantaloupe.properties -Xmx1g -jar Cantaloupe-4.1.3.war
+java -Dcantaloupe.config=./cantaloupe.properties -Xmx1g -jar cantaloupe-5.0.6.jar
 
 ```
  * Spaces in Windows. If you are using Windows ensure that there are no spaces in the directories above the Cantaloupe directory. 
@@ -117,7 +117,7 @@ Congrats now you have your image server up and running! We need to feed it some 
 
 ## Download some images
 
-Go ahead and download a `*.jpg` image from the Internet into your Cantaloupe directory `Cantaloupe-4.1.3`. Here is one [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) that you can use.
+Go ahead and download a `*.jpg` image from the Internet into your Cantaloupe directory `Cantaloupe-5.0.6`. Here is one [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) that you can use.
 
 ## Configure Cantaloupe to use the correct path
 
