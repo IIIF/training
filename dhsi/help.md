@@ -11,9 +11,9 @@ $ npm i gitbook-cli -g
 ```sh
 $ git clone git@github.com:IIIF/training.git
 ```
-1. Change directory to `iiif-5-day-workshop`
+1. Change directory to `dhsi`
 ```sh
-$ cd training/iiif-5-day-workshop
+$ cd training/dhsi
 ```
 1. Run the Gitbook server
 ```sh
