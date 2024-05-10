@@ -5,5 +5,5 @@
 - [Exercise: Finding Census Manifests](census.md)
 - [Exercise: Finding IIIF Manifests](part1/guides.md)
 - [Deep dive into the Census Manifests](census-manifests.md)
-- [A look into Aggregation](aggregration.md)
+- [A look into Aggregation](aggregation.md)
 - [Extra: Create an Exhibit](exhibit/exhibit.md)
