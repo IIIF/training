@@ -10,7 +10,7 @@
 
 **Session 1.2: 1:00pm-2:15pm**
 
-1. Introduction to Image Hosting
+4. Introduction to Image Hosting
 
 ## Day 2 - Tuesday 
 
