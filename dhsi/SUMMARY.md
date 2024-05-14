@@ -1,4 +1,20 @@
-# Summary
+# DHSI 2024 Course Plan
+
+Instructors: 
+* Niqui O'Neil
+* Jeffrey C. Witt
+
+## Day 1
+
+## Session 1: 10:30pm-12:00pm
+
+1. Introductions
+2. Week Overview (Jeff)
+3. What is IIIF and Why (Niqui)
+4. The Image API (Jeff)
+
+---
+
 
 - [Overview](README.md)
   - [Guest Presentations](GuestPresentations.md)
