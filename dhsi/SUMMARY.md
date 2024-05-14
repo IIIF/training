@@ -1,23 +1,20 @@
+## 1. Day 1 - Monday
 
-## DHSI 2024 Course Plan
-
-### Day 1 - Monday
-
-### Session 1.1: 10:30am-12:00pm
+**Session 1.1: 10:30am-12:00pm**
 
 1. Introductions
-2. Week Overview (Jeff)
-3. What is IIIF and Why (Niqui)
-4. The Image API (Jeff)
+1. Week Overview (Jeff)
+2. What is IIIF and Why (Niqui)
+3. The Image API (Jeff)
    1. Exercise
 
-### Session 1.2: 1:00pm-2:15pm
+**Session 1.2: 1:00pm-2:15pm**
 
 1. Introduction to Image Hosting
 
 ## Day 2 - Tuesday 
 
-### Session 2.1: 9:00am-10:15am
+**Session 2.1: 9:00am-10:15am**
 
 1. Reflection on using the IIIF Image API
 2. IIIF Presentation API
@@ -52,7 +49,7 @@
    2. Embedding Universal Viewer
 2. Work Period
    
-   
+
 - [Overview](README.md)
   - [Guest Presentations](GuestPresentations.md)
 
