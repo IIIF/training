@@ -1,6 +1,6 @@
-## 1. Day 1 - Monday
+## Monday
 
-**Session 1.1: 10:30am-12:00pm**
+### Session 1: 10:30am-12:00pm**
 
 1. Introductions
 1. Week Overview (Jeff)
@@ -8,13 +8,13 @@
 3. The Image API (Jeff)
    1. Exercise
 
-**Session 1.2: 1:00pm-2:15pm**
+### Session 2: 1:00pm-2:15pm
 
 4. Introduction to Image Hosting
 
-## Day 2 - Tuesday 
+## Tuesday 
 
-**Session 2.1: 9:00am-10:15am**
+### Session 3: 9:00am-10:15am**
 
 1. Reflection on using the IIIF Image API
 2. IIIF Presentation API
@@ -25,7 +25,7 @@
    2. [Exercise]
 4. Reflection
 
-### Session 2.2: 10:30am-12:00pm
+### Session 4: 10:30am-12:00pm
 
 1. Deeper Manifest Dive
    1. Json Crash Course
@@ -34,14 +34,14 @@
    4. Exercise: Editing your manifest
    5. Reflection
    
-### Session 2.3: 1:00pm-2:15pm
+### Session 5: 1:00pm-2:15pm
 
 1. Auto generating Manifests
 2. Publishing Manifests
    1. Overview
    2. Exercise
 
-### Session 2.4: 2:30pm-3:45pm
+### Session 6: 2:30pm-3:45pm
 
 1. Using/Embedding IIIF Viewers
    1. Embedding Mirador
