@@ -35,7 +35,7 @@ For a fuller list of institutions who advertise their IIIF resources please see 
 
 ## Image*
 
-First and foremost IIIF started with the problem of making large images available on the Web. This means allowing users to zoom into large images in way that is scaleable and allows quick zooming on large images.
+First and foremost IIIF started with the problem of making large images available on the Web. This means allowing users to zoom into large images in way that is scaleable and allows quick zooming without visual lag on large images.
 
 One of the examples of this is with the Japanese Tax Map below. In the image Wayne Vanderkuil, the Stanford lead photographer is shown next to the map for a sense of scale. Wayne is 6' 4" (1.93m) tall. The map is so big that it had to be photographed in separate sections and stitched together using Photoshop. If you click on the image below you will be taken to the IIIF image which allows you to zoom around this massive map.
 
@@ -68,7 +68,7 @@ First because IIIF provides a standard way of exposing images and metadata it is
  * [Annona](https://ncsu-libraries.github.io/annona/tools/#/display?url=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json&viewtype=iiif-storyboard&settings=%7B%22fullpage%22%3Atrue%7D)
  * [Clover](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
 
-For instructions on how to take content from one viewer to another there is this [medium post](https://iiif-io.medium.com/how-to-use-iiif-resources-and-image-viewers-bd378a68b013). 
+For instructions on how to take content from one viewer to another there is this [medium post](https://iiif-io.medium.com/how-to-use-iiif-resources-and-image-viewers-bd378a68b013). We will also be covering this in the workshop.
 
 ### Interoperable Images
 

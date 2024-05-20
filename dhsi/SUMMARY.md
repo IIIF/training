@@ -2,13 +2,17 @@
 
 1. Introductions
 1. Week Overview (Jeff)
-2. What is IIIF and Why (Niqui)
-3. The Image API (Jeff)
-   1. Exercise
+2. [What is IIIF (Niqui)](day-one/whatisiiif.md)
+3. [Why use IIIF (Niqui)](day-one/whyiiif.md)
+4. [The Image API (Jeff)](day-one/imageapi.md)
+   1. [Exercise](day-one/exercise.md)
 
 ## Monday, Session 2: 1:00pm-2:15pm
 
-4. Introduction to Image Hosting
+4. [Introduction to Image Hosting](day-one/image-hosting.md)
+   1. [IIIF workbench](day-one/workbench.md)
+   2. [Level 0 Static](day-one/level-0-static.md)
+   3. [Cantaloupe](day-one/cantaloupe.md)
 
 
 ## Tuesday, Session 3: 9:00am-10:15am**
