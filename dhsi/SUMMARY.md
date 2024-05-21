@@ -1,6 +1,6 @@
 ## Monday, Session 1: 10:30am-12:00pm**
 
-1. Introductions
+1. [Introductions](day-one/introductions.md)
 1. Week Overview (Jeff)
 2. [What is IIIF (Niqui)](day-one/whatisiiif.md)
 3. [Why use IIIF (Niqui)](day-one/whyiiif.md)
@@ -17,14 +17,17 @@
 
 ## Tuesday, Session 3: 9:00am-10:15am**
 
-1. Reflection on using the IIIF Image API
-2. IIIF Presentation API
+1. [Reflection on using the IIIF Image API](day-two/reflections.md)
+2. [IIIF Presentation API Overview](day-two/presentation-api.md)
+3. [Exercise - Create a Manifest](day-two/manifest-exercise.md)
+      1. [Bodleian (V2)](day-two/bodleian-editor/README.md)
+      2. [Digirati (V3)](day-two/digirati-editor/README.md)
+      3. [Digirati A/V](day-two/digirati-editor/Add_video_manifest.md)
+4. IIIF Viewers
    1. [Overview]
-   2. [Exercise - Create a Manifest]
-3. IIIF Viewers
-   1. [Overview]
+   1. [Finding IIIF Manifests and images](day-two/finding-manifest.md)
    2. [Exercise]
-4. Reflection
+5. Reflection
 
 ## Tuesday, Session 4: 10:30am-12:00pm
 
@@ -37,10 +40,11 @@
    
 ## Tuesday, Session 5: 1:00pm-2:15pm
 
-1. Auto generating Manifests
-2. Publishing Manifests
+1. [Auto generating Manifests](day-two/auto-generate-manifest.md)
+2. [Publishing Manifests](day-two/publishing-manifests.md)
    1. Overview
-   2. Exercise
+   2. Exercise - Workbench, manual, github
+
 
 ## Tuesday Session 6: 2:30pm-3:45pm
 
@@ -49,6 +53,8 @@
       1. Mirador Configuration and Customization
    2. Embedding Universal Viewer
 2. Work Period
+
+
    
 
 - [Overview](README.md)

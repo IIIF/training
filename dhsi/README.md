@@ -1,7 +1,7 @@
 # Introduction
 
 Instructors: 
-* Niqui O'Neil
+* Niqui O'Neill
 * Jeffrey C. Witt
 
 <!-- 

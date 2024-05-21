@@ -1,0 +1,6 @@
+- Name
+- Institution
+- Role
+- Why you are in the class?
+- IIIF experience?
+- Something interesting about you.
