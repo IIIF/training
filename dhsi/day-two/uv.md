@@ -47,6 +47,7 @@ Documentation on more complex embeddings can be found on the [UV wiki.](https://
 ## Embedding Universal Viewer
 1. Create and open in VSCode a file named `uv-embed.html`
 2. Copy the code into your browser
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -72,8 +73,8 @@ Documentation on more complex embeddings can be found on the [UV wiki.](https://
     </html>
   </body>
 </html>
-
 ```
+
 3. Open the file in your browser. `open uv-embed.html`
 
 ## Configuring UV
