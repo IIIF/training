@@ -48,11 +48,10 @@
 
 ## Tuesday Session 6: 2:30pm-3:45pm
 
-1. Using/Embedding IIIF Viewers
-   1. Embedding Mirador
-      1. Mirador Configuration and Customization
-   2. Embedding Universal Viewer
-2. Work Period
+1. [Using/Embedding/Configuring IIIF Viewers](day-two/configuring-viewers.md)
+   1. [Mirador]((day-two/configuring-viewers.md#mirador))
+   2. [Universal Viewer](day-two/configuring-viewers.md#universal-viewer)
+2. [Work Period]((day-two/configuring-viewers.md#work-period))
 
 
    
