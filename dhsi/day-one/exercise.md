@@ -113,3 +113,14 @@ That's a great start. There's a ton more we can do here, but let's pause and cre
    4. See my [image 1 example ](custom-viewer-demos/image1.html) for inspiration
 6. Once you've finished one page, do a "save as" and make a new file called `image2.html` and then modify to display image 2. Do this for all five of your images.
 
+### 3. Reflection
+
+* What kind of NON-image data do you need to make your “viewer” work
+* What kind of labels and descriptions do you need?
+* What kind of data relationships are needed in order to make it work?
+  * (For example sequence, what comes first, what comes last, what comes next)
+* What were the pain points of making an image viewer this way?
+  * What felt repetitive?
+  * Were the feature you built that you wanted to re-use but couldn't
+  
+
