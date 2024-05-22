@@ -44,7 +44,7 @@
 2. [Publishing Manifests](day-two/publishing-manifests.md)
    1. [Local server](day-two/visual_studio_setup/README.md)
    2. [Workbench](day-two/workbench/README.md)
-   3. [GitHub]()
+   3. [GitHub](day-two/github-publishing.md)
 
 
 ## Tuesday Session 6: 2:30pm-3:45pm
