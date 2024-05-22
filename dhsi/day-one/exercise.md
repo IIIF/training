@@ -83,7 +83,7 @@ The goal here is to use simple html to build a web page(s) that display your ima
         </a>
       </li>
     ```
-1. If you want to view a working example at this point, see [example 1](custom-viewer-demos/example1.html){:target="_blank"}
+2. If you want to view a working example at this point, see my <a href="custom-viewer-demos/example1.html" target="_blank">index example</a>
 
 That's a great start. There's a ton more we can do here, but let's pause and create a pages to display our individual images.
 
@@ -110,7 +110,7 @@ That's a great start. There's a ton more we can do here, but let's pause and cre
    1. Use the IIIF Image API url parameters to create lots of version of the same image, offering your users lots of perspectives. 
    2. Add labels and descriptions that you think will help your user.
    3. Are there any navigation links you need to add here? (E.g. "Next", "Previous", "Home")
-   4. See my [image 1 example](custom-viewer-demos/image1.html){:target="_blank"} for inspiration
+   4. See my <a href="custom-viewer-demos/image1.html" target="_blank">image 1 example</a> for inspiration
 6. Once you've finished one page, do a "save as" and make a new file called `image2.html` and then modify to display image 2. Do this for all five of your images.
 
 ### 3. Reflection
