@@ -110,7 +110,7 @@ That's a great start. There's a ton more we can do here, but let's pause and cre
    1. Use the IIIF Image API url parameters to create lots of version of the same image, offering your users lots of perspectives. 
    2. Add labels and descriptions that you think will help your user.
    3. Are there any navigation links you need to add here? (E.g. "Next", "Previous", "Home")
-   4. See my <a href="custom-viewer-demos/image1.html" target="_blank">image 1 example</a> for inspiration
+   4. See my <a href="custom-viewer-demos/image1.html" target="_blank">image 1 example</a> or <a href="custom-viewer-demos/image2.html" target="_blank">image 2 example</a> for inspiration.
 6. Once you've finished one page, do a "save as" and make a new file called `image2.html` and then modify to display image 2. Do this for all five of your images.
 
 ### 3. Reflection
