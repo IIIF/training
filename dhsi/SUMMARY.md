@@ -42,8 +42,9 @@
 
 1. [Auto generating Manifests](day-two/auto-generate-manifest.md)
 2. [Publishing Manifests](day-two/publishing-manifests.md)
-   1. Overview
-   2. Exercise - Workbench, manual, github
+   1. [Local server](day-two/visual_studio_setup/README.md)
+   2. [Workbench](day-two/workbench/README.md)
+   3. [GitHub]()
 
 
 ## Tuesday Session 6: 2:30pm-3:45pm
