@@ -50,22 +50,16 @@
 ## Tuesday Session 6: 2:30pm-3:45pm
 
 1. [Using/Embedding/Configuring IIIF Viewers](day-two/configuring-viewers.md)
-   1. [Mirador](day-two/configuring-viewers.md#mirador)
-   2. [Universal Viewer](day-two/configuring-viewers.md#universal-viewer)
-2. [Work Period](day-two/configuring-viewers.md#work-period)
+   1. [Mirador]((day-two/configuring-viewers.md#mirador))
+   2. [Universal Viewer](day-two/uv.md)
+   3. [Annona](day-two/annona.md)
+   4. [Clover](day-two/clover.md)
+   5. [Navplace viewer](day-two/navplace.md)
+   6. [Ramp](day-two/ramp.md)
+2. [Work Period]((day-two/configuring-viewers.md#work-period))
 
 
-## Thursday Session ??: 1:00pm-2:15pm
-
-1. [Search API](day-four/iiif-search-api.md)
-
-
----
-
-TODO: delete below
-
----
-
+   
 
 - [Overview](README.md)
   - [Guest Presentations](GuestPresentations.md)
