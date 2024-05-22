@@ -17,3 +17,15 @@ Maybe you want to publish multiple files without having to go through the workbe
 11. Click the save button
 ![](imgs/4-github-publishing.png)
 12. It will take about a minute for your site to build. After it has built, the content will be visible at `[github_username].github.io/[repository_name]`. If you follow the folder path your manifest you should be able to view it in the browser. `[github_username].github.io/[repository_name]/path/to/file/filename.json`
+
+
+# Saving your Github URL for easy access
+1. Go to the homepage of your repository.
+2. Click on the gear icon on the right hand side of the page.
+![](imgs/5-github-publishing.png)
+3. Click on `Use your GitHub pages website` checkbox underneath the website box.
+![](imgs/6-github-publishing.png)
+4. The checkbox should autofill with your website. Click the save changes button.
+![](imgs/7-github-publishing.png)
+5. A link to your website should be in the right hand column underneath the `About` heading.
+![](imgs/8-github-publishing.png)
