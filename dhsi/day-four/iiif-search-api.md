@@ -1,13 +1,42 @@
-# Searching Annotations
+# IIIF Search API
 
-In the last session we looked at downloading annotations so they could be linked to a manifest. In this session we are going to look at adding a Search service to the manifest so that the annotations you created can be searched using a IIIF Viewer. The procedure to achieve this is:
+TODO overview of API
 
- * Find the SAS IIIF Search URL
- * Add a link to the Search service in your manifest
- * Test with a IIIF Viewer
+## Creating a Search Service.
+
+* Your service needs to be able to take in a query via a web request to a designated endpoint
+* Search for Hits
+* Return Results in the JSON format required by the IIIF api.
+
+## Announcing a Search Service
+
+* Once you have a search service running, you need to announce.
+* Someone loading your manifest will not automatically know that a search service exist
+* So, we have to declare this in the manifest like so:
+  ```json
+    "service": {
+        "profile": "http://iiif.io/api/search/0/search",
+        "@id": <the url of the search endpoint goes here>,
+        "@context": "http://iiif.io/api/search/0/context.json"
+    },
+  ```
+* Here's what my service looks like
+  ```json
+    "service": {
+        "@context": "http://iiif.io/api/search/1/context.json",
+        "@id": "https://exist.scta.info/exist/apps/scta-app/iiif2/lon/search",
+        "profile": "http://iiif.io/api/search/1/search",
+        "label": "Search within this manifest"
+    },
+  ```
+
+# Example Search Service
+
+Implementing a serv
 
 
-## Step 1: Find the IIIF Search URL
+
+<!-- ## Step 1: Find the IIIF Search URL
 
 If you navigate to your collections page either by clicking on the Home link or by navigating to:
 
@@ -53,4 +82,4 @@ Test your manifest with the Universal Viewer to see if has worked.
  * Does it show a search box?
  * Has it found an annotation? 
  * If you add an annotation in Mirador does it show up in the search results in the UV?
-
+ -->

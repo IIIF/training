@@ -55,7 +55,17 @@
 2. [Work Period](day-two/configuring-viewers.md#work-period)
 
 
-   
+## Thursday Session ??: 1:00pm-2:15pm
+
+1. [Search API](day-four/iiif-search-api.md)
+
+
+---
+
+TODO: delete below
+
+---
+
 
 - [Overview](README.md)
   - [Guest Presentations](GuestPresentations.md)
