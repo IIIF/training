@@ -4,7 +4,6 @@ Annotorious is a JS library you can easily build into a browser. Slightly differ
 ## Using Annotorious
 This view is making use of two plugins (toolbar and extended shapes beyond polygon and rectangle). Configuration is VERY well documented for the [out of the box Annotorious](https://annotorious.github.io/api-docs/osd-plugin/) including configuration and custom events and the [plugins](https://annotorious.github.io/plugins/). 
 
-
 <!-- CSS stylesheet -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.7.14/dist/annotorious.min.css">
 
@@ -14,24 +13,21 @@ This view is making use of two plugins (toolbar and extended shapes beyond polyg
 <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-toolbar@latest/dist/annotorious-toolbar.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-selector-pack@latest/dist/annotorious-selector-pack.min.js"></script>
 <div id="my-toolbar-container"></div>
-<div id="openseadragon1" style="min-height: 600px"></div>
+<div id="openseadragon1" style="height: 600px"></div>
 
 <script>
-  window.onload = function() {
+  var viewer = OpenSeadragon({
+    id: "openseadragon1",
+    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
+    tileSources: [
+      "https://stacks.stanford.edu/image/iiif/cg881nm5421/cg881nm5421_0001/info.json"
+    ]
+  });
 
-    var viewer = OpenSeadragon({
-      id: "openseadragon1",
-      prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
-      tileSources: [
-        "https://stacks.stanford.edu/image/iiif/cg881nm5421/cg881nm5421_0001/info.json"
-      ]
-    });
-
-    var config = {};
-    var anno = OpenSeadragon.Annotorious(viewer, config);
-    Annotorious.SelectorPack(anno);
-    Annotorious.Toolbar(anno, document.getElementById('my-toolbar-container'), {'withMouse': true});
-  }
+  var config = {};
+  var anno = OpenSeadragon.Annotorious(viewer, config);
+  Annotorious.SelectorPack(anno);
+  Annotorious.Toolbar(anno, document.getElementById('my-toolbar-container'), {'withMouse': true});
 </script>
 
 
@@ -46,11 +42,10 @@ This view is making use of two plugins (toolbar and extended shapes beyond polyg
 <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-toolbar@latest/dist/annotorious-toolbar.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-selector-pack@latest/dist/annotorious-selector-pack.min.js"></script>
 <div id="my-toolbar-container"></div>
-<div id="openseadragon1" style="min-height: 600px"></div>
+<div id="openseadragon1" style="height: 600px"></div>
 
 <script>
   window.onload = function() {
-
     var viewer = OpenSeadragon({
       id: "openseadragon1",
       prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
