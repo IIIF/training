@@ -55,7 +55,6 @@
    3. [Annona](day-two/annona.md)
    4. [Clover](day-two/clover.md)
    5. [Navplace viewer](day-two/navplace.md)
-   6. [Ramp](day-two/ramp.md)
 2. [Work Period]((day-two/configuring-viewers.md#work-period))
 
 

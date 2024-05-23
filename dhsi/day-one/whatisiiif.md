@@ -6,6 +6,15 @@ IIIF stands for the International Image Interoperability Framework and is best d
 <br/>
 <div align="center"><i>But, IIIF is more than a standard: it is also an <b>open</b>, <b>global community</b> of software developers, librarians, researchers, educators, museums, universities, creative agencies, and more that work together to <b>develop open APIs, implement them in software, and expose images and A/V files</b>. It’s a grassroots effort between many different institutions to solve their shared problems with delivering, managing, sharing, and working with their resources."</i></div>
 
+## Community Resources
+- [Listserv](https://groups.google.com/g/iiif-discuss)
+- [Slack](http://bit.ly/iiif-slack)
+- [Newsletter](https://iiif.io/newsletter)
+- [Group Calls](https://iiif.io/community/groups/)
+- [Zenodo](https://zenodo.org/communities/iiif/)
+- [Awesome-IIIF](https://github.com/IIIF/awesome-iiif/)
+- [GitHub](https://github.com/IIIF/)
+
 ## International
 
 IIIF has been implemented internationally and is not based in one country. It has been implemented by places like:

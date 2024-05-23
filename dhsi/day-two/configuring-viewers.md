@@ -18,10 +18,4 @@ There are many options here. We're going to focus on two highly customizable vie
 
 ### Configuring Mirador
 
-## Universal Viewer
-
-### Embedding UV
-
-### Configuring UV
-
 ## Work Period
