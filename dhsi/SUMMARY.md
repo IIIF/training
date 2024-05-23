@@ -58,11 +58,10 @@
 2. [Work Period]((day-two/configuring-viewers.md#work-period))
 
 ## Wednesday, Session 1: 9:00am-10:15am
-1. Introduction to Annotations
-2. Exercise
-   1. Create an annotation in Mirador2 local storage
-   2. Adding annotations to a manifest
-   3. Workbench
+1. [Introduction to Annotations](day-three/annotations.md)
+2. [Creating Annotations](day-three/creating-annotations.md)
+3. Adding annotations to a manifest
+4. Workbench
 
 
 ## Wednesday, Session 2: 10:30am-12:00pm
