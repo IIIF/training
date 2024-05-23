@@ -17,13 +17,12 @@ This view is making use of two plugins (toolbar and extended shapes beyond polyg
 <div id="openseadragon1"></div>
 
 <script>
-  document.onload = function() {
     console.log('page load')
     var viewer = OpenSeadragon({
       id: "openseadragon1",
       prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
       tileSources: [
-        "https://libimages1.princeton.edu/loris/pudl0001%2F4609321%2Fs42%2F00000001.jp2/info.json"
+        "https://repository.duke.edu/iiif/ark:%2F87924%2Fr4f768459/info.json"
       ]
     });
 
@@ -31,8 +30,6 @@ This view is making use of two plugins (toolbar and extended shapes beyond polyg
     var anno = OpenSeadragon.Annotorious(viewer, config);
     Annotorious.SelectorPack(anno);
     Annotorious.Toolbar(anno, document.getElementById('my-toolbar-container'), {'withMouse': true});
-
-  }
 </script>
 
 
@@ -52,20 +49,18 @@ This view is making use of two plugins (toolbar and extended shapes beyond polyg
 <div id="openseadragon1"></div>
 
 <script>
-  window.onload = function() {
-    var viewer = OpenSeadragon({
-      id: "openseadragon1",
-      prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
-      tileSources: [
-        "https://libimages1.princeton.edu/loris/pudl0001%2F4609321%2Fs42%2F00000001.jp2/info.json"
-      ]
-    });
+  var viewer = OpenSeadragon({
+    id: "openseadragon1",
+    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
+    tileSources: [
+      "https://repository.duke.edu/iiif/ark:%2F87924%2Fr4f768459/info.json"
+    ]
+  });
 
-    var config = {};
-    var anno = OpenSeadragon.Annotorious(viewer, config);
-    Annotorious.SelectorPack(anno);
-    Annotorious.Toolbar(anno, document.getElementById('my-toolbar-container'), {'withMouse': true});
+  var config = {};
+  var anno = OpenSeadragon.Annotorious(viewer, config);
+  Annotorious.SelectorPack(anno);
+  Annotorious.Toolbar(anno, document.getElementById('my-toolbar-container'), {'withMouse': true});
 
-  }
 </script>
 ```
