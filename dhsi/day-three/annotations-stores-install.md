@@ -34,7 +34,7 @@ You should see version `1.11.x`.
 
 [https://github.com/glenrobson/SimpleAnnotationServer/releases](https://github.com/glenrobson/SimpleAnnotationServer/releases)
 
-![image](images/annos_sas_download.png)  
+![image](imgs/annos_sas_download.png)  
 
 ## Step 2:
   * Extract the zip file into a `iiif-workshop` directory. 
@@ -67,7 +67,7 @@ dependency			simpleAnnotationStore.war
     * In the list of manifests paste the link to your manifest http://127.0.0.1:5500/manifest.json into the addNewObject text field and click `load`.
  * You should now see:
 
-![image](images/annos_mirador_addItem.png)  
+![image](imgs/annos_mirador_addItem.png)  
 
 ## Step 7:
   * Click on your manifest in the list

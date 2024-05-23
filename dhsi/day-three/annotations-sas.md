@@ -14,7 +14,7 @@ There are two options for getting a Manifest to Annotate.
 
 This option uses the Manifest you uploaded to the workbench in the [Publishing your Manifest](../day-three/workbench/) guide. To use this manifest you need to copy the manifest URL by going to Workbench, Manifests tab and right clicking on the IIIF logo and select `Copy link`. This will copy the Manifest URL to your clipboard. 
 
-![image](images/workbench_iiif_link.png)
+![image](imgs/workbench_iiif_link.png)
 
 ### Option 2 Use any public IIIF manifest
 
@@ -28,24 +28,24 @@ https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json
  * Navigate to https://dev.gdmrdigital.com/ and click the Log in / Sign Up link. 
  * This will take you to the following screen where you can choose to either login using your Google or Github accounts
 
-![image](images/sas/login.png)  
+![image](imgs/sas/login.png)  
 
 Unlike the workbench SAS doesn't write to your Google drive or GitHub account. The GitHub/Google methods are purely used to provide authentication to SAS with all of the data being stored on the SAS server. 
 
 ### Load your manifest into SAS:
 Once you have logged in you will be presented with the following collection screen: 
 
-![image](images/sas/empty_collection.png)  
+![image](imgs/sas/empty_collection.png)  
 
  * Now click the Add IIIF manifest (URL) link and enter the URL to your manifest as below.
    * If you are using the Workbench use the URL copied from the IIIF logo.
 
-![image](images/sas/add_manifest.png)  
+![image](imgs/sas/add_manifest.png)  
 
  * Then click Add. Depending on how many pages the manifest takes this might take a minute or two to index.
  * Once your manifest is loaded you should see it appear in your default Collection:
 
-![image](images/sas/manifest.png)  
+![image](imgs/sas/manifest.png)  
 
 ## Step 2: Create your annotations
 
@@ -54,17 +54,17 @@ Once you have logged in you will be presented with the following collection scre
  * This should open up your manifest in Mirador
  * Navigate to a page you want to annotate then click the speech bubbles at the top right to start annotating. 
 
-![image](images/sas/annotate.png)  
+![image](imgs/sas/annotate.png)  
 
 ## Step 3: Share your annotations
 
 Once you have finished annotating return to the collections screen by clicking the `Home` link. We are now going to generate a copy of your Manifest with links to your annotations. The SimpleAnnotationServer provides this functionality by clicking on the Share button.
 
-![image](images/sas/share-annos.png)
+![image](imgs/sas/share-annos.png)
 
 Once you click on the Share link the SimpleAnnotationServer will retrieve a copy of your manifest from the Workbench, add links to the annotation lists per canvas and add a link to the Search service. It will then story a copy of this new manifest in SAS for you to use. Once it has generated this new manifest you should see the screen below:
 
-![image](images/sas/share-annos-page.png)
+![image](imgs/sas/share-annos-page.png)
 
 Click on the UV link or Mirador link to see your annotations in these viewers which aren't connected to an annotation server. The annotations that these viewers are reading come from the manifest. 
 

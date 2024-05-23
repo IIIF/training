@@ -41,7 +41,6 @@ Annona only works with images. It also works with IIIF collections and annotatio
 <iframe style="width: 100%; min-height: 300px" src="https://ncsu-libraries.github.io/annona/tools/#/display?url=https%3A%2F%2Fiiif.bodleian.ox.ac.uk%2Fiiif%2Fmanifest%2F748a9d50-5a3a-440e-ab9d-567dd68b6abb.json&viewtype=iiif-storyboard&manifesturl=&settings=%7B%22zoom%22%3A%22-2582.666666666666,-475.5555555555557,11841.333333333332,9511.11111111111%22,%22fullpage%22%3Atrue%7D"></iframe>
 
 
-6. View.
 
 ## Configuring
 1. Go to [https://ncsu-libraries.github.io/annona/tools/#/tag-builder?url=&viewtype=&manifesturl=&settings=%7B%7D](https://ncsu-libraries.github.io/annona/tools/#/tag-builder?url=&viewtype=&manifesturl=&settings=%7B%7D)
