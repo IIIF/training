@@ -22,7 +22,7 @@ This view is making use of two plugins (toolbar and extended shapes beyond polyg
       id: "openseadragon1",
       prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
       tileSources: [
-        "https://repository.duke.edu/iiif/ark:%2F87924%2Fr4f768459/info.json"
+        "https://stacks.stanford.edu/image/iiif/cg881nm5421/cg881nm5421_0001/info.json"
       ]
     });
 

@@ -61,14 +61,19 @@
 1. [Introduction to Annotations](day-three/annotations.md)
 2. [Creating Annotations in Annotorious](day-three/annotorious.md)
 2. [Creating Annotations in Mirador](day-three/creating-annotations.md)
-3. Adding annotations to a manifest
-4. Workbench
-
+3. [Annotation Stores](day-three/annotation-stores.md)
 
 ## Wednesday, Session 2: 10:30am-12:00pm
-1. More on annotations
-2. Exercise
-   1. Annotating your own content
+ 1. [Annotation Stores Install](day-three/annotation-stores-install.md)
+   2. [Simple annotation server](day-three/annotations-sas.md)
+   3. [Annonatate](day-three/annonatate.md)
+   4. [Exhibit / Storiiies/ Adno](day-three/annonatate.md)
+   5. [All maps]()
+   6. [Crowdsourcing Transcriptions From the Page / Zooniverse / Madoc]()
+   7. [IIIF Annotation Studio]()
+   8. [Recogito]()
+3. [Adding annotations to a manifest](day-three/annotation-in-manifest.md)
+
 
 ## Wednesday, Session 3: 1:00pm-2:15pm
 1. IIIF Search API
