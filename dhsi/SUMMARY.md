@@ -59,7 +59,8 @@
 
 ## Wednesday, Session 1: 9:00am-10:15am
 1. [Introduction to Annotations](day-three/annotations.md)
-2. [Creating Annotations](day-three/creating-annotations.md)
+2. [Creating Annotations in Mirador](day-three/creating-annotations.md)
+2. [Creating Annotations in Annotorious](day-three/annotorious.md)
 3. Adding annotations to a manifest
 4. Workbench
 
