@@ -57,8 +57,40 @@
    5. [Navplace viewer](day-two/navplace.md)
 2. [Work Period]((day-two/configuring-viewers.md#work-period))
 
+## Wednesday, Session 1: 9:00am-10:15am
+1. Introduction to Annotations
+2. Exercise
+   1. Create an annotation in Mirador2 local storage
+   2. Adding annotations to a manifest
+   3. Workbench
 
-   
+
+## Wednesday, Session 2: 10:30am-12:00pm
+1. More on annotations
+2. Exercise
+   1. Annotating your own content
+
+## Wednesday, Session 3: 1:00pm-2:15pm
+1. IIIF Search API
+   1. Using Annotations
+   2. Examples in Mirador and UV
+   3. Add the service block to the manifest
+2. Exercise
+
+## Wednesday, Session 4: 2:30pm-3:45pm
+1. Reusing Annotations in your website
+   1. Annona image viewer
+2. More examples
+
+
+
+## Thursday, Session 1: 9:00am-10:15am
+1. Advanced used cases
+
+## Thursday, Session 2: 10:30am-12:00pm
+1. Introduction to Jekyll and GitHub pages
+
+
 
 - [Overview](README.md)
   - [Guest Presentations](GuestPresentations.md)
