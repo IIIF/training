@@ -14,7 +14,7 @@ This view is making use of two plugins (toolbar and extended shapes beyond polyg
 <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-toolbar@latest/dist/annotorious-toolbar.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-selector-pack@latest/dist/annotorious-selector-pack.min.js"></script>
 <div id="my-toolbar-container"></div>
-<div id="openseadragon1"></div>
+<div id="openseadragon1" style="min-height: 600px"></div>
 
 <script>
     console.log('page load')
@@ -36,7 +36,6 @@ This view is making use of two plugins (toolbar and extended shapes beyond polyg
 
 ```
 
-
 <!-- CSS stylesheet -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.7.14/dist/annotorious.min.css">
 
@@ -46,21 +45,21 @@ This view is making use of two plugins (toolbar and extended shapes beyond polyg
 <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-toolbar@latest/dist/annotorious-toolbar.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-selector-pack@latest/dist/annotorious-selector-pack.min.js"></script>
 <div id="my-toolbar-container"></div>
-<div id="openseadragon1"></div>
+<div id="openseadragon1" style="min-height: 600px"></div>
 
 <script>
-  var viewer = OpenSeadragon({
-    id: "openseadragon1",
-    prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
-    tileSources: [
-      "https://repository.duke.edu/iiif/ark:%2F87924%2Fr4f768459/info.json"
-    ]
-  });
+    console.log('page load')
+    var viewer = OpenSeadragon({
+      id: "openseadragon1",
+      prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
+      tileSources: [
+        "https://stacks.stanford.edu/image/iiif/cg881nm5421/cg881nm5421_0001/info.json"
+      ]
+    });
 
-  var config = {};
-  var anno = OpenSeadragon.Annotorious(viewer, config);
-  Annotorious.SelectorPack(anno);
-  Annotorious.Toolbar(anno, document.getElementById('my-toolbar-container'), {'withMouse': true});
-
+    var config = {};
+    var anno = OpenSeadragon.Annotorious(viewer, config);
+    Annotorious.SelectorPack(anno);
+    Annotorious.Toolbar(anno, document.getElementById('my-toolbar-container'), {'withMouse': true});
 </script>
 ```

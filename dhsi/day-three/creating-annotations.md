@@ -1,8 +1,10 @@
 # Annotation Exercises
 
-In this example we are going to have a look at Annotating in Mirador 2. Mirador provides an annotation plugin bu
+In this example we are going to have a look at Annotating in Mirador 2.
 
 During the session I will go through the steps and feel free to follow along although if you get lost you can follow the instructions below.
+
+Another option to this browser based solution is to use [iiif-annotation-studio](https://github.com/atomotic/iiif-annotation-studio) which is a Desktop application.
 
 ## Step 1 - Open Mirador
 
@@ -12,20 +14,20 @@ During the session I will go through the steps and feel free to follow along alt
 
 The image below shows a circle around the cross at the top left of the image. Use this to close one of the windows. Then click the 4 rectangles to drop down a menu where you can select **Replace Object**. Click this to view other manifests.
 
-![image](images/annos_mirador.png)    
+![image](imgs/annos_mirador.png)    
 
 Select a Manifest by clicking on one of the rows or add your own manifest in the 'Add new object from URL'.
 
-![image](images/annos_select_manifest.png)    
+![image](imgs/annos_select_manifest.png)    
 
 ## Step 2 - Start annotating: 
 Click the speech bubble on the top left
 
-![image](images/annos_toggle_annotations.png)  
+![image](imgs/annos_toggle_annotations.png)  
 
 Lots of options:
 
-![image](images/annos_anno_options.png)  
+![image](imgs/annos_anno_options.png)  
 
 From left to right the buttons are:
  * Speech bubble - hide annotation buttons
@@ -41,7 +43,7 @@ From left to right the buttons are:
 
 Once you have drawn a shape on the image you get a box where you can add content for the annotation.
 
-![image](images/annos_anno_options.png)  
+![image](imgs/annos_anno_options.png)  
 
 Again you have more buttons to choose from and these are to format the content of the annotation:
  * Make the text bold
@@ -58,7 +60,7 @@ Once you have added some text click save. You can also add a tag if you like.
  
 You will then see a box appear and if you put your mouse over the box you will see the text you entered:
 
-![image](images/annos_created.png)  
+![image](imgs/annos_created.png)  
 
 Take 5 minutes to play around creating annotations so you get a feel for how it works. Also think on the following questions:
 
