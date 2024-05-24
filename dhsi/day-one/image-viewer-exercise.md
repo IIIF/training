@@ -1,5 +1,6 @@
 
 ## Exercise
+
 Now that we've had a chance to talk about the image API, we going to start building.
 
 The goal here is to use simple html to build a web page(s) that display your images and provide your user with a way to navigate those images.
