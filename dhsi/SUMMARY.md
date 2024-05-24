@@ -57,14 +57,14 @@
    5. [Navplace viewer](day-two/navplace.md)
 2. [Work Period]((day-two/configuring-viewers.md#work-period))
 
-## Wednesday, Session 1: 9:00am-10:15am
+## Wednesday, Session 7: 9:00am-10:15am
 1. [Introduction to Annotations](day-three/annotations.md)
 2. [Creating Annotations in Annotorious](day-three/annotorious.md)
 2. [Creating Annotations in Mirador](day-three/creating-annotations.md)
 3. [Annotation Stores](day-three/annotations-stores.md)
 4. [Annotation Server Install](day-three/annotations-stores-install.md)
 
-## Wednesday, Session 2: 10:30am-12:00pm
+## Wednesday, Session 8: 10:30am-12:00pm
 2. [Simple annotation server](day-three/annotations-sas.md)
 3. [Annonatate](day-three/annonatate.md)
 4. [Storytelling editors](day-three/exhibit.md)
@@ -73,12 +73,9 @@
 3. [Adding annotations to a manifest](day-three/annotation-in-manifest.md)
 
 
-## Wednesday, Session 3: 1:00pm-2:15pm
-1. IIIF Search API
-   1. Using Annotations
-   2. Examples in Mirador and UV
-   3. Add the service block to the manifest
-2. Exercise
+## Wednesday, Session 9: 1:00pm-2:15pm
+1. [IIIF Search API](day-three/iii-search-api.md)
+2. [Exercise](day-three/iii-search-api.md#exercise)
 
 ## Wednesday, Session 4: 2:30pm-3:45pm
 1. [Reusing Annotations in your website](day-three/annona.md)
@@ -89,13 +86,20 @@
 ## Thursday, Session 1: 9:00am-10:15am
 1. [Advanced used cases](day-four/advanced-use-cases.md)
 
-## Thursday, Session 2: 10:30am-12:00pm
+## Thursday, Session 12: 10:30am-12:00pm
 1. Introduction to Jekyll and GitHub pages
 2. Wax
 
+## Thursday, Session 13: 10:30am-12:00pm
+
+## Thursday, Session 14: 1:00pm-2:15pm
+
+## Thursday, Session 15: 2:30pm-3:45pm
+
+## Friday, Session 16: 9:00am-10:15am
 
 
-- [Overview](README.md)
+<!-- - [Overview](README.md)
   - [Guest Presentations](GuestPresentations.md)
 
 ## Day One - Monday 
@@ -157,5 +161,5 @@
 ## Extras
  - [Guides](extras/README.md)
     - [Using non IIIF images in a manifest](https://glenrobson.github.io/iiif_stuff/simple_images/)
-    - [A basic Video manifest](extras/AVExample.md)
+    - [A basic Video manifest](extras/AVExample.md) -->
 
