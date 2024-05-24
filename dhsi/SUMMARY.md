@@ -81,17 +81,17 @@
 2. Exercise
 
 ## Wednesday, Session 4: 2:30pm-3:45pm
-1. Reusing Annotations in your website
-   1. Annona image viewer
+1. [Reusing Annotations in your website](day-three/annona.md)
 2. More examples
 
 
 
 ## Thursday, Session 1: 9:00am-10:15am
-1. Advanced used cases
+1. [Advanced used cases](day-four/advanced-use-cases.md)
 
 ## Thursday, Session 2: 10:30am-12:00pm
 1. Introduction to Jekyll and GitHub pages
+2. Wax
 
 
 

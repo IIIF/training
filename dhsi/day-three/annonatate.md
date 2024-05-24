@@ -1,5 +1,5 @@
 # Annontate
-Annontate is a web application that serves as an Annotation server. Instead of writng annotations to a database it writes them to a GitHub repository that also hosts your images and manifests.
+Annontate is a web application that serves as an Annotation server. Instead of writng annotations to a database it writes them to a GitHub repository that also hosts your images and manifests. Go to [https://annonatate.github.io/](https://annonatate.github.io/) for more documentation about the functionality of Annonatate.
 
 ## Getting Started
 1. Go to [https://annonatate.fly.dev/](https://annonatate.fly.dev/)
