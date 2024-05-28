@@ -4,15 +4,16 @@
 1. Week Overview (Jeff)
 2. [What is IIIF (Niqui)](day-one/whatisiiif.md)
 3. [Why use IIIF (Niqui)](day-one/whyiiif.md)
-4. [The Image API (Jeff)](day-one/imageapi.md)
-   1. [Exercise](day-one/image-viewer-exercise.md)
+4. [The Image API (Jeff)](day-one/image-api.md)
+5. [Exercise](day-one/image-viewer-exercise.md)
 
 ## Monday, Session 2: 1:00pm-2:15pm
 
-4. [Introduction to Image Hosting](day-one/image-hosting.md)
+4. [Introduction to Image Hosting](day-one/image-hosting.md#introduction-to-image-hosting)
    1. [IIIF workbench](day-one/workbench.md)
    2. [Level 0 Static](day-one/level-0-static.md)
    3. [Cantaloupe](day-one/cantaloupe.md)
+5. [Exercise](day-one/image-hosting.md#exercise)
 
 ## Tuesday, Session 3: 9:00am-10:15am**
 
@@ -73,7 +74,7 @@
 
 
 ## Wednesday, Session 9: 1:00pm-2:15pm
-1. [IIIF Search API](day-three/iii-search-api.md)
+1. [IIIF Search API](day-three/iiif-search-api.md)
 
 ## Wednesday, Session 4: 2:30pm-3:45pm
 1. [Reusing Annotations in your website](day-three/annona.md)
