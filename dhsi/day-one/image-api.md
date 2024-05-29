@@ -1,9 +1,6 @@
 # Image API
 
-<script src="../../extras.js" >
-</script>
-<script src="viewer.js" >
-</script>
+
 
 ## Learning objectives
 
@@ -94,6 +91,10 @@ So let's do that here, use the demo to play around with the images in a controll
 
 <div id="image_api_demo">
 </div>
+<script src="../../extras.js">
+</script>
+<script src="viewer.js">
+</script>
 <script>
    addViewer({
         div: 'image_api_demo',
@@ -117,9 +118,8 @@ So let's do that here, use the demo to play around with the images in a controll
         'https://dlcs.io/iiif-img/wellcome/5/b14658197.jp2',
             'https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_02',
             'https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001',
-            'https://ids.si.edu/ids/iiif/SAAM-1930.12.50_1'
+            'https://ids.si.edu/ids/iiif/SAAM-1930.12.50_1' */
 
-   */
 </script>
 
 Here's another controlled demo where you can experiment: [https://www.learniiif.org/image-api/playground](https://www.learniiif.org/image-api/playground)
