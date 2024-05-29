@@ -6,9 +6,9 @@ Please make sure you have a [GitHub account](https://github.com) created.
 
 ## Methods for Image Hosting
 
-1. [IIIF workbench](day-one/workbench.md)
-2. [Level 0 Static](day-one/level-0-static.md)
-3. [Cantaloupe](day-one/cantaloupe.md)
+1. [IIIF workbench](day-one/workbench.html)
+2. [Level 0 Static](day-one/level-0-static.html)
+3. [Cantaloupe](day-one/cantaloupe.html)
 
 ## Exercise
 
