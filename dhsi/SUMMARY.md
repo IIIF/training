@@ -18,6 +18,7 @@
 ## Tuesday, Session 3: 9:00am-10:15am**
 
 1. [Reflection on using the IIIF Image API](day-two/reflections.md)
+2. [OpenSeadragon](day-two/openseadragon.md)
 2. [IIIF Presentation API Overview](day-two/presentation-api.md)
 3. [Exercise - Create a Manifest](day-two/manifest-exercise.md)
       1. [Bodleian (V2)](day-two/bodleian-editor/README.md)
@@ -55,7 +56,6 @@
    3. [Annona](day-two/annona.md)
    4. [Clover](day-two/clover.md)
    5. [Navplace viewer](day-two/navplace.md)
-   6. [OpenSeadragon](day-two/openseadragon.md)
 2. [Work Period]((day-two/configuring-viewers.md#work-period))
 
 ## Wednesday, Session 7: 9:00am-10:15am

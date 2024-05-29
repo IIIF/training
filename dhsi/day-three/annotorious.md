@@ -4,10 +4,9 @@ Annotorious is a JS library you can easily build into a browser. Slightly differ
 ## Using Annotorious
 This view is making use of three plugins (toolbar, georeference and extended shapes beyond polygon and rectangle). Configuration is VERY well documented for the [out of the box Annotorious](https://annotorious.github.io/api-docs/osd-plugin/) including configuration and custom events and the [plugins](https://annotorious.github.io/plugins/). 
 
-<iframe src="annotorious-embed.html" style="width: 100%; height: 600px">
+
 
 ```
-
 <!-- CSS stylesheet -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.7.14/dist/annotorious.min.css">
 
@@ -39,3 +38,8 @@ This view is making use of three plugins (toolbar, georeference and extended sha
   }
 </script>
 ```
+<a href="annotorious-embed.html" target="_blank">Annotorious page</a>
+
+<iframe src="annotorious-embed.html" style="width: 100%; height: 600px">
+
+

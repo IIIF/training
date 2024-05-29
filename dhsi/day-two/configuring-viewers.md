@@ -12,6 +12,9 @@ For example:
 
 There are many options here. We're going to focus on two highly customizable viewers: Mirador and Universal Viewer. First, we're going to look at how to embed a viewer in your own project (to do this, we'll continue to use or "Custom Image Viewers" projects). Then we'll walk through several of the configuration option. Then we'll turn this into a work period, where you can start embedding a viewer into your project and adjust the configuration settings as needed. We'll come around and help you customize your project any way you want.
 
+## Viewers not covered
+Tify, IIIF Curation Viewer and Diva.js all have videos and demo pages to play with at [https://iiif.io/guides/using_iiif_resources/#tools-for-viewing-manifests](https://iiif.io/guides/using_iiif_resources/#tools-for-viewing-manifests).
+
 ## Mirador
 
 ### Embedding Mirador
