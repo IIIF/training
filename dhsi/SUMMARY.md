@@ -55,6 +55,7 @@
    3. [Annona](day-two/annona.md)
    4. [Clover](day-two/clover.md)
    5. [Navplace viewer](day-two/navplace.md)
+   6. [OpenSeadragon](day-two/openseadragon.md)
 2. [Work Period]((day-two/configuring-viewers.md#work-period))
 
 ## Wednesday, Session 7: 9:00am-10:15am

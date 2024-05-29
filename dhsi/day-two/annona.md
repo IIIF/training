@@ -55,4 +55,8 @@ Annona only works with images. It also works with IIIF collections and annotatio
 
 <iiif-storyboard url='https://iiif.bodleian.ox.ac.uk/iiif/manifest/748a9d50-5a3a-440e-ab9d-567dd68b6abb.json' styling='startCanvas: 47;toggleoverlay: true;perpage: 1;continousboard: true;index: 0;fit: vertical;overlaycolor: #2ad222;activecolor: #FFFF00;textposition: right;'></iiif-storyboard>
 
+## String Manifests
+Annona allows you to enter your manifests or annotations in [base64 encoded data uri or as raw json.](https://ncsu-libraries.github.io/annona/nourls/)
+
+Additionally the tag builder will take your raw JSON entered into the form element with the value `Annotation JSON to be used instead of annotation URL; Will convert to data URI.` and will take your raw JSON and convert it into base64 encoded dataURI.
 
