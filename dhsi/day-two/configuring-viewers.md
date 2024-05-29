@@ -79,8 +79,6 @@ Let's look closer at some of the configuration options implemented here:
 
 
 ```html
-
-```html
 <html>
   <head>
     <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
@@ -128,7 +126,7 @@ var miradorInstance = Mirador.viewer({
 <div id="mirador"></div>
 </body>
 </html>
-
+```
 
 Here's an involved [guide on how to "theme mirador"](https://github.com/ProjectMirador/mirador/wiki/M3-Theming-Mirador)
 
