@@ -1,4 +1,5 @@
-## Monday, Session 1: 10:30am-12:00pm**
+## Monday
+<!-- , Session 1: 10:30am-12:00pm** -->
 
 1. [Introductions](day-one/introductions.md)
 1. Week Overview (Jeff)
@@ -7,7 +8,7 @@
 4. [The Image API (Jeff)](day-one/image-api.md)
 5. [Exercise](day-one/image-viewer-exercise.md)
 
-## Monday, Session 2: 1:00pm-2:15pm
+<!-- ## Monday, Session 2: 1:00pm-2:15pm -->
 
 4. [Introduction to Image Hosting](day-one/image-hosting.md#introduction-to-image-hosting)
    1. [IIIF workbench](day-one/workbench.md)
@@ -15,7 +16,8 @@
    3. [Cantaloupe](day-one/cantaloupe.md)
 5. [Exercise](day-one/image-hosting.md#exercise)
 
-## Tuesday, Session 3: 9:00am-10:15am**
+## Tuesday
+<!-- , Session 3: 9:00am-10:15am** -->
 
 1. [Reflection on using the IIIF Image API](day-two/reflections.md)
 2. [OpenSeadragon](day-two/openseadragon.md)
@@ -24,13 +26,11 @@
       1. [Bodleian (V2)](day-two/bodleian-editor/README.md)
       2. [Digirati (V3)](day-two/digirati-editor/README.md)
       3. [Digirati A/V](day-two/digirati-editor/Add_video_manifest.md)
-4. IIIF Viewers
-   1. [Overview]
-   1. [Finding IIIF Manifests and images](day-two/finding-manifest.md)
-   2. [Exercise]
+4. [IIIF Finding and Using Manifests](day-two/finding-and-using-manifests.md)
 5. Reflection
 
-## Tuesday, Session 4: 10:30am-12:00pm
+## Tuesday
+<!-- , Session 4: 10:30am-12:00pm -->
 
 1. Deeper Manifest Dive
    1. Json Crash Course
@@ -39,7 +39,7 @@
    4. Exercise: Editing your manifest
    5. Reflection
    
-## Tuesday, Session 5: 1:00pm-2:15pm
+<!-- ## Tuesday, Session 5: 1:00pm-2:15pm -->
 
 1. [Auto generating Manifests](day-two/auto-generate-manifest.md)
 2. [Publishing Manifests](day-two/publishing-manifests.md)
@@ -48,7 +48,7 @@
    3. [GitHub](day-two/github-publishing.md)
 
 
-## Tuesday Session 6: 2:30pm-3:45pm
+<!-- ## Tuesday Session 6: 2:30pm-3:45pm -->
 
 1. [Using/Embedding/Configuring IIIF Viewers](day-two/configuring-viewers.md)
    1. [Mirador]((day-two/configuring-viewers.md#mirador))
@@ -58,14 +58,18 @@
    5. [Navplace viewer](day-two/navplace.md)
 2. [Work Period]((day-two/configuring-viewers.md#work-period))
 
-## Wednesday, Session 7: 9:00am-10:15am
+## Wednesday
+<!-- , Session 7: 9:00am-10:15am -->
+
 1. [Introduction to Annotations](day-three/annotations.md)
 2. [Creating Annotations in Annotorious](day-three/annotorious.md)
 2. [Creating Annotations in Mirador](day-three/creating-annotations.md)
 3. [Annotation Stores](day-three/annotations-stores.md)
 4. [Annotation Server Install](day-three/annotations-stores-install.md)
 
-## Wednesday, Session 8: 10:30am-12:00pm
+## Wednesday
+<!-- , Session 8: 10:30am-12:00pm -->
+
 2. [Simple annotation server](day-three/annotations-sas.md)
 3. [Annonatate](day-three/annonatate.md)
 4. [Storytelling editors](day-three/exhibit.md)
@@ -73,30 +77,32 @@
 9. [Other annotation platforms](day-three/annotation-other.md)
 3. [Adding annotations to a manifest](day-three/annotation-in-manifest.md)
 
+<!-- ## Wednesday, Session 9: 1:00pm-2:15pm -->
 
-## Wednesday, Session 9: 1:00pm-2:15pm
 1. [IIIF Search API](day-three/iiif-search-api.md)
 
-## Wednesday, Session 4: 2:30pm-3:45pm
+<!-- ## Wednesday, Session 4: 2:30pm-3:45pm -->
+
 1. [Reusing Annotations in your website](day-three/annona.md)
 2. More examples
 
+## Thursday
 
+<!-- , Session 1: 9:00am-10:15am -->
 
-## Thursday, Session 1: 9:00am-10:15am
 1. [Advanced used cases](day-four/advanced-use-cases.md)
 
 ## Thursday, Session 12: 10:30am-12:00pm
 1. [Wax](day-four/wax.md)
 2. [Introduction to Jekyll and GitHub pages](day-four/github-jekyll-pages.md)
 
-## Thursday, Session 13: 10:30am-12:00pm
+<!-- ## Thursday, Session 13: 10:30am-12:00pm
 
 ## Thursday, Session 14: 1:00pm-2:15pm
 
-## Thursday, Session 15: 2:30pm-3:45pm
+## Thursday, Session 15: 2:30pm-3:45pm -->
 
-## Friday, Session 16: 9:00am-10:15am
+<!-- ## Friday, Session 16: 9:00am-10:15am -->
 
 
 <!-- - [Overview](README.md)
