@@ -87,8 +87,8 @@
 1. [Advanced used cases](day-four/advanced-use-cases.md)
 
 ## Thursday, Session 12: 10:30am-12:00pm
-1. Introduction to Jekyll and GitHub pages
-2. Wax
+1. [Wax](day-four/wax.md)
+2. [Introduction to Jekyll and GitHub pages](day-four/github-jekyll-pages.md)
 
 ## Thursday, Session 13: 10:30am-12:00pm
 
