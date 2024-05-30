@@ -15,10 +15,9 @@ Jekyll also provides a number of open source themes which provide a framework fo
 Jekyll also provides a way to create your own plugins or use existing plugins. They allow you create custom code for your site without having to modify the Jekyll source code. Plugins include those that provide search, pagination, and CMS graphical interface.
 
 # GitHub pages
-GitHub pages is a static site hosting that will host any static file.
+GitHub pages is a static site hosting that will host any static file. We have gone over how to [enable a GitHub pages site](/day-two/github-publishing.html). If you use any static site generator other than Jekyll you will have to run the command for building the static site either in your command line or using [GitHub actions](https://docs.github.com/en/actions). GitHub actions are basically virtual environments that allow you install dependencies, run any command line arguments and write to your GitHub repository. Using a [GitHub actions](https://github.com/dnoneill/dhsi-iiif-2024/blob/main/.github/workflows/biiif.yml) was how we were able [autogenerate a manifest](/day-two/auto-generate-manifest.html).  
 
 
 # Other Static Site generators
-Other static site gen
 - [Hugo](https://gohugo.io/) - Main selling point is build speed
 - [Astro.js](https://astro.build/) - Allows integration of other frameworks including React, Vue.js, etc.
