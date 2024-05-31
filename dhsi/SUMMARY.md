@@ -17,33 +17,28 @@
 ## Tuesday
 <!-- , Session 3: 9:00am-10:15am** -->
 
-1. [Reflection on using the IIIF Image API](day-two/reflections.md)
-2. [OpenSeadragon](day-two/openseadragon.md)
-2. [IIIF Presentation API Overview](day-two/presentation-api.md)
-3. [Exercise - Create a Manifest](day-two/manifest-exercise.md)
+1. [OpenSeadragon](day-two/openseadragon.md)
+2. [Reflections on using the IIIF Image API](day-two/reflections.md)
+3. [Json Crash Course](day-two/json-crash-course.md)
+4. [IIIF Presentation API Overview](day-two/presentation-api.md)
+5. [Exercise - Create a Manifest](day-two/manifest-exercise.md)
       1. [Bodleian (V2)](day-two/bodleian-editor/README.md)
       2. [Digirati (V3)](day-two/digirati-editor/README.md)
       3. [Digirati A/V](day-two/digirati-editor/Add_video_manifest.md)
-4. [IIIF Finding and Using Manifests](day-two/finding-and-using-manifests.md)
-5. Reflection
-6. Deeper Manifest Dive <!-- , Session 4: 10:30am-12:00pm -->
-   1. Json Crash Course
-   2. Browser Extensions, VsCode Extension
-   3. Json Validators, IIIF Validators
-   4. Exercise: Editing your manifest
-   5. Reflection
-7. [Auto generating Manifests](day-two/auto-generate-manifest.md) <!-- ## Tuesday, Session 5: 1:00pm-2:15pm -->
-8. [Publishing Manifests](day-two/publishing-manifests.md)
+6. [IIIF Finding and Using Manifests](day-two/finding-and-using-manifests.md)
+7. [Adding Structures/Ranges to your Manifest](day-two/ranges.md) <!-- , Session 4: 10:30am-12:00pm -->
+8. [Auto generating Manifests](day-two/auto-generate-manifest.md) <!-- ## Tuesday, Session 5: 1:00pm-2:15pm -->
+9. [Publishing Manifests](day-two/publishing-manifests.md)
    1. [Local server](day-two/visual_studio_setup/README.md)
    2. [Workbench](day-two/workbench/README.md)
    3. [GitHub](day-two/github-publishing.md)
-9. [Using/Embedding/Configuring IIIF Viewers](day-two/configuring-viewers.md) <!-- ## Tuesday Session 6: 2:30pm-3:45pm -->
+10. [Using/Embedding/Configuring IIIF Viewers](day-two/configuring-viewers.md) <!-- ## Tuesday Session 6: 2:30pm-3:45pm -->
    1. [Mirador]((day-two/configuring-viewers.md#mirador))
    2. [Universal Viewer](day-two/uv.md)
    3. [Annona](day-two/annona.md)
    4. [Clover](day-two/clover.md)
    5. [Navplace viewer](day-two/navplace.md)
-10. [Work Period]((day-two/configuring-viewers.md#work-period))
+11. [Work Period]((day-two/configuring-viewers.md#work-period))
 
 ## Wednesday
 <!-- , Session 7: 9:00am-10:15am -->
