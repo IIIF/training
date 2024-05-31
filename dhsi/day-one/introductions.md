@@ -1,6 +1,9 @@
+
+# Class Introductions
+
 - Name
 - Institution
-- Role
+- Professional Role
 - Why you are in the class?
-- IIIF experience?
-- Something interesting about you.
+- Do you have any IIIF experience?
+- What's something interesting about you?

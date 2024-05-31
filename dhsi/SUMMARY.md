@@ -2,17 +2,16 @@
 <!-- , Session 1: 10:30am-12:00pm** -->
 
 1. [Introductions](day-one/introductions.md)
-1. [Week Overview](day-one/week-overview.md) (Jeff)
-2. [What is IIIF (Niqui)](day-one/whatisiiif.md)
-3. [Why use IIIF (Niqui)](day-one/whyiiif.md)
-4. [The Image API (Jeff)](day-one/image-api.md)
-5. [Exercise](day-one/image-viewer-exercise.md)
-6. [Introduction to Image Hosting](day-one/image-hosting.md#introduction-to-image-hosting) <!-- ## Monday, Session 2: 1:00pm-2:15pm -->
-
+2. [Week Overview](day-one/week-overview.md) <!--Jeff-->
+3. [What is IIIF](day-one/whatisiiif.md)<!-- Niqui -->
+4. [Why use IIIF](day-one/whyiiif.md) <!-- Niqui-->
+5. [The Image API](day-one/image-api.md)<!-- Jeff -->
+6. [Exercise - Building an Image Viewer](day-one/image-viewer-exercise.md)
+7. [Introduction to Image Hosting](day-one/image-hosting.md#introduction-to-image-hosting) <!-- ## Monday, Session 2: 1:00pm-2:15pm -->
    1. [IIIF workbench](day-one/workbench.md)
    2. [Level 0 Static](day-one/level-0-static.md)
    3. [Cantaloupe](day-one/cantaloupe.md)
-7. [Exercise](day-one/image-hosting.md#exercise)
+8. [Exercise - Integrate Your Images into Your Viewer](day-one/image-hosting.md#exercise)
 
 ## Tuesday
 <!-- , Session 3: 9:00am-10:15am** -->
