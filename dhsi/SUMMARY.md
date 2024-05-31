@@ -24,20 +24,20 @@
       1. [Bodleian (V2)](day-two/bodleian-editor/README.md)
       2. [Digirati (V3)](day-two/digirati-editor/README.md)
       3. [Digirati A/V](day-two/digirati-editor/Add_video_manifest.md)
-6. [IIIF Finding and Using Manifests](day-two/finding-and-using-manifests.md)
 7. [Adding Structures/Ranges to your Manifest](day-two/ranges.md) <!-- , Session 4: 10:30am-12:00pm -->
 8. [Auto generating Manifests](day-two/auto-generate-manifest.md) <!-- ## Tuesday, Session 5: 1:00pm-2:15pm -->
 9. [Publishing Manifests](day-two/publishing-manifests.md)
    1. [Local server](day-two/visual_studio_setup/README.md)
    2. [Workbench](day-two/workbench/README.md)
    3. [GitHub](day-two/github-publishing.md)
-10. [Using/Embedding/Configuring IIIF Viewers](day-two/configuring-viewers.md) <!-- ## Tuesday Session 6: 2:30pm-3:45pm -->
+10. [IIIF Finding and Using Manifests](day-two/finding-and-using-manifests.md)
+11. [Using/Embedding/Configuring IIIF Viewers](day-two/configuring-viewers.md) <!-- ## Tuesday Session 6: 2:30pm-3:45pm -->
    1. [Mirador]((day-two/configuring-viewers.md#mirador))
    2. [Universal Viewer](day-two/uv.md)
    3. [Annona](day-two/annona.md)
    4. [Clover](day-two/clover.md)
    5. [Navplace viewer](day-two/navplace.md)
-11. [Work Period]((day-two/configuring-viewers.md#work-period))
+12. [Work Period]((day-two/configuring-viewers.md#work-period))
 
 ## Wednesday
 <!-- , Session 7: 9:00am-10:15am -->
