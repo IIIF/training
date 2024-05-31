@@ -2,7 +2,7 @@
 <!-- , Session 1: 10:30am-12:00pm** -->
 
 1. [Introductions](day-one/introductions.md)
-1. Week Overview (Jeff)
+1. [Week Overview](day-one/week-overview.md) (Jeff)
 2. [What is IIIF (Niqui)](day-one/whatisiiif.md)
 3. [Why use IIIF (Niqui)](day-one/whyiiif.md)
 4. [The Image API (Jeff)](day-one/image-api.md)
