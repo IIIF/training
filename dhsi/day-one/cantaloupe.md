@@ -3,24 +3,23 @@
 
 So, far we've seen some ways to get our images online and IIIF accessible with minimal effort. This is great for small or personal projects.
 
-At the same time, we also need to think about solutions that scale. If your working on a project with thousands of images or your working at large institution with large repository of images, we need to think about a different solutions. 
+At the same time, we also need to think about solutions that scale. If you're working on a project with thousands of images or you're working at a large institution with a large repository of images, we need to think about different solutions. 
 
 Setting up your own image server means a little more set up time and it means that you're responsible for keeping this server running and maintained.
 
-But it has the advantage of being scalable. Once set up, it allows you to server thousands images and easily add more.
+But it has the advantage of being scalable. Once set up, it allows you to serve thousands of images and easily add more.
 
 In this section, we're going to see what it looks like to set up such server. You may or may not be responsible for setting up such a server, but it's good to see how it is done. This will help you work with project partners and help you see that setting up such a server isn't actually that difficult. :)
 
 First let's just take a look at the [Cantaloupe Landing Page](https://cantaloupe-project.github.io/) to get a glimpse of what it can do.
 
-We can notice things here like 
+We can notice things here like: 
 
 * authorization policy
 * watermarking
 * customizable images sources (e.g. AWS S3, etc)
 
-
-If you're going to be responsible for serving images at scale or at the institutional level, then familiarity with images servers like Cantaloupe is important.
+Again, if you're going to be responsible for serving images at scale or at the institutional level, then familiarity with images servers like Cantaloupe is important.
 
 ## Installing Cantaloupe
 
@@ -37,7 +36,7 @@ There actually aren't that many steps to getting it up and running. But we can a
 
 To start you need to download the Cataloupe build. [Download Cantaloupe v5.0.6](https://github.com/cantaloupe-project/cantaloupe/releases/download/v5.0.6/cantaloupe-5.0.6.zip)
 
-Go to your downloads folders
+Once downloaded, go to your downloads folder.
 
 Unzip the download and you should have a new folder called `cantaloupe-5.0.6`.
 
@@ -45,7 +44,7 @@ Open `cantaloupe-5.0.6` in vscode.
 
 In this folder, there should be a file called `cantaloupe.properties.sample`. Create a copy of this, called `cantaloupe.properties`
 
-We will modify some properties here in a moment, but the default properties should be enough to get the instance working.
+We will modify some properties here later, but the default properties should be enough to get the instance working.
 
 In vscode go to the terminal and run: 
 
@@ -71,33 +70,36 @@ Follow the Code Space prompts to view your working instance in browser. -->
 
 We won't explore all the ways you can configure Cantaloupe, but let's make a few changes so we can get a sense of what's possible. 
 
-Most of the configuration we're going to explore consists in enabling or disabling various configuration properties. 
+Most of the configuration we're going to explore consists of enabling or disabling various configuration properties. 
 
-We've already created this configure file, called `cantaloupe.properties`
+We've already created this configuration file, called `cantaloupe.properties`
 
 ### Adding Your Own Images
 
 Let's hook up cantaloupe to your own images. 
 
-Find or create a new directory of images somehwere on your computer and call it `myImages`. (If you're working in codespace, you can use the sample images in the folder called `myImages` or we can help move some sample images to the codespace computer.)
+Find or create a new directory of images somewhere on your computer and call it `myImages`. 
 
-Now you just need to get the full path to this image director.
+Now you just need to get the full path to this image directory.
 
-* In terminal, navigate to the folder and type `$pwd`
-* In finder, right click a file within the target folder, select `Get Info`, and then copy the value of the "Where" property
+* In Terminal, navigate to the folder and type `$pwd`
+* In vscode, right click on the directory and select `copy path`
+* In Finder, right click a file within the target folder, select `Get Info`, and then copy the value of the "Where" property
 * In windows explorer, do something similar.
 
 Now in the `FilesystemSource` section of the properties file, we want to change the value of `FilesystemSource.BasicLookupStrategy.path_prefix` to something that looks like this: 
 
 `FilesystemSource.BasicLookupStrategy.path_prefix = /path/to/myImages/`
 
-As the comments note, make sure there is a trailing slash
+As the comments note, make sure there is a trailing slash.
+
+Restart your Cantaloupe server. Your images should now be available and responsive to the IIIF Image API parameters.
 
 ### Enabling the admin dashboard
 
 Now that we've edited the properties file, let's enable the admin dashboard so we have a more user friendly way to configure the server.
 
-Scroll down the block that says 
+Scroll down to the block that says:
 
 `# Enables the Control Panel, at /admin.`
 
@@ -175,15 +177,12 @@ Try rotating in 90 degrees.
 [http://localhost:8182/iiif/3/ca-flag.jpg/full/max/90/default.jpg](http://localhost:8182/iiif/3/ca-flag.jpg/full/max/90/default.jpg)
 
 Try requesting it as gray scale
-[http://localhost:8182/iiif/3/ca-flag.jpg/full/max/90/gray.jpg](http://localhost:8182/iiif/3/ca-flag.jpg/full/max/90/gray.jpg)
-
-Try requesting it as gray scale
-[http://localhost:8182/iiif/3/ca-flag.jpg/full/max/90/gray.jpg](http://localhost:8182/iiif/3/ca-flag.jpg/full/max/90/gray.jpg)
+[http://localhost:8182/iiif/3/ca-flag.jpg/full/max/90/gray.jpg](http://localhost:8182/iiif/3/ca-flag.jpg/full/max/0/gray.jpg)
 
 Try requesting ias a thumbnail
-[http://localhost:8182/iiif/3/ca-flag.jpg/full/50,/90/default.jpg](http://localhost:8182/iiif/3/ca-flag.jpg/full/50,/90/default.jpg)
+[http://localhost:8182/iiif/3/ca-flag.jpg/full/50,/90/default.jpg](http://localhost:8182/iiif/3/ca-flag.jpg/full/50,/0/default.jpg)
 
-Try looking at other flags, by changing the two letter country code in the image name to the country of your choice.
+Try looking at other flags, by changing the two letter country code in the image name to the country of your choice. (With a little guess work about the right two letter prefix, you can usually find your way to the country flag of interest.)
 
 ### AWS S3 Connection
 
@@ -195,7 +194,7 @@ If you have S3 bucket, this is a great way to store your image content.
 
 You can then point your Cantaloupe server to the S3 bucket and re-serve those images in a IIIF compliant way. 
 
-In this case you need, to change the Static Source to `S3Source`
+In this case you need to change the Static Source to `S3Source`
 
 Then in the S3Source tab, you need to supply:
 
@@ -205,15 +204,15 @@ Then in the S3Source tab, you need to supply:
   
 ### Basic Auth
 
-WHile a driving goal of IIIF is openness, sometimes institutions have sensitive information that needs to be restricted. 
+While a driving goal of IIIF is openness, sometimes institutions have sensitive information that needs to be restricted. 
 
-In such, an enterprise level server like Cantaloupe can help you with these issues. 
+In such cases, an enterprise level server like Cantaloupe can help you with these issues. 
 
 We won't implement anything in detail here, but it's important to have a sense of how it works and how you could take it further.
 
 Different institutions will have different authorization and authentication needs, so this a place that each institution will like implement its own policy. 
 
-But Cantaloupe comes with way to implement custom rules and policies, namely through its CustomDelegate Class. 
+But Cantaloupe comes with a way to implement custom rules and policies, namely through its CustomDelegate Class. 
 
 In this case we're going to implement a very simple authentication procedure called basic auth. 
 
@@ -221,7 +220,7 @@ To do this, we first need to enable the delegate script as follows:
 
 `delegate_script.enabled = true`
 
-or navigate to Application, Delegate Script, Check Enabled in the web ui.
+or navigate to Application, Delegate Script, and check enabled in the web ui.
 
 When you downloaded Cantaloupe it came with a file called `delgates.rb.sample`. We're going to make a copy of this and name it `delegates.rb`
 
@@ -263,8 +262,8 @@ As implemented here, 'my_user' will be the user name and `my_secret` will be the
 
 Now the next time you request an image, your browser will be prompted to ask you for the username and password. Once supplied, your browser will re-request the image using the supplied authentication information.
 
-Basic Auth is not a strong security, so in full production you'll probably want to implement a more secure policy. That's a more complicated endeavor, but the `delegates.rb` file is the place where you would implement such a policy. 
+Basic Auth is not a strong security protocol, so in full production you'll probably want to implement a more secure policy. That's a more complicated endeavor, but the `delegates.rb` file is the place where you would implement such a policy. 
 
-Have a look at the other comments in this file as it gives several examples of other kinds of customizations that can be implemented viat the `CustomDelegate` class
+Have a look at the other comments in this `delegates.rb` files as it gives several examples of other kinds of customizations that can be implemented via the `CustomDelegate` class
 
 
