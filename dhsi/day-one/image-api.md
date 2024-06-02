@@ -1,17 +1,8 @@
 # Image API
 
-
-
-## Learning objectives
-
- * Understand what the Image API provides
- * Be able to change a Image API URL to get access to different parts of an image
- * Understand the different types of Image API implementations (level0, level1 etc)
- * Know the tools that work with the Image API so you can test your Image API server
-
 ## Introduction
 
- * What is it? A contract between the server and a viewing client
+ * What is it? A contract (a set of "rules") between the server and a viewing client
  * Its the foundation of all of the IIIF APIs. They all build on top of the Image API.
  * Luckily its one of the easiest to implement 
  * because others have written servers you can install which provide the service
@@ -128,11 +119,16 @@ Once you're demo playing around with the controlled demo, start playing around w
 
 Place the following base url in browser:
 
-https://ids.lib.harvard.edu/ids/iiif/47174896/
+`https://ids.lib.harvard.edu/ids/iiif/47174896/`
 
-How could we modify this url so that it shows us a picture that is...
+Question: Why doesn't this url work by itself? What else needs to be added?
 
-* ...is 512px wide...is upside down...gray scale...has a format of png
+Question: How could we modify this url so that it shows us a picture that is...
+
+* is 512px wide
+* is upside down
+* is gray scale
+* has a format of .png
 
 For help, consult the [IIIF Image API documentation](https://iiif.io/api/image/3.0/)
 
@@ -146,7 +142,7 @@ First the API describes how that information should be requested, namely with a 
 
 For example: [https://ids.lib.harvard.edu/ids/iiif/47174896/info.json](https://ids.lib.harvard.edu/ids/iiif/47174896/info.json)
 
-If you open this link, you will a response of json data.
+If you open this link, you will a response of json data. (If your browser isn't showing this to you in a nice way consier install a browser extension for viewing json data like this [json chrome extension](https://chromewebstore.google.com/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh))
 
 The structure of that json data, what kind of properties it has and what kind of values can be supplied is governed by the [IIIF Image API: Image Information Request](https://iiif.io/api/image/3.0/#5-image-information)
 
