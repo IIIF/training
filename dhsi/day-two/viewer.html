@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>George and Glen's Teaching Viewer</title>
+        <link rel="stylesheet" href="../styles/website.css"></link>
+        <script src="viewer.js" > </script>
+    </head>
+    <body>    
+
+        <div id="image_api_demo">
+        </div>
+        <script>
+           addViewer({
+                div: 'image_api_demo',
+                images: [
+                    'https://ids.lib.harvard.edu/ids/iiif/25286607',
+                    'https://dlcs.io/iiif-img/wellcome/5/b14658197.jp2',
+                    'https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_02',
+                    'https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001',
+                    'https://ids.si.edu/ids/iiif/SAAM-1930.12.50_1'
+                ],
+                sizes: [
+                    '500,',
+                    '500,500',
+                    '!500,500'
+                ]
+           });
+        </script> 
+    </body>
+</html>

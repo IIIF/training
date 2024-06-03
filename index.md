@@ -29,7 +29,7 @@ If bespoke training is of interest to your institution please contact staff (at)
 
 * [Europeana IIIF Working Group - Presentation API](presentation-api/index.html) - a hour long intro into the Presentation API given as part of the IIIF Europeana Working Meeting in September 2020
 
-* [5 day workshop](iiif-5-day-workshop/index.html) - ran at the 2019 DHSI Conference
+* [DHSI](dhsi/index.html) - A 5 day workshop ran at the 2019 and 2024 DHSI Conference
 
 * [1 day workshop](iiif-1-day-workshop/index.html) - ran in 2019 in South Africa
 
