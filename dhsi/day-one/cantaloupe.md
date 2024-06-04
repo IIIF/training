@@ -48,23 +48,34 @@ We will modify some properties here later, but the default properties should be 
 
 In vscode go to the terminal and run: 
 
+Mac
 `$ java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-5.0.6.jar`
+
+Windows
+`$ java -Dcantaloupe.config=.\cantaloupe.properties -Xmx2g -jar cantaloupe-5.0.6.jar`
 
 Now navigate to [http://127.0.0.1:8182](http://127.0.0.1:8182) in your browser.
 
-<!-- ### Running Cantaloupe in Code Spaces
+### Running Cantaloupe in Code Spaces
 
 Via github code spaces, I've configured a computer that already has Cantaloupe downloaded and installed. 
 
-So all you have to do is launch this computer in your browser here. 
+You can find that link here [https://github.com/jeffreycwitt/cantaloupe-container](https://github.com/jeffreycwitt/cantaloupe-container)
+
+Click the "Launch in Code Space" button and give the Code Space time to set up.
 
 And then run cantaloupe. 
 
 In the browser based vscode, go to the terminal and run: 
 
+In this folder, there should be a file called `cantaloupe.properties.sample`. Create a copy of this, called `cantaloupe.properties`
+
+Then in the terminal run
+
 `$ java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-5.0.6.jar`
 
-Follow the Code Space prompts to view your working instance in browser. -->
+Change the port visibility to "public" and then follow the Code Space prompts to view your working instance in browser.
+
 
 ## Configuring Cantaloupe
 
@@ -77,6 +88,8 @@ We've already created this configuration file, called `cantaloupe.properties`
 ### Adding Your Own Images
 
 Let's hook up cantaloupe to your own images. 
+
+#### On your local computer
 
 Find or create a new directory of images somewhere on your computer and call it `myImages`. 
 
@@ -93,7 +106,21 @@ Now in the `FilesystemSource` section of the properties file, we want to change 
 
 As the comments note, make sure there is a trailing slash.
 
-Restart your Cantaloupe server. Your images should now be available and responsive to the IIIF Image API parameters.
+http://localhost:8182/iiif/3/<filename-of-your-image>/full/max/0/default.jpg
+
+#### In Code Space
+
+In Code Space, I've already created an images folder with a demo images, so you should change this to...
+
+`FilesystemSource.BasicLookupStrategy.path_prefix = ./images/`
+
+As the comments note, make sure there is a trailing slash.
+
+In Code Space you should be able to see your sample image here:
+
+<github-public-url>/iiif/3/vangough.jpg/full/max/0/default.jpg
+
+To add your own images right click on `images` and select `upload`
 
 ### Enabling the admin dashboard
 
