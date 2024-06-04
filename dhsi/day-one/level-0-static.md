@@ -17,7 +17,9 @@ The script above allows pdf, png, jpg, jp2, and tif files to be dumped into a fo
 It also preserves the file structure of the files you have dumped. For example, if you have two folders (cat-photos and dog-photos) in images, the output directory will keep that folder structure.
 
 ## Install and running steps
-1. Clone repository locally. `git clone https://github.com/dnoneill/dhsi-iiif-2024.git`
+1. Create fork of https://github.com/dnoneill/dhsi-iiif-2024
+2. Clone your fork locally: `git clone https://github.com/[yourusername]/dhsi-iiif-2024`
+3. Change directory into your fork `git clone dhsi-iiif-2024`
 2. Make sure python with pip is installed
 3. Create virtual environment. `python3 -m venv [nameofenv]`
 4. Activate virtual environment. `source [nameofenv]/bin/activate`
