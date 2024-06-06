@@ -85,6 +85,9 @@ Let's look closer at some of the configuration options implemented here:
 <html>
   <head>
     <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+  </head>
+  <body>
+    <div id="mirador"></div>
     <script>
 
 var miradorInstance = Mirador.viewer({
@@ -124,9 +127,6 @@ var miradorInstance = Mirador.viewer({
   ]
 });
       </script>
-  </head>
-  <body>
-<div id="mirador"></div>
 </body>
 </html>
 ```
