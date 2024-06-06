@@ -17,7 +17,6 @@ An example can seen in the [IIIF cookbook recipe](https://iiif.io/api/cookbook/r
 9. [e-rara](https://www.e-rara.ch/i3f/v21/collection/top)
 10. [fragmentarium – International Digital Research Lab for Medieval Manuscript Fragments](https://fragmentarium.ms/metadata/iiif/collection.json)
 11. [IIIF Collection for Leipzig University Library](https://iiif.ub.uni-leipzig.de/static/collections/toplevel.json)
-12. [Rare Books](https://digitalcollections.universiteitleiden.nl/rarebooks/datastream/MANIFEST/view)
 13. [Luke Wadding Papers](https://data.ucd.ie/api/img/collection/ivrla:18726)
 14. [Arabic documents](https://iiif.durham.ac.uk/manifests/trifle/collection/32150/t2c9k41zd486)
 15. [We are ISU- Snapshots of Student Life](https://cdm16001.contentdm.oclc.org/iiif/info/p16001coll48/manifest.json)
