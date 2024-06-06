@@ -8,3 +8,4 @@
 7. Anything A/V
 8. [Omeka](https://training.iiif.io/advanced_iiif/modules/omeka/)
 9. [Spotlight and Annotations](https://spotlight.vatlib.it/humanist-library)
+10. [Omeka](https://training.iiif.io/advanced_iiif/modules/omeka/)
