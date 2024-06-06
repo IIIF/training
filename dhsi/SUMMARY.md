@@ -62,6 +62,7 @@
 <!-- , Session 1: 9:00am-10:15am -->
 
 1. [Advanced used cases](day-four/advanced-use-cases.md)
+2. [Collections](day-four/collections.md)
 1. [Wax](day-four/wax.md) <!-- ## Thursday, Session 12: 10:30am-12:00pm -->
 2. [Introduction to Jekyll and GitHub pages](day-four/github-jekyll-pages.md)
 
