@@ -12,6 +12,10 @@ Which has the following Github repository:
 
 https://github.com/iiif-test/Space/tree/main
 
+## Embedding the Universal Viewer
+
+Embedding the Universal Viewer and Mirador follow very similar patterns but the embed code (Step 3) is different. 
+
 ## Step 1: Find your Github repository
 
 The way to find your Github repository from the Workbench is to open up your project and select the Files tab at the top:
@@ -131,3 +135,45 @@ Now scroll to the bottom of the page and you should see the new heading and link
 Following that link you should get to the UV with your manifest loaded. 
 
 ![UV page](imgs/website_uv.png)
+
+## Embedding Mirador
+
+Embedding Mirador is similar to the UV. We need to start by adding a new Web page in the same way as Step 2 above. I am going to navigate to my main Github repository:
+
+https://github.com/iiif-test/Space/tree/main
+
+and click `Add file` then  `+ Create new file`. In this case I am going to call it mirador.md and add the following text:
+
+```
+# This page will show Mirador my Manifest
+
+This is a short intro and the Mirador viewer will appear below:
+```
+
+![Edit the mirador web page](imgs/mirador_web.png)
+
+I now need to embed Mirador. Unforunately Mirador doesn't have the same easy way of embedding as the UV but its possible to use a hosted version and place it into your page by using an [iframe](). An iframe places a remote web page into your webpage. A iframe looks as follows:
+
+```
+<iframe width="100%" height="600" src="https://projectmirador.org/embed/?iiif-content=https://iiif-test.github.io/Space/manifests/ganymede-2021-06-07.json"></iframe>
+```
+
+The URL in the `src` attribute needs to be changed so that after the `iiif-content=` it contains a link to your Manifest. The width and height are required so that the iframe doesn't squeeze Mirador into too small a box. Once you have done this your mirador.md should look as follows:
+
+![Mirador embed web page](imgs/mirador_page.png)
+
+Now click commit changes and in the dialog click commit changes. Next we want to update the main page to include a link to this new page. So similar to Step 5 navigate to the main page of your repository and click the index.md file and then the pencil icon to start editing. 
+
+Scroll to the bottom of the index.md file and add a link to Mirador next to the UV one:
+
+```
+ * [Mirador](mirador.md)
+```
+
+Once completed it should look as follows:
+
+![Index page with links to UV and Mirador](imgs/website_2_viewers.png)
+
+Then scroll to the top of the page and click Commit changes. Then click the Code tab to get back to the main repository page. You should now see the orange dot as mentioned in Step 6. Wait for this to turn green and when it does you can go to your Github pages site to see the new page.
+
+![Mirador on Github Pages](imgs/pages_mirador.png)
