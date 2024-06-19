@@ -63,6 +63,7 @@
  - [Guides](extras/README.md)
     - [Using non IIIF images in a manifest](https://glenrobson.github.io/iiif_stuff/simple_images/)
     - [A basic Video manifest](extras/AVExample.md)
+    - [Embedding a viewer in a website](extras/webpage/README.md)
 
 ## Editions of the course
 - [2020 Editions](editions/2020/README.md)
