@@ -13,7 +13,6 @@ The second part of the workshop will focus on linking multiple IIIF images toget
 Glen Robson works as the IIIF Technical Coordinator and runs a monthly 5 day online training course along with designing custom training for different institutions on IIIF and AV and reusing IIIF resources in various research systems like Omeka, Zooniverse and other annotation systems. Glen has been involved in the IIIF community since 2014 and previously worked at the National Library of Wales and worked on their IIIF implementation to support various crowdsourcing, maps and Newspaper projects. 
 
 ## Plan:
-9-12
 
 ### Part 1:
 9:00am - 11:00am
