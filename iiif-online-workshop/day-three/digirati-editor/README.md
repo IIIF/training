@@ -14,7 +14,7 @@ First, assemble a list of IIIF `info.json` URLs for your content. They should al
 
 ### Step 1
 
-Navigate to the editor at https://manifest-editor.digirati.services/ and click on the Create Empty Manifest option at the top of the page:
+Navigate to the editor at https://manifest-editor.digirati.services/ and click on the Create new Manifest option at the top of the page:
 
 ![Manifest Editor Splash Screen](imgs/CreateEmptyManifest.png)
 
@@ -32,7 +32,7 @@ Now we are going to add some content to your manifest. To add a canvas click the
 
 ![Add Canvas](imgs/add-canvas.png)
 
-The Manifest Editor has a number of helpers for quickly creating Canvases from different sources. In this case, we're using IIIF Image Services. Select the **IIIF Image** option from the panel on the right.
+The Manifest Editor has a number of helpers for quickly creating Canvases from different sources. In this case, we're using IIIF Image Services. Select the **IIIF Image** option from the panel.
 
 ![Create a Canvas from an Image Service](imgs/image-service-option.png)
 
@@ -55,6 +55,8 @@ Now we are going to add a second canvas. To do this click on the Canvases panel 
 This will show you all of the canvases you have with your manifests. To add a second canvas click the add canvas button highlighted in this image.
 
 ![Add second canvas](imgs/add-second-canvas.png)
+
+Then repeat the steps for adding a IIIF image and its info.json.
 
 ### Step 4
 
