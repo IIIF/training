@@ -56,10 +56,18 @@ This will show you all of the canvases you have with your manifests. To add a se
 
 ![Add second canvas](imgs/add-second-canvas.png)
 
-![A second canvas](imgs/second-canvas.png)
-
 ### Step 4
 
-Now we can view our Manifest in a number of viewers by clicking the preview button:
+Now we are going to save and download the Manifest for the next stage. 
 
-![Preview a manifest](imgs/preview.png)
+In the menu, click **File** -> **Export**.
+
+The Manifest Editor gives you the option of IIIF Presentation 3 or 2. Click the **Download** button for Presentation 3:
+
+![Export a manifest](imgs/export.png)
+
+This will save to your default downloads location.
+
+### Step 5
+
+You should now create a directory to store all of the manifests and other things we create during the course. We suggest you call it `iiif-workshop` and you move the downloaded Manifest to this directory and call it `manifest.json`. 
