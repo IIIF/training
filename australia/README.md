@@ -1,4 +1,4 @@
-# VRA IIIF Training
+# IIIF Australia Training
 
 This training is part of the [IIIF events](https://iiif.io/event/2024/canberra/) around Fantastic Futures conference in Australia.
 
