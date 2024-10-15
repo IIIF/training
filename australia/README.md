@@ -25,9 +25,9 @@ Glen Robson works as the IIIF Technical Coordinator and runs a monthly 5 day onl
 ### Part 2:
 11:00am - 12:00pm
  * Presentation API - 30mins
- * Introduce exercise on using the Manifest Editor and using the images from day 1
+ * Introduce exercise on using the Manifest Editor 
  * Exercise time - 15 mins 
- * Extras
-   * Things to do with Manifests - 10mins 
+ * Extras - 10mins
+   * Things to do with Manifests
    * Create an Exhibit
  * Project demos and summary - 5 mins 
