@@ -6,7 +6,7 @@ The Digirati Manifest editor provides more functionality than the Bodleian Manif
 
 First, assemble a list of IIIF `info.json` URLs for your content. They should all be on HTTPS URLs (not unsecure HTTP).
 
- * Here is a sample image at the [Yale Center for British Art](https://images.collections.yale.edu/iiif/2/ycba:9e08d901-a26b-4acb-a768-28f90a062adf/info.json)
+ * Here is a sample image at the [Yale Center for British Art](https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/info.json)
  * Here's another sample image at [Wellcome](https://iiif.wellcomecollection.org/image/V0037482/info.json)
  * Here are some [book pages from Wellcome](https://digirati-co-uk.github.io/me-testing/03-image-services.html)
 
@@ -18,19 +18,26 @@ You can also use the following canvas finder which will take a Manifest and show
 
 ### Step 1
 
-Navigate to the editor at https://manifest-editor.digirati.services/ and click on the Create Empty Manifest option at the bottom of the page:
+Navigate to the editor at https://manifest-editor.digirati.services/ and click on the Create new Manifest option at the top of the page:
 
-![Manifest Editor Splash Screen](imgs/splash.png)
+![Manifest Editor Splash Screen](imgs/CreateEmptyManifest.png)
 
-If you have previously been editing a Manifest in the editor, it will resume from where you left off. You can start a fresh Manifest from the File menu: **File** -> **New** -> **Blank Manifest**
 
 ### Step 2
 
-Click the Add canvas link in the left hand menu
+We are now going to edit the Manifest metadata to change the label. When you first open the manifest you have access to the Manifest metadata. To change the label of the manifest look to the right hand panel where it says **Blank Manifest** 
+
+![Edit manifest](imgs/edit_manifest.png)
+
+Now edit the Manifest label. Changes are saved automatically. By clicking the tabs above the label i.e. Descriptive, Metadata, Technical and Linking you can add other descriptions and metadata to your manifest. 
+
+### Step 3
+
+Now we are going to add some content to your manifest. To add a canvas click the "start adding content button":
 
 ![Add Canvas](imgs/add-canvas.png)
 
-The Manifest Editor has a number of helpers for quickly creating Canvases from different sources. In this case, we're using IIIF Image Services. Select the **Image Service** option from the panel on the right.
+The Manifest Editor has a number of helpers for quickly creating Canvases from different sources. In this case, we're using IIIF Image Services. Select the **IIIF Image** option from the panel.
 
 ![Create a Canvas from an Image Service](imgs/image-service-option.png)
 
@@ -46,19 +53,15 @@ Now edit the Canvas label, replacing the words "Untitled canvas" in the Label fi
 
 ![Editing the label](imgs/edit-label.png)
 
-Now repeat these steps to add a second canvas to your manifest by clicking the higlighted Add Canvas link on the left hand side. Once you've added a second canvas this will be listed on the left hand side:
+Now we are going to add a second canvas. To do this click on the Canvases panel on the left hand side:
 
-![A second canvas](imgs/second-canvas.png)
+![Select canvas panel](imgs/select-canvas-panel.png)
 
-### Step 3
+This will show you all of the canvases you have with your manifests. To add a second canvas click the add canvas button highlighted in this image.
 
-We are now going to edit the Manifest metadata to change the label. First click the **Edit manifest** link at the top of the left panel. This changes the subject of the right panel.  The right panel always edits whatever is selected in the left hand or center panels.
+![Add second canvas](imgs/add-second-canvas.png)
 
-![Edit manifest](imgs/edit_manifest.png)
-
-Now edit the Manifest label:
-
-![Edit the manifest label](imgs/edit-manifest-label.png)
+Then repeat the steps for adding a IIIF image and its info.json.
 
 ### Step 4
 
