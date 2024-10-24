@@ -6,7 +6,7 @@ An example can seen in the [IIIF cookbook recipe](https://iiif.io/api/cookbook/r
 
 ## Other collection examples
 
-1. [National Gallery of Art](https://research.ng-london.org.uk/iiif-projects/json/ng-projects.json)
+1. [National Gallery, London](https://research.ng-london.org.uk/iiif-projects/json/ng-projects.json)
 2. [FromThePage Jeremiah White Graves Diaries](https://fromthepage.com/iiif/collection/jeremiah-white-graves-diaries)
 3. [Staedel Museum](https://iiif.manducus.net/collections/0008/collection.json)
 4. [Zeppelin Museum Friedrichshafen](https://iiif.manducus.net/collections/0012/collection.json)
