@@ -6,7 +6,6 @@ __Note__: some people have had some issues getting their images to show when upl
 
  * Ensure you only upload 1 image ( if you want multiple images you will need to create multiple items)
  * Ensure the collection is 'Community Image' collection. The `Community Texts` collection seems to break the image viewing currently
- * Some of the IIIF images appear very small even if you uploaded a large image. See the note below on adding the filename to the URL to get the original image available as IIIF.
 
 1. Register for a user account at [archive.org](https://archive.org)
 2. Upload your image
@@ -36,26 +35,6 @@ __Note__: some people have had some issues getting their images to show when upl
   [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009)
 
   **Note:** the UCD selector tool requires the Image link without the `info.json` at the end of the URL.
-
-### Small images workaround
-
-Some images are appearing small, to get round this issue you will need to add the filename to the URL. In the following example:
-
-https://archive.org/details/img-8664_202009
-
-you would normally create the following URL:
-
-https://iiif.archivelab.org/iiif/img-8664_202009/info.json
-
-but to make the image larger you need to add the filename (`$IMG_8664.jpg`) so it looks like:
-
-https://iiif.archivelab.org/iiif/img-8664_202009$IMG_8664.jpg/info.json
-
-To find the image navigate to the details page:
-
-https://archive.org/details/img-8664_202009
-
-and click on the main image. This will show the image full screen and if you look in the address bar you will be able to see the filename. The reason this happens is due to a bug in the Internet Archive IIIF implementation and I have submitted a [Bug](https://github.com/ArchiveLabs/iiif.archivelab.org/issues/44) and a fix on their github.
 
 ## Step by step guide
 
