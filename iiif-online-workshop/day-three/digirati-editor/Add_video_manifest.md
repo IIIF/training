@@ -20,32 +20,34 @@ For this item I get the following URL:
 
 https://archive.org/download/twitter-1407319283122671621/1407319283122671621.mp4
 
+or use this image from the IIIF fixtures:
+
+https://fixtures.iiif.io/video/indiana/parliamentary/high/parliamentary-procedure-in-action.mp4
+
+Other videos are available on the [iiif-fixtures](https://fixtures.iiif.io) site.
+
 Now we will create the Manifest for this video.
 
 ## Creating a Video Manifest
 
-If you navigate to the Digirati Manifest Editor:
+Navigate to the editor at https://manifest-editor.digirati.services/ and click on the Create new Manifest option at the top of the page:
 
-https://manifest-editor.digirati.services/
+![Manifest Editor Splash Screen](imgs/CreateEmptyManifest.png)
 
-and either select new Manifest or if you are already editing a manifest select  **File** -> **New** -> **Blank Manifest**:
+Now select "Start adding content" then the Video Annotation.
 
-![new manifest](imgs/new-manifest.png)
+![Add video annotation](imgs/video-service-option.png)
 
-Now select add canvas and then the Video Annotation.
-
-![Add video annotation](imgs/add-video-canvas.png)
-
-Paste in the link to your video and scroll to the bottom of the right panel and click Add Video.
+Paste in the link to your video and scroll to the bottom of the panel and click Add Video.
 
 ![Add video](imgs/add-video.png)
 
-Now we can view the Manifest in the Universal Viewer by clicking the Preview button:
+Now we can view the Manifest in the Universal Viewer by clicking the Preview button. If you select the down triangle next to the Preview button you can choose a viewer like the Universal Viewer:
 
 ![Preview](imgs/preview-video.png)
 
-Once you click the preview button you should see the following in the Univesral Viewer:
+Once you click the preview button you should see the following in the Universal Viewer:
 
 ![Video in UV](imgs/uv.png)
 
-***Note***: this video didn't work for me in Mirador due to the file format not being supported. 
+***Note***: the Internet Archive video doesn't work in Mirador due to the file format not being supported. 

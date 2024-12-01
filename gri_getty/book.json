@@ -1,0 +1,26 @@
+{
+  "title": "Getty GRI Workshop 10th November 2023",
+  "plugins": [
+    "include",
+    "theme-default",
+    "toggle-chapters",
+    "git-author",
+    "-highlight",
+    "toggle-chapters"
+  ],
+  "gitbook": "3.2.3",
+  "styles": {
+        "website": "styles/website.css"
+  },
+  "pluginsConfig": {
+    "theme-default": {
+        "showLevel": true
+    },
+    "git-author": {
+      "position": "bottom",
+      "modifyTpl": "Last modified by {user} {timeStamp}",
+      "createTpl": "Created by {user} {timeStamp}",
+      "timeStampFormat": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}

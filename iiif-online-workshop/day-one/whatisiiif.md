@@ -39,13 +39,13 @@ First and foremost IIIF started with the problem of making large images availabl
 
 One of the examples of this is with the Japanese Tax Map below. In the image Wayne Vanderkuil, the Stanford lead photographer is shown next to the map for a sense of scale. Wayne is 6' 4" (1.93m) tall. The map is so big that it had to be photographed in separate sections and stitched together using Photoshop. If you click on the image below you will be taken to the IIIF image which allows you to zoom around this massive map.
 
-<a href="https://purl.stanford.edu/hs631zg4177" target="_blank"><img src="img/map_image.jpg" /></a>
+<a href="https://purl.stanford.edu/hs631zg4177" target="_blank"><img src="img/img_5813.jpg" /></a>
 
 For details on how this map was scanned, there is a blog post [here](https://web.archive.org/web/20230527005027/https://library.stanford.edu/blogs/digital-library-blog/2015/11/adventures-oversized-imaging-digitizing-omi-kuni-ezu-jin-jiang).
 
 * the star next to the image is because IIIF now also supports Audio Visual resources but it was too late to change the name...
 
-Here is an example of a video with table of contents shown in the [Universal Viewer](https://uv-v3.netlify.app/#?c=&m=&s=&cv=&manifest=https://iiif-commons.github.io/iiif-av-component/examples/data/iiif/lunchroom-manners.json)
+Here is an example of a video with table of contents shown in the [Universal Viewer](https://uv-v3.netlify.app/#?c=&m=&s=&cv=&manifest=https%3A%2F%2Fiiif.io%2Fapi%2Fcookbook%2Frecipe%2F0003-mvm-video%2Fmanifest.json)
 
 ## Interoperability
 
@@ -63,8 +63,9 @@ First because IIIF provides a standard way of exposing images and metadata it is
 
  * [Manuscript in NLW using the UniversalViewer](http://hdl.handle.net/10107/4574752)
  * [Same Manuscript in Mirador 3](https://projectmirador.org/embed/?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
- * [Tify](https://demo.tify.rocks/demo.html?manifest=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
  * [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
+ * [Annona](https://ncsu-libraries.github.io/annona/tools/#/display?url=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json&viewtype=iiif-storyboard&settings=%7B%22fullpage%22%3Atrue%7D)
+ * [Clover](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
 
 For instructions on how to take content from one viewer to another there is this [medium post](https://iiif-io.medium.com/how-to-use-iiif-resources-and-image-viewers-bd378a68b013). 
 
@@ -81,6 +82,8 @@ Another example of a reconstructed manuscript is the one below from the BnF. Ins
 <iframe  id="mirador" title="BnF missing illustrations" width="100%" height="700" src="https://demos.biblissima.fr/chateauroux/demo/"> </iframe>
 
 The full demo of this manuscript can be found on the [Biblissima website](https://demos.biblissima.fr/chateauroux/demo/).
+
+There is also a IIIF Cookbook [recipe](https://iiif.io/api/cookbook/recipe/0036-composition-from-multiple-images/) for this example which supports version 3. 
 
 
 ### Interoperable Collections
