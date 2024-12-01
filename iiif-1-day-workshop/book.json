@@ -6,7 +6,7 @@
     "toggle-chapters",
     "git-author",
     "-highlight",
-    "sunlight-highlighter",
+    "gitbook-plugin-sunlight-highlighter",
     "toggle-chapters"
   ],
   "gitbook": "3.2.3",
