@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1ID-a1ZxmjkgSbamuT9zReT2oW7RuOd2h5DjLrutfZm0/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/September2025.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20251003T160000Z
+SUMMARY:Project Demos
+UID:acbaf7ca-2f2a-4db8-9510-a098ff32b3b4@acba.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1NyDszcINKF4fe5BMM_GYfrbDG-ddoyOc-NstMHPmt8k/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/September2025.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20250930T160000Z
+SUMMARY:Group check in - Image API
+UID:e6481c4f-44bf-4762-9ed5-37c655783472@e648.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1LYC5u_cb6VP_uR84XvUaz4G2yxT_9HTtlqZ6mFGP_Bg/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/September2025.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20251001T160000Z
+SUMMARY:Group check in - Presentation API
+UID:71b1c29c-476c-4a28-b3c4-c7c5434f0c2d@71b1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1NXteDpbVY3jGf-DsSTnv65Du95FUnNpV1DOQDFGtfCo/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/September2025.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20250929T160000Z
+SUMMARY:Introductions and course overview zoom call
+UID:cd53d3f2-b12b-412f-b600-b4a8b03b1ba5@cd53.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Agenda https://docs.google.com/document/d/1x8QZ5TzmfHyDJlD8d-6dnCkU3olRXM6wxJIjdl9mT4U/edit?usp=sharing\n\n\nZoom URL: https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09\n\nCourse Information: https://training.iiif.io/iiif-online-workshop/September2025.html\n
+DURATION:PT1H
+LOCATION:https://stanford.zoom.us/j/98805809498?pwd=WlJmMWRJNjdXNzhiSDI3TnpFLzVtUT09
+DTSTART:20251002T160000Z
+SUMMARY:Group check in - IIIF and Annotations
+UID:08a45433-6322-4c6a-9c81-b14eadbc7c8e@08a4.org
+END:VEVENT
+END:VCALENDAR
