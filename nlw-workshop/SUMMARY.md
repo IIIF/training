@@ -46,17 +46,17 @@
   - [Publishing your annotated Manifest](day-four/workbench.md)
   - [Annotating Store - Do it yourself](day-four/annotations-stores-install.md)
   - [Advanced annotation presentation](day-four/advanced-annotations.md)
-- [NLW Annotations](nlw-annotations.md) **TODO**
+- [NLW Annotations](nlw-annotations.md)
 
 ## IIIF & AV
 - [An introduction to AV](av-intro.md) **todo**
   - [Looking at a BL audio file](day-three/BL-Audio/README.md) 
   - [Looking at a Internet Archive Video](day-three/BL-Audio/RemixAudio.md) **todo**
-  - [National Library of Wales examples](av-examples.md)**todo**
+  - [Examples](av-examples.md)**todo**
   - [Create video Manifest](day-three/digirati-editor/Add_video_manifest.md)**todo**
 
 ## Tools and implementations
-- [Tools](tools.md)
+- [Tools](tools.md) **todo** 
   - [Exhibit](exhibit/exhibit.md)
   - [All Maps](use_cases/allmaps.md)
   - [FromThePage](use_cases/FromThePage.md)
