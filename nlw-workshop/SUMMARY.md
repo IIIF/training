@@ -20,7 +20,7 @@
 - [Uses](day-two/uses.md)
 - [NLW Image servers](nlw-image-servers.md) 
 - [Getting started](day-two/image-servers/README.md)
-   - [NLW Images](nlw-image-serveress.md) 
+   - [NLW Images](nlw-images.md) 
    - [Hosted - Internet Archive](day-two/image-servers/iiif-hosting-ia.md)
    - [Static Images - Workbench](day-two/image-servers/level0-workbench.md)
    - [Cantaloupe (Advanced)](day-two/image-servers/setting-up-cantaloupe.md)
@@ -46,7 +46,7 @@
   - [Publishing your annotated Manifest](day-four/workbench.md)
   - [Annotating Store - Do it yourself](day-four/annotations-stores-install.md)
   - [Advanced annotation presentation](day-four/advanced-annotations.md)
-- [NLW Annotations](nlw-annotations) **TODO**
+- [NLW Annotations](nlw-annotations.md) **TODO**
 
 ## IIIF & AV
 - [An introduction to AV](day-three/BL-Audio/README.md) 
