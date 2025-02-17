@@ -4,6 +4,9 @@
 
 ## Introduction to IIIF
 - [Introduction](day-one/README.md)
+- [What is IIIF](day-one/whatisiiif.md)
+  - [Finding NLW Manifests](nlw-manifests.md)
+  - [Exercise](day-one/guides.md)
 
 ## IIIF Image API
 - [Introduction](day-two-bl.md)
