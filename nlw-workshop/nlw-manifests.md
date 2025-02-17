@@ -1,6 +1,18 @@
 ## National Library of Wales Manifests
 
-The NLW are in an usual position in that all of the collections are made available as IIIF. Generally the way to access a IIIF Manifest is the same once you get to the NLW Viewer. This exercise is to look at how researchers use your collections and how they can re-use manifests. 
+The NLW are in an usual position in that all of the collections are made available as IIIF. Generally the way to access a IIIF Manifest is the same once you get to the NLW Viewer. This exercise is to look at how researchers use your collections and how they can re-use manifests.
+
+Once you have found a manifest URL using the methods detailed below you can try and open them in the following viewers:
+
+ * https://projectmirador.org/embed/?iiif-content=MANIFEST_URL
+ * https://uv-v4.netlify.app/#?c=&m=&s=&cv=&manifest=MANIFEST_URL
+ * https://ncsu-libraries.github.io/annona/tools/#/display?url=MANIFEST_URL&viewtype=iiif-storyboard&settings=%7B%22fullpage%22%3Atrue%7D
+ * https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=MANIFEST_URL
+ * https://demo.viewer.glycerine.io/viewer?iiif-content=MANIFEST_URL
+ * https://theseusviewer.org/?iiif-content=MANIFEST_URL
+ * http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=MANIFEST_URL
+
+You will need to replace the MANIFEST_URL with the URL you have copied from the IIIF logo.
 
 ## Catalogue 
 

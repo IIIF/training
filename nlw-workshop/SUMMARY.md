@@ -3,13 +3,11 @@
 - [Overview](README.md)
 
 ## Introduction to IIIF
-- [Introduction](day-one/README.md)
 - [What is IIIF](day-one/whatisiiif.md)
   - [Finding NLW Manifests](nlw-manifests.md)
   - [Exercise](day-one/guides.md)
 
 ## IIIF Image API
-- [Introduction](day-two-bl.md)
 - [Image API](day-two/image-api.md)
    - [Identifier](day-two/image-api/identifier.md)
    - [Region](day-two/image-api/region.md)
@@ -33,9 +31,7 @@
     - [Edit a Manifest](day-three/edit-a-manifest/README.md)
     - [Add Structure](day-three/ranges/README.md)
     - [Publishing your manifest](day-three/workbench/README.md)
-    - [An introduction to AV](day-three/BL-Audio/README.md) 
-       - [Remixing audio files](day-three/BL-Audio/RemixAudio.md)
-       - [British Library examples](day-three/BL-Audio/examples.md)
+    
 
 ## Annotations
 - [Introduction](day-four/README.md)
@@ -51,6 +47,9 @@
   - [Advanced annotation presentation](day-four/advanced-annotations.md)
 
 ## IIIF & AV
+- [An introduction to AV](day-three/BL-Audio/README.md) 
+  - [Remixing audio files](day-three/BL-Audio/RemixAudio.md)
+  - [British Library examples](day-three/BL-Audio/examples.md)
 
 ## Tools and implementations
 
