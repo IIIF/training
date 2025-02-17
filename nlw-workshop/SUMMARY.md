@@ -20,7 +20,7 @@
 - [Uses](day-two/uses.md)
 - [NLW Image servers](nlw-image-servers.md) 
 - [Getting started](day-two/image-servers/README.md)
-   - [NLW Images](nlw-images.md) 
+   - [NLW Images](nlw_images.md) 
    - [Hosted - Internet Archive](day-two/image-servers/iiif-hosting-ia.md)
    - [Static Images - Workbench](day-two/image-servers/level0-workbench.md)
    - [Cantaloupe (Advanced)](day-two/image-servers/setting-up-cantaloupe.md)
@@ -51,7 +51,7 @@
 ## IIIF & AV
 - [An introduction to AV](day-three/BL-Audio/README.md) 
   - [Remixing audio files](day-three/BL-Audio/RemixAudio.md)
-  - [British Library examples](day-three/BL-Audio/examples.md)
+  - [National Library of Wales examples](av-examples.md)
 
 ## Tools and implementations
 
