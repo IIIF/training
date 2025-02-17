@@ -1,0 +1,25 @@
+{
+  "title": "IIIF Online Workshop - June 8th to 12th 2020",
+  "plugins": [
+    "include",
+    "theme-default",
+    "toggle-chapters",
+    "git-author",
+    "toggle-chapters"
+  ],
+  "gitbook": "3.2.3",
+  "styles": {
+        "website": "styles/website.css"
+  },
+  "pluginsConfig": {
+    "theme-default": {
+        "showLevel": true
+    },
+    "git-author": {
+      "position": "bottom",
+      "modifyTpl": "Last modified by {user} {timeStamp}",
+      "createTpl": "Created by {user} {timeStamp}",
+      "timeStampFormat": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}
