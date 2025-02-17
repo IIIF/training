@@ -14,6 +14,36 @@ Once you have found a manifest URL using the methods detailed below you can try 
 
 You will need to replace the MANIFEST_URL with the URL you have copied from the IIIF logo.
 
+Details for finding an item from the Universal Viewer for the different projects is below but the process of getting a manifest is the same for all once you have got to the viewer. 
+
+For example with this item: [Cardiganshire Constabulary register of criminals](https://viewer.library.wales/4389767)
+
+![NLW digital item in the UV](imgs/day-one/basic_viewer.png)
+
+We want to get the 'IIIF Manifest' for this item. We will go into more details about IIIF Manifests on later but a Manifest is a JSON document that contains links to all of the images and metadata that goes into a digital item. We are going to find the link to the IIIF Manifest and past this into a tool below which will allow us to find the IIIF Image URL to the image we want. 
+
+To find the manifest click the 'share' link at the bottom of the viewer and then right click on the IIIF icon and select 'Copy link' or 'Copy Link Address' in Chrome:
+
+![NLW digital item with manifest link open](imgs/day-one/viewer_with_share.png)
+
+You can see the copy link from Firefox in this image: 
+
+![Copy link for IIIF Manifest](imgs/day-one/copy_link.png)
+
+The copied link should look something like:
+
+```
+https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json?manifest=https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json
+```
+
+You can see the link to the manifest is created twice in this link so it can be cleaned up by removing everything after the `?` to leave:
+
+```
+https://damsssl.llgc.org.uk/iiif/2.0/4389767/manifest.json
+```
+
+Some IIIF viewers and tools will be able to cope with the manifest being repeated but if possible its best to remove everything after the `?`. 
+
 ## Catalogue 
 
 To access most items in the collection its possible to use the catalogue at [discover.library.wales](https://discover.library.wales/). Questions:
@@ -27,8 +57,6 @@ Once you find a digital item, usually the clue is a thumbnail:
 You can access the viewer and then by clicking on the link icon you can get access to the IIIF Manifest:
 
 ![Viewer](imgs/day-one/viewer.png)
-
-![Viewer IIIF logo](imgs/day-one/viewer2.png)
 
 Examples include:
  * [Oswestry Development Plan map - https://damsssl.llgc.org.uk/iiif/2.0/1489984/manifest.json](https://damsssl.llgc.org.uk/iiif/2.0/1489984/manifest.json)
