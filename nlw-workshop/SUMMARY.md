@@ -3,9 +3,9 @@
 - [Overview](README.md)
 
 ## Introduction to IIIF
-- [What is IIIF](day-one/whatisiiif.md)
+- [What is IIIF](basics/whatisiiif.md)
   - [Finding NLW Manifests](nlw-manifests.md)
-  - [Exercise](day-one/guides.md)
+  - [Exercise](basics/guides.md)
 
 ## IIIF Image API
 - [Image API](day-two/image-api.md)
@@ -49,15 +49,20 @@
 - [NLW Annotations](nlw-annotations.md) **TODO**
 
 ## IIIF & AV
-- [An introduction to AV](day-three/BL-Audio/README.md) 
-  - [Remixing audio files](day-three/BL-Audio/RemixAudio.md)
-  - [National Library of Wales examples](av-examples.md)
+- [An introduction to AV](av-intro.md) **todo**
+  - [Looking at a BL audio file](day-three/BL-Audio/README.md) 
+  - [Looking at a Internet Archive Video](day-three/BL-Audio/RemixAudio.md) **todo**
+  - [National Library of Wales examples](av-examples.md)**todo**
+  - [Create video Manifest](day-three/digirati-editor/Add_video_manifest.md)**todo**
 
 ## Tools and implementations
+- [Tools](tools.md)
+  - [Exhibit](exhibit/exhibit.md)
+  - [All Maps](use_cases/allmaps.md)
+  - [FromThePage](use_cases/FromThePage.md)
 
 ## Open discussion
-- [Project work and report back](day-five/BL.md)
-  - [Join the community](day-five/Community.md)
+- [topics](topics.md)
 
 ## Extras
  - [Guides](extras/README.md)
