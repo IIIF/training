@@ -50,7 +50,7 @@ Note if the audio resource in the body is longer than the time specified in the 
 
 Using one of the example NLW video files I created a manifest using the Digirati Manifest editor and then added a few fields that weren't supported by the editor. You can see the manifest below:
 
-[Example AV Manifest](av-manifest.json)
+[Example AV Manifest](https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
 
 Important features:
  * Bilingual metadata
@@ -59,12 +59,31 @@ Important features:
  * homepage pointing to Clip website
  * provider linking to NLW
  * VTT files
+ * Table of contents example
 
 To view this in a number of viewers you can click on the following links:
 
- * [Universal Viewer](https://uv-v4.netlify.app/#?c=&m=&s=&cv=&manifest=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Mirador](https://projectmirador.org/embed/?iiif-content=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Clover](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Ramp](https://ramp.avalonmediasystem.org/?iiif-content=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Avery](https://iiif.aviaryplatform.com/player?manifest=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Theseus](https://theseusviewer.org/?iiif-content=https://training.iiif.io/nlw-workshop/av-manifest.json)
+ * [Universal Viewer 4](https://uv-v4.netlify.app/#?c=&m=&s=&cv=&manifest=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Universal Viewer 3](https://uv-v3.netlify.app/#?c=&m=&s=&cv=&manifest=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Mirador](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Clover](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Ramp](https://ramp.avalonmediasystem.org/?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Avery](https://iiif.aviaryplatform.com/player?manifest=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Theseus](https://theseusviewer.org/?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+
+
+ ## Playlist example
+
+ One thing that came up in discussion is to allow users to create a playlist of items. This could be done with a manifest with multiple canvases but you would loose a lot of the metadata. I think this would be done better with a IIIF collection like the following:
+
+ [Example AV Collection](https://glenrobson.github.io/iiif_stuff/nlw-workshop/playlist-collection.json)
+
+ It doesn't look like this is well supported in viewers yet:
+
+ * [Universal Viewer 4](https://uv-v4.netlify.app/#?c=&m=&s=&cv=&manifest=https://glenrobson.github.io/iiif_stuff/nlw-workshop/playlist-collection.json)
+ * [Universal Viewer 3](https://uv-v3.netlify.app/#?c=&m=&s=&cv=&manifest=https://glenrobson.github.io/iiif_stuff/nlw-workshop/playlist-collection.json)
+ * [Mirador](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/playlist-collection.json)
+ * [Clover](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/playlist-collection.json)
+ * [Ramp](https://ramp.avalonmediasystem.org/?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/playlist-collection.json)
+ * [Avery](https://iiif.aviaryplatform.com/player?manifest=https://glenrobson.github.io/iiif_stuff/nlw-workshop/playlist-collection.json)
+ * [Theseus](https://theseusviewer.org/?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/playlist-collection.json) 
