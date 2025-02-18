@@ -1,6 +1,6 @@
 # NLW Image Servers
 
-This may be out of date but I believe the NLW has two Image servers. For modern collections digitised after the Newspapers project, all items have JPEG2000 and use the [IIPImage server](https://iipimage.sourceforge.io/documentation/server). Before then the NLW used PFF zoomify images to provide access ot zoomable images. I wrote a Java library to serve PFF images over IIIF. 
+This may be out of date but I believe the NLW has two Image servers. For modern collections digitised after the Newspapers project, all items have JPEG2000 and use the [IIPImage server](https://iipimage.sourceforge.io/documentation/server). Before then the NLW used PFF zoomify images to provide access to zoomable images. I wrote a Java library to serve PFF images over IIIF. 
 
 ## IIPImage server images
 
