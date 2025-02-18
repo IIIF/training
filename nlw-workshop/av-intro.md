@@ -50,7 +50,7 @@ Note if the audio resource in the body is longer than the time specified in the 
 
 Using one of the example NLW video files I created a manifest using the Digirati Manifest editor and then added a few fields that weren't supported by the editor. You can see the manifest below:
 
-[Example AV Manifest](av-manifest.json)
+[Example AV Manifest](https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
 
 Important features:
  * Bilingual metadata
@@ -62,9 +62,9 @@ Important features:
 
 To view this in a number of viewers you can click on the following links:
 
- * [Universal Viewer](https://uv-v4.netlify.app/#?c=&m=&s=&cv=&manifest=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Mirador](https://projectmirador.org/embed/?iiif-content=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Clover](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Ramp](https://ramp.avalonmediasystem.org/?iiif-content=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Avery](https://iiif.aviaryplatform.com/player?manifest=https://training.iiif.io/nlw-workshop/av-manifest.json)
- * [Theseus](https://theseusviewer.org/?iiif-content=https://training.iiif.io/nlw-workshop/av-manifest.json)
+ * [Universal Viewer](https://uv-v4.netlify.app/#?c=&m=&s=&cv=&manifest=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Mirador](https://projectmirador.org/embed/?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Clover](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Ramp](https://ramp.avalonmediasystem.org/?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Avery](https://iiif.aviaryplatform.com/player?manifest=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
+ * [Theseus](https://theseusviewer.org/?iiif-content=https://glenrobson.github.io/iiif_stuff/nlw-workshop/av-manifest.json)
