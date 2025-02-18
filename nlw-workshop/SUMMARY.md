@@ -51,12 +51,12 @@
 ## IIIF & AV
 - [An introduction to AV](av-intro.md) 
   - [Looking at a BL audio file](day-three/BL-Audio/README.md) 
-  - [Looking at the Internet Archive Videos](ia-examples.md) **todo**
+  - [Looking at the Internet Archive Videos](ia-examples.md) 
   - [Examples](av-examples.md)
   - [Create video Manifest](day-three/digirati-editor/Add_video_manifest.md)
 
 ## Tools and implementations
-- [Tools](tools.md) **todo** 
+- [Tools](tools.md) 
   - [Exhibit](exhibit/exhibit.md)
   - [All Maps](use_cases/allmaps.md)
   - [FromThePage](use_cases/FromThePage.md)
