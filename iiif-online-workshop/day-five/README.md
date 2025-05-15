@@ -12,6 +12,12 @@ As well as the examples below there are also examples from previous years:
  * [2021](2021.md) 
  * [2020](2020.md) 
 
+# March 2025 cohort demos
+
+The participants from the March 2025 session produce the following demos of their work:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTgHIKL0Mm47Mwf0-UUDKVnU02mklgbqvj0EsnroS214l0RvaFbpUy_drMpJ5L9ExGAXcTY83L-HZ0A/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 # December 2024 cohort demos
 
 The participants from the December 2024 session produced the following demos of their work:
