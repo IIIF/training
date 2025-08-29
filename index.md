@@ -13,7 +13,7 @@ Documentation and workshop materials for IIIF training
 
 * [Annotating Cultural Heritage via IIIF](annotations/index.html) - a 1.5 hour session run on the 9th of November 2021 looking at various use cases related to annotations.
 
-* [VRA IIIF Workshop](vra-workshop/index.html) - Two 2 hour sessions run on the 17th of October 2023 as a basic intro to IIIF.
+* [2 to 4 hour Introduction to IIIF Workshop](vra-workshop/index.html) - 2 to 4 hour session first run on the 17th of October 2023 and also in September 2025 as a basic intro to IIIF.
 
 * [DCMI Workshop](dcmi-workshop/index.html) - A four hour session for the DCMI 2023 conference.
 
