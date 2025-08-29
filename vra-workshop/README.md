@@ -1,6 +1,6 @@
-# VRA IIIF Training
+# 2 hour IIIF Training
 
-This training is part the [VRA](https://www.vraweb.org) workshop on IIIF. 
+This training was first developed for a [VRA](https://www.vraweb.org) workshop on IIIF and then further refined for the [Digital Heritage 2025](https://digitalheritage2025.unisi.it/program-overview/). 
 
 ## About the workshop 
 Access to image-based resources is fundamental to research, scholarship and the transmission of cultural knowledge. Digital images are a container for much of the information content in the Web-based delivery of images, books, newspapers, manuscripts, maps, scrolls, single sheet collections, and archival materials. Yet much of the Internet's image-based resources are locked up in silos, with access restricted to bespoke, locally built applications. A large community of the world's leading research libraries and image repositories have embarked on an effort to collaboratively produce an interoperable technology and community framework for image delivery.
