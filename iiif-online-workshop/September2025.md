@@ -41,7 +41,7 @@ __Meeting:__ Group check in meeting at <b><span id="presentation"></span></b>
 Tasks to be completed __before__ the meeting:
  * [Presentation API brief intro](day-three/) - video 10 mins
  * [Presentation API hands on](day-three/) - video 1 hour
- * Follow Presentation API tasks in [Workshop notes](day-three/chrome-web-server/)  
+ * Follow Presentation API tasks in [Workshop notes](day-three/workbench/)  
 
 Minimum progress:  
  *  Create a Manifest using the Bodleian manifest editor that we can use in the Annotations session
