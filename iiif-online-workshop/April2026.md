@@ -7,7 +7,7 @@
 
 # Introduction
 
-Thank you for registering for the [IIIF Online Workshop](https://www.eventbrite.com/e/november-2025-iiif-online-training-5-day-course-tickets-1144090127369) between November 24th to November 28th. This course is an adapted version of an in person workshop and it is the 9th time we have run it online.  
+Thank you for registering for the [IIIF Online Workshop](https://www.eventbrite.co.uk/e/1803850177439/) between April 13th to April 17th. This course is an adapted version of an in person workshop and it is the 6th time we have run it online.  
 
 We are keen to adapt many of the techniques that have worked in person to create an inclusive, productive online version of the workshop. Running an online version does have its complications and one of these is differing timezones and we have participants from many different locations. We appreciate during this time attending all of the sessions will be difficult and so only the [first](day-one/README.md) and [last](day-five/README.md) sessions are **mandatory** to attend live.  
 
@@ -68,13 +68,13 @@ There is also a course Google calendar available which you can subscribe to:
 <script type="text/javascript">
   var timezone = jstz.determine();
   console.log('Name is ' + timezone.name());
-  var pref = '<iframe src="https://calendar.google.com/calendar/embed?src=clir.org_chugpdurgjm9njridh8uq676n0%40group.calendar.google.com&mode=WEEK&title=IIIF%20Online%20Workshop&dates=20251124/20251128&showTabs=0&ctz=';
+  var pref = '<iframe src="https://calendar.google.com/calendar/embed?src=clir.org_chugpdurgjm9njridh8uq676n0%40group.calendar.google.com&mode=WEEK&title=IIIF%20Online%20Workshop&dates=20260413/20260417&showTabs=0&ctz=';
   var suff = '" style="border: 0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>';
   var iframe_html = pref + timezone.name() + suff;
   document.getElementById('calendar-container').innerHTML = iframe_html;
 </script>
 
-You can also download a <a href="ics/November2025.ics">ICS version</a>.
+You can also download a <a href="ics/April2026.ics">ICS version</a>.
 
 ## Project Work 
 One of the most useful features of previous workshops have been where participants work on a project during the week which they can demo on the [last day](day-five/README.md). We are hoping to re-create this and we encourage participants to bring their own images and project ideas to the workshop. We will discuss them in the [first meeting](day-one/README.md) and will provide support during the workshop to produce a demonstration. Participants will be able to book time with a tutor for one on one advice and can also get help from others using a shared Slack channel. 
@@ -134,11 +134,11 @@ http://iiif.io<br/>
     }
 
 
-    setDates(dayjs.tz("2025-11-24 14:00", "Europe/London"),"day1", "intro");
-    setDates(dayjs.tz("2025-11-25 14:00", "Europe/London"),"day2", "image");
-    setDates(dayjs.tz("2025-11-26 14:00", "Europe/London"),"day3", "presentation");
-    setDates(dayjs.tz("2025-11-27 14:00", "Europe/London"),"day4", "annotations");
-    setDates(dayjs.tz("2025-11-28 14:00", "Europe/London"),"day5", "demos");
+    setDates(dayjs.tz("2026-04-13 17:00", "Europe/London"),"day1", "intro");
+    setDates(dayjs.tz("2026-04-14 17:00", "Europe/London"),"day2", "image");
+    setDates(dayjs.tz("2026-04-15 17:00", "Europe/London"),"day3", "presentation");
+    setDates(dayjs.tz("2026-04-16 17:00", "Europe/London"),"day4", "annotations");
+    setDates(dayjs.tz("2026-04-17 17:00", "Europe/London"),"day5", "demos");
     
 </script>
 
