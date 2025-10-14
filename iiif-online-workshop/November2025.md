@@ -134,11 +134,11 @@ http://iiif.io<br/>
     }
 
 
-    setDates(dayjs.tz("2025-11-24 10:00", "Europe/London"),"day1", "intro");
-    setDates(dayjs.tz("2025-11-25 10:00", "Europe/London"),"day2", "image");
-    setDates(dayjs.tz("2025-11-26 10:00", "Europe/London"),"day3", "presentation");
-    setDates(dayjs.tz("2025-11-27 10:00", "Europe/London"),"day4", "annotations");
-    setDates(dayjs.tz("2025-11-28 10:00", "Europe/London"),"day5", "demos");
+    setDates(dayjs.tz("2025-11-24 14:00", "Europe/London"),"day1", "intro");
+    setDates(dayjs.tz("2025-11-25 14:00", "Europe/London"),"day2", "image");
+    setDates(dayjs.tz("2025-11-26 14:00", "Europe/London"),"day3", "presentation");
+    setDates(dayjs.tz("2025-11-27 14:00", "Europe/London"),"day4", "annotations");
+    setDates(dayjs.tz("2025-11-28 14:00", "Europe/London"),"day5", "demos");
     
 </script>
 
