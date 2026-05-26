@@ -1,6 +1,4 @@
-# IIIF Australia Training
-
-This training is part of the [IIIF events](https://iiif.io/event/2024/canberra/) around Fantastic Futures conference in Australia.
+# IIIF 3 hour Training
 
 ## About the workshop 
 Access to image-based resources is fundamental to research, scholarship and the transmission of cultural knowledge. Digital images are a container for much of the information content in the Web-based delivery of images, books, newspapers, manuscripts, maps, scrolls, single sheet collections, and archival materials. Yet much of the Internet's image-based resources are locked up in silos, with access restricted to bespoke, locally built applications. A large community of the world's leading research libraries and image repositories have embarked on an effort to collaboratively produce an interoperable technology and community framework for image delivery.
@@ -31,3 +29,10 @@ Glen Robson works as the IIIF Technical Coordinator and runs a monthly 5 day onl
    * Things to do with Manifests
    * Create an Exhibit
  * Project demos and summary - 5 mins 
+
+
+This training was given:
+
+ * As part of the [IIIF events](https://iiif.io/event/2024/canberra/) around Fantastic Futures conference in Australia.
+ * As a workshop at [iPres](https://www.ipres2025.nz/) in New Zealand
+ * and as a workshop in Finland as part of [Solving the IIIF Puzzle](https://www.kansalliskirjasto.fi/en/events/solving-iiif-puzzle-images-dialogue-helsinki-showcase)
