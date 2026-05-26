@@ -7,7 +7,7 @@ Documentation and workshop materials for IIIF training
 
 * [Making use of IIIF](advanced_iiif/index.html) - a 3 hour hands on session run on the 21st of June 2022 for Yale University. Covers how to make use of IIIF resources with tools like Omeka, FromThePage, Zooniverse and working with an annotation store.
 
-* [3 hour hands on Introduction to IIIF](australia/index.html) - delivered in Australia October 2024. 
+* [3 hour hands on Introduction to IIIF](australia/index.html) - delivered in Australia October 2024, New Zealand November 2025 and Finland May 2026. 
 
 * [European Aggregators Training](europeana/index.html) - a 3 hour session run on the 23rd of May 2022, covering a basic introduction to the image and presentation API and looking at how to share date with Europeana.
 
