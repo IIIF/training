@@ -24,7 +24,7 @@ jobs:
     - name: Build HonKit books
       run: .github/bin/buildHonkit.sh
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: build-honkit
         path: build/
@@ -43,7 +43,7 @@ jobs:
     - name: Build GitBook books
       run: .github/bin/buildGitbook.sh
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: build-gitbook
         path: build/
