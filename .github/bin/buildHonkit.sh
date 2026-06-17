@@ -23,13 +23,6 @@ for dir in $dirs; do
     fi
     mkdir -p "../build/$dir"
 
-    npx honkit install
-    if [ $? -eq 1 ]; then
-        failed_build=1
-        echo "Failed to install HonKit in $dir"
-        failure_message="$failure_message $dir"
-    fi
-
     npx honkit build . "../build/$dir"
     if [ $? -eq 1 ]; then
         failed_build=1
