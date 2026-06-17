@@ -1,19 +1,16 @@
 # Guest presentations
 During the different workshops we have organised a number of Guest presentations around different tools you can use with IIIF. These are optional videos but you may find them useful for your course project. The presentations in reverse chronological order are:
 
+ * [Liive](#liiive)
  * [Exhibit](#exhibit)
- * [IIIF and AI](#iiif-and-ai)
  * [Storiiies – a free online storytelling platform for everyone](#storiiies-–-a-free-online-storytelling-platform-for-everyone)
- * [Supporting Teaching and Scholarship using Omeka and IIIF](#supporting-teaching-and-scholarship-using-omeka-and-iiif)
- * [IIIF and AV](#iiif-and-av)
  * [Crowdsourced Transcription using FromThePage & IIIF](#crowdsourced-transcription-using-fromthepage--iiif)
 
 
 ### liiive
+Guest lecture by Rainer Simon, software developer specializing in the Digital Humanities
 
-A hands on demonstration by Rainer Simon of liiive a collaborative annotation tool for the IIIF Online workshop. 
-
-Access liiive at: https://liiive.now/
+Rainer presents liiive a collaborative annotation tool for the IIIF Online workshop. It includes hands on demonstration of the tool and you can take your manifests and try it out at: https://liiive.now/
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ipk8UXi8lxY?si=nEIA_-LW6Te1wAlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
