@@ -8,6 +8,17 @@ During the different workshops we have organised a number of Guest presentations
  * [IIIF and AV](#iiif-and-av)
  * [Crowdsourced Transcription using FromThePage & IIIF](#crowdsourced-transcription-using-fromthepage--iiif)
 
+
+### liiive
+
+A hands on demonstration by Rainer Simon of liiive a collaborative annotation tool for the IIIF Online workshop. 
+
+Access liiive at: https://liiive.now/
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ipk8UXi8lxY?si=nEIA_-LW6Te1wAlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Recorded 16th April 2026
+
 ### Exhibit
 Guest lecture by Andrew Wilson, University of St Andrews and Ed Silverton, Mnemoscene
 
@@ -18,15 +29,6 @@ The Exhibit tool is available at: [https://exhibit.so/](https://exhibit.so/)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K8-lBJOLXq0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This was recorded on the 28th of October 2020.
-
-### IIIF and AI
-Guest lecture by Jack Reed, Stanford University
-
-This workshop will showcase several projects and uses for using machine learning with IIIF content. Based on https://iiif-ml-workshop.netlify.app/docs/machine-learning-iiif/intro
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u9uNGIk8wrI" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-This was recorded on the 9th of June 2020.
 
 ### Storiiies – a free online storytelling platform for everyone
 Guest lecture by Andy Cummins, Cogapp
@@ -40,25 +42,6 @@ Andy is keen to hear any feedback on Storiiies to help direct future enhancement
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u4GC9ULypls" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This was recorded on the 10th of June 2020.
-
-### Supporting Teaching and Scholarship using Omeka and IIIF
-Guest lecture by Rachel Di Cresce, University of Toronto
-
-Rachel Di Cresce, Project Librarian, will review how a set of IIIF plugins developed by the University of Toronto Library for the Omeka Classic platform. The talk will outline how IIIF is used at the library and how Omkea supports classes and faculty research. 
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rkY4sfDbjU0" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-This was recorded on the 10th of June 2020.
-
-### IIIF and AV
-Guest presentation by Andy Irving, British Library.
-
-Andy Irving from the British Library will talk about how they are using the new A/V features in IIIF version 3.0.
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1noRWCvyUrg" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-This was recorded on the 11th of June 2020.
 
 ### Crowdsourced Transcription using FromThePage & IIIF
 Guest Presentation by Sara and Ben Brumfield from Brumfield labs. 
