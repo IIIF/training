@@ -33,7 +33,7 @@ jobs:
         fetch-depth: '0'
 
     - uses: actions/setup-node@v1.4.4
-    - run: npm install -g gitbook-cli marked@v3.0.8
+    - run: npm install -g gitbook-cli marked@v3.0.8 honkit
 
     # Create the gitbooks in the build directory
     - name: Build gitbooks

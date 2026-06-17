@@ -64,3 +64,7 @@
     -khtml-opacity: 0.5;        /* Safari 1.x */
     opacity: 0.5;               /* Good browsers */
 }
+
+body {
+    font-size: 12pt;
+}

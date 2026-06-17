@@ -3,8 +3,8 @@
 if [ ! -d "build" ]; then
     mkdir build
 fi   
-
 exclude="build css scripts _book"
+honkit_dirs="iiif-online-workshop"
 # if this is 1 the build failed
 failed_build=0
 failure_message="Failed to build: "
@@ -16,16 +16,23 @@ for dir in */ ; do
             rm -rf "../build/$dir";
         fi    
         mkdir "../build/$dir"
-        gitbook install 
+
+        if [[ "$honkit_dirs" =~ .*"$(basename $dir)".* ]]; then
+            BUILD_CMD="npx honkit"
+        else
+            BUILD_CMD="gitbook"
+        fi
+
+        $BUILD_CMD install
         if [ $? -eq 1 ];then
             failed_build=1
-            echo "Failed to install gitbook in $dir"
+            echo "Failed to install in $dir"
             failure_message="$failure_message $dir"
         fi
-        gitbook build . "../build/$dir"
+        $BUILD_CMD build . "../build/$dir"
         if [ $? -eq 1 ];then
             failed_build=1
-            echo "Failed to build gitbook in $dir"
+            echo "Failed to build in $dir"
             failure_message="$failure_message $dir"
         fi
         cd ..
@@ -33,7 +40,6 @@ for dir in */ ; do
         echo "Ignoring $dir"
     fi    
 done
-
 if [ $failed_build -eq 1 ];then
     echo "$failure_message"
 fi
