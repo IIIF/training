@@ -23,7 +23,7 @@ jobs:
 
     - uses: actions/setup-node@v3
       with:
-        node-version: '18'
+        node-version: '22'
 
     - run: npm install -g honkit gitbook-plugin-include gitbook-plugin-toggle-chapters gitbook-plugin-git-author marked@v3.0.8
 
