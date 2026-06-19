@@ -410,6 +410,9 @@ function getImageQualities(uuid) {
         return ['default'];
     } else {
         if ('extraQualities' in infoJson) {
+            if (!infoJson.extraQualities.includes("default")) {
+                infoJson.extraQualities.unshift("default");
+            }
             return infoJson['extraQualities']
         } else {
             return ['default'];
