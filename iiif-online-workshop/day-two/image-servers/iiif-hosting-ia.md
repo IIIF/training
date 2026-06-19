@@ -32,7 +32,7 @@ __Note__: some people have had some issues getting their images to show when upl
 
   Pull out regions using the UCD selector tool:
 
-  [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009)
+  [https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=https://iiif.archive.org/iiif/img-8664_202009](https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=https://iiif.archive.org/iiif/img-8664_202009)
 
   **Note:** the UCD selector tool requires the Image link without the `info.json` at the end of the URL.
 
@@ -118,7 +118,7 @@ A step by step guide with screen shots for the above steps is below:
 
   Pull out regions using the UCD selector tool:
 
-  [https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.archive.org/iiif/img-8664_202009)
+  [https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=https://iiif.archive.org/iiif/img-8664_202009](https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=https://iiif.archive.org/iiif/img-8664_202009)
 
   <img src="ia/ucd-image-cropper.png" alt="UCD Image Cropper" class="standout-image" />
 

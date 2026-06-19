@@ -156,5 +156,5 @@ Cross our fingers, but you should see a picture of Eddie in a zoomable viewer.
 You can also try this image with:
  * OpenSeaDragon: http://iiif.gdmrdigital.com/openseadragon/index.html?image=<url_to_info.json>
    * http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json
- * UCD Image clipper: https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=<url_to_image_id>
-   * e.g. https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=http://127.0.0.1:8182/iiif/2/eddie.jpg
+ * UCD Image clipper: https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=<url_to_image_id>
+   * e.g. https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=http://127.0.0.1:8182/iiif/2/eddie.jpg
