@@ -15,7 +15,9 @@ You can see some different image examples by changing the identifier.
         images: [
             'https://ids.lib.harvard.edu/ids/iiif/25286607',
             'https://dlcs.io/iiif-img/wellcome/5/b14658197.jp2',
-            'https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001'
+            'https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001',
+            'https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103',
+            'https://media.artmuseum.princeton.edu/iiif/3/collection/INV63419'
             ],
         sizes: [
             '500,',
@@ -45,9 +47,53 @@ You can see some different image examples by changing the identifier.
 
 As well as an image URL there is another special file accessible from the Identifier and this is the `info.json`:
 
-[https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001/info.json](https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001/info.json)
+[https://media.artmuseum.princeton.edu/iiif/3/collection/INV63419/info.json](https://media.artmuseum.princeton.edu/iiif/3/collection/INV63419/info.json)
 
 This is a small JSON file that gives information to a viewer on the makeup of the image and what the server supports. For example the `info.json` gives the full width and height of the source image. A simple example `info.json` is below:
+
+```
+{
+    "@context": "http://iiif.io/api/image/3/context.json",
+    "id": "https://media.artmuseum.princeton.edu/iiif/3/collection/INV63419",
+    "type": "ImageService3",
+    "protocol": "http://iiif.io/api/image",
+    "profile": "level2",
+    "width": 3225,
+    "height": 3954,
+    "sizes": [
+        { "width": 3225, "height": 3954 },
+        { "width": 1612, "height": 1977 },
+        { "width": 806, "height": 988 },
+        { "width": 403, "height": 494 },
+        { "width": 201, "height": 247 },
+        { "width": 100, "height": 123 }
+    ],
+    "tiles": [{
+        "width": 512,
+        "height": 512,
+        "scaleFactors": [ 1, 2, 4, 8, 16, 32 ]
+    } ],
+    "extraFormats": [ "jpeg", "tif", "tiff", "webp" ],
+    "extraQualities": [ "color", "gray", "bitonal" ],
+    "extraFeatures": [
+        "canonicalLinkHeader",
+        "mirroring",
+        "profileLinkHeader",
+        "rotationArbitrary",
+        "sizeByDistortedWh",
+        "sizeByForcedWh",
+        "sizeByWhListed",
+        "sizeUpscaling"
+    ]
+}
+```
+
+The `profile` element advertises what the image server supports and in this case is a `Level 2` images server. The manditory features for the different levels of compliance can be found in the [Image API specification](https://iiif.io/api/image/3.0/compliance/).
+
+
+__Note:__ for a Version 2 Image server the `info.json` looks very similar and has the same capabilities. The big difference is the `profile` is formatted differently and `id` is `@id` and `type` is `@type`:
+
+[https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001/info.json](https://ids.si.edu/ids/iiif/CHSDM-317E001E9E352-000001/info.json)
 
 ```
 {
@@ -83,4 +129,4 @@ This is a small JSON file that gives information to a viewer on the makeup of th
 }
 ```
 
-The `profile` element advertises what the image server supports. In this example it only supports the `jpg` image format and a few features. These features are defined in the [Image API specification](https://iiif.io/api/image/2.1/compliance/).
+For a full list of changes see the [IIIF Image API Change log](https://iiif.io/api/image/3.0/change-log/)
