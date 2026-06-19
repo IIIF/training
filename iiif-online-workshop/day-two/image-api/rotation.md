@@ -5,7 +5,7 @@
 <script src="../viewer.js" >
 </script>
 
-Rotating the image in degrees up to 360. You can also use the `!n` to mirror and rotate the image. Note not all image server support rotation and there are the following levels of support known as [compliance levels](https://iiif.io/api/image/2.1/compliance/):
+Rotating the image in degrees up to 360. You can also use the `!n` to mirror and rotate the image. Note not all image server support rotation and there are the following levels of support known as [compliance levels](https://iiif.io/api/image/3.0/compliance/):
 
 | Feature | Level |
 | --- | --- |
@@ -14,7 +14,7 @@ Rotating the image in degrees up to 360. You can also use the `!n` to mirror and
 | Arbitrary rotation | Optional at all levels |
 | Mirroring | Optional at all levels |
 
-The Harvard image service supports all rotation parameters and is known as a Level 2 implementation. 
+The Princeton image service supports all rotation parameters and is known as a Level 2 implementation. 
 
 <div id="image_api_demo2">
 </div>
@@ -22,17 +22,16 @@ The Harvard image service supports all rotation parameters and is known as a Lev
    addViewer({
         div: 'image_api_demo2',
         images: [
-            'https://ids.lib.harvard.edu/ids/iiif/25286607'
-            ],
+            'https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103',
+        ],
         sizes: [
             '500,'
         ],
         regions: [
             'full',
-            'max',
             'square',
-            '1000,100,3000,2000',
-            '2000,3000,2000,2000',
+            '201,399,250,250',
+            '376,162,280,202',
         ],
         rotation: [
             '90',

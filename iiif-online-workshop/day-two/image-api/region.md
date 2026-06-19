@@ -33,7 +33,7 @@ Use the region drop down to select different regions of the image:
    addViewer({
         div: 'image_api_demo2',
         images: [
-            'https://ids.lib.harvard.edu/ids/iiif/25286607'
+            'https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103'
             ],
         sizes: [
             '500,',
@@ -41,8 +41,8 @@ Use the region drop down to select different regions of the image:
         regions: [
             'full',
             'square',
-            '1000,100,3000,2000',
-            '2000,3000,2000,2000',
+            '201,399,250,250',
+            '376,162,280,202',
         ],
         highlight: [
             'region'

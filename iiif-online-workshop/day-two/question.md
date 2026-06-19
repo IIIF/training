@@ -3,9 +3,9 @@
 
 Given this image:
 
- [https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/full/512,/0/default.jpg](https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/full/512,/0/default.jpg)
+ [https://media.artmuseum.princeton.edu/iiif/3/collection/y1980-13/full/512,/0/default.jpg](https://media.artmuseum.princeton.edu/iiif/3/collection/y1980-13/info.json/full/512,/0/default.jpg)
 
- ![Example image](https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/full/512,/0/default.jpg)
+ ![Example image](https://media.artmuseum.princeton.edu/iiif/3/collection/y1980-13/full/512,/0/default.jpg)
 
 How could we construct a URL that:
 

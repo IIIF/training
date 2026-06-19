@@ -5,7 +5,7 @@
 <script src="../viewer.js" >
 </script>
 
-The format of the image for example `jpg` or `png`. The list of images supported by the image server is again listed in the `info.json`.
+The format of the image for example `jpg` or `png`. The list of image formats supported by the image server is again listed in the `info.json`.
 
 <div id="image_api_demo2">
 </div>
@@ -13,12 +13,11 @@ The format of the image for example `jpg` or `png`. The list of images supported
    addViewer({
         div: 'image_api_demo2',
         images: [
-            'https://ids.lib.harvard.edu/ids/iiif/25286607'
+            'https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103',
             ],
         sizes: [
             '500,',
             '250,',
-            'full',
             'max',
             '250,',
             ',250',
@@ -28,8 +27,8 @@ The format of the image for example `jpg` or `png`. The list of images supported
         regions: [
             'full',
             'square',
-            '1000,100,3000,2000',
-            '2000,3000,2000,2000',
+            '201,399,250,250',
+            '376,162,280,202',
         ],
         highlight: [
             'format'
