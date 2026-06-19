@@ -1,11 +1,13 @@
 # Using the Internet Archive
 
-The Internet Archive allows you to upload images and then provides a IIIF Image API service. Helpfully they also have a function to delete your images after 30 days if you are using this as a test. The overall process is as follows:
+The Internet Archive allows you to upload images and then provides a IIIF Image API service. Helpfully they also have a function to delete your images after 30 days if you are using this as a test. The Internet Archive service uses Cantaloupe as their image server and images can be accessed as either Version 2 or Version 3 of the IIIF Image API. 
 
 __Note__: some people have had some issues getting their images to show when uploading to the Internet Archive. To avoid these issues:
 
  * Ensure you only upload 1 image ( if you want multiple images you will need to create multiple items)
  * Ensure the collection is 'Community Image' collection. The `Community Texts` collection seems to break the image viewing currently
+
+## High level steps for getting acccess to IIIF images
 
 1. Register for a user account at [archive.org](https://archive.org)
 2. Upload your image
@@ -20,6 +22,16 @@ __Note__: some people have had some issues getting their images to show when upl
 
   https://iiif.archive.org/iiif/img-8664_202009/info.json
 
+  __Note:__ If you open the URL above the Interent archive automatically forwards you to the actual image server URL:
+
+  https://iiif.archive.org/image/iiif/2/img-8664_202009%2fIMG_8664.jpg/info.json
+
+  This is a feature specific to the Internet Archive and most other image servers will not forward you to another location. IIIF viewers tend to work OK with this automatic forwarding and you can use either the original link or the forwarded version in viewers like OpenSeadragron and the UCD image cropper. 
+
+  If you want to access a version 3 IIIF Image you can change the version number to 3 in the forwarded URL:
+
+  https://iiif.archive.org/image/iiif/3/img-8664_202009%2fIMG_8664.jpg/info.json
+
 5. You should then be able to use this image:
 
   Create an image link:
@@ -33,8 +45,6 @@ __Note__: some people have had some issues getting their images to show when upl
   Pull out regions using the UCD selector tool:
 
   [https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=https://iiif.archive.org/iiif/img-8664_202009](https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=https://iiif.archive.org/iiif/img-8664_202009)
-
-  **Note:** the UCD selector tool requires the Image link without the `info.json` at the end of the URL.
 
 ## Step by step guide
 
