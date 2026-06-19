@@ -76,7 +76,7 @@ Now lets try and start the server. Run this command from your Cantaloupe directo
 java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar cantaloupe-5.0.6.jar
 ```
 
-Now navigate to [http://127.0.0.1:8182/iiif/2](http://127.0.0.1:8182/iiif/2) in your browser.
+Now navigate to [http://127.0.0.1:8182/iiif/3](http://127.0.0.1:8182/iiif/3) in your browser.
 
 You should see this:
 
@@ -137,7 +137,7 @@ and click `Save`.
 
 Now you should be able to navigate to an image's info.json response successfully.
 
-Checkout [http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json](http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json)
+Checkout [http://127.0.0.1:8182/iiif/3/eddie.jpg/info.json](http://127.0.0.1:8182/iiif/3/eddie.jpg/info.json)
 
 And if everything goes right, you should see an `info.json` response.
 
@@ -145,7 +145,7 @@ And if everything goes right, you should see an `info.json` response.
 
 Let's finally check it using the Leaflet-IIIF image api viewer.
 
-Try this url: [http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json](http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json)
+Try this url: [http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/3/eddie.jpg/info.json](http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/3/eddie.jpg/info.json)
 
 Notice how we added our local IIIF server's info.json response url as a parameter. This is used by IIIF Image API clients to understand how they can request images/tiles.
 
@@ -155,6 +155,6 @@ Cross our fingers, but you should see a picture of Eddie in a zoomable viewer.
 
 You can also try this image with:
  * OpenSeaDragon: http://iiif.gdmrdigital.com/openseadragon/index.html?image=<url_to_info.json>
-   * http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json
+   * http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://127.0.0.1:8182/iiif/3/eddie.jpg/info.json
  * UCD Image clipper: https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=<url_to_image_id>
-   * e.g. https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=http://127.0.0.1:8182/iiif/2/eddie.jpg
+   * e.g. https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=http://127.0.0.1:8182/iiif/3/eddie.jpg
