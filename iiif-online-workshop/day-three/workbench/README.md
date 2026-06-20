@@ -1,6 +1,6 @@
 # Publishing your Manifest
 
-In the previous sections we have asked you to use the Chrome web server to make your manifests available. This works well for trying out your manifest but it does limit some of the tools you can use. The main issue is to do with the Chrome web server making your manifests available as http. In the last few years most web sites have moved over to https which encrypts the traffic and increases privacy. One of the restrictions of https is that it limits access to http resources which can cause problems with some IIIF tools. 
+In the previous sections we have asked you to use the VS Code live server to make your manifests available. This works well for trying out your manifest but it does limit some of the tools you can use. The main issue is to do with the live server making your manifests available as http. In the last few years most web sites have moved over to https which encrypts the traffic to increase privacy. One of the restrictions of https is that it limits access to http resources which can cause problems with some IIIF tools. 
 
 The solution to this is to use a service which will host your manifest using https and for the purposes of this course we are going to use the Workbench introduced in the [Static Images - Workbench](../../day-two/image-servers/level0-workbench.md) section. This encompasses the following stages:
 
@@ -11,7 +11,7 @@ The solution to this is to use a service which will host your manifest using htt
 
 Further details on these stages are below with screen shots:
 
-# Stage 1. Logon to Workbench and navigate to the Manifests section
+# Stage 1. Log on to Workbench and navigate to the Manifests section
 
 Navigate to the training workbench:
 

@@ -16,18 +16,19 @@ Load the Manifest in the [Universal Viewer](http://universalviewer.io).  The URL
 ## Edit Your Manifest
 There are some important elements of the Manifest that we did not add or edit using the online editor.  The goal of this exercise will be to edit or add them manually.  Each task is linked to the specification for the property that you will need to edit or add to the Manifest.
 
-1. Provide a short [description](https://iiif.io/api/presentation/2.1/#description) of this manifest -- the content is up to you.
-1. Modify the [attribution](https://iiif.io/api/presentation/2.1/#attribution) to the manifest that names the source of the images
-1. Add the [viewingHint](https://iiif.io/api/presentation/2.1/#viewinghint) to indicate that the item is paged (i.e., should display in two-up book reader mode). 
+1. Provide a short [summary](https://iiif.io/api/presentation/3.0/#summary) of this manifest -- the content is up to you.
+1. Modify the [requiredStatement](https://iiif.io/api/presentation/3.0/#requiredstatement) to the manifest that names the source of the images
+1. Add the [Behaviour](https://iiif.io/api/presentation/3.0/#behavior) to indicate that the item is paged (i.e., should display in two-up book reader mode). 
 
-***Note:*** the Universal Viewer at http://universalviewer.io has a bug which means it doesn't respect the viewingHint and will always show the manifest as `paged`. To test the viewingHint use this development version of the UniversalViewer that has the fix: https://www.universalviewer.dev/
+  **Note:*** the Universal Viewer at http://universalviewer.io has a bug which means it doesn't respect the viewingHint and will always show the manifest as `individuals`. To see the effect of `paged` it is best to use Mirador. 
 
-1. Assert a Creative Commons 4.0 by-nc-sa [license](https://iiif.io/api/presentation/2.1/#license).
-1. Add properties to the [metadata](https://iiif.io/api/presentation/2.1/#metadata) following the pattern described in [Language of Property Values](https://iiif.io/api/presentation/2.1/#language-of-property-values). 
+1. Assert a Creative Commons 4.0 by-nc-sa [rights](https://iiif.io/api/presentation/3.0/#rights).
+1. Add properties to the [metadata](https://iiif.io/api/presentation/3.0/#metadata) following the pattern described in [Language of Property Values](https://iiif.io/api/presentation/3.0/#language-of-property-values). 
 
 Hints:
-  - After each step, reload the Manifest in the [Universal Viewer](http://universalviewer.io) and confirm that the changes appear.  Remember that the URL of the Manifest for this section is http://127.0.0.1:5500/manifest2.json because you are editing the copy.
-  - Consult the [sample Manifest](https://iiif.io/api/presentation/2.1/#c-example-manifest-response) in the specification to find examples of these properties.
+  - After each step, reload the Manifest in the [Universal Viewer](http://universalviewer.io) or Mirador and confirm that the changes appear.  Remember that the URL of the Manifest for this section is http://127.0.0.1:5500/manifest2.json because you are editing the copy.
+  - If you are using Mirador you can use this link [https://projectmirador.org/embed/?iiif-content=http://127.0.0.1:5500/manifest2.json](https://projectmirador.org/embed/?iiif-content=http://127.0.0.1:5500/manifest2.json) which will open your Manifest straight away rather than having to close the demo manifests and add your Manifest by hand. 
+  - Consult the [sample Manifest](https://iiif.io/api/presentation/3.0/#b-example-manifest-response) in the specification to find examples of these properties.
   - If your Manifest doesn't load, first check for missing quotes or commas.
 
 
@@ -45,7 +46,7 @@ The basic structure of a JSON object is as follows:
 }
 ```
 
-In this example JSON each of the rows is called a key value pair where the key is on the left and the value is on the right. For example the key 'name' has the value 'Glen'. Note that each key value pair has a `,` at the end apart from the last key value pair which doesn't. The `{}` brackets means this is a JSON Object with keys and values. 
+In this example JSON, each of the rows is called a key value pair where the key is on the left and the value is on the right. For example the key 'name' has the value 'Glen'. Note that each key value pair has a `,` at the end apart from the last key value pair which doesn't. The `{}` brackets means this is a JSON Object with keys and values. 
 
 The following example denoted by `[]` (Square brackets) is for a list of items:
 

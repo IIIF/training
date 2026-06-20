@@ -1,6 +1,6 @@
 # Create a Video Manifest
 
-One of the extra features of the Digirati Manifest Editor is the support of Audio or Video resources. This guide will take you through adding a Video from the Internet Archive. For IIIF videos need to be accessible as a URL to the file and the Internet Archive provides the option to download Videos and this is the link we can use.
+One of the extra features of the Digirati Manifest Editor is the support of Audio or Video resources. This guide will take you through adding a Video from the Internet Archive. For IIIF, videos need to be accessible as a URL to the file and the Internet Archive provides the option to download Videos and this is the link we can use.
 
 ## Find a video to embed in your Manifest
 
