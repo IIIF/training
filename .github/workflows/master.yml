@@ -10,46 +10,86 @@ on:
             - master
             - main
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  deploy:
-    # The type of runner that the job will run on
+  build-honkit:
     runs-on: ubuntu-latest
-    environment:
-      name: 'production'
-      url: "https://training.iiif.io/index.html"
-
-    # These permissions are needed to interact with GitHub's OIDC Token endpoint.
-    permissions:
-      id-token: write
-      contents: read
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
       with:
         fetch-depth: '0'
 
-    - uses: actions/setup-node@v1.4.4
-    - run: npm install -g gitbook-cli marked@v3.0.8 honkit
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '22'
 
-    # Create the gitbooks in the build directory
-    - name: Build gitbooks
-      run: .github/bin/buildGitBooks.sh 
+    - run: npm install -g honkit gitbook-plugin-include gitbook-plugin-toggle-chapters gitbook-plugin-git-author 
 
-    - name: convert index  
+    - name: Build HonKit books
+      run: .github/bin/buildHonkit.sh
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: build-honkit
+        path: build/
+
+  build-gitbook:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
+
+    - uses: actions/setup-node@v1
+
+    - run: npm install -g gitbook-cli 
+
+    - name: Build GitBook books
+      run: .github/bin/buildGitbook.sh
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: build-gitbook
+        path: build/
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [build-honkit, build-gitbook]
+    environment:
+      name: 'production'
+      url: "https://training.iiif.io/index.html"
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
+
+    - uses: actions/setup-node@v1
+
+    - run: npm install -g marked@v3.0.8
+
+    - uses: actions/download-artifact@v4
+      with:
+        name: build-honkit
+        path: build/
+
+    - uses: actions/download-artifact@v4
+      with:
+        name: build-gitbook
+        path: build/
+
+    - name: Convert index
       run: .github/bin/createIndex.sh
 
-    - name: update lastmod
+    - name: Update lastmod
       run: .github/bin/updateLastMod.sh
 
-    - name: Configure AWS credentials 
+    - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
         role-to-assume: arn:aws:iam::420715881449:role/GithubIdentify
-        aws-region: us-east-1
+        aws-region: us-east-1        
 
     - name: Copy files to live
       run: |
