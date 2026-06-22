@@ -4,6 +4,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/timezone.min.js" integrity="sha512-3QnyXIdU85C6rOXhHzVsXinI5/qM/LniMr5actNRUwyp1Tuurw7rOn7fX7WWoNyZuM7KlQxITGQI4ITCgXKGQA==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/advancedFormat.min.js" integrity="sha512-bvTLx3e7Wk8qIAqr7O/vbk8IT2h+tFr1udHdJGzX6xMGtruTSCBctN0IGGjozmwap+l1A3zIz5KZUXI9IiBS3Q==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/localizedFormat.min.js" integrity="sha512-85aup/PuxBbkUL6yEpshXfwrOWNt7rvFzFrfvYgnrBBQK2r1FEyqD+5qGVNPWSm8xxafm3mhBOvd975HBSaXNA==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/setupIntro.js"></script>
+
+ <div id="workshop-config" data-start="2026-11-23 10:00"></div>
 
 # Introduction
 
@@ -65,15 +68,6 @@ Tasks to be completed __before__ the meeting:
 There is also a course Google calendar available which you can subscribe to:
 <div id="calendar-container"></div>
 
-<script type="text/javascript">
-  var timezone = jstz.determine();
-  console.log('Name is ' + timezone.name());
-  var pref = '<iframe src="https://calendar.google.com/calendar/embed?src=clir.org_chugpdurgjm9njridh8uq676n0%40group.calendar.google.com&mode=WEEK&title=IIIF%20Online%20Workshop&dates=20261123/20261127&showTabs=0&ctz=';
-  var suff = '" style="border: 0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>';
-  var iframe_html = pref + timezone.name() + suff;
-  document.getElementById('calendar-container').innerHTML = iframe_html;
-</script>
-
 You can also download a <a href="ics/November2026.ics">ICS version</a>.
 
 ## Project Work 
@@ -95,50 +89,3 @@ I look forward to working with you and if you have any questions please don’t 
 IIIF Technical Coordinator<br/>
 International Image Interoperability Framework (IIIF) Consortium<br/>
 http://iiif.io<br/>
-
-<script type="text/javascript">
-    console.log('Working out times ');
-    dayjs.extend(dayjs_plugin_utc)
-    dayjs.extend(dayjs_plugin_timezone)
-    dayjs.extend(dayjs_plugin_advancedFormat)
-    var timezone = jstz.determine();
-    function setTime(time, section) {
-        console.log("Setting time in " + section);
-        var local = time.tz(timezone.name());
-
-        var span = document.getElementById(section);
-        span.innerHTML = local.format("h:mma z")
-    }
-    function setDay(time, section) {
-        console.log("Setting time in " + section);
-        var local = time.tz(timezone.name());
-
-        var span = document.getElementById(section);
-        span.innerHTML = local.format("dddd, MMMM D")
-        if (local.format("D").endsWith("0")) {
-            span.innerHTML += "th";
-        } else if (local.format("D").endsWith("1") && !(local.format("D").endsWith("11"))) {
-            span.innerHTML += "st";
-        } else if (local.format("D").endsWith("2") && !(local.format("D").endsWith("12"))) {
-            span.innerHTML += "nd";
-        } else if (local.format("D").endsWith("3") && !(local.format("D").endsWith("13"))) {
-            span.innerHTML += "rd";
-        } else {    
-            span.innerHTML += "th";
-        }
-    }
-    function setDates(time, day, timeId) {
-        setDay(time,day);
-        setTime(time,timeId);
-
-    }
-
-
-    setDates(dayjs.tz("2026-11-23 10:00", "Europe/London"),"day1", "intro");
-    setDates(dayjs.tz("2026-11-24 10:00", "Europe/London"),"day2", "image");
-    setDates(dayjs.tz("2026-11-25 10:00", "Europe/London"),"day3", "presentation");
-    setDates(dayjs.tz("2026-11-26 10:00", "Europe/London"),"day4", "annotations");
-    setDates(dayjs.tz("2026-11-27 10:00", "Europe/London"),"day5", "demos");
-    
-</script>
-
