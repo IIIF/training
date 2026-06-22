@@ -1,8 +1,3 @@
-
-dayjs.extend(dayjs_plugin_utc)
-dayjs.extend(dayjs_plugin_timezone)
-dayjs.extend(dayjs_plugin_advancedFormat)
-
 function setTime(time, section) {
     console.log("Setting time in " + section);
     var timezone = jstz.determine();
@@ -72,7 +67,37 @@ function setupDates(start){
     setupCalendar(start);
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    var start = document.getElementById("workshop-config").dataset.start;
-    setupDates(dayjs.tz(start, "Europe/London"));
+function loadScript(src, integrity) {
+    return new Promise(function(resolve, reject) {
+        var s = document.createElement("script");
+        s.src = src;
+        if (integrity) s.integrity = integrity;
+        s.crossOrigin = "anonymous";
+        s.onload = resolve;
+        s.onerror = reject;
+        document.head.appendChild(s);
+    });
+}
+
+Promise.all([
+    loadScript("https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.7/jstz.min.js", "sha512-pZ0i46J1zsMwPd2NQZ4IaL427jXE2RVHMk3uv/wPTNlBVp9AbB1L65/4YdrXRPLEmyZCkY9qYOOsQp44V4orHg=="),
+    loadScript("https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/dayjs.min.js", "sha512-u7elBfdMr+7LhU4rvUk3IM28QZDKTyUxba4Nx2IJ1W9cj4shfRSPq7EZXD2ULD9cBoizw2FQyeR6YBog6LcnHg=="),
+]).then(function() {
+    return Promise.all([
+        loadScript("https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/utc.min.js"),
+        loadScript("https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/timezone.min.js"),
+        loadScript("https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/advancedFormat.min.js"),
+        loadScript("https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/localizedFormat.min.js"),
+    ]);
+}).then(function() {
+    dayjs.extend(dayjs_plugin_utc);
+    dayjs.extend(dayjs_plugin_timezone);
+    dayjs.extend(dayjs_plugin_advancedFormat);
+    dayjs.extend(dayjs_plugin_localizedFormat);
+
+    var el = document.getElementById("workshop-config");
+    if (el) {
+        var start = dayjs.tz(el.dataset.start, "Europe/London");
+        setupDates(start);
+    }
 });
