@@ -67,8 +67,10 @@ Provides:
    addViewer({
         div: 'image_api_demo',
         images: [
+            'https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103',
             'https://ids.lib.harvard.edu/ids/iiif/25286607',
-            'https://dlcs.io/iiif-img/wellcome/5/b14658197.jp2'
+            'https://dlcs.io/iiif-img/wellcome/5/b14658197.jp2',
+            'https://media.artmuseum.princeton.edu/iiif/3/collection/INV63419'
             ],
         sizes: [
             '500,',

@@ -1,12 +1,13 @@
 # Create a IIIF Manifest using the Digirati Manifest Editor
 
-The Digirati Manifest editor provides more functionality than the [Bodleian Manifest Editor](../bodleian-editor/README.md) that we used in the previous task. Specifically it supports version 3 of the IIIF specifications which allows you to add Video or Audio items to a canvas. 
+The Digirati Manifest editor provides support for version 3 of the IIIF specifications and allows you to add Video or Audio items to a canvas. 
 
 ## Gather images
 
 First, assemble a list of IIIF `info.json` URLs for your content. They should all be on HTTPS URLs (not unsecure HTTP).
 
  * Here is a sample image at the [Yale Center for British Art](https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/info.json)
+ * Example from Princeton [v3 image](https://media.artmuseum.princeton.edu/iiif/3/collection/y1980-13)
  * Here's another sample image at [Wellcome](https://iiif.wellcomecollection.org/image/V0037482/info.json)
  * Here are some [book pages from Wellcome](https://digirati-co-uk.github.io/me-testing/03-image-services.html)
 

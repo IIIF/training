@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "gitbook": "^2.6.9",
+    "gitbook-plugin-git-author": "^1.1.2",
+    "gitbook-plugin-include": "^0.1.0",
+    "gitbook-plugin-toggle-chapters": "^0.0.3",
+    "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "honkit": "^6.2.2"
+  }
+}

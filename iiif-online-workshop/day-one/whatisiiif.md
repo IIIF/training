@@ -66,6 +66,9 @@ First because IIIF provides a standard way of exposing images and metadata it is
  * [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
  * [Annona](https://ncsu-libraries.github.io/annona/tools/#/display?url=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json&viewtype=iiif-storyboard&settings=%7B%22fullpage%22%3Atrue%7D)
  * [Clover](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
+ * [Glycerine Viewer](https://demo.viewer.glycerine.io/viewer?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
+ * [Theseus](https://theseusviewer.org/?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
+ * [Tify](https://tify-iiif-viewer.github.io/tify/?iiif-content=https://damsssl.llgc.org.uk/iiif/2.0/4574752/manifest.json)
 
 For instructions on how to take content from one viewer to another there is this [medium post](https://iiif-io.medium.com/how-to-use-iiif-resources-and-image-viewers-bd378a68b013). 
 

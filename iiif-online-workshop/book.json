@@ -5,7 +5,7 @@
     "theme-default",
     "toggle-chapters",
     "git-author",
-    "toggle-chapters"
+    "-fontsettings"
   ],
   "gitbook": "3.2.3",
   "styles": {

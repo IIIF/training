@@ -1,6 +1,6 @@
 # Setup your environment
 
-Now we have downloaded the Manifest we need to setup an environment so that we can edit the Manifest and also view it using a IIIF viewer. This requires two bits of software the first to allow editing is a JSON aware editor and to allow the viewing of the IIIF manifest in a viewer we need a web server.
+Now we have downloaded the Manifest we need to setup an environment so that we can edit the Manifest and also view it using a IIIF viewer. This requires two bits of software, the first to allow editing is a JSON aware editor and to allow the viewing of the IIIF manifest in a viewer we need a web server.
 
 ## Installing Visual Studio Code
 
@@ -32,7 +32,17 @@ This will load up a screen to search and install extensions. In the Search box e
 
 ![Add live server plugin](imgs/vs_code_add_plugin.png)
 
-The Live Server adds  a Go Live button at the bottom of the editor highlighted in the screen shot below. If you click this it should open a link in your browser which allows you to navigate to your Manifest.json. 
+One of the things that makes IIIF work is something called [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS). These are headers which are set when you publish your Manifest. It tells the Web Browser that it is OK to get JSON, in this case a IIIF manifest from one place and open it in a Viewer somewhere else. Without setting the CORS headers the Manifest is only viewable on the website it is published. Now we have installed the plugin we need to configure the plugin so it adds the required CORS headers. Click the gear symbol and select settings:
+
+![Configure plugin by clicking the gear symbol and selecting settings](imgs/vs_code_settings.png)
+
+In the settings ensure the box is ticked next to Enable or disable CORS support:
+
+![Settings showing the CORS option which should be selected](imgs/vs_plugin_cors.png)
+
+You can then click the cross at the top right to close the settings tab and the Extension:Live Server tab within VS Code. 
+
+The Live Server adds a Go Live button at the bottom of the editor highlighted in the screen shot below. If you click this it should open a link in your browser which allows you to navigate to your Manifest.json. 
 
 ![Go live button](imgs/vs_code_go_live.png)
 
@@ -58,9 +68,9 @@ Finally it is useful to view the Manifest to see if you can spot where things ar
 
 - Find Manifest `label`
 - Explore the Manifest structure:
-    - Sequence
+    - items (Called sequence in IIIF v2)
         - Canvas
-            - `@id`
+            - `id`
             - `label`
             - Annotation
                 - IIIF Image API service

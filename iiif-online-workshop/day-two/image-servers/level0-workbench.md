@@ -11,7 +11,6 @@ and it is possible to generate images that fit this URL structure and conform to
 The workbench will generate these tiles and upload them to your own GitHub account and has a number of advantages over the Internet Archive option:
 
  * Images are owned by you on GitHub
- * Support for IIIF version 3
  * Faster access to images
 
 The main disadvantage of this route is the one mentioned above in that it uses static images so you can not request custom sizes or regions, only the ones that have been pre-generated. This option will still allow you to use these images in Manifests and will perform the same for most annotation use cases. 
@@ -105,7 +104,7 @@ This stage will allow you to upload an image from your computer to the workbench
 
 Click the Browse button and select an image on your computer. Once you have an image a `Name` box will appear which allows you to choose the name for your IIIF image. This will appear in the ID of the IIIF image so can't contain spaces and other characters. 
 
-Next select the IIIF Image version either version 2 or 3. For this guides please select version 2 so they can be used in a version 2 manifest. 
+Next select the IIIF Image version either version 2 or 3. For this guides please select version 3. 
 
 ![image](workbench/upload_image2.png)
 

@@ -17,8 +17,8 @@ This region would be noted as `/125,15,120,140/` which is:
 
 The pixel dimensions are relative to the full width and height of the image. This generally makes the regions fiddly to work out by hand and there are many cropping tools available which will give you a region:
 
- * [Jack Reed's Cropping tool](https://bl.ocks.org/mejackreed/6936585f435b60aa9451ae2bc1c199f2)
- * [UCD Image Cropping tool](https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://ids.lib.harvard.edu/ids/iiif/25286607)
+ * [UCD Image Cropping tool](https://glenrobson.github.io/iiif-imageManipulation/index.html?iiif-content=https://ids.lib.harvard.edu/ids/iiif/25286607)
+ * Other examples of image croppers are aviliable on the [awesome-iiif](https://github.com/IIIF/awesome-iiif#image-tools) list
 
 As well as specifying the exact pixel dimensions there are a couple of short cuts:
 
@@ -33,7 +33,7 @@ Use the region drop down to select different regions of the image:
    addViewer({
         div: 'image_api_demo2',
         images: [
-            'https://ids.lib.harvard.edu/ids/iiif/25286607'
+            'https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103'
             ],
         sizes: [
             '500,',
@@ -41,8 +41,8 @@ Use the region drop down to select different regions of the image:
         regions: [
             'full',
             'square',
-            '1000,100,3000,2000',
-            '2000,3000,2000,2000',
+            '201,399,250,250',
+            '376,162,280,202',
         ],
         highlight: [
             'region'

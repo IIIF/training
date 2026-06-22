@@ -12,39 +12,23 @@ The Quality parameter defines whether the image should be delivered as:
 | Bitonal | Each pixel is black or white | 
 | Color  | The color image. This could be a colorized black and white image | 
 
-This can be useful for some image processing tools like OCR generation. To see what types a image server supports you can look into the `info.json` profile section:
+This can be useful for some image processing tools like OCR generation. To see what qualities a image server supports you can look into the `info.json` `extraQualities` property:
 
-[https://ids.lib.harvard.edu/ids/iiif/25286607/info.json](https://ids.lib.harvard.edu/ids/iiif/25286607/info.json)
+[https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103/info.json](https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103/info.json)
 
 ```
-profile": [
-
-    "http://iiif.io/api/image/2/level2.json",
-    {
-        "supports": [
-            "canonicalLinkHeader",
-            "profileLinkHeader",
-            "mirroring",
-            "rotationArbitrary",
-            "regionSquare",
-            "sizeAboveFull"
-        ],
-        "qualities": [
-            "default",
-            "bitonal",
-            "gray",
-            "color"
-        ],
-        "formats": [
-            "jpg",
-            "tif",
-            "png",
-            "gif",
-            "webp"
-        ]
-    }
-
-],
+{
+    "@context": "http://iiif.io/api/image/3/context.json",
+    "id": "https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103",
+    "type": "ImageService3",
+    
+    ...
+    
+    "extraFormats": [ "jpeg", "tif", "tiff", "webp" ],
+    "extraQualities": [ "color", "gray", "bitonal" ],
+   
+    ...
+}
 ```
 
 See the example below:
@@ -55,7 +39,7 @@ See the example below:
    addViewer({
         div: 'image_api_demo2',
         images: [
-            'https://ids.lib.harvard.edu/ids/iiif/25286607'
+            'https://media.artmuseum.princeton.edu/iiif/3/collection/y1982-103',
             ],
         sizes: [
             '500,',

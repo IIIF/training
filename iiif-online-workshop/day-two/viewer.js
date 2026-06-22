@@ -380,7 +380,7 @@ function getImageFormats(uuid) {
             formats.push('png');
         }
         if ('extraFormats' in infoJson) {
-            for (var i = 0; i < infoJson['extraFormats']; i++) {
+            for (var i = 0; i < infoJson['extraFormats'].length; i++) {
                 if (!formats.includes(infoJson['extraFormats'][i])) {
                     formats.push(infoJson['extraFormats'][i]);
                 }
@@ -410,6 +410,9 @@ function getImageQualities(uuid) {
         return ['default'];
     } else {
         if ('extraQualities' in infoJson) {
+            if (!infoJson.extraQualities.includes("default")) {
+                infoJson.extraQualities.unshift("default");
+            }
             return infoJson['extraQualities']
         } else {
             return ['default'];

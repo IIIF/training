@@ -1,14 +1,11 @@
-# This is a basic workflow to help you get started with Actions
+name: Deploy-preview
 
-name: Deploy-live
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
     push:
         branches:
-            - master
-            - main
+          - '*'
+          - '!master'
+          - '!main'
 
 jobs:
   build-honkit:
@@ -55,8 +52,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build-honkit, build-gitbook]
     environment:
-      name: 'production'
-      url: "https://training.iiif.io/index.html"
+      name: 'staging'
+      url: "https://preview.iiif.io/training/${{ github.ref_name}}/index.html"
     permissions:
       id-token: write
       contents: read
@@ -89,8 +86,8 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         role-to-assume: arn:aws:iam::420715881449:role/GithubIdentify
-        aws-region: us-east-1        
+        aws-region: us-east-1
 
-    - name: Copy files to live
+    - name: Copy files to preview
       run: |
-        aws s3 sync build/ s3://training.iiif.io/ --acl 'public-read'
+        aws s3 sync build/ s3://preview.iiif.io/training/${{ github.ref_name}} --acl 'public-read'
