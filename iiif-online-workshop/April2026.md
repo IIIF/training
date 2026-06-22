@@ -4,6 +4,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/timezone.min.js" integrity="sha512-3QnyXIdU85C6rOXhHzVsXinI5/qM/LniMr5actNRUwyp1Tuurw7rOn7fX7WWoNyZuM7KlQxITGQI4ITCgXKGQA==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/advancedFormat.min.js" integrity="sha512-bvTLx3e7Wk8qIAqr7O/vbk8IT2h+tFr1udHdJGzX6xMGtruTSCBctN0IGGjozmwap+l1A3zIz5KZUXI9IiBS3Q==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/localizedFormat.min.js" integrity="sha512-85aup/PuxBbkUL6yEpshXfwrOWNt7rvFzFrfvYgnrBBQK2r1FEyqD+5qGVNPWSm8xxafm3mhBOvd975HBSaXNA==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/setupIntro.js"></script>
+
+<div id="workshop-config" data-start="2026-04-13 17:00"></div>
 
 # Introduction
 

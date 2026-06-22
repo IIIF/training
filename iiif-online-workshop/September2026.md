@@ -4,10 +4,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/timezone.min.js" integrity="sha512-3QnyXIdU85C6rOXhHzVsXinI5/qM/LniMr5actNRUwyp1Tuurw7rOn7fX7WWoNyZuM7KlQxITGQI4ITCgXKGQA==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/advancedFormat.min.js" integrity="sha512-bvTLx3e7Wk8qIAqr7O/vbk8IT2h+tFr1udHdJGzX6xMGtruTSCBctN0IGGjozmwap+l1A3zIz5KZUXI9IiBS3Q==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.3/plugin/localizedFormat.min.js" integrity="sha512-85aup/PuxBbkUL6yEpshXfwrOWNt7rvFzFrfvYgnrBBQK2r1FEyqD+5qGVNPWSm8xxafm3mhBOvd975HBSaXNA==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/setupIntro.js"></script>
+
+ <div id="workshop-config" data-start="2026-09-28 17:00"></div>
 
 # Introduction
 
-Thank you for registering for the [IIIF Online Workshop](https://www.eventbrite.com/e/september-2026-iiif-online-training-5-day-course-tickets-1825954000569) between September 28th to September 2nd. This course is an adapted version of an in person workshop and it is the 8th time we have run it online.  
+Thank you for registering for the [IIIF Online Workshop](https://www.eventbrite.com/e/september-2026-iiif-online-training-5-day-course-tickets-1825954000569) between September 28th to October 2nd. This course is an adapted version of an in person workshop and it is the 8th time we have run it online.  
 
 We are keen to adapt many of the techniques that have worked in person to create an inclusive, productive online version of the workshop. Running an online version does have its complications and one of these is differing timezones and we have participants from many different locations. We appreciate during this time attending all of the sessions will be difficult and so only the [first](day-one/README.md) and [last](day-five/README.md) sessions are **mandatory** to attend live.  
 
