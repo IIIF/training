@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "gitbook": "^2.6.9",
+    "gitbook": "^3.2.3",
     "gitbook-plugin-git-author": "^1.1.2",
     "gitbook-plugin-include": "^0.1.0",
     "gitbook-plugin-toggle-chapters": "^0.0.3",
