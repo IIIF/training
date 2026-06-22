@@ -30,8 +30,8 @@ Hosting allows you to upload your images to a service that provides a IIIF Image
  * Free hosting from the Internet Archive - [Guide](https://training.iiif.io/iiif-online-workshop/day-two/image-servers/iiif-hosting-ia.html)
 
  * Commercial hosting:
-  * [Klokan iiifhosting.com](https://www.iiifhosting.com/) - ([Guide from another workshop](https://training.iiif.io/iiif-1-day-workshop/image-api/iiif-hosting-saas.html)) if its of interest.
   * [Digirati DCLS platform](https://dlcs.info/)
+  * [Klokan iiifhosting.com](https://www.iiifhosting.com/) - ([Guide from another workshop](https://training.iiif.io/iiif-1-day-workshop/image-api/iiif-hosting-saas.html)) if its of interest.
 
 ## IIIF Image server
 There are many Open Source IIIF Image servers available. These are free to use but require infrastructure and staff time to setup and maintain. The three main ones in use are detailed below. They can be setup to serve 10s to millions of images. For the individual researcher or small institution the overhead with installing and maintaining these services may be too much. 
@@ -39,8 +39,8 @@ There are many Open Source IIIF Image servers available. These are free to use b
  * https://github.com/IIIF/awesome-iiif#image-servers
  * Main ones: 
    * [IIP Image](https://iipimage.sourceforge.io/) - written in C
-   * [Loris](https://github.com/loris-imageserver/loris) - python
    * [Cantaloupe](https://cantaloupe-project.github.io/) - Java
+   * [Serverless IIIF](https://github.com/samvera/serverless-iiif) - AWS Lambda 
 
 ## Static tiles
 The final option is to use a feature of the Image API where all of the derivative images can be extracted and made available without an image server. There are many ways to get access to free or cheap web hosting. This solution has many steps but can provide a very low cost option for providing access to IIIF Images for researchers and smaller institutions. One thing it doesn't support is custom regions so for example the following level0 image:
