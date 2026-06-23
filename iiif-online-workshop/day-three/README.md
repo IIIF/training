@@ -12,10 +12,6 @@ This video is also available on [YouTube](https://youtu.be/42dXybHl9w8?si=vHJ5qa
 
 Main video:
 
-TO BE RECORDED
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/p_KzczNh9vg?si=ff5hZYPNJBDUbi4m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!--
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u63jHDH3pDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-This video is also available on [YouTube](https://www.youtube.com/watch?v=u63jHDH3pDM)
--->
+This video is also available on [YouTube](https://youtu.be/p_KzczNh9vg?si=RrqWgFFopomKtXSZ)
