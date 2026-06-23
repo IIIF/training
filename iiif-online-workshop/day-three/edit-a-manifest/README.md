@@ -18,10 +18,7 @@ There are some important elements of the Manifest that we did not add or edit us
 
 1. Provide a short [summary](https://iiif.io/api/presentation/3.0/#summary) of this manifest -- the content is up to you.
 1. Modify the [requiredStatement](https://iiif.io/api/presentation/3.0/#requiredstatement) to the manifest that names the source of the images
-1. Add the [Behaviour](https://iiif.io/api/presentation/3.0/#behavior) to indicate that the item is paged (i.e., should display in two-up book reader mode). 
-
-  **Note:*** the Universal Viewer at http://universalviewer.io has a bug which means it doesn't respect the viewingHint and will always show the manifest as `individuals`. To see the effect of `paged` it is best to use Mirador. 
-
+1. Add the [Behaviour](https://iiif.io/api/presentation/3.0/#behavior) to indicate that the item is continuous (i.e., should display images together). 
 1. Assert a Creative Commons 4.0 by-nc-sa [rights](https://iiif.io/api/presentation/3.0/#rights).
 1. Add properties to the [metadata](https://iiif.io/api/presentation/3.0/#metadata) following the pattern described in [Language of Property Values](https://iiif.io/api/presentation/3.0/#language-of-property-values). 
 
