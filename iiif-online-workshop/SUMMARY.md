@@ -40,10 +40,7 @@
   - [Annotating with Mirador](day-four/annotations-exercises.md)
   - [Annotating Stores](day-four/annotations-stores.md)
   - [Annotating Stores - Results](day-four/annotations-stores-results.md)
-  - [Annotating your own content](day-four/annotations-sas.md)
-  - [Linking and Viewing your Annotations](day-four/annotation-linking.md)
-  - [IIIF Search API](day-four/iiif-search-api.md)
-  - [Publishing your annotated Manifest](day-four/workbench.md)
+  - [Annotating your own content](day-four/annotating-immarkus.md)
   - [Annotating Store - Do it yourself](day-four/annotations-stores-install.md)
   - [Advanced annotation presentation](day-four/advanced-annotations.md)
 
