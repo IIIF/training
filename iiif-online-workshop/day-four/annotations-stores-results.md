@@ -109,6 +109,6 @@ http://sas.gdmrdigital.com/search-api/cabbb6de5303266bd9adc6cb23fb5c1b/search?q=
 
 The search API is meant to replicate the PDF type search within so the parameters you can use are limited:
 
-https://iiif.io/api/search/0.9/#421-query-parameters
+https://iiif.io/api/search/2.0/#query-parameters
 
 
