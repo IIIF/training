@@ -7,11 +7,6 @@ The fourth day of the workshop will focus on the annotations. Participants may f
 
 Glen Robson the IIIF Technical Coordinator introduces annotations and IIIF by using an annotation server and looking into the IIIF Search API. 
 
-<!--
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y0I5_BW1OLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-MOiKoXCk2s?si=ZtMCDyJeQoQNQUW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-This video is also available on [YouTube](https://youtu.be/y0I5_BW1OLQ)
-
--->
-
-__**VIDEO TO BE ADDED**__
+This video is also available on [YouTube](https://youtu.be/-MOiKoXCk2s?si=73_nw1Vefk6aSbs5)
