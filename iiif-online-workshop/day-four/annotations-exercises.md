@@ -1,13 +1,10 @@
 # Annotation Exercises
 
-In this example we are going to have a look at Annotating in Mirador 2. Mirador 3 now supports creating annotations so future workshops will probably be based on Mirador 3. 
-
-During the session I will go through the steps and feel free to follow along although if you get lost you can follow the instructions below.
+In this example we are going to have a look at Annotating in Mirador 2.  During the session I will go through the steps and feel free to follow along although if you get lost you can follow the instructions below.
 
 ## Step 1 - Open Mirador
 
  * Go to [https://iiif.gdmrdigital.com/mirador/](https://iiif.gdmrdigital.com/mirador/)
- * __Note__ now Mirador 3 is released you have to use the link above as they have moved Mirador 3 to the front page of [https://projectmirador.org](https://projectmirador.org).
 
 ### A quick intro into using Mirador: 
 
