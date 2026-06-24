@@ -5,7 +5,7 @@ There is unlikely to be time to cover this in the session but if your interested
  * [Video on how to configure the crowdsourcing system](https://www.youtube.com/playlist?list=PLMd2mmRYjSJlKs829X0z_kYueQemSfwDd)
  * [Recogito](https://recogito.pelagios.org/)
  * [From the Page](https://fromthepage.com/)
- * [Indigenous Digital Archive](https://omeka.dlcs-ida.org/s/ida/page/home)
+ * [Indigenous Digital Archive](https://digirati.com/showcasing-collections/indigenous-digital-archive-treatise-explorer/)
 
 One of the real promises of IIIF is that once you have interoperable Images and presentation packages (Manifests) it should be easy to then take these and use them in these advanced tools. In practice once you have IIIF Images and Manifests you should be able to take them and run a crowdsourcing project using one of the tools above. 
  
