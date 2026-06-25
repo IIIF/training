@@ -17,15 +17,26 @@ Find the `id` of each Canvas you created in your Manifest.  Your structural mapp
     {
         "id": "http://example.org/iiif/book1/range/top",
         "type": "Range",
-        "label": "Table of Content",
+        "label": {
+            "en": [
+                "Table of Content"
+            ]
+        },    
         "viewingHint": "top",
-        "ranges": [
+        "items": [
             {
                 "id": "http://example.org/iiif/book1/range/intro",
                 "type": "Range",
-                "label": "Introduction",
-                "canvases": [
-                    "$YOUR_CANVAS_ID"
+                "label": {
+                    "en": [
+                        "Introduction"
+                    ]
+                },   
+                "items": [
+                    {
+                        "id": "$YOUR_CANVAS_ID",
+                        "type": "Canvas"
+                    }
                 ]
             }
         ]
