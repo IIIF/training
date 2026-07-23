@@ -23,6 +23,17 @@ for dir in $dirs; do
     fi
     mkdir -p "../build/$dir"
 
+    # Honkit's asset-copy step skips symlinked directories (a symlink's dirent
+    # is neither isDirectory() nor isFile()), so shared content pulled in via
+    # a directory symlink (e.g. digital-humanities/day-one) silently loses its
+    # images. Dereference any top-level symlinks into real files before building.
+    for link in $(find . -maxdepth 1 -type l); do
+        echo "Dereferencing symlink for build: $link"
+        real=$(readlink -f "$link")
+        rm "$link"
+        cp -RL "$real" "$link"
+    done
+
     npx honkit build . "../build/$dir"
     if [ $? -eq 1 ]; then
         failed_build=1

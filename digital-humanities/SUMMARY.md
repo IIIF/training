@@ -1,7 +1,6 @@
 # Summary
 
 - [Overview](README.md)
-- [Introduction](day-one/README.md)
 
 ## Part 1
 - [What is IIIF](day-one/whatisiiif.md)
