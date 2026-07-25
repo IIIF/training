@@ -10,5 +10,5 @@
 ## Part 2
 - [Georeferencing maps with Allmaps](allmaps/allmaps.md)
 - [Annotating with IMMARKUS](day-four/annotating-immarkus.md)
-- [Using LLMs to transcribe and translate content]
+- [Visual search and adding Entities](day-four/advanced-immarkus.md)
 - [Summary and sharing of project work]
