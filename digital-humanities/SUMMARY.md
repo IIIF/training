@@ -11,4 +11,4 @@
 - [Georeferencing maps with Allmaps](allmaps/allmaps.md)
 - [Annotating with IMMARKUS](day-four/annotating-immarkus.md)
 - [Visual search and adding Entities](day-four/advanced-immarkus.md)
-- [Summary and sharing of project work]
+- [Summary and sharing of project work](demos.md)
