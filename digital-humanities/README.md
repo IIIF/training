@@ -32,10 +32,10 @@ Assuming a workshop of three and half hours for example 9:00am - 12:30pm.
 | 9:00 - 9:10 | Class and instructor introductions |
 | 9:10 - 10:00 | Introduction to IIIF |
 | 10:00 - 10:30 | Using the Internet Archive to publish IIIF images |
-| 10:30 - 10:45 | Break |
-| 10:45 - 11:00 | Georeferencing maps with Allmaps |
-| 11:00 - 11:30 | Annotating with IMMARKUS |
-| 11:30 - 12:15 | Using LLMs to transcribe and translate content |
+| 10:30 - 11:00 | Break |
+| 11:00 - 11:15 | Georeferencing maps with Allmaps |
+| 11:15 - 11:30 | Annotating with IMMARKUS |
+| 11:30 - 12:15 | Visual search and adding Entities |
 | 12:15 - 12:30 | Summary and sharing of project work |
 
 ## Instructors 
