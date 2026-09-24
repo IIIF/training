@@ -7,80 +7,21 @@
 
 As well as the examples below there are also examples from previous years:
 
+ * [2025](2025.md)
+ * [2024](2024.md)
  * [2023](2023.md)
  * [2022](2022.md) 
  * [2021](2021.md) 
  * [2020](2020.md) 
+
+# June 2026 cohort demos
+
+The participants from June 2026 session produced the following demos of their work:
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTiAFVsn6DhU17LNkVC6G5Tt-r9tJ51IWs6CbR7IhxZWZo3nIIZKBoHSJN8ZKBEIHEXg7jo5ALYb5sA/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # April 2026 cohort demos
 
 The participants from April 2026 session produced the following demos of their work:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRB7iq-nQfLcB0LA3cZuzuva8GTpXXuyNDeHcnOL161pp_fUIk8XMBqUnQB739S8LW8VBboBtYzAJkP/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# November 2025 cohort demos
-
-The participants from November 2025 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSRfV1owGJAq8Gh_HLYZBBogdREsv14gFOr-dZVkbv9Tn7c_rfNrlGsIFQbrheiHIgzzCSzCIMlK_6r/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# September 2025 cohort demos
-
-The participants from September 2025 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRM3v0yAAyYXJMjkLYyTZSsMA-dWBE27WsEh_OfXK9N9j8xV_OKqRUCiXdG6opY7o2bRENXws58SWgC/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# May 2025 cohort demos
-
-The participants from the May 2025 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQOABFhj70W3z9AtrybCWXRqxVXi6uPGCZQcwi74yBf2TYE34B8f8MkxBJI2ECuGTwMBq0M6UWlsOyg/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# March 2025 cohort demos
-
-The participants from the March 2025 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTgHIKL0Mm47Mwf0-UUDKVnU02mklgbqvj0EsnroS214l0RvaFbpUy_drMpJ5L9ExGAXcTY83L-HZ0A/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# December 2024 cohort demos
-
-The participants from the December 2024 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRp4ov3M_e_SYvZcp63VNq_d2hgXuL5ok3L6gQQypmSdZYOC5v7MsBxsmJLfrvo1ejZo8cjRJA7XXVv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# November 2024 cohort demos
-
-The participants from the November 2024 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1hNMjjlRJQIXxOKZ5EnmNGte-jItxlzvQdB85N16e7DduX1Nu9J37dPBsMImIye2BNbsOYCvkDH2p/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# June 2024 cohort demos
-
-The participants from the June 2024 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQiwRvKJuFqooJm-r3jCff32e9KdUYPcGUAnuSckXfMnPUTvV5fsDr8ukJ-9gykj7vBeY86mxNLvT6e/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# March 2024 cohort demos
-
-The participants from the March 2024 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQheR9u5IPjn5vZrdBqXy5QO7HerfueKfnQcaYpOhbhpI8paszidMGOhr2Mgs2VSNdal_4XNmr-ZBNE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# December 2023 cohort demos
-
-The participants from the December 2023 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRJpEAlAuaeJMb75ECT89QYm2rh22y4LwhZdZviYPW5K8q8SxugjbRikvZDoAZl8mVW8-qfbo-HTGOb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# September 2023 cohort demos
-
-The participants from the September 2023 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTRky16yz3iKyu-62rLPA85lnL46mGvcqv_bw3UZw41kjnEp1mj9_FrUYi9IiuJBLw3sMA6wGCPBlYD/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
- 
-# July 2023 cohort demos
-
-The participants from the July 2023 session produced the following demos of their work:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQOTSfLBI9FFJbcjOoHuHVR1zqyAijQ60LiVPVAVY_87IcZGbdYAkHNyxol1d2T2WeuHjg4fipLZIN_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
