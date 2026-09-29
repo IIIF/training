@@ -22,7 +22,7 @@ __Note__: some people have had some issues getting their images to show when upl
 
   https://iiif.archive.org/iiif/img-8664_202009/info.json
 
-  __Note:__ If you open the URL above the Interent archive automatically forwards you to the actual image server URL:
+  __Note:__ If you open the URL above the Internet archive automatically forwards you to the actual image server URL:
 
   https://iiif.archive.org/image/iiif/2/img-8664_202009%2fIMG_8664.jpg/info.json
 
@@ -34,7 +34,7 @@ __Note__: some people have had some issues getting their images to show when upl
 
 5. You should then be able to use this image:
 
-  Create an image link:
+  To create an image link:
   
   [https://iiif.archive.org/iiif/img-8664_202009/full/512,/0/default.jpg](https://iiif.archive.org/iiif/img-8664_202009/full/512,/0/default.jpg)
 
@@ -110,15 +110,27 @@ A step by step guide with screen shots for the above steps is below:
 
 4. Use the Internet Archive image service with this identifier:
 
-  [https://iiif.archive.org/iiif/img-8664_202009/full/full/0/default.jpg](https://iiif.archive.org/iiif/img-8664_202009/full/full/0/default.jpg)
+   Replace the identifier below with your identifier:
 
-  <img src="ia/iiif-image-url.png" alt="IIIF Image URL" class="standout-image"/>
+   https://iiif.archive.org/iiif/img-8664_202009/info.json
+
+   __Note:__ If you open the URL above the Internet archive automatically forwards you to the actual image server URL:
+
+  https://iiif.archive.org/image/iiif/2/img-8664_202009%2fIMG_8664.jpg/info.json
+
+  This is a feature specific to the Internet Archive and most other image servers will not forward you to another location. IIIF viewers tend to work OK with this automatic forwarding and you can use either the original link or the forwarded version in viewers like OpenSeadragron and the UCD image cropper. 
+
+  If you want to access a version 3 IIIF Image you can change the version number to 3 in the forwarded URL:
+
+  [https://iiif.archive.org/iiif/img-8664_202009/full/full/0/default.jpg](https://iiif.archive.org/iiif/img-8664_202009/full/full/0/default.jpg)
 
 5. You should then be able to use this image:
 
-  Create an image link:
+  To create an image link by removing the `info.json` from the end of your URL above and replacing it with `/full/512,/0/default.jpg` to get the full region of the image, 512 pixels wide, no rotation, default quality and a jpeg:
   
   [https://iiif.archive.org/iiif/img-8664_202009/full/512,/0/default.jpg](https://iiif.archive.org/iiif/img-8664_202009/full/512,/0/default.jpg)
+
+  <img src="ia/iiif-image-url.png" alt="IIIF Image URL" class="standout-image"/>
 
   Check it works with a zooming viewer like OpenSeaDragon:
 
