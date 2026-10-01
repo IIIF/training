@@ -88,7 +88,7 @@ IMMARKUS has a number of innovative features to help with annotating including t
 
 ## Stage 4: Auto transcription 
 
-Another clever feature of IMMARKUS is the auto transcribe which can take a section of an image and send it to a Large Language Model (LLM) for transcription. To do this you need to register for one of the LLM services and get an API key. I am going to start with the process of transcription and then at the end show you how to get a transcription key from HiggingFace. 
+Another clever feature of IMMARKUS is the auto transcribe which can take a section of an image and send it to a Large Language Model (LLM) for transcription. To do this you need to register for one of the LLM services and get an API key. I am going to start with the process of transcription and then at the end show you how to get a transcription key from HuggingFace. 
 
 To do the transcription go to the smart tools menu item and select Auto Transcribe.
 
