@@ -8,7 +8,7 @@ Or more simply it allows you to overlay a historical map onto a modern map so yo
 
 ## Opening a Manifest in Allmaps 
 
-In the previous step we learned how to copy a Manifest URL and we will use this in Allmaps to open up the image for Georeferencing. As mentioned previously the Manifest has links to the images and this is what Allmaps uses. So Allmaps doesn't download the images it just uses the Minnesota images live on the website. 
+In the previous step we learned how to copy a Manifest URL and we will use this in Allmaps to open up the image for Georeferencing. As mentioned previously the Manifest has links to the images and this is what Allmaps uses. So Allmaps does not download the images it just uses the Minnesota images live on the website. 
 
 Use the Manifest URL you copied from the previous step but if you had any problems you can use the following Manifest:
 
@@ -27,7 +27,7 @@ This will take you to the Editor Images screen which will show you all of the im
 I've highlighted a few features of the Allmaps editor:
 
 1. Click this i info box to see the Metadata for this Manifest. Note to the left of this box the Editor shows the Manifest Label.
-2. This is the stages of Georeferencing that we will go through from left to right. It is possible to go back through the stages so after viewing the results you can go back and improve the Georeferencing. 
+2. This is the stages of Georeferencing that we will go through from left to right. It is possible to go back through the stages so after viewing the results you can go back and improve the Georeferencing or Masking. 
 
 ![Allmaps Editor Images screen](imgs/editor-images.png)
 
@@ -35,7 +35,7 @@ The next stage is to create a mask so click the Draw Mask button at the top.
 
 ## Creating a Mask
 
-The first stage of the Georeferencing is to identify the part of the page that is a Map. In this example most of the image is a map but you can imagine in a Atlas it might only be part of a page or in a book it might have a map surrounded by text. It is also possible to add multiple maps if the page contains multiple maps for example some maps have insets for detailed maps of towns. 
+The first stage of the Georeferencing is to identify the part of the page that is a Map. In this example most of the image is a map but you can imagine in an Atlas it might only be part of a page or in a book it might have a map surrounded by text. It is also possible to add multiple maps if the page contains multiple maps for example some maps have insets for detailed maps of towns. 
 
 For this example we are going to identify the map part of the image and ignore some of the surrounding parts of the page. I am going to do a rectangle but it is possible to add as many points as you want to identify the boundary of the map. 
 
@@ -57,7 +57,7 @@ Add points to both the historical and modern maps. Try and do the four corners a
 
 ![Georeferencing example](imgs/editor-georeferencing.png)
 
-Once you have got enough box there should be an outline of the historical map on the Modern map. If the shape looks right you can click on Results. If it doesn't look right add more control points to the two maps. 
+Once you have got enough, there should be an outline of the historical map on the Modern map. If the shape looks right you can click on Results. If it doesn't look right add more control points to the two maps. 
 
 ## Viewing the results
 
@@ -67,7 +67,7 @@ To access the fully featured Allmaps Viewer click the export button at the top o
 
 ![Results of the georeferencing](imgs/editor-viewer.png)
 
-This dialog will allow you to export the Georeferencing control points as a IIIF Annotation. This has been standardised through a extension to the IIIF specifications called the [Georeference Extension](https://iiif.io/api/extension/georef/). This screen also shows a XYZ map tile link which is another standard way of accessing maps and this can be used to import into a Georeferencing tool like ArcGIS or GDAL.
+This dialog will allow you to export the Georeferencing control points as a IIIF Annotation. This Annotation uses an extension to the IIIF specifications called the [Georeference Extension](https://iiif.io/api/extension/georef/). This screen also shows a XYZ map tile link which is another standard way of accessing maps and this can be used to import into a Georeferencing tool like ArcGIS or QGIS.
 
 For this workshop click on the highlighted link to the Allmaps Viewer:
 

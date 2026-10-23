@@ -5,7 +5,7 @@
 When a library or museum puts a map online using IIIF, it publishes two things:
 
 * **Images** – the scanned map, which you can zoom into in great detail.
-* **A Manifest** – a small JSON file that describes the map and points to the image.
+* **Manifest** – a small JSON file that describes the map and points to the image.
 
 You can think of the Manifest as the **label and packing slip** for a digital object. It says what the item is (its title, date, creator and rights) and where to find its images. If the object has more than one image, such as the pages of an atlas, the Manifest lists them all in order.
 
@@ -58,7 +58,7 @@ https://cdm16022.contentdm.oclc.org/iiif/fch:345/manifest.json
 
 ## BTAA Geoportal Manifests
 
-Looking at the BTAA Geoportal there are a three ways to get access to the IIIF Manifest. Unfortunately there isn't a IIIF logo but this again uses a different popular IIIF Viewer called [Mirador](https://projectmirador.org/). The three options for getting a Manifest are listed below. Note they are ordered in the most complicated to the easiest at the end.
+Looking at the [BTAA Geoportal](https://geo.btaa.org/search?include_filters%5Bgbl_resourceClass_sm%5D%5B%5D=Maps&q=&include_filters%5Bschema_provider_s%5D%5B%5D=University+of+Minnesota) there are a three ways to get access to the IIIF Manifest. Unfortunately there isn't a IIIF logo but this again uses a different popular IIIF Viewer called [Mirador](https://projectmirador.org/). The three options for getting a Manifest are listed below. Note they are ordered starting with the most complicated to the easiest.
 
 ### Option 1: Using Mirador to get the IIIF Manifest
 
@@ -74,7 +74,7 @@ If you scroll down to the bottom of this panel you will see the link to the Mani
 
 ![Mirador Manifest link](imgs/mirador-manifest.png)
 
-Note Mirador does not have the same issue as the Universal Viewer and if you paste the URL in a text file you will see the link looks like:
+Note Mirador does not have the same issue as the Universal Viewer and if you paste the URL in a text file you will see the link looks like this:
 
 https://cdm16022.contentdm.oclc.org/iiif/p16022coll25:104/manifest.json
 

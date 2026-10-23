@@ -1,6 +1,6 @@
 # Atlases and multi page manifests
 
-So far we have looked at single page items but Allmaps also works with multi page items. Below is an example of an Atlas created by Pierre Du Val (1619–1683) called "Cartes de geographie, les plus nouvelles et les plus fideles, auecque leurs diuisions régulieres, par P. du Val ...".
+So far we have looked at single page items but Allmaps also works with multi page items. Below is an example of an Atlas created by Pierre Du Val (1619–1683) called "Cartes de geographie, les plus nouvelles et les plus fideles, auecque leurs diuisions régulieres, par P. du Val ..." from Yale University Collections.
 
 https://editor.allmaps.org/images?url=https%3A%2F%2Fcollections.library.yale.edu%2Fmanifests%2F16580278&image=https%3A%2F%2Fcollections.library.yale.edu%2Fiiif%2F2%2F16585646
 

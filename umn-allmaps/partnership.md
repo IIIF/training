@@ -1,10 +1,12 @@
 # IIIF and Allmaps Partnership
 
-Last year the IIIF Consortium and Allmaps launched a partnership to work together to create a IIIF maps commons to help share development costs and also build a international collection of maps available as IIIF. This is a prototype for other potential IIIF commons initiatives that the consortium is exploring in the future. 
+Last year the IIIF Consortium and Allmaps launched a partnership to work together to create a IIIF maps commons, to help share development costs and also build an international collection of maps available as IIIF. This is a prototype for other potential IIIF commons initiatives that the consortium is exploring. 
 
-Partners are IIIF consortium members and pay an additional top-up to Allmaps. For this partners maps are bulk loaded to Allmaps, they are listed on editor.allmaps.org page and they will get tracking and management access to their collection on Allmaps. The funding from the partnership pays for the maintenance of Allmaps and also has a development budget for new features. This development budget is coordinated by an Allmaps Advisory Board containing Allmaps innovators and IIIF Staff. 
+Partners are IIIF consortium members and pay an additional top-up to Allmaps. For this partner maps are bulk loaded to Allmaps, they are listed on [editor.allmaps.org](https://editor.allmaps.org/?lang=en) page and they will get tracking and management access to their collection on Allmaps. The funding from the partnership pays for the maintenance of Allmaps and also has a development budget for new features. This development budget is coordinated by an Allmaps Advisory Board containing Allmaps innovators and IIIF Staff. 
 
 https://allmaps.org/iiif-partnership/
+
+More detailed benefits for each level are below which come from the IIIF partnership page above:
 
 ## Allmaps Supporters
  * Add your collection of maps to Allmaps, where it can be georeferenced by staff and patrons in Allmaps Editor. Suggestions from your collection will appear on the landing page of Allmaps Editor.
