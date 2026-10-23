@@ -21,7 +21,7 @@ Documentation and workshop materials for IIIF training
 
 ## Bespoke Training
 
-* [University of Minnesota](umn-allmaps/index.html) - a 1 hour workshop on Allmaps 
+* [University of Minnesota](umn-allmaps/index.html) - a 1 hour workshop on Allmaps delivered over zoom in October 2026
 * [National Library of Wales](nlw-workshop/index.html) - a bespoke 2 day workshop written for the NLW and delivered in 2025. 
 * [Getty Research Institute](gri_getty/index.html) - a bespoke 2 hour workshop written for the Getty GRI and delivered in 2023. 
 * [British Library online Training](iiif-bl-workshop/index.html) - a bespoke 5 day workshop written for the British Library and delivered in 2021/22. 
