@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Allmaps annotations map</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+  :root { --bg:#fff; --fg:#1a1a1a; --muted:#666; --line:#d9d9d9; --accent:#1f5fbf; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1d1f23; --fg:#eceff4; --muted:#9aa3b2; --line:#3a3f48; --accent:#6ea8ff; }
+  }
+  html, body { height:100%; margin:0; font:14px/1.4 Arial, Helvetica, sans-serif; background:var(--bg); color:var(--fg); }
+  #app { display:flex; height:100%; }
+  #side { width:320px; max-width:40%; overflow:auto; padding:16px; box-sizing:border-box; border-right:1px solid var(--line); }
+  #map { flex:1; }
+  h1 { font-size:18px; margin:0 0 4px; }
+  p.sub { margin:0 0 12px; color:var(--muted); }
+  .row { padding:8px 0; border-top:1px solid var(--line); }
+  .row label { display:flex; gap:8px; align-items:flex-start; cursor:pointer; }
+  .row .title { font-weight:bold; }
+  .row .meta { color:var(--muted); font-size:12px; }
+  button { font:inherit; background:none; border:1px solid var(--line); color:var(--accent); border-radius:4px; padding:2px 8px; cursor:pointer; margin-top:4px; }
+  .row button + button { margin-left:6px; }
+  .ctl { margin:12px 0; }
+  .ctl input[type=range] { width:100%; }
+  .zoom_all {margin-bottom: 5px;}
+  #status { color:var(--muted); font-size:12px; margin-top:8px; }
+  @media (max-width:700px) {
+    #app { flex-direction:column-reverse; }
+    #side { width:auto; max-width:none; height:40%; border-right:0; border-top:1px solid var(--line); }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="side">
+    <h1>Allmaps annotations</h1>
+    <p class="sub">Georeferenced IIIF maps over OpenStreetMap.</p>
+    <div class="ctl">
+      <label for="opacity">Opacity of the old maps</label>
+      <input id="opacity" type="range" min="0" max="1" step="0.05" value="1">
+    </div>
+    <div class="zoom_all">
+      <button id="fitAll">Zoom to all maps</button>
+    </div>
+    <div id="list"></div>
+    <div id="status">Loading…</div>
+  </div>
+  <div id="map"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<!-- Allmaps exposes a global called Allmaps. Pin an exact version here once you have chosen one,
+     e.g. .../npm/@allmaps/maplibre@X.Y.Z/dist/bundled/allmaps-maplibre-4.0.umd.js -->
+<script src="https://cdn.jsdelivr.net/npm/@allmaps/maplibre/dist/bundled/allmaps-maplibre-4.0.umd.js"></script>
+<script>
+const ANNOTATIONS = [
+  'https://annotations.allmaps.org/images/4a88a3d35b3db247',
+  'https://annotations.allmaps.org/images/ffd94f7f0e1ceb42',
+  'https://annotations.allmaps.org/images/10751c2ac3aee07d',
+  'https://annotations.allmaps.org/images/922974d1ff38531c',
+  'https://annotations.allmaps.org/images/1739fa195a539929',
+  'https://annotations.allmaps.org/images/9595dcb0dc718dac',
+  'https://annotations.allmaps.org/images/ba0d161ee06c39a1'
+];
+
+const map = new maplibregl.Map({
+  container: 'map',
+  center: [-95, 40],
+  zoom: 3,
+  style: {
+    version: 8,
+    sources: {
+      osm: {
+        type: 'raster',
+        tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+        tileSize: 256,
+        maxzoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }
+    },
+    layers: [{ id: 'osm', type: 'raster', source: 'osm' }]
+  }
+});
+map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+const layer = new Allmaps.WarpedMapLayer();
+const statusEl = document.getElementById('status');
+const listEl = document.getElementById('list');
+const entries = []; // { url, mapIds, title }
+
+function labelOf(annotation) {
+  try {
+    const item = annotation.items[0];
+    const canvas = item.target.source.partOf[0];
+    const l = canvas.label || canvas.partOf[0].label;
+    return Object.values(l)[0][0];
+  } catch (e) { return null; }
+}
+
+function addRow(entry, index) {
+  const row = document.createElement('div');
+  row.className = 'row';
+  const id = 'cb' + index;
+  row.innerHTML =
+    '<label for="' + id + '"><input type="checkbox" id="' + id + '" checked>' +
+    '<span><span class="title"></span></span></label>';
+  row.querySelector('.title').textContent = entry.title || 'Untitled map';
+  const zoom = document.createElement('button');
+  zoom.textContent = 'Zoom to';
+  zoom.onclick = () => {
+    layer.bringMapsToFront(entry.mapIds);
+    const b = boundsOf(entry.mapIds);
+    if (b) map.fitBounds(b, { padding: 40, maxZoom: 17 });
+  };
+  row.appendChild(zoom);
+  const viewer = document.createElement('button');
+  viewer.textContent = 'View in Allmaps Viewer';
+  viewer.onclick = () => {
+    window.open('https://viewer.allmaps.org/?url=' + encodeURIComponent(entry.url), '_blank', 'noopener');
+  };
+  row.appendChild(viewer);
+  row.querySelector('input').onchange = (e) => {
+    if (e.target.checked) layer.showMaps(entry.mapIds);
+    else layer.hideMaps(entry.mapIds);
+  };
+  listEl.appendChild(row);
+}
+
+// Combine the geo bboxes ([minLng, minLat, maxLng, maxLat]) of the given maps
+function boundsOf(mapIds) {
+  let bbox = null;
+  mapIds.forEach(id => {
+    const wm = layer.getWarpedMap(id);
+    if (!wm || !wm.geoMaskBbox) return;
+    const b = wm.geoMaskBbox;
+    bbox = bbox
+      ? [Math.min(bbox[0], b[0]), Math.min(bbox[1], b[1]), Math.max(bbox[2], b[2]), Math.max(bbox[3], b[3])]
+      : b.slice();
+  });
+  return bbox && [[bbox[0], bbox[1]], [bbox[2], bbox[3]]];
+}
+
+function fitAll() {
+  const b = layer.getBounds();
+  if (b) map.fitBounds(b, { padding: 40 });
+}
+
+map.on('load', async () => {
+  map.addLayer(layer);
+  let done = 0;
+  await Promise.all(ANNOTATIONS.map(async (url, i) => {
+    try {
+      const res = await fetch(url);
+      const annotation = await res.json();
+      const mapIds = await layer.addGeoreferenceAnnotation(annotation);
+      // The result can contain Error objects for maps that failed to load
+      const ids = (mapIds || []).filter(m => typeof m === 'string');
+      entries[i] = { url, mapIds: ids, title: labelOf(annotation) };
+    } catch (err) {
+      console.error('Failed to load', url, err);
+      entries[i] = null;
+    }
+    done++;
+    statusEl.textContent = 'Loaded ' + done + ' of ' + ANNOTATIONS.length;
+  }));
+  entries.forEach((e, i) => { if (e) addRow(e, i); });
+  const failed = entries.filter(e => !e).length;
+  statusEl.textContent = failed ? failed + ' annotation(s) failed to load (see console).' : '';
+  fitAll();
+});
+
+document.getElementById('fitAll').onclick = fitAll;
+document.getElementById('opacity').oninput = (e) => {
+  const v = parseFloat(e.target.value);
+  if (typeof layer.setOpacity === 'function') layer.setOpacity(v);
+  else layer.setLayerOptions({ opacity: v });
+};
+</script>
+</body>
+</html>

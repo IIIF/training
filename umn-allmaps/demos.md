@@ -2,4 +2,4 @@
 
 Examples of Maps georeferenced during the course:
 
-(To be added)
+<iframe src="map.html" style="width:100%;height:600px;border:0"></iframe>
