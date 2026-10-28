@@ -38,14 +38,14 @@ In this workshop, we will be running commands from a terminal / command prompt. 
 
 This is a short guide to installing Cantaloupe, for more information on each step, checkout the [Cantaloupe getting started guide](https://cantaloupe-project.github.io/manual/5.0/getting-started.html).
 
-Start by downloading [Cantaloupe v5.0.6](https://github.com/cantaloupe-project/cantaloupe/releases/download/v5.0.6/cantaloupe-5.0.6.zip)
+Start by downloading [Cantaloupe v5.0.8](https://github.com/cantaloupe-project/cantaloupe/releases/download/v5.0.8/cantaloupe-5.0.8.zip)
 
 Open and extract the zip file to your directory of choosing. We suggest `~/iiif-workshop`.
 
 Open up a terminal or command prompt and change directory to that extracted directory:
 
 ```sh
-cd ~/iiif-workshop/Cantaloupe-5.0.6
+cd ~/iiif-workshop/cantaloupe-5.0.8
 ```
 
 ## Configure Cantaloupe
@@ -73,7 +73,7 @@ Save the file.
 Now lets try and start the server. Run this command from your Cantaloupe directory
 
 ```sh
-java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar cantaloupe-5.0.6.jar
+java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar cantaloupe-5.0.8.jar
 ```
 
 Now navigate to [http://127.0.0.1:8182/iiif/3](http://127.0.0.1:8182/iiif/3) in your browser.
@@ -98,7 +98,7 @@ Could not reserve enough space for 2097152000000KB object heap
 to fix this change the `-Xmx` parameter to something smaller e.g:
 
 ```
-java -Dcantaloupe.config=./cantaloupe.properties -Xmx1g -jar cantaloupe-5.0.6.jar
+java -Dcantaloupe.config=./cantaloupe.properties -Xmx1g -jar cantaloupe-5.0.8.jar
 
 ```
  * Spaces in Windows. If you are using Windows ensure that there are no spaces in the directories above the Cantaloupe directory. 
@@ -117,7 +117,7 @@ Congrats now you have your image server up and running! We need to feed it some 
 
 ## Download some images
 
-Go ahead and download a `*.jpg` image from the Internet into your Cantaloupe directory `Cantaloupe-5.0.6`. Here is one [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) that you can use.
+Go ahead and download a `*.jpg` image from the Internet into your Cantaloupe directory `Cantaloupe-5.0.8`. Here is one [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) that you can use.
 
 ## Configure Cantaloupe to use the correct path
 
