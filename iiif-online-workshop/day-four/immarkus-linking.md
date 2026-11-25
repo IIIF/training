@@ -137,6 +137,6 @@ Now you can upload each AnnotationPage contained in the Zip file and update the 
 
 Once you have uploaded all of the AnnotaitonPages and made all of the edits to the Manifest you can upload the Manifest. If this is a copy of a Manifest already in the Workbench you can click the replace button. Otherwise click the upload to upload a new Manifest.
 
-![Upload/replace manifest](day-four/images/immark-workbench-manifest.png)
+![Upload/replace manifest](images/immark-workbench-manifest.png)
 
 Once the Github Pages website has finished updating then you should be able to click the Mirador link and view your annotations. Note the Universal Viewer doesn't currently support annotations.
