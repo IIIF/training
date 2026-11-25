@@ -41,6 +41,7 @@
   - [Annotating Stores](day-four/annotations-stores.md)
   - [Annotating Stores - Results](day-four/annotations-stores-results.md)
   - [Annotating your own content](day-four/annotating-immarkus.md)
+  - [Downloading and linking your annotations](day-four/immarkus-linking.md)
   - [Annotating Store - Do it yourself](day-four/annotations-stores-install.md)
   - [Advanced annotation presentation](day-four/advanced-annotations.md)
 
