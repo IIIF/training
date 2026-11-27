@@ -14,7 +14,7 @@ The overall steps are
  * Stage 2: Loading your manifest
  * Stage 3: Using the smart scissors
  * Stage 4: Auto transcription 
- * Getting a HuggingFace Token
+ * Getting a Google Gemini key
  * Finding more information on IMMARKUS
 
 There are two options for getting a Manifest to Annotate.
@@ -88,63 +88,49 @@ IMMARKUS has a number of innovative features to help with annotating including t
 
 ## Stage 4: Auto transcription 
 
-Another clever feature of IMMARKUS is the auto transcribe which can take a section of an image and send it to a Large Language Model (LLM) for transcription. To do this you need to register for one of the LLM services and get an API key. I am going to start with the process of transcription and then at the end show you how to get a transcription key from HuggingFace. 
+Another clever feature of IMMARKUS is the auto transcribe which can take a section of an image and send it to a Large Language Model (LLM) for transcription. To do this you need to register for one of the LLM services and get an API key. I am going to start with the process of transcription and then at the end show you how to get a transcription key for Google Gemini. 
 
 To do the transcription go to the smart tools menu item and select Auto Transcribe.
 
 ![Menu item showing auto transcribe](images/immarkus/auto-transcribe.png)
 
-IMMARKUS works with a number of different AI models some which are free to use and some you have to pay for. If you have a key for one of these services you can enter it and get it to do the transcription. For this workshop select "HuggingFace Inference".
+IMMARKUS works with a number of different AI models some which are free to use and some you have to pay for. If you have a key for one of these services you can enter it and get it to do the transcription. For this workshop select "Google Gemini".
 
-![aviliable models](images/immarkus/avilable_models.png)
+![aviliable models](images/immarkus/gemini_available_models.png)
 
-HuggingFace inference has two models aviliable for you to choose, Qwen and Gemma. I went for the Qwen model. You will also need to add your HuggingFace Access Token with details on how to get this token at the end of this section. 
+Google Gemini has a number of models available for you to choose, with include different versions and also different sizes of model. Pro is the best performing but slower and more expensive. Flash is the middle option with good performance and speed, Flash lite is the smallest and quickest. Its probably best to start with the lite version and if its not getting you the results you want you can switch to Flash then Pro. Note you will need your Google Gemini key from the section below. 
 
-![Hugging face example and select model](images/immarkus/huggingface_example.png)
+![Hugging face example and select model](images/immarkus/gemini_example.png)
 
 Once you have entered your token and selected your model you need to identify the part of the image you want to transcribe. Click the area button on the left highlighted in this image. Then like you did the annotations click once to start the box and then move the mouse and click again to close the box. 
 
-![Select region of the image to send to the LLM](images/immarkus/select_region.png)
+![Select region of the image to send to the LLM](images/immarkus/gemini_region.png)
 
 After you've drawn the box you should be able to click the run transcription button. Depending on how much text is in the box it can take a few seconds or minutes to do the transcription. 
 
-![View after area has been selected](images/immarkus/selected_area.png)
+![View after area has been selected](images/immarkus/gemini_selected_area.png)
 
-After the transcription is generated you can put your mouse cursor over the box to see the transcription. If it looks OK you can click the Import to IMMARKUS button to add the annotations to IMMARKUS for further editing. To delete the transcription you can click the bin symbol next to this button. The image below shows the results of the transcription using the HuggingFace model.
+After the transcription is generated you can put your mouse cursor over the box to see the transcription. If it looks OK you can click the Import to IMMARKUS button to add the annotations to IMMARKUS for further editing. To delete the transcription you can click the bin symbol next to this button. 
 
-![Huggingface results](images/immarkus/huggingFace_results.png)
+![Huggingface results](images/immarkus/gemini_results.png)
 
-Below are the results from sending the same box to Google Gemini. The results in this case are quite similar but I have come across instances where Google Gemini is a lot better at transcribing text. 
+### Getting a Google Gemini API key
 
-![Gemini results](images/immarkus/gemini_results.png)
+Google offers a free tier with the Gemini API Key which should be enough for our use cases. It throttles the use of the API key and restricts access to some of the latest models but for testing with IMMARKUS it should be fine. 
 
-### Getting a HuggingFace Token
+Navigate to https://aistudio.google.com/app/api-keys and login with you Google account. You should see something like the page below. Click on the Create API Key highlighted:
 
-HuggingFace is a website which hosts AI models and datasets used for training models. It also has a Inference service which is a bit like cloud hosting for AI models and allows us to run the model without having to install it locally. It is free to use but you need to register with HuggingFace and request a Access Token. To do this go to the Hugging face website and click signup:
+![Google API Studio](images/immarkus/gemini_studio.png)
 
-![Huggingface homepage](images/immarkus/huggingface_homepage.png)
+The next screen will ask you to name your API Key and this is so you can remember where you have used this key. You could call it IMMARKUS but any name will do. If you already have a google gemini project then select that but if not you can create one by choosing another name for the project. I went with Default Gemini Project as the project name.
 
-You will be asked to enter a username and password:
+![Name key](images/immarkus/gemini_studio_key.png)
 
-![Huggingface signup](images/immarkus/huggingface_signup.png)
+Once you click create key you should see the following screen. Note I have added black boxes to hide the key I created and project id but it should be visible on your screen. Make sure you copy the API Key as this is the only time you will see it. Once you click close on this dialog you won't be able to see the key again. 
 
-You will then be given the opportunity to share more details with HuggingFace. The ones that are manditory are the Username and agreeing to the terms and conditions. 
+![Key created](images/immarkus/gemini_studio_key-created.png)
 
-![huggingface profile](images/immarkus/huggingface_profile.png)
-
-You will then have to solve a Capture puzzle to ensure you are not a machine. After completing that you will also have to verify your email and you may have to login again. 
-
-Once you have logged in you should see the following screen. Click on the circle icon on the top right to open up your user menu and look towards the bottom where it says Access Tokens. Click this link. 
-
-![HuggingFace logged in screen showing the access tokens](images/immarkus/huggingface_loggedin.png)
-
-![HuggingFace tokens](images/immarkus/huggingface_tokens.png)
-
-To create your token add a name so you can idetify the token and then you only need to select the "Make calls to Inference Providers" permission for this token. Once you have done this scroll to the bottom of the page and click Create token. You will then be shown a screen where you can copy your token. Copy your token and store it somewhere safe as this is the only time you will see your token. Also ensure you don't share your token with someone else. 
-
-![HuggingFace create token](images/immarkus/huggingface_create_token1.png)
-
-This token you have created can now be pasted into IMMARKUS for the auto transcription process mentioned earlier. 
+The key you have created can now be pasted into IMMARKUS for the auto transcription process mentioned earlier. 
 
 ## Finding more information on IMMARKUS
 
